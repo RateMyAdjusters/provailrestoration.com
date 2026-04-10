@@ -1,31 +1,40 @@
 import type { Metadata } from 'next'
 
+const BUSINESS_NAME = 'Provail Restoration of Macomb Township'
+const PHONE = '(586) 207-9091'
+
 export const metadata: Metadata = {
-  title:
-    'Provail Restoration of Macomb | Water Damage Restoration | (586) 207-9091',
-  description:
-    'Provail Restoration of Macomb provides 24/7 emergency water damage restoration, water removal, flood cleanup, structural drying, basement water extraction, and storm damage restoration in Macomb, MI. Call (586) 207-9091.',
+  title: `${BUSINESS_NAME} | Water Damage Restoration | ${PHONE}`,
+  description: `${BUSINESS_NAME} provides 24/7 emergency water damage restoration, water removal, flood cleanup, structural drying, basement water extraction, and storm damage restoration in Macomb Township, MI. Call ${PHONE}.`,
   keywords: [
-    'Provail Restoration of Macomb',
+    'water damage restoration Macomb Township',
     'water damage restoration Macomb MI',
-    'emergency water damage restoration Macomb',
-    'flood cleanup Macomb MI',
-    'water removal Macomb',
+    'emergency water removal Macomb Township',
+    'flood cleanup Macomb Township MI',
     'basement water extraction Macomb',
-    'structural drying Macomb MI',
-    'storm damage restoration Macomb',
-    '48816 Romeo Plank Rd Macomb MI 48044',
-    'water damage restoration near me Macomb',
+    'structural drying Macomb Township',
+    'water damage repair Macomb MI',
+    'storm damage restoration Macomb Township',
+    'pipe burst repair Macomb',
+    'sewage cleanup Macomb Township MI',
+    'mold remediation Macomb Township',
+    '24/7 water damage Macomb',
+    'Provail Restoration Macomb Township',
+    'water removal Macomb MI',
+    'basement flooding Macomb Township',
   ],
   openGraph: {
-    title:
-      'Provail Restoration of Macomb | Water Damage Restoration | (586) 207-9091',
-    description:
-      '24/7 emergency water damage restoration, flood cleanup, water removal, and drying in Macomb, MI.',
+    title: `${BUSINESS_NAME} | 24/7 Emergency Water Damage Restoration`,
+    description: `24/7 emergency water damage restoration, flood cleanup, and structural drying in Macomb Township, MI. Call ${PHONE}.`,
     url: 'https://provailrestoration.com/macomb',
-    siteName: 'Provail Restoration of Macomb',
+    siteName: BUSINESS_NAME,
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: `${BUSINESS_NAME} | Water Damage Restoration`,
+    description: `24/7 emergency water damage restoration in Macomb Township, MI. Call ${PHONE}.`,
   },
   alternates: {
     canonical: 'https://provailrestoration.com/macomb',
@@ -40,18 +49,22 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': 'https://provailrestoration.com/macomb',
-  name: 'Provail Restoration of Macomb',
-  description:
-    '24/7 emergency water damage restoration, flood cleanup, water removal, structural drying, and restoration serving Macomb and nearby communities.',
+  name: BUSINESS_NAME,
+  description: `${BUSINESS_NAME} provides 24/7 emergency water damage restoration, flood cleanup, structural drying, and mold remediation serving Macomb Township and surrounding communities.`,
   url: 'https://provailrestoration.com/macomb',
   telephone: '+15862079091',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '48816 Romeo Plank Rd',
+    streetAddress: '51225 Romeo Plank Rd',
     addressLocality: 'Macomb',
     addressRegion: 'MI',
-    postalCode: '48044',
+    postalCode: '48042',
     addressCountry: 'US',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 42.6700,
+    longitude: -82.9133,
   },
   openingHoursSpecification: [
     {
@@ -62,28 +75,40 @@ const jsonLd = {
     },
   ],
   areaServed: [
-    { '@type': 'City', name: 'Macomb', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Macomb Township', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Clinton Township', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Shelby Township', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Sterling Heights', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Utica', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Romeo', containedInPlace: { '@type': 'State', name: 'Michigan' } },
-    { '@type': 'City', name: 'Washington Township', containedInPlace: { '@type': 'State', name: 'Michigan' } },
+    { '@type': 'City', name: 'Macomb Township' },
+    { '@type': 'City', name: 'Macomb' },
+    { '@type': 'City', name: 'Clinton Township' },
+    { '@type': 'City', name: 'Shelby Township' },
+    { '@type': 'City', name: 'Sterling Heights' },
+    { '@type': 'City', name: 'Utica' },
+    { '@type': 'City', name: 'Romeo' },
+    { '@type': 'City', name: 'Washington Township' },
+    { '@type': 'City', name: 'Chesterfield Township' },
+    { '@type': 'City', name: 'Ray Township' },
   ],
-  serviceType: [
-    'Water Damage Restoration',
-    'Emergency Water Removal',
-    'Flood Cleanup',
-    'Structural Drying',
-    'Basement Water Extraction',
-    'Storm Damage Restoration',
-    'Sewage Cleanup',
-    'Mold Remediation',
-  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Water Damage Restoration Services',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Water Damage Restoration' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Emergency Water Removal' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Flood Cleanup' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Structural Drying' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Basement Water Extraction' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Storm Damage Restoration' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Sewage Cleanup' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Mold Remediation' } },
+    ],
+  },
   priceRange: '$$',
   paymentAccepted: 'Cash, Credit Card, Insurance',
   currenciesAccepted: 'USD',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '127',
+    bestRating: '5',
+  },
   sameAs: [],
 }
 
