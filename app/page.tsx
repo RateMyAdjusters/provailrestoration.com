@@ -871,6 +871,7 @@ export default function Home() {
                 { label: 'Protection Plan', href: '#protection-plan' },
                 { label: 'Areas', href: '#areas' },
                 { label: 'Contact', href: '#contact' },
+                { label: 'More Offices', href: '/macomb-township-mi-water-damage-restoration-near-you' },
               ].map((link, i) => (
                 <li key={link.label} className="flex items-center gap-2">
                   {i > 0 && <span className="text-[#c1c1c1]">&middot;</span>}

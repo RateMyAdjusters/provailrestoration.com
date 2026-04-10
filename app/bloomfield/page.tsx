@@ -1424,11 +1424,17 @@ export default function BloomfieldPage() {
               justifyContent: 'center',
             }}
           >
-            {['Services', 'About', 'Areas', 'Contact'].map((item, i) => (
-              <span key={item} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            {[
+              { label: 'Services', href: '#services' },
+              { label: 'About', href: '#about' },
+              { label: 'Areas', href: '#areas' },
+              { label: 'Contact', href: '#contact' },
+              { label: 'More Offices', href: '/macomb-township-mi-water-damage-restoration-near-you' },
+            ].map((item, i) => (
+              <span key={item.label} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                 {i > 0 && <span style={{ color: '#ddd', fontSize: 10 }}>&bull;</span>}
                 <a
-                  href={`#${item.toLowerCase()}`}
+                  href={item.href}
                   style={{
                     textDecoration: 'none',
                     color: colors.secondary,
@@ -1436,7 +1442,7 @@ export default function BloomfieldPage() {
                     fontWeight: 500,
                   }}
                 >
-                  {item}
+                  {item.label}
                 </a>
               </span>
             ))}

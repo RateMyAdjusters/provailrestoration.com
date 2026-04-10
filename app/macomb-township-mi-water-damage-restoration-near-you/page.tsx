@@ -5,7 +5,7 @@ import { useState, useRef } from 'react'
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 const PHONE = '(586) 207-9091'
 const PHONE_HREF = 'tel:+15862079091'
-const ADDRESS_LINE1 = '51225 Romeo Plank Rd'
+const ADDRESS_LINE1 = '51090 Romeo Plank Rd'
 const ADDRESS_LINE2 = 'Macomb, MI 48042'
 const BUSINESS_NAME = 'Provail Restoration of Macomb Township'
 
@@ -325,8 +325,7 @@ export default function MacombTownshipPage() {
           style={{
             maxWidth: 1200,
             margin: '0 auto',
-            padding: '0 24px',
-            height: 72,
+            padding: '8px 24px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
@@ -338,7 +337,7 @@ export default function MacombTownshipPage() {
               src="/logo.png"
               alt={BUSINESS_NAME}
               style={{
-                height: 60,
+                height: 150,
                 width: 'auto',
                 objectFit: 'contain',
               }}
@@ -1515,11 +1514,17 @@ export default function MacombTownshipPage() {
               justifyContent: 'center',
             }}
           >
-            {['Services', 'About', 'Areas', 'Contact'].map((item, i) => (
-              <span key={item} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            {[
+              { label: 'Services', href: '#services' },
+              { label: 'About', href: '#about' },
+              { label: 'Areas', href: '#areas' },
+              { label: 'Contact', href: '#contact' },
+              { label: 'More Offices', href: '/bloomfield' },
+            ].map((item, i) => (
+              <span key={item.label} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                 {i > 0 && <span style={{ color: '#ddd', fontSize: 10 }}>&bull;</span>}
                 <a
-                  href={`#${item.toLowerCase()}`}
+                  href={item.href}
                   style={{
                     textDecoration: 'none',
                     color: colors.secondary,
@@ -1527,7 +1532,7 @@ export default function MacombTownshipPage() {
                     fontWeight: 500,
                   }}
                 >
-                  {item}
+                  {item.label}
                 </a>
               </span>
             ))}

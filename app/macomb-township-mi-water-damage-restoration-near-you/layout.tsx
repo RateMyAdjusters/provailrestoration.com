@@ -50,7 +50,7 @@ const jsonLd = {
   description: `${BUSINESS_NAME} provides 24/7 emergency water damage restoration, flood cleanup, structural drying, and mold remediation serving Macomb Township and surrounding communities.`,
   url: 'https://provailrestoration.com/macomb-township-mi-water-damage-restoration-near-you',
   telephone: '+15862079091',
-  address: { '@type': 'PostalAddress', streetAddress: '51225 Romeo Plank Rd', addressLocality: 'Macomb', addressRegion: 'MI', postalCode: '48042', addressCountry: 'US' },
+  address: { '@type': 'PostalAddress', streetAddress: '51090 Romeo Plank Rd', addressLocality: 'Macomb', addressRegion: 'MI', postalCode: '48042', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 42.6700, longitude: -82.9133 },
   openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], opens: '00:00', closes: '23:59' }],
   areaServed: [
