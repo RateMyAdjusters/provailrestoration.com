@@ -10,7 +10,7 @@ const ADDRESS_STATE = 'MI'
 const ADDRESS_ZIP = '48042'
 const ADDRESS_FULL = `${ADDRESS_LINE1}, ${ADDRESS_CITY}, ${ADDRESS_STATE} ${ADDRESS_ZIP}`
 const BUSINESS_NAME = 'Provail Restoration of Macomb Township'
-const MAPS_EMBED_URL = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(ADDRESS_FULL)}&zoom=14`
+const MAPS_EMBED_URL = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS_FULL)}&output=embed`
 const MAPS_LINK = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS_FULL)}`
 
 const services = [
