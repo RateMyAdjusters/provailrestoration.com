@@ -132,7 +132,7 @@ export default function MacombTownshipPage() {
       <header style={{ position: 'sticky', top: 0, zIndex: 1000, backgroundColor: C.white, boxShadow: '0 1px 0 rgba(0,0,0,0.08)' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '8px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-            <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 150, width: 'auto', objectFit: 'contain' }} />
+            <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 75, width: 'auto', objectFit: 'contain' }} />
           </a>
           <nav className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
             {['Services', 'About', 'Reviews', 'Areas', 'Contact'].map((item) => (
@@ -500,7 +500,7 @@ export default function MacombTownshipPage() {
       {/* ═══ FOOTER ═════════════════════════════════════════════════════════ */}
       <footer style={{ backgroundColor: C.white, borderTop: '1px solid #ebebeb', padding: '40px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
-          <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 48, width: 'auto', objectFit: 'contain' }} />
+          <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 144, width: 'auto', objectFit: 'contain' }} />
           <nav style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', justifyContent: 'center' }}>
             {[
               { label: 'Services', href: '#services' },
