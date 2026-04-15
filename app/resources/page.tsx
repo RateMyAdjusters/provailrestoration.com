@@ -36,6 +36,30 @@ type Article = {
 
 const articles: Article[] = [
   {
+    href: '/resources/first-24-hours-after-water-damage',
+    title: 'First 24 Hours After Water Damage: Michigan Homeowner Checklist',
+    excerpt:
+      'Immediate safety steps, how to stop the source, what to document before touching anything, and when to call your insurer versus a restoration contractor — written for Michigan basements, frozen pipe bursts, and ice dam leaks.',
+    readTime: '14 min read',
+    topic: 'Emergency Response',
+  },
+  {
+    href: '/resources/document-water-damage-for-insurance',
+    title: 'How to Document Water Damage for Your Insurance Adjuster',
+    excerpt:
+      'A step-by-step photo and video walkthrough method adjusters actually use. Wide-to-tight room coverage, moisture-reading context, contents capture, and the documentation mistakes that weaken a claim file.',
+    readTime: '13 min read',
+    topic: 'Documentation',
+  },
+  {
+    href: '/resources/michigan-frozen-pipe-prevention-guide',
+    title: 'Michigan Frozen Pipe Prevention Guide: Winter Playbook',
+    excerpt:
+      'Why Michigan freeze-thaw cycles burst pipes, which runs in Oakland County homes are most at risk, a pre-winter checklist, warning signs of a freezing line, and what to do if one has already let go.',
+    readTime: '14 min read',
+    topic: 'Winter Prevention',
+  },
+  {
     href: '/resources/water-damage-insurance-claim-guide',
     title: 'Water Damage Insurance Claim Guide',
     excerpt:

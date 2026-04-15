@@ -175,6 +175,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/first-24-hours-after-water-damage`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.65,
+    },
+    {
+      url: `${BASE_URL}/resources/document-water-damage-for-insurance`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.65,
+    },
+    {
+      url: `${BASE_URL}/resources/michigan-frozen-pipe-prevention-guide`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.65,
+    },
+    {
       url: `${BASE_URL}/resources/water-damage-insurance-claim-guide`,
       lastModified,
       changeFrequency: 'monthly',
