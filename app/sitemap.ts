@@ -175,6 +175,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/resources/april-2026-oakland-macomb-storm-response`,
+      lastModified,
+      changeFrequency: 'daily',
+      priority: 0.95,
+    },
+    {
+      url: `${BASE_URL}/resources/ann-arbor-88mph-wind-storm-damage-guide`,
+      lastModified,
+      changeFrequency: 'daily',
+      priority: 0.95,
+    },
+    {
+      url: `${BASE_URL}/resources/macomb-county-april-2026-storm-damage-guide`,
+      lastModified,
+      changeFrequency: 'daily',
+      priority: 0.95,
+    },
+    {
+      url: `${BASE_URL}/resources/roof-leak-after-storm-emergency-guide`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/resources/first-24-hours-after-water-damage`,
       lastModified,
       changeFrequency: 'monthly',

@@ -36,6 +36,38 @@ type Article = {
 
 const articles: Article[] = [
   {
+    href: '/resources/april-2026-oakland-macomb-storm-response',
+    title: 'April 15, 2026 Oakland County Storm: Roof Leak & Wind Damage Response',
+    excerpt:
+      'Active storm event coverage for Bloomfield, Birmingham, Royal Oak, Troy, Rochester, and Rochester Hills — what to do in the first two hours after the wind stops, how roof leaks track through a structure, and when to call restoration versus a roofer.',
+    readTime: '14 min read',
+    topic: 'Storm Response',
+  },
+  {
+    href: '/resources/macomb-county-april-2026-storm-damage-guide',
+    title: 'Macomb County Storm Damage April 15, 2026: Clinton Twp, Sterling Heights, Mt Clemens Guide',
+    excerpt:
+      'Unique response guidance for Clinton Township, Sterling Heights, Mount Clemens, Shelby Township, Utica, New Haven, Macomb Township, and surrounding lakeshore communities — peril distinction, HOA roof coordination, and dispatch windows.',
+    readTime: '14 min read',
+    topic: 'Storm Response',
+  },
+  {
+    href: '/resources/ann-arbor-88mph-wind-storm-damage-guide',
+    title: 'Ann Arbor 88 MPH Wind Warning: Storm Damage & Roof Leak Guide',
+    excerpt:
+      'What an 88 mph gust actually does to an asphalt shingle field, why Old West Side slate roofs and Burns Park century homes fail differently, and an honest note about dispatching into Washtenaw County from a Bloomfield-based team.',
+    readTime: '13 min read',
+    topic: 'Storm Response',
+  },
+  {
+    href: '/resources/roof-leak-after-storm-emergency-guide',
+    title: 'Roof Leak After a Storm: Emergency Response Guide',
+    excerpt:
+      'Evergreen emergency playbook — electrical safety, interior water control, a step-by-step tarping method, the 48-72 hour mold window, and the mistakes that weaken a claim. Michigan-focused, IICRC S500-aligned.',
+    readTime: '14 min read',
+    topic: 'Emergency Response',
+  },
+  {
     href: '/resources/first-24-hours-after-water-damage',
     title: 'First 24 Hours After Water Damage: Michigan Homeowner Checklist',
     excerpt:
