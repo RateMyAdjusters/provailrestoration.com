@@ -41,6 +41,7 @@ export function SiteHeader() {
             { label: 'Basement Flood', href: '/services/basement-flood-cleanup' },
             { label: 'Frozen Pipes', href: '/services/frozen-pipe-repair' },
             { label: 'Bloomfield', href: '/bloomfield' },
+            { label: 'Resources', href: '/resources' },
           ].map((link) => (
             <a
               key={link.label}
@@ -119,6 +120,14 @@ const FOOTER_LOCATIONS: { label: string; href: string }[] = [
   { label: 'Macomb Township', href: '/macomb-township-mi-water-damage-restoration-near-you' },
 ]
 
+const FOOTER_RESOURCES: { label: string; href: string }[] = [
+  { label: 'Resources & Guides', href: '/resources' },
+  { label: 'Water Damage Insurance Claim Guide', href: '/resources/water-damage-insurance-claim-guide' },
+  { label: 'FAQ', href: '/faq' },
+  { label: 'Why Us', href: '/why-us' },
+  { label: 'Technology & Equipment', href: '/technology-equipment' },
+]
+
 export function SiteFooter() {
   return (
     <footer className="bg-white" style={{ padding: '48px 0 40px' }}>
@@ -131,7 +140,7 @@ export function SiteFooter() {
           />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-10 text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-10 text-left">
           <div>
             <h3 className="text-[#222222] font-semibold text-[14px] uppercase tracking-wide mb-4">
               Services
@@ -156,6 +165,24 @@ export function SiteFooter() {
             </h3>
             <ul className="list-none p-0 m-0 space-y-2">
               {FOOTER_LOCATIONS.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-[#6a6a6a] text-[14px] hover:text-[#ff385c] transition-colors duration-150 no-underline"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[#222222] font-semibold text-[14px] uppercase tracking-wide mb-4">
+              Resources
+            </h3>
+            <ul className="list-none p-0 m-0 space-y-2">
+              {FOOTER_RESOURCES.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
