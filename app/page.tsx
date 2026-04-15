@@ -771,6 +771,54 @@ export default function Home() {
         {/* ================================================================
             8. SERVICE AREAS - #f7f7f7 bg, 4-col grid of pills
             ================================================================ */}
+        <section id="offices" className="bg-white" style={{ padding: '80px 0 40px' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="text-center mb-10">
+              <h2
+                className="text-[#222222] font-bold mb-3"
+                style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}
+              >
+                Our Michigan Offices
+              </h2>
+              <p className="text-[#6a6a6a] text-lg max-w-[560px] mx-auto">
+                Two dispatch locations covering Oakland and Macomb Counties. Tap a card for the full location page.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6 max-w-[880px] mx-auto">
+              <Link
+                href="/bloomfield"
+                className="block bg-[#f7f7f7] p-8 no-underline hover:bg-[#fff0f3] transition-colors duration-150"
+                style={{ borderRadius: '20px', boxShadow: 'rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.08) 0px 4px 12px' }}
+              >
+                <div className="flex items-center gap-2 text-[#ff385c] font-semibold text-[13px] uppercase tracking-wide mb-3">
+                  <MapPinIcon /> Bloomfield Office
+                </div>
+                <h3 className="text-[#222222] font-bold text-xl mb-2">Provail Restoration of Bloomfield</h3>
+                <p className="text-[#6a6a6a] text-[15px] leading-relaxed mb-2 m-0">
+                  4060 W Maple Rd<br />Bloomfield Township, MI 48301
+                </p>
+                <p className="text-[#222222] font-semibold text-[15px] mb-3 m-0">(248) 531-8404 &middot; 24/7</p>
+                <span className="text-[#ff385c] font-semibold text-[14px]">View Bloomfield location &rarr;</span>
+              </Link>
+              <Link
+                href="/macomb-township-mi-water-damage-restoration-near-you"
+                className="block bg-[#f7f7f7] p-8 no-underline hover:bg-[#fff0f3] transition-colors duration-150"
+                style={{ borderRadius: '20px', boxShadow: 'rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.08) 0px 4px 12px' }}
+              >
+                <div className="flex items-center gap-2 text-[#ff385c] font-semibold text-[13px] uppercase tracking-wide mb-3">
+                  <MapPinIcon /> Macomb Office
+                </div>
+                <h3 className="text-[#222222] font-bold text-xl mb-2">Provail Restoration of Macomb Township</h3>
+                <p className="text-[#6a6a6a] text-[15px] leading-relaxed mb-2 m-0">
+                  51225 Romeo Plank Rd<br />Macomb, MI 48042
+                </p>
+                <p className="text-[#222222] font-semibold text-[15px] mb-3 m-0">(586) 207-9091 &middot; 24/7</p>
+                <span className="text-[#ff385c] font-semibold text-[14px]">View Macomb Township location &rarr;</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         <section id="areas" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <div className="text-center mb-10">
