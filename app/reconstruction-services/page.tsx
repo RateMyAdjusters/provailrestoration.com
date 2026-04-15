@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
-const SMS_HREF = 'sms:+12485318404'
 const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/reconstruction-services'
 
@@ -159,8 +158,6 @@ export default function ReconstructionServicesPage() {
         </div>
         <div className="lg:hidden flex items-center justify-center gap-3 py-2.5" style={{ backgroundColor: '#ff385c' }}>
           <a href={PHONE_HREF} className="text-white font-semibold text-sm no-underline">Call {PHONE}</a>
-          <span className="text-white/40">|</span>
-          <a href={SMS_HREF} className="text-white font-semibold text-sm no-underline">Text Us</a>
         </div>
       </header>
 
@@ -192,11 +189,6 @@ export default function ReconstructionServicesPage() {
                  className="inline-flex items-center justify-center text-white font-semibold text-base no-underline hover:bg-black"
                  style={{ backgroundColor: '#222222', borderRadius: 8, padding: '0 28px', height: 52 }}>
                 Call {PHONE}
-              </a>
-              <a href={SMS_HREF}
-                 className="inline-flex items-center justify-center text-[#222222] font-semibold text-base no-underline"
-                 style={{ borderRadius: 8, padding: '0 28px', height: 52, border: '2px solid #222222' }}>
-                Text Us
               </a>
             </div>
           </div>

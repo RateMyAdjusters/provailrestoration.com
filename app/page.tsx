@@ -5,7 +5,6 @@ import Link from 'next/link'
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
-const SMS_HREF = 'sms:+12485318404'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 
@@ -181,15 +180,6 @@ function PhoneIcon({ className }: { className?: string }) {
   )
 }
 
-function SmsIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z" />
-      <path d="M7 9h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z" />
-    </svg>
-  )
-}
-
 function ShieldIcon() {
   return (
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -300,11 +290,6 @@ export default function Home() {
             <PhoneIcon className="text-white" />
             Call {PHONE}
           </a>
-          <span className="text-white/40">|</span>
-          <a href={SMS_HREF} className="text-white font-semibold text-sm no-underline hover:text-white flex items-center gap-1.5">
-            <SmsIcon />
-            Text Us
-          </a>
         </div>
       </header>
 
@@ -365,20 +350,6 @@ export default function Home() {
               >
                 <PhoneIcon className="text-white" />
                 Call Now: {PHONE}
-              </a>
-              <a
-                href={SMS_HREF}
-                className="inline-flex items-center justify-center gap-2 text-[#222222] font-semibold text-base no-underline transition-colors duration-150"
-                style={{
-                  borderRadius: '8px',
-                  padding: '0 28px',
-                  height: '52px',
-                  border: '2px solid #222222',
-                  backgroundColor: 'transparent',
-                }}
-              >
-                <SmsIcon />
-                Text Us
               </a>
             </div>
 
@@ -966,14 +937,6 @@ export default function Home() {
                 <div className="mb-8">
                   <h3 className="text-white text-lg font-semibold mb-2" style={{ letterSpacing: '-0.18px' }}>Phone</h3>
                   <a href={PHONE_HREF} className="text-[#ff385c] hover:text-white text-lg font-semibold transition-colors duration-150 no-underline">
-                    {PHONE}
-                  </a>
-                </div>
-
-                {/* Text */}
-                <div className="mb-8">
-                  <h3 className="text-white text-lg font-semibold mb-2" style={{ letterSpacing: '-0.18px' }}>Text / SMS</h3>
-                  <a href={SMS_HREF} className="text-[#ff385c] hover:text-white text-lg font-semibold transition-colors duration-150 no-underline">
                     {PHONE}
                   </a>
                 </div>

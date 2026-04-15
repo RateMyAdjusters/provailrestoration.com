@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
-const SMS_HREF = 'sms:+12485318404'
 
 export const metadata: Metadata = {
   title:
@@ -121,8 +120,6 @@ export default function CommercialRestorationPage() {
         </div>
         <div className="lg:hidden flex items-center justify-center gap-3 py-2.5" style={{ backgroundColor: '#ff385c' }}>
           <a href={PHONE_HREF} className="text-white font-semibold text-sm no-underline">Call {PHONE}</a>
-          <span className="text-white/40">|</span>
-          <a href={SMS_HREF} className="text-white font-semibold text-sm no-underline">Text Us</a>
         </div>
       </header>
 

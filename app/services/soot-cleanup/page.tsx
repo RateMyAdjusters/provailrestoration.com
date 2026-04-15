@@ -3,7 +3,6 @@ import type { Metadata } from 'next'
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
-const SMS_HREF = 'sms:+12485318404'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 const PAGE_URL = 'https://provailrestoration.com/services/soot-cleanup'
@@ -210,15 +209,6 @@ function PhoneIcon({ className }: { className?: string }) {
     </svg>
   )
 }
-function SmsIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z" />
-      <path d="M7 9h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z" />
-    </svg>
-  )
-}
-
 export default function SootCleanupPage() {
   return (
     <>
@@ -245,11 +235,6 @@ export default function SootCleanupPage() {
           <a href={PHONE_HREF} className="text-white font-semibold text-sm flex items-center gap-1.5 no-underline">
             <PhoneIcon className="text-white" />
             Call {PHONE}
-          </a>
-          <span className="text-white/40">|</span>
-          <a href={SMS_HREF} className="text-white font-semibold text-sm no-underline flex items-center gap-1.5">
-            <SmsIcon />
-            Text Us
           </a>
         </div>
       </header>
@@ -280,10 +265,6 @@ export default function SootCleanupPage() {
               <a href={PHONE_HREF} className="inline-flex items-center justify-center gap-2 text-white font-semibold text-base no-underline hover:bg-black" style={{ backgroundColor: '#222222', borderRadius: '8px', padding: '0 28px', height: '52px' }}>
                 <PhoneIcon className="text-white" />
                 Call Now: {PHONE}
-              </a>
-              <a href={SMS_HREF} className="inline-flex items-center justify-center gap-2 text-[#222222] font-semibold text-base no-underline" style={{ borderRadius: '8px', padding: '0 28px', height: '52px', border: '2px solid #222222' }}>
-                <SmsIcon />
-                Text Us
               </a>
             </div>
           </div>
@@ -478,10 +459,6 @@ export default function SootCleanupPage() {
                   <h3 className="text-white text-lg font-semibold mb-2">Phone</h3>
                   <a href={PHONE_HREF} className="text-[#ff385c] hover:text-white text-lg font-semibold no-underline">{PHONE}</a>
                 </div>
-                <div className="mb-8">
-                  <h3 className="text-white text-lg font-semibold mb-2">Text / SMS</h3>
-                  <a href={SMS_HREF} className="text-[#ff385c] hover:text-white text-lg font-semibold no-underline">{PHONE}</a>
-                </div>
                 <div>
                   <h3 className="text-white text-lg font-semibold mb-2">Hours</h3>
                   <p className="text-white/70 text-base m-0">24 Hours a Day, 7 Days a Week</p>
@@ -491,10 +468,6 @@ export default function SootCleanupPage() {
                 <a href={PHONE_HREF} className="inline-flex items-center justify-center gap-2 text-white font-semibold text-base no-underline mb-4" style={{ backgroundColor: '#ff385c', borderRadius: '8px', padding: '0 28px', height: '56px' }}>
                   <PhoneIcon className="text-white" />
                   Call Now: {PHONE}
-                </a>
-                <a href={SMS_HREF} className="inline-flex items-center justify-center gap-2 text-white font-semibold text-base no-underline" style={{ borderRadius: '8px', padding: '0 28px', height: '56px', border: '2px solid white' }}>
-                  <SmsIcon />
-                  Text Us
                 </a>
               </div>
             </div>
