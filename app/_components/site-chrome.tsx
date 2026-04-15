@@ -1,6 +1,8 @@
 import React from 'react'
+import Link from 'next/link'
 
-export const BIZ_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+export const BIZ_NAME = 'Provail Restoration of Bloomfield'
+export const FOOTER_BRAND = 'Provail Restoration of Bloomfield'
 export const PHONE = '(248) 531-8404'
 export const PHONE_HREF = 'tel:+12485318404'
 export const SMS_HREF = 'sms:+12485318404'
@@ -37,7 +39,7 @@ export function SiteHeader() {
         <a href="/" className="flex items-center no-underline">
           <img
             src="/logo.png"
-            alt="PROVAIL Water Damage Restoration Bloomfield"
+            alt="Provail Restoration of Bloomfield"
             style={{ height: 60, width: 'auto', objectFit: 'contain' }}
           />
         </a>
@@ -127,54 +129,101 @@ export function HeroCTA() {
   )
 }
 
+const FOOTER_SERVICES: { label: string; href: string }[] = [
+  { label: 'Water Damage Restoration', href: '/water-damage-restoration' },
+  { label: 'Fire Damage Restoration', href: '/fire-damage-restoration' },
+  { label: 'Storm Damage Restoration', href: '/storm-damage-restoration' },
+  { label: 'Mold Remediation', href: '/mold-remediation' },
+  { label: 'Sewage Cleanup', href: '/sewage-cleanup' },
+  { label: 'Reconstruction', href: '/reconstruction-services' },
+  { label: 'Commercial Restoration', href: '/commercial-restoration' },
+  { label: 'Insurance Claims Help', href: '/insurance-claims-help' },
+  { label: 'Basement Flood Cleanup', href: '/services/basement-flood-cleanup' },
+  { label: 'Frozen Pipe Repair', href: '/services/frozen-pipe-repair' },
+  { label: 'Sump Pump Failure', href: '/services/sump-pump-failure' },
+  { label: 'Ice Dam Removal', href: '/services/ice-dam-removal' },
+  { label: 'Smoke Odor Removal', href: '/services/smoke-odor-removal' },
+  { label: 'Soot Cleanup', href: '/services/soot-cleanup' },
+]
+
+const FOOTER_LOCATIONS: { label: string; href: string }[] = [
+  { label: 'Bloomfield', href: '/bloomfield' },
+  { label: 'Macomb Township', href: '/macomb-township-mi-water-damage-restoration-near-you' },
+]
+
 export function SiteFooter() {
   return (
     <footer className="bg-white" style={{ padding: '48px 0 40px' }}>
-      <div className="max-w-[1120px] mx-auto px-6 text-center">
-        <div className="flex items-center justify-center mb-6">
+      <div className="max-w-[1120px] mx-auto px-6">
+        <div className="flex items-center justify-center mb-8">
           <img
             src="/logo.png"
-            alt="PROVAIL Water Damage Restoration Bloomfield"
+            alt={FOOTER_BRAND}
             style={{ height: 48, width: 'auto', objectFit: 'contain' }}
           />
         </div>
 
-        <nav className="mb-6">
-          <ul className="flex flex-wrap items-center justify-center gap-2 text-[14px] list-none p-0 m-0">
-            {[
-              { label: 'Home', href: '/' },
-              { label: 'Water Damage Restoration', href: '/water-damage-restoration' },
-              { label: 'Basement Flood Cleanup', href: '/services/basement-flood-cleanup' },
-              { label: 'Frozen Pipe Repair', href: '/services/frozen-pipe-repair' },
-              { label: 'Sump Pump Failure', href: '/services/sump-pump-failure' },
-              { label: 'Bloomfield', href: '/bloomfield' },
-            ].map((link, i) => (
-              <li key={link.label} className="flex items-center gap-2">
-                {i > 0 && <span className="text-[#c1c1c1]">&middot;</span>}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-10 text-left">
+          <div>
+            <h3 className="text-[#222222] font-semibold text-[14px] uppercase tracking-wide mb-4">
+              Services
+            </h3>
+            <ul className="list-none p-0 m-0 space-y-2">
+              {FOOTER_SERVICES.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-[#6a6a6a] text-[14px] hover:text-[#ff385c] transition-colors duration-150 no-underline"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[#222222] font-semibold text-[14px] uppercase tracking-wide mb-4">
+              Locations
+            </h3>
+            <ul className="list-none p-0 m-0 space-y-2">
+              {FOOTER_LOCATIONS.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-[#6a6a6a] text-[14px] hover:text-[#ff385c] transition-colors duration-150 no-underline"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-[#222222] font-semibold text-[14px] uppercase tracking-wide mb-4">
+              Contact
+            </h3>
+            <address className="not-italic text-[#6a6a6a] text-[14px] space-y-2">
+              <div>{ADDRESS_LINE1}</div>
+              <div>{ADDRESS_LINE2}</div>
+              <div>
                 <a
-                  href={link.href}
-                  className="text-[#222222] hover:text-[#ff385c] transition-colors duration-150 no-underline"
+                  href={PHONE_HREF}
+                  className="text-[#ff385c] font-semibold no-underline hover:text-[#222222] transition-colors duration-150"
                 >
-                  {link.label}
+                  {PHONE}
                 </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
+              </div>
+            </address>
+          </div>
+        </div>
 
-        <address className="not-italic text-[#6a6a6a] text-[14px] mb-4">
-          {ADDRESS_LINE1}, {ADDRESS_LINE2} &bull;{' '}
-          <a
-            href={PHONE_HREF}
-            className="text-[#ff385c] font-semibold no-underline hover:text-[#222222] transition-colors duration-150"
-          >
-            {PHONE}
-          </a>
-        </address>
-
-        <p className="text-[#6a6a6a] text-[13px] m-0">
-          &copy; {new Date().getFullYear()} {BIZ_NAME}. All Rights Reserved.
-        </p>
+        <div className="text-center border-t border-[#ebebeb] pt-6">
+          <p className="text-[#6a6a6a] text-[13px] m-0">
+            &copy; {new Date().getFullYear()} {FOOTER_BRAND}. All Rights Reserved.
+          </p>
+        </div>
       </div>
     </footer>
   )

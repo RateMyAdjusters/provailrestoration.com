@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title:
-    'PROVAIL Water Damage Restoration Bloomfield | 24/7 Emergency | (248) 531-8404',
+    'Provail Restoration of Bloomfield | 24/7 Emergency | (248) 531-8404',
   description:
-    'PROVAIL Water Damage Restoration Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, basement water extraction, sewage cleanup, storm damage repair, and structural drying in Bloomfield Township, MI. Call (248) 531-8404 for immediate service.',
+    'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, basement water extraction, sewage cleanup, storm damage repair, and structural drying in Bloomfield Township, MI. Call (248) 531-8404 for immediate service.',
   keywords: [
-    'PROVAIL water damage Bloomfield',
+    'Provail Restoration of Bloomfield',
     'water damage restoration Bloomfield Township',
     'emergency water removal Bloomfield MI',
     'flood cleanup Bloomfield',
@@ -17,15 +17,15 @@ export const metadata: Metadata = {
     'structural drying Bloomfield Township',
     'water damage Bloomfield Hills',
     '24/7 water damage restoration Bloomfield',
-    'PROVAIL restoration Bloomfield Township MI',
+    'Provail Restoration of Bloomfield Township MI',
   ],
   openGraph: {
     title:
-      'PROVAIL Water Damage Restoration Bloomfield | 24/7 Emergency | (248) 531-8404',
+      'Provail Restoration of Bloomfield | 24/7 Emergency | (248) 531-8404',
     description:
-      'PROVAIL Water Damage Restoration Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, and more in Bloomfield Township, MI. Call (248) 531-8404.',
+      'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, and more in Bloomfield Township, MI. Call (248) 531-8404.',
     url: 'https://provailrestoration.com/bloomfield',
-    siteName: 'PROVAIL Water Damage Restoration Bloomfield',
+    siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
     type: 'website',
   },
@@ -42,7 +42,9 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': 'https://provailrestoration.com/bloomfield',
-  name: 'PROVAIL Water Damage Restoration Bloomfield',
+  name: 'Provail Restoration of Bloomfield',
+  legalName: 'Provail Restoration of Bloomfield',
+  alternateName: 'Provail Restoration of Bloomfield',
   telephone: '+12485318404',
   url: 'https://provailrestoration.com/bloomfield',
   address: {

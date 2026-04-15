@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
-const BIZ = 'PROVAIL Water Damage Restoration Bloomfield'
+const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/sewage-cleanup'
 
 export const metadata: Metadata = {
   title: 'Sewage Cleanup Bloomfield, MI | Cat 3 Black Water | (248) 531-8404',
   description:
-    'Category 3 black water sewage cleanup in Bloomfield Township and Bloomfield Hills, MI. Biohazard removal, EPA-registered disinfection, full PPE, and structural drying. Call PROVAIL 24/7 at (248) 531-8404.',
+    'Category 3 black water sewage cleanup in Bloomfield Township and Bloomfield Hills, MI. Biohazard removal, EPA-registered disinfection, full PPE, and structural drying. Call Provail Restoration of Bloomfield 24/7 at (248) 531-8404.',
   keywords: [
     'sewage cleanup Bloomfield',
     'Cat 3 black water cleanup',
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'How fast can you respond to a sewage backup in Bloomfield?',
-    a: 'PROVAIL provides 24/7 emergency dispatch across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield, and surrounding communities. In most cases, a technician is on site within an hour of your call so we can stop further migration, begin extraction, and protect unaffected areas of your home.',
+    a: 'Our team provides 24/7 emergency dispatch across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield, and surrounding communities. In most cases, a technician is on site within an hour of your call so we can stop further migration, begin extraction, and protect unaffected areas of your home.',
   },
   {
     q: 'What PPE do your technicians wear?',
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: 'Will my homeowners insurance cover sewer backup?',
-    a: 'Standard homeowners policies often exclude sewer backup unless you carry a specific water backup endorsement. Coverage varies widely from carrier to carrier, so the best step is to call your agent and ask about your specific policy. PROVAIL provides documentation that supports whatever claim you choose to file.',
+    a: 'Standard homeowners policies often exclude sewer backup unless you carry a specific water backup endorsement. Coverage varies widely from carrier to carrier, so the best step is to call your agent and ask about your specific policy. We provide documentation that supports whatever claim you choose to file.',
   },
   {
     q: 'How long does sewage cleanup take?',
@@ -184,7 +184,7 @@ export default function SewageCleanupPage() {
               Sewage Cleanup in Bloomfield, Michigan
             </h1>
             <p className="text-[#6a6a6a] text-lg max-w-[640px] mx-auto mb-10 leading-relaxed">
-              Category 3 black water is a biohazard. PROVAIL responds 24/7 with full PPE, professional extraction equipment,
+              Category 3 black water is a biohazard. Provail Restoration of Bloomfield responds 24/7 with full PPE, professional extraction equipment,
               EPA-registered disinfectants, and structural drying so your property is returned to a safe, sanitary condition.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -280,7 +280,7 @@ export default function SewageCleanupPage() {
               removal of soil and biological residue using a detergent solution and mechanical agitation. Disinfection
               is the application of an EPA-registered antimicrobial product, used according to label instructions
               including the required dwell time. Disinfection cannot work on a dirty surface, which is why cleaning
-              always comes first. PROVAIL selects disinfectants whose labels list the relevant pathogens for the
+              always comes first. We select disinfectants whose labels list the relevant pathogens for the
               specific loss, and we follow the label without improvisation.
             </p>
 
@@ -302,7 +302,7 @@ export default function SewageCleanupPage() {
             <p className="text-[#444] mb-5">
               Removed materials are double-bagged inside the contained work area. The outside of each bag is wiped down
               before it leaves containment. Bagged waste is then transported and disposed of in accordance with local
-              and state regulations for contaminated construction debris. PROVAIL maintains the chain of custody
+              and state regulations for contaminated construction debris. We maintain the chain of custody
               documentation for each project so there is a clear record of what was removed and where it went.
             </p>
 
@@ -325,7 +325,7 @@ export default function SewageCleanupPage() {
             <p className="text-[#444] mb-5">
               Sewer and drain backup coverage is typically an optional endorsement on a homeowners policy, not part of
               the base coverage. If you have that endorsement, your policy will usually have a sublimit specific to
-              backup losses. PROVAIL documents the loss thoroughly and provides an itemized estimate that aligns with
+              backup losses. Provail Restoration of Bloomfield documents the loss thoroughly and provides an itemized estimate that aligns with
               standard pricing platforms used by insurance carriers, so your adjuster has what they need to process
               the claim. We coordinate directly with your adjuster when you authorize us to do so.
             </p>
@@ -336,7 +336,7 @@ export default function SewageCleanupPage() {
             <p className="text-[#444] mb-5">
               Once cleaning, disinfection, and drying are verified complete, the materials that were removed need to be
               replaced. Drywall, baseboard, paint, flooring, and cabinetry all return as part of the rebuild phase.
-              PROVAIL handles reconstruction directly so the same team that documented the loss is the team that closes
+              Provail Restoration of Bloomfield handles reconstruction directly so the same team that documented the loss is the team that closes
               it out. See our{' '}
               <a href="/reconstruction-services" className="text-[#ff385c] font-semibold no-underline hover:underline">
                 reconstruction services page
@@ -348,10 +348,10 @@ export default function SewageCleanupPage() {
             </p>
 
             <h2 className="font-bold mt-10 mb-4" style={{ fontSize: '1.625rem', letterSpacing: '-0.44px' }}>
-              Why PROVAIL
+              Why Provail Restoration of Bloomfield
             </h2>
             <p className="text-[#444] mb-5">
-              PROVAIL is a local Bloomfield restoration company with IICRC-trained technicians, dedicated Category 3
+              Provail Restoration of Bloomfield is a local restoration company with IICRC-trained technicians, dedicated Category 3
               equipment, full biohazard PPE, EPA-registered disinfectants, and a documentation workflow built around
               the S500 standard. We answer the phone 24/7, dispatch immediately, and treat your property the way we
               would want our own treated. Call {PHONE} and we will be on the way.
@@ -385,7 +385,7 @@ export default function SewageCleanupPage() {
               Sewage backup? Call now.
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              PROVAIL is on call 24/7 across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield, Troy,
+              Provail Restoration of Bloomfield is on call 24/7 across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield, Troy,
               and Farmington Hills.
             </p>
             <a href={PHONE_HREF}

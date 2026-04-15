@@ -5,13 +5,13 @@ const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
-const BUSINESS_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+const BUSINESS_NAME = 'Provail Restoration of Bloomfield'
 
 export const metadata: Metadata = {
   title:
-    'Ice Dam Removal in Michigan | Steam Removal & Interior Water Damage | PROVAIL',
+    'Ice Dam Removal in Michigan | Steam Removal & Interior Water Damage | Provail Restoration of Bloomfield',
   description:
-    'Steam-based ice dam removal in Bloomfield Township and across Michigan. Safe for shingles, prevents refreeze, and addresses interior water damage from ice dams. Call PROVAIL at (248) 531-8404.',
+    'Steam-based ice dam removal in Bloomfield Township and across Michigan. Safe for shingles, prevents refreeze, and addresses interior water damage from ice dams. Call Provail Restoration of Bloomfield at (248) 531-8404.',
   keywords: [
     'ice dam removal Michigan',
     'steam ice dam removal Bloomfield',
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     'attic insulation ice dam Michigan',
     'ice dam interior water damage',
     'roof ice dam refreeze prevention',
-    'PROVAIL ice dam removal',
+    'Provail Restoration of Bloomfield ice dam removal',
   ],
   alternates: {
     canonical: 'https://provailrestoration.com/services/ice-dam-removal',
   },
   openGraph: {
     title:
-      'Ice Dam Removal in Michigan | Steam Removal | PROVAIL Bloomfield',
+      'Ice Dam Removal in Michigan | Steam Removal | Provail Restoration of Bloomfield',
     description:
       'Professional steam ice dam removal in Michigan. Shingle-safe, refreeze prevention, and full restoration of interior water damage from ice dams.',
     url: 'https://provailrestoration.com/services/ice-dam-removal',
@@ -455,7 +455,7 @@ export default function IceDamRemovalPage() {
               Ice on your eaves? Stains on your ceiling?
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              Call PROVAIL Water Damage Restoration Bloomfield. We will get a
+              Call Provail Restoration of Bloomfield. We will get a
               steam crew on the way and walk you through the next steps before
               they arrive.
             </p>

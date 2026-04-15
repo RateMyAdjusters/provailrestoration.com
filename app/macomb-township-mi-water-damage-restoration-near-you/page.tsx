@@ -5,7 +5,7 @@ import { useState, useRef } from 'react'
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 const PHONE = '(586) 207-9091'
 const PHONE_HREF = 'tel:+15862079091'
-const ADDRESS_LINE1 = '51090 Romeo Plank Rd'
+const ADDRESS_LINE1 = '51225 Romeo Plank Rd'
 const ADDRESS_LINE2 = 'Macomb, MI 48042'
 const BUSINESS_NAME = 'Provail Restoration of Macomb Township'
 const MAPS_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS_LINE1 + ', ' + ADDRESS_LINE2)}&output=embed`
@@ -91,12 +91,12 @@ const services = [
 ]
 
 const testimonials = [
-  { name: 'Mike D.', text: 'Had a pipe burst in the middle of the night. Called Provail and they were at our Macomb Township home within an hour. Professional crew, explained everything, and had the water out and drying equipment set up before morning. Saved our hardwood floors.' },
-  { name: 'Tara P.', text: 'Our basement flooded after a huge rainstorm. Provail Restoration showed up fast, pumped everything out, and set up dryers. They came back every day to check moisture levels. Very professional and responsive team.' },
-  { name: 'James K.', text: 'Great experience from start to finish. Water damage from a dishwasher leak spread under our kitchen floor. Provail found moisture we never would have caught, dried everything properly, and worked with our insurance.' },
-  { name: 'Sarah M.', text: 'Called at 2 AM when our water heater burst. They answered immediately and had a crew here in Macomb within 45 minutes. Fast, thorough, and they handled everything with our insurance company. Could not ask for better service.' },
-  { name: 'David R.', text: 'Sump pump failed during a storm and our finished basement took on 6 inches of water. Provail had the water extracted same day, set up commercial dryers, and monitored everything for a week.' },
-  { name: 'Lisa W.', text: 'Found mold behind our bathroom wall from an old leak. Provail came out, tested the area, contained it, and removed everything safely. They also fixed the source of the moisture. Very knowledgeable team.' },
+  { name: 'Mike D.', text: `Had a pipe burst in the middle of the night. Called ${BUSINESS_NAME} and they were at our Macomb Township home within an hour. Professional crew, explained everything, and had the water out and drying equipment set up before morning. Saved our hardwood floors.` },
+  { name: 'Tara P.', text: `Our basement flooded after a huge rainstorm. ${BUSINESS_NAME} showed up fast, pumped everything out, and set up dryers. They came back every day to check moisture levels. Very professional and responsive team.` },
+  { name: 'James K.', text: `Great experience from start to finish. Water damage from a dishwasher leak spread under our kitchen floor. ${BUSINESS_NAME} found moisture we never would have caught, dried everything properly, and documented the damage for our insurance carrier.` },
+  { name: 'Sarah M.', text: 'Called at 2 AM when our water heater burst. They answered immediately and had a crew here in Macomb within 45 minutes. Fast, thorough, and they documented everything for our insurance company. Could not ask for better service.' },
+  { name: 'David R.', text: `Sump pump failed during a storm and our finished basement took on 6 inches of water. ${BUSINESS_NAME} had the water extracted same day, set up commercial dryers, and monitored everything for a week.` },
+  { name: 'Lisa W.', text: `Found mold behind our bathroom wall from an old leak. ${BUSINESS_NAME} came out, tested the area, contained it, and removed everything safely. They also fixed the source of the moisture. Very knowledgeable team.` },
   { name: 'Dan B.', text: 'We were dealing with a flooded basement and had no idea where to start. They walked us through everything, handled the water extraction and drying, and followed up a week later to make sure there were no issues.' },
   { name: 'Patricia G.', text: 'Excellent work. They found mold behind our drywall that two other companies missed. Very knowledgeable and thorough.' },
 ]

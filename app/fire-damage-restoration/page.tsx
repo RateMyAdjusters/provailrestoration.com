@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-const BIZ_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     'Fire Damage Restoration Bloomfield MI | Soot, Smoke & Structural Repair | (248) 531-8404',
   description:
-    'PROVAIL provides 24/7 fire damage restoration in Bloomfield Township and Oakland County, MI. Emergency board-up, soot removal, thermal fogging, ozone treatment, content cleaning, structural repair, and complete odor elimination. Call (248) 531-8404.',
+    'Provail Restoration of Bloomfield provides 24/7 fire damage restoration in Bloomfield Township and Oakland County, MI. Emergency board-up, soot removal, thermal fogging, ozone treatment, content cleaning, structural repair, and complete odor elimination. Call (248) 531-8404.',
   keywords: [
     'fire damage restoration Bloomfield',
     'fire damage repair Bloomfield Township MI',
@@ -381,7 +381,7 @@ export default function FireDamagePage() {
                 The 12 Stages of Fire Damage Restoration
               </h2>
               <p className="text-[#6a6a6a] text-lg max-w-[620px] mx-auto">
-                Every PROVAIL fire loss follows the same structured workflow, scaled to the size of the project.
+                Every fire loss we handle follows the same structured workflow, scaled to the size of the project.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -535,7 +535,7 @@ export default function FireDamagePage() {
         <section id="contact" style={{ backgroundColor: '#222222', padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <h2 className="text-white font-bold text-center mb-12" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
-              Call PROVAIL for 24/7 Fire Damage Response
+              Call Provail Restoration of Bloomfield for 24/7 Fire Damage Response
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

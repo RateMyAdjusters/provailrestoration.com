@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-const BIZ_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     'Soot Cleanup Bloomfield MI | Wet, Dry, Protein & Puffback Residue | (248) 531-8404',
   description:
-    'Professional soot cleanup in Bloomfield Township, MI. PROVAIL handles wet smoke, dry smoke, protein residue, and furnace puffback soot on every interior surface. IICRC S700 trained crews. Call (248) 531-8404 for an assessment.',
+    'Professional soot cleanup in Bloomfield Township, MI. Provail Restoration of Bloomfield handles wet smoke, dry smoke, protein residue, and furnace puffback soot on every interior surface. IICRC S700 trained crews. Call (248) 531-8404 for an assessment.',
   keywords: [
     'soot cleanup Bloomfield',
     'soot removal Bloomfield Township',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Soot Cleanup Bloomfield MI | (248) 531-8404',
     description:
-      'Wet vs dry soot, protein fires, puffback residue, surface-specific cleaning. PROVAIL serves Bloomfield, MI.',
+      'Wet vs dry soot, protein fires, puffback residue, surface-specific cleaning. Provail Restoration of Bloomfield serves Bloomfield, MI.',
     url: 'https://provailrestoration.com/services/soot-cleanup',
     siteName: BIZ_NAME,
     locale: 'en_US',

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://provailrestoration.com/services/sump-pump-failure',
   },
   openGraph: {
-    title: 'Sump Pump Failure Cleanup in Bloomfield, MI | PROVAIL',
+    title: 'Sump Pump Failure Cleanup in Bloomfield, MI | Provail Restoration of Bloomfield',
     description:
       '24/7 cleanup after sump pump failure in Bloomfield Township, MI. Call (248) 531-8404.',
     url: 'https://provailrestoration.com/services/sump-pump-failure',

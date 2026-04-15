@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'PROVAIL Water Damage Restoration (Bloomfield) | 24/7 Emergency Service | (248) 531-8404',
+  title: 'Provail Restoration of Bloomfield | 24/7 Emergency Service | (248) 531-8404',
   description:
-    'PROVAIL Water Damage Restoration provides 24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills, Bloomfield Township, and surrounding areas. Call (248) 531-8404.',
+    'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills, Bloomfield Township, and surrounding areas. Call (248) 531-8404.',
   keywords: [
     'water damage restoration Bloomfield',
-    'PROVAIL restoration',
-    'PROVAIL water damage restoration',
+    'Provail Restoration of Bloomfield',
+    'Provail Restoration of Bloomfield water damage',
     'water damage restoration Bloomfield Hills',
     'water damage restoration Bloomfield Township',
     'flood cleanup Bloomfield MI',
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     'basement flooding Bloomfield Hills',
   ],
   openGraph: {
-    title: 'PROVAIL Water Damage Restoration (Bloomfield) | 24/7 Emergency Service',
+    title: 'Provail Restoration of Bloomfield | 24/7 Emergency Service',
     description:
       '24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills & Bloomfield Township, MI. Call (248) 531-8404.',
     url: 'https://provailrestoration.com',
-    siteName: 'PROVAIL Water Damage Restoration (Bloomfield)',
+    siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
     type: 'website',
   },
@@ -39,7 +39,9 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': 'https://provailrestoration.com',
-  name: 'PROVAIL Water Damage Restoration (Bloomfield)',
+  name: 'Provail Restoration of Bloomfield',
+  legalName: 'Provail Restoration of Bloomfield',
+  alternateName: 'Provail Restoration of Bloomfield',
   description:
     '24/7 emergency water damage restoration, flood cleanup, and mold remediation serving Bloomfield Hills, Bloomfield Township, and surrounding areas.',
   url: 'https://provailrestoration.com',

@@ -5,13 +5,13 @@ const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
-const BUSINESS_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+const BUSINESS_NAME = 'Provail Restoration of Bloomfield'
 
 export const metadata: Metadata = {
   title:
-    'Storm Damage Restoration in Michigan | Wind, Tree & Roof Damage | PROVAIL',
+    'Storm Damage Restoration in Michigan | Wind, Tree & Roof Damage | Provail Restoration of Bloomfield',
   description:
-    'Storm damage restoration across Bloomfield Township and Southeast Michigan. Emergency tarping, board-up, wind and tree impact repair, roof leaks, and storm-driven water intrusion. Call PROVAIL 24/7 at (248) 531-8404.',
+    'Storm damage restoration across Bloomfield Township and Southeast Michigan. Emergency tarping, board-up, wind and tree impact repair, roof leaks, and storm-driven water intrusion. Call Provail Restoration of Bloomfield 24/7 at (248) 531-8404.',
   keywords: [
     'storm damage restoration Michigan',
     'wind damage repair Bloomfield',
@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     'board up service Oakland County',
     'storm water intrusion repair Michigan',
     'Great Lakes storm damage',
-    'PROVAIL storm damage Bloomfield',
+    'Provail Restoration of Bloomfield storm damage',
   ],
   alternates: {
     canonical: 'https://provailrestoration.com/storm-damage-restoration',
   },
   openGraph: {
     title:
-      'Storm Damage Restoration in Michigan | PROVAIL Bloomfield',
+      'Storm Damage Restoration in Michigan | Provail Restoration of Bloomfield',
     description:
       'Wind, tree, roof, and water-intrusion storm damage restoration in Bloomfield Township and Southeast Michigan. 24/7 emergency response.',
     url: 'https://provailrestoration.com/storm-damage-restoration',
@@ -533,7 +533,7 @@ export default function StormDamageRestorationPage() {
               Storm damage at your property right now?
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              Call PROVAIL Water Damage Restoration Bloomfield. A live dispatcher
+              Call Provail Restoration of Bloomfield. A live dispatcher
               will answer, get a crew rolling, and stay with you until the
               building is secure.
             </p>

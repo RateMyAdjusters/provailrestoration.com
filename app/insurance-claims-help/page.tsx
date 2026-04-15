@@ -6,9 +6,9 @@ const SMS_HREF = 'sms:+12485318404'
 
 export const metadata: Metadata = {
   title:
-    'Water Damage Insurance Documentation in Michigan | PROVAIL Bloomfield | (248) 531-8404',
+    'Water Damage Insurance Documentation in Michigan | Provail Restoration of Bloomfield | (248) 531-8404',
   description:
-    'PROVAIL documents water damage for your insurance company, works directly with your adjuster, and direct-bills most major Michigan carriers. IICRC-certified, Bloomfield Township based, serving Oakland County 24/7.',
+    'Provail Restoration of Bloomfield documents water damage for your insurance company, works directly with your adjuster, and direct-bills most major Michigan carriers. IICRC-certified, Bloomfield Township based, serving Oakland County 24/7.',
   keywords: [
     'water damage insurance documentation Michigan',
     'work with my insurance adjuster Bloomfield',
@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     'Xactimate water damage estimate Michigan',
     'water damage claim documentation Oakland County',
     'IICRC certified restoration Michigan',
-    'PROVAIL insurance Bloomfield',
+    'Provail Restoration of Bloomfield insurance',
   ],
   openGraph: {
-    title: 'Water Damage Insurance Documentation in Michigan | PROVAIL Bloomfield',
+    title: 'Water Damage Insurance Documentation in Michigan | Provail Restoration of Bloomfield',
     description:
       'We document the damage for your insurance company, work directly with your adjuster, and direct-bill most major Michigan carriers.',
     url: 'https://provailrestoration.com/insurance-claims-help',
-    siteName: 'PROVAIL Water Damage Restoration Bloomfield',
+    siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
     type: 'website',
   },
@@ -40,7 +40,7 @@ const serviceJsonLd = {
   serviceType: 'Water Damage Documentation and Direct-Bill Restoration',
   provider: {
     '@type': 'LocalBusiness',
-    name: 'PROVAIL Water Damage Restoration Bloomfield',
+    name: 'Provail Restoration of Bloomfield',
     telephone: '+12485318404',
     address: {
       '@type': 'PostalAddress',
@@ -53,7 +53,7 @@ const serviceJsonLd = {
   },
   areaServed: { '@type': 'State', name: 'Michigan' },
   description:
-    'PROVAIL documents water damage for your insurance company, works directly with your assigned adjuster, and direct-bills most major Michigan carriers. We are a restoration contractor, not a public adjuster.',
+    'Provail Restoration of Bloomfield documents water damage for your insurance company, works directly with your assigned adjuster, and direct-bills most major Michigan carriers. We are a restoration contractor, not a public adjuster.',
   url: 'https://provailrestoration.com/insurance-claims-help',
 }
 
@@ -74,7 +74,7 @@ const faqJsonLd = {
       name: 'Will you negotiate with my insurance company on my behalf?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Negotiating a claim is the legal job of a licensed public adjuster or attorney. PROVAIL provides accurate IICRC-standard scoping and Xactimate documentation that supports your file, and we discuss our scope of work directly with your adjuster, but we do not negotiate your settlement.',
+        text: 'No. Negotiating a claim is the legal job of a licensed public adjuster or attorney. Provail Restoration of Bloomfield provides accurate IICRC-standard scoping and Xactimate documentation that supports your file, and we discuss our scope of work directly with your adjuster, but we do not negotiate your settlement.',
       },
     },
     {
@@ -111,7 +111,7 @@ export default function InsuranceClaimsHelpPage() {
       <header className="sticky top-0 z-50 bg-white" style={{ boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
         <div className="max-w-[1120px] mx-auto flex items-center justify-between px-6 py-4">
           <a href="/" className="flex items-center no-underline">
-            <img src="/logo.png" alt="PROVAIL Water Damage Restoration Bloomfield" style={{ height: 60, width: 'auto', objectFit: 'contain' }} />
+            <img src="/logo.png" alt="Provail Restoration of Bloomfield" style={{ height: 60, width: 'auto', objectFit: 'contain' }} />
           </a>
           <a href={PHONE_HREF} className="hidden md:flex items-center gap-2 text-[#222222]">
             <span className="font-semibold text-[15px]">{PHONE}</span>
@@ -132,7 +132,7 @@ export default function InsuranceClaimsHelpPage() {
               We document your water damage. We work with your adjuster. We direct-bill your carrier.
             </h1>
             <p className="text-[#6a6a6a] text-lg leading-relaxed mb-8">
-              PROVAIL is a licensed restoration contractor, not a public adjuster. Here is exactly what that means for Michigan homeowners and business owners after a water loss — and how our IICRC-standard documentation makes the insurance side of your claim as painless as possible.
+              Provail Restoration of Bloomfield is a licensed restoration contractor, not a public adjuster. Here is exactly what that means for Michigan homeowners and business owners after a water loss — and how our IICRC-standard documentation makes the insurance side of your claim as painless as possible.
             </p>
             <a href={PHONE_HREF} className="inline-flex items-center justify-center text-white font-semibold no-underline" style={{ backgroundColor: '#222222', borderRadius: '8px', padding: '0 28px', height: '52px' }}>
               Talk to a real person: {PHONE}
@@ -146,7 +146,7 @@ export default function InsuranceClaimsHelpPage() {
               First, the important part: what we are and what we are not
             </h2>
             <p>
-              In Michigan, only a licensed public adjuster or a licensed attorney is legally allowed to negotiate an insurance claim on a policyholder&apos;s behalf. PROVAIL is neither of those things. We are a licensed restoration contractor, headquartered at 4060 W Maple Rd in Bloomfield Township, with IICRC certifications across our crew and a Michigan residential builder license on the rebuild side. Our role in your insurance claim is narrow and well-defined: we document the damage for your insurance company, we work directly with the adjuster they assign to your file, and — for most major Michigan carriers — we direct-bill the covered portion of our work so you do not have to write a five-figure check up front.
+              In Michigan, only a licensed public adjuster or a licensed attorney is legally allowed to negotiate an insurance claim on a policyholder&apos;s behalf. Provail Restoration of Bloomfield is neither of those things. We are a licensed restoration contractor, headquartered at 4060 W Maple Rd in Bloomfield Township, with IICRC certifications across our crew and a Michigan residential builder license on the rebuild side. Our role in your insurance claim is narrow and well-defined: we document the damage for your insurance company, we work directly with the adjuster they assign to your file, and — for most major Michigan carriers — we direct-bill the covered portion of our work so you do not have to write a five-figure check up front.
             </p>
             <p>
               We do not handle your claim. We do not negotiate with your insurance company. We do not get you more money. Anyone who promises those things on a restoration contract is either operating outside their lane or making promises a contractor cannot legally keep in this state. What we do, we do well: accurate, defensible, IICRC-standard documentation that gives your adjuster the information they need to make a fair coverage decision, and a clean direct-bill workflow that keeps cash out of your pocket while the work gets done.
@@ -212,7 +212,7 @@ export default function InsuranceClaimsHelpPage() {
             <div className="bg-[#fff8e6] border-l-4 border-[#ff385c] p-6 mt-10" style={{ borderRadius: '8px' }}>
               <h3 className="text-[#222222] font-bold mb-2">A note on contractors who promise the world</h3>
               <p className="text-[#6a6a6a] text-[15px] leading-relaxed m-0">
-                If a restoration company tells you they will &ldquo;handle your insurance claim,&rdquo; &ldquo;negotiate with the insurance company,&rdquo; or &ldquo;get you more money than your adjuster wants to pay,&rdquo; politely walk away. Those activities require a Michigan public adjuster license that contractors do not hold. PROVAIL stays in our lane: we document, we communicate with your adjuster on the scope of our work, we direct-bill, and we do excellent restoration. That is how we keep our license, our reputation, and your trust.
+                If a restoration company tells you they will &ldquo;handle your insurance claim,&rdquo; &ldquo;negotiate with the insurance company,&rdquo; or &ldquo;get you more money than your adjuster wants to pay,&rdquo; politely walk away. Those activities require a Michigan public adjuster license that contractors do not hold. Provail Restoration of Bloomfield stays in our lane: we document, we communicate with your adjuster on the scope of our work, we direct-bill, and we do excellent restoration. That is how we keep our license, our reputation, and your trust.
               </p>
             </div>
 
@@ -234,7 +234,7 @@ export default function InsuranceClaimsHelpPage() {
             <a href={PHONE_HREF} className="text-[#ff385c] font-semibold no-underline">{PHONE}</a>
           </address>
           <p className="text-[#6a6a6a] text-[13px] m-0">
-            &copy; {new Date().getFullYear()} PROVAIL Water Damage Restoration Bloomfield. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Provail Restoration of Bloomfield. All Rights Reserved.
           </p>
         </div>
       </footer>

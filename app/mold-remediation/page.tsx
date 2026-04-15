@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
-const BIZ = 'PROVAIL Water Damage Restoration Bloomfield'
+const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/mold-remediation'
 
 export const metadata: Metadata = {
   title: 'Mold Remediation Bloomfield, MI | IICRC S520 Certified | (248) 531-8404',
   description:
-    'IICRC S520 mold remediation in Bloomfield Township, Bloomfield Hills & Birmingham, MI. Certified containment, HEPA air filtration, source removal, and post-remediation verification. Call PROVAIL at (248) 531-8404.',
+    'IICRC S520 mold remediation in Bloomfield Township, Bloomfield Hills & Birmingham, MI. Certified containment, HEPA air filtration, source removal, and post-remediation verification. Call Provail Restoration of Bloomfield at (248) 531-8404.',
   keywords: [
     'mold remediation Bloomfield',
     'IICRC S520 mold remediation',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'What is mold remediation?',
-    a: 'Mold remediation is the structured process of identifying microbial growth indoors, isolating the affected area, removing contaminated materials, cleaning surrounding surfaces, and restoring normal moisture conditions so the growth does not return. PROVAIL follows the IICRC S520 Standard for Professional Mold Remediation on every project in Bloomfield, Michigan.',
+    a: 'Mold remediation is the structured process of identifying microbial growth indoors, isolating the affected area, removing contaminated materials, cleaning surrounding surfaces, and restoring normal moisture conditions so the growth does not return. Provail Restoration of Bloomfield follows the IICRC S520 Standard for Professional Mold Remediation on every project in Bloomfield, Michigan.',
   },
   {
     q: 'What is the IICRC S520 standard?',
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: 'How much does mold remediation cost in Bloomfield?',
-    a: 'Costs vary with the size of the affected area, the materials involved, accessibility, and whether reconstruction is needed. Small isolated remediation projects often range from a few hundred dollars to roughly fifteen hundred dollars, while larger multi-room projects can be several thousand. PROVAIL provides a written, itemized estimate before any work begins.',
+    a: 'Costs vary with the size of the affected area, the materials involved, accessibility, and whether reconstruction is needed. Small isolated remediation projects often range from a few hundred dollars to roughly fifteen hundred dollars, while larger multi-room projects can be several thousand. Provail Restoration of Bloomfield provides a written, itemized estimate before any work begins.',
   },
   {
     q: 'Can I stay in my home during remediation?',
@@ -192,7 +192,7 @@ export default function MoldRemediationPage() {
               Mold Remediation in Bloomfield, Michigan
             </h1>
             <p className="text-[#6a6a6a] text-lg max-w-[640px] mx-auto mb-10 leading-relaxed">
-              Certified mold remediation following the ANSI/IICRC S520 standard. PROVAIL contains the work area,
+              Certified mold remediation following the ANSI/IICRC S520 standard. Provail Restoration of Bloomfield contains the work area,
               filters the air, removes the source, and corrects the moisture condition that allowed microbial growth to begin.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -221,7 +221,7 @@ export default function MoldRemediationPage() {
               When property owners in Bloomfield Township, Bloomfield Hills, Birmingham, and West Bloomfield notice a musty
               smell, dark staining behind a baseboard, or visible growth on drywall after a leak, the response should be
               measured rather than alarmed. Indoor microbial growth is common in Michigan homes after any moisture event,
-              and the path back to a normal indoor environment is well defined. PROVAIL follows the
+              and the path back to a normal indoor environment is well defined. Provail Restoration of Bloomfield follows the
               ANSI/IICRC S520 Standard for Professional Mold Remediation on every project, and our technicians are trained
               to apply that standard the same way every time, on every job, in every neighborhood we serve.
             </p>
@@ -239,7 +239,7 @@ export default function MoldRemediationPage() {
               An Important Note About Health Claims
             </h2>
             <p className="text-[#444] mb-5">
-              PROVAIL is a restoration contractor, not a medical provider. We are not in a position to make claims about
+              Provail Restoration of Bloomfield is a restoration contractor, not a medical provider. We are not in a position to make claims about
               how exposure to indoor microbial growth may or may not affect any specific person, and we do not. Reactions
               to indoor air quality vary widely from one individual to the next. Some people exposed to elevated levels of
               spores or fragments may experience discomfort, while others in the same environment may notice nothing at
@@ -322,7 +322,7 @@ export default function MoldRemediationPage() {
               tile, glass, and metal can almost always be cleaned in place using a combination of HEPA vacuuming, damp
               wiping with a detergent solution, and additional HEPA vacuuming. The goal is physical removal of the
               particulate, not chemical neutralization. Antimicrobial products do have a role in some situations, but
-              they are not a substitute for physical cleaning. PROVAIL uses EPA-registered products only when the
+              they are not a substitute for physical cleaning. Provail Restoration of Bloomfield uses EPA-registered products only when the
               manufacturer label and the project conditions support their use, and we never rely on a chemical to
               compensate for incomplete removal.
             </p>
@@ -366,7 +366,7 @@ export default function MoldRemediationPage() {
               that means visual inspection: the area should be visibly free of growth, free of dust and debris, and
               dry to the documented benchmark. For larger Condition 3 projects, an independent indoor environmental
               professional may also collect air or surface samples for laboratory analysis to provide third-party
-              clearance. PROVAIL recommends third-party clearance whenever the project size or sensitivity of the
+              clearance. Provail Restoration of Bloomfield recommends third-party clearance whenever the project size or sensitivity of the
               occupants warrants it, and we coordinate with the IEP of your choice. We do not perform our own clearance
               testing because the property owner deserves an independent check.
             </p>
@@ -376,7 +376,7 @@ export default function MoldRemediationPage() {
             </h2>
             <p className="text-[#444] mb-5">
               Once verification is complete, the affected materials that were removed need to be replaced. Drywall,
-              insulation, baseboard, paint, and flooring all return as part of the rebuild phase. PROVAIL handles
+              insulation, baseboard, paint, and flooring all return as part of the rebuild phase. Provail Restoration of Bloomfield handles
               reconstruction directly so that the same team that documented the loss is the team that closes it out.
               You can read more about that process on our{' '}
               <a href="/reconstruction-services" className="text-[#ff385c] font-semibold no-underline hover:underline">
@@ -395,7 +395,7 @@ export default function MoldRemediationPage() {
               with tighter envelopes can develop attic growth when bath fans vent into the attic instead of through the
               roof. Lakefront properties commonly see crawlspace humidity issues during humid summer months. The pattern
               of growth tells a trained inspector where to look for the moisture source, and that is the conversation
-              PROVAIL has with every property owner before any removal begins.
+              Provail Restoration of Bloomfield has with every property owner before any removal begins.
             </p>
 
             <h2 className="font-bold mt-10 mb-4" style={{ fontSize: '1.625rem', letterSpacing: '-0.44px' }}>
@@ -404,7 +404,7 @@ export default function MoldRemediationPage() {
             <p className="text-[#444] mb-5">
               Coverage for remediation depends on the underlying cause of the moisture and the language of your specific
               policy. Sudden and accidental water losses, such as a burst supply line, are commonly covered. Long-term
-              seepage, gradual leaks, and humidity problems are commonly excluded or sublimited. PROVAIL documents the
+              seepage, gradual leaks, and humidity problems are commonly excluded or sublimited. Provail Restoration of Bloomfield documents the
               loss thoroughly so that your adjuster has what they need to make a coverage determination, and we provide
               an itemized estimate that aligns with industry standard pricing platforms. We do not advise property owners
               on coverage interpretation, because that is between the policyholder and the carrier, but we make sure the
@@ -412,7 +412,7 @@ export default function MoldRemediationPage() {
             </p>
 
             <h2 className="font-bold mt-10 mb-4" style={{ fontSize: '1.625rem', letterSpacing: '-0.44px' }}>
-              Why PROVAIL
+              Why Provail Restoration of Bloomfield
             </h2>
             <p className="text-[#444] mb-5">
               We are a local Bloomfield restoration company with IICRC-trained technicians, professional containment
@@ -451,7 +451,7 @@ export default function MoldRemediationPage() {
               Concerned about microbial growth in your home?
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              Call PROVAIL for an IICRC S520 inspection and written scope. We serve Bloomfield Township, Bloomfield Hills,
+              Call Provail Restoration of Bloomfield for an IICRC S520 inspection and written scope. We serve Bloomfield Township, Bloomfield Hills,
               Birmingham, West Bloomfield, Troy, and Farmington Hills.
             </p>
             <a href={PHONE_HREF}

@@ -4,12 +4,13 @@ import {
   SiteFooter,
   HeroCTA,
   PillarSectionHeading,
-  BIZ_NAME,
   PHONE,
   PHONE_HREF,
   ADDRESS_LINE1,
   ADDRESS_LINE2,
 } from '../_components/site-chrome'
+
+const BIZ_NAME = 'Provail Restoration of Bloomfield'
 
 export const metadata: Metadata = {
   title:
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://provailrestoration.com/water-damage-restoration',
   },
   openGraph: {
-    title: 'Water Damage Restoration in Bloomfield, MI | PROVAIL',
+    title: 'Water Damage Restoration in Bloomfield, MI | Provail Restoration of Bloomfield',
     description:
       '24/7 water damage extraction, structural drying, and restoration in Bloomfield Township, MI. Call (248) 531-8404.',
     url: 'https://provailrestoration.com/water-damage-restoration',

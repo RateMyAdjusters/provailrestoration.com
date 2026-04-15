@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: 'https://provailrestoration.com/services/frozen-pipe-repair',
   },
   openGraph: {
-    title: 'Frozen Pipe Repair in Bloomfield, MI | PROVAIL',
+    title: 'Frozen Pipe Repair in Bloomfield, MI | Provail Restoration of Bloomfield',
     description:
       'Burst pipe cleanup, structural drying, and ceiling/wall damage restoration in Bloomfield Township, MI. Call (248) 531-8404.',
     url: 'https://provailrestoration.com/services/frozen-pipe-repair',

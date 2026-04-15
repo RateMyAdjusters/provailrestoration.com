@@ -7,7 +7,7 @@ const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
-const BUSINESS_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+const BUSINESS_NAME = 'Provail Restoration of Bloomfield'
 
 // ─── DESIGN TOKENS ───────────────────────────────────────────────────────────
 const colors = {
@@ -228,12 +228,12 @@ const services = [
   {
     icon: DryingIcon,
     title: 'Structural Drying',
-    description: 'Water damage doesn\'t stop at the surface\u2014moisture trapped inside walls, floors, and ceilings can cause warping, rot, and mold if not addressed. Our structural drying specialists use commercial-grade dehumidifiers and air movers to eliminate hidden moisture completely. Call the PROVAIL Water Damage Restoration Bloomfield team to make sure your property is dried right the first time.',
+    description: 'Water damage doesn\'t stop at the surface\u2014moisture trapped inside walls, floors, and ceilings can cause warping, rot, and mold if not addressed. Our structural drying specialists use commercial-grade dehumidifiers and air movers to eliminate hidden moisture completely. Call our team to make sure your property is dried right the first time.',
   },
   {
     icon: BasementIcon,
     title: 'Basement Water Extraction',
-    description: 'Is water pooling in your basement after a storm, sump pump failure, or foundation leak? Standing water in your basement can damage your belongings, compromise your foundation, and invite mold growth. Call the PROVAIL Water Damage Restoration Bloomfield team and let us extract the water and dry out your basement completely.',
+    description: 'Is water pooling in your basement after a storm, sump pump failure, or foundation leak? Standing water in your basement can damage your belongings, compromise your foundation, and invite mold growth. Call our team and let us extract the water and dry out your basement completely.',
   },
   {
     icon: SewageIcon,
@@ -260,7 +260,7 @@ const services = [
 // ─── TESTIMONIALS DATA ───────────────────────────────────────────────────────
 
 const testimonials = [
-  { name: 'Mike Kowalski', text: 'Our basement flooded after a pipe burst in the middle of the night. PROVAIL Water Damage Restoration Bloomfield was out within the hour and had everything under control. Can\'t say enough good things about this crew.' },
+  { name: 'Mike Kowalski', text: 'Our basement flooded after a pipe burst in the middle of the night. Provail Restoration of Bloomfield was out within the hour and had everything under control. Can\'t say enough good things about this crew.' },
   { name: 'Linda Derkacz', text: 'Very professional and thorough. They handled our water damage quickly and kept us informed the whole time.' },
   { name: 'Tom Hensley', text: 'Fast response, fair pricing, quality work!' },
   { name: 'Karen Oblinger', text: 'We had water coming in from a cracked foundation after the spring thaw. They dried everything out, treated for mold, and even helped us deal with the insurance paperwork. Highly recommend.' },
@@ -336,7 +336,7 @@ export default function BloomfieldPage() {
           <a href="#" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
             <img
               src="/logo.png"
-              alt="PROVAIL Water Damage Restoration Bloomfield"
+              alt="Provail Restoration of Bloomfield"
               style={{
                 height: 60,
                 width: 'auto',
@@ -762,7 +762,7 @@ export default function BloomfieldPage() {
                 lineHeight: 1.15,
               }}
             >
-              Join the PROVAIL Water Damage Restoration Bloomfield Member-Exclusive Home Protection Plan.
+              Join the Provail Restoration of Bloomfield Member-Exclusive Home Protection Plan.
             </h2>
             <p
               style={{
@@ -787,7 +787,7 @@ export default function BloomfieldPage() {
                 margin: '0 0 16px',
               }}
             >
-              The PROVAIL Water Damage Restoration Bloomfield Home Protection Plan gives you peace of mind before disaster strikes, and
+              The Provail Restoration of Bloomfield Home Protection Plan gives you peace of mind before disaster strikes, and
               priority care if it ever does. As a member, you get an annual home water risk assessment,
               priority scheduling ahead of non-members during emergencies, discounted rates on all
               restoration services, and a dedicated account manager who knows your home and your history.
@@ -803,7 +803,7 @@ export default function BloomfieldPage() {
             >
               It&apos;s not just a service plan. It&apos;s a relationship with a team that&apos;s already
               familiar with your property, so when something goes wrong, we can respond faster and
-              smarter. No call centers. No strangers showing up at your door. Just your PROVAIL Water Damage Restoration Bloomfield team,
+              smarter. No call centers. No strangers showing up at your door. Just your Provail Restoration of Bloomfield team,
               ready when you need us.
             </p>
             <a
@@ -1406,7 +1406,7 @@ export default function BloomfieldPage() {
           {/* Logo */}
           <img
             src="/logo.png"
-            alt="PROVAIL Water Damage Restoration Bloomfield"
+            alt="Provail Restoration of Bloomfield"
             style={{
               height: 48,
               width: 'auto',

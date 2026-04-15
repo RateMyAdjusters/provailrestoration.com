@@ -1,6 +1,8 @@
 'use client'
 
-const BIZ_NAME = 'PROVAIL Water Damage Restoration (Bloomfield)'
+import Link from 'next/link'
+
+const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
@@ -49,7 +51,7 @@ const services = [
 
 /* ── Testimonials ── */
 const testimonials = [
-  { name: 'Mike Kowalski', text: 'Our basement flooded after a pipe burst in the middle of the night. PROVAIL was out within the hour and had everything under control. Can\u2019t say enough good things about this crew.' },
+  { name: 'Mike Kowalski', text: 'Our basement flooded after a pipe burst in the middle of the night. Provail Restoration of Bloomfield was out within the hour and had everything under control. Can\u2019t say enough good things about this crew.' },
   { name: 'Linda Derkacz', text: 'Very professional and thorough. They handled our water damage quickly and kept us informed the whole time.' },
   { name: 'Tom Hensley', text: 'Fast response, fair pricing, quality work!' },
   { name: 'Karen Oblinger', text: 'We had water coming in from a cracked foundation after the spring thaw. They dried everything out, treated for mold, and even helped us deal with the insurance paperwork. Highly recommend.' },
@@ -254,7 +256,7 @@ export default function Home() {
           <a href="/" className="flex items-center no-underline">
             <img
               src="/logo.png"
-              alt="PROVAIL Water Damage Restoration Bloomfield"
+              alt="Provail Restoration of Bloomfield"
               style={{
                 height: 60,
                 width: 'auto',
@@ -406,7 +408,7 @@ export default function Home() {
               The Michigan property owner&apos;s first call after a water loss
             </h2>
             <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              PROVAIL Water Damage Restoration Bloomfield is a locally owned, IICRC-certified mitigation and reconstruction firm headquartered at 4060 W Maple Rd in Bloomfield Township, Michigan. We exist for one reason: to make a flooded home or a soaked office look, smell, and feel exactly the way it did before disaster struck — fast, documented, and without the runaround that gives this industry a bad name.
+              Provail Restoration of Bloomfield is a locally owned, IICRC-certified mitigation and reconstruction firm headquartered at 4060 W Maple Rd in Bloomfield Township, Michigan. We exist for one reason: to make a flooded home or a soaked office look, smell, and feel exactly the way it did before disaster struck — fast, documented, and without the runaround that gives this industry a bad name.
             </p>
             <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
               Southeast Michigan is a tough environment for buildings. Lake-effect humidity rolls in off the Great Lakes, January temperatures crater into the single digits, spring thaw saturates Oakland County clay, and summer thunderstorms regularly drop two inches of rain in under an hour. Every one of those conditions can put water somewhere it does not belong: behind a refrigerator water line, inside a finished basement, under a hardwood floor, or down a chimney chase. When that happens at 2 a.m. on a Sunday, you need a crew that is awake, equipped, and within driving distance of your zip code. That is the entire job description we wrote for ourselves.
@@ -418,10 +420,10 @@ export default function Home() {
               Every technician on our payroll holds current IICRC credentials in Water Damage Restoration (WRT), Applied Structural Drying (ASD), or Applied Microbial Remediation (AMRT). We follow the IICRC S500 standard for water damage and the IICRC S520 standard for mold remediation — not because a marketing brochure says so, but because those documents represent the actual consensus of the restoration industry on how to do this work without making things worse. Our trucks carry truck-mounted extractors, LGR (low-grain refrigerant) dehumidifiers, axial and centrifugal air movers, HEPA air scrubbers, thermal imaging cameras, and pin and pinless moisture meters. We document moisture readings every visit, on every affected assembly, and we leave that log with your insurance adjuster.
             </p>
             <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Speaking of insurance: PROVAIL direct-bills most major carriers writing policies in Michigan, including State Farm, Allstate, Auto-Owners, Hanover, Citizens, Liberty Mutual, Progressive, Travelers, USAA, Farmers, Nationwide, Chubb, Cincinnati, Hartford, AAA, MetLife, and Frankenmuth. We document the loss for your insurance company, work directly with your assigned adjuster, photograph and inventory damaged contents, and submit our scope and Xactimate estimate using the line items and pricing your carrier publishes for the Bloomfield zip code. You sign a work authorization, we coordinate with the people writing the check, and you focus on your family.
+              Speaking of insurance: Provail Restoration of Bloomfield direct-bills most major carriers writing policies in Michigan, including State Farm, Allstate, Auto-Owners, Hanover, Citizens, Liberty Mutual, Progressive, Travelers, USAA, Farmers, Nationwide, Chubb, Cincinnati, Hartford, AAA, MetLife, and Frankenmuth. We document the loss for your insurance company, work directly with your assigned adjuster, photograph and inventory damaged contents, and submit our scope and Xactimate estimate using the line items and pricing your carrier publishes for the Bloomfield zip code. You sign a work authorization, we coordinate with the people writing the check, and you focus on your family.
             </p>
             <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Beyond emergency mitigation, PROVAIL offers full reconstruction under one roof. Once the structure is dry, the same project manager who handled your dry-out walks the rebuild scope with you: drywall, insulation, hardwood and tile flooring, cabinetry, trim, paint, and finish carpentry. Single point of contact, single contract, single warranty. No subcontractor finger-pointing when the new baseboard meets the new floor.
+              Beyond emergency mitigation, Provail Restoration of Bloomfield offers full reconstruction under one roof. Once the structure is dry, the same project manager who handled your dry-out walks the rebuild scope with you: drywall, insulation, hardwood and tile flooring, cabinetry, trim, paint, and finish carpentry. Single point of contact, single contract, single warranty. No subcontractor finger-pointing when the new baseboard meets the new floor.
             </p>
           </div>
         </section>
@@ -491,7 +493,7 @@ export default function Home() {
                   className="text-[#222222] font-bold mb-4"
                   style={{ fontSize: 'clamp(1.625rem, 4vw, 2.25rem)', letterSpacing: '-0.44px', lineHeight: '1.2' }}
                 >
-                  Join the PROVAIL Member-Exclusive Home Protection Plan.
+                  Join the Provail Restoration of Bloomfield Member-Exclusive Home Protection Plan.
                 </h2>
                 <h3 className="text-[#222222] text-xl font-semibold mb-6">
                   Keep your home safe from hidden water damage all year long.
@@ -503,7 +505,7 @@ export default function Home() {
                   and <strong className="text-[#222222]">exclusive discounts</strong> on all restoration services.
                 </p>
                 <p className="text-[#6a6a6a] text-base leading-relaxed mb-8">
-                  Because at PROVAIL, our members aren&apos;t just customers &mdash; <strong className="text-[#222222]">they&apos;re our priority.</strong>
+                  Because at Provail Restoration of Bloomfield, our members aren&apos;t just customers &mdash; <strong className="text-[#222222]">they&apos;re our priority.</strong>
                 </p>
                 <a
                   href={PHONE_HREF}
@@ -548,7 +550,7 @@ export default function Home() {
                 className="text-[#222222] font-bold mb-3"
                 style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}
               >
-                Why Choose PROVAIL
+                Why Choose Provail Restoration of Bloomfield
               </h2>
               <p className="text-[#6a6a6a] text-lg max-w-[500px] mx-auto">
                 Because your home deserves a partner, not just a contractor.
@@ -559,44 +561,46 @@ export default function Home() {
               {/* Block 1: Certified Technicians */}
               <div>
                 <div
-                  className="flex items-center justify-center mb-6"
+                  className="flex flex-col items-center justify-center mb-6 p-8"
                   style={{
                     borderRadius: '20px',
                     backgroundColor: '#f2f2f2',
                     minHeight: '200px',
                   }}
                 >
-                  <div className="text-center p-6">
-                    <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ff385c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="mx-auto mb-2">
-                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                      <polyline points="22 4 12 14.01 9 11.01" />
-                    </svg>
-                    <p className="text-[#6a6a6a] text-sm m-0">Image Coming Soon</p>
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff385c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="mb-3">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                    <polyline points="22 4 12 14.01 9 11.01" />
+                  </svg>
+                  <div className="text-center">
+                    <p className="text-[#222222] text-2xl font-bold m-0 leading-tight">WRT &middot; ASD &middot; AMRT</p>
+                    <p className="text-[#6a6a6a] text-[13px] m-0 mt-2">Active IICRC certifications carried by every field technician on our Bloomfield Township roster.</p>
                   </div>
                 </div>
                 <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
                   IICRC-Certified Michigan Crews
                 </h3>
                 <p className="text-[#6a6a6a] text-[15px] leading-relaxed m-0">
-                  Every PROVAIL technician carries current IICRC credentials in Water Restoration, Applied Structural Drying, or Microbial Remediation. We follow the published S500 and S520 industry standards on every job, so your home is dried right the first time and the documentation holds up under any adjuster review.
+                  Every Provail Restoration of Bloomfield technician carries current IICRC credentials in Water Restoration, Applied Structural Drying, or Microbial Remediation. We follow the published S500 and S520 industry standards on every job, so your home is dried right the first time and the documentation holds up under any adjuster review.
                 </p>
               </div>
 
               {/* Block 2: Local Bloomfield Experts */}
               <div>
                 <div
-                  className="flex items-center justify-center mb-6"
+                  className="flex flex-col items-center justify-center mb-6 p-8"
                   style={{
                     borderRadius: '20px',
                     backgroundColor: '#f2f2f2',
                     minHeight: '200px',
                   }}
                 >
-                  <div className="text-center p-6">
-                    <svg width="56" height="56" viewBox="0 0 24 24" fill="#ff385c" className="mx-auto mb-2">
-                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                    </svg>
-                    <p className="text-[#6a6a6a] text-sm m-0">Image Coming Soon</p>
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="#ff385c" className="mb-3">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                  </svg>
+                  <div className="text-center">
+                    <p className="text-[#222222] text-2xl font-bold m-0 leading-tight">3 Counties Covered</p>
+                    <p className="text-[#6a6a6a] text-[13px] m-0 mt-2">Oakland, northern Wayne, and western Macomb &mdash; dispatched daily from our shop on West Maple Road.</p>
                   </div>
                 </div>
                 <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
@@ -610,18 +614,19 @@ export default function Home() {
               {/* Block 3: Insurance Assistance */}
               <div>
                 <div
-                  className="flex items-center justify-center mb-6"
+                  className="flex flex-col items-center justify-center mb-6 p-8"
                   style={{
                     borderRadius: '20px',
                     backgroundColor: '#f2f2f2',
                     minHeight: '200px',
                   }}
                 >
-                  <div className="text-center p-6">
-                    <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ff385c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="mx-auto mb-2">
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                    </svg>
-                    <p className="text-[#6a6a6a] text-sm m-0">Image Coming Soon</p>
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ff385c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="mb-3">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  </svg>
+                  <div className="text-center">
+                    <p className="text-[#222222] text-2xl font-bold m-0 leading-tight">17+ Carriers Direct-Billed</p>
+                    <p className="text-[#6a6a6a] text-[13px] m-0 mt-2">State Farm, Allstate, Auto-Owners, Citizens, AAA, USAA and more &mdash; we coordinate the file end to end.</p>
                   </div>
                 </div>
                 <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
@@ -641,18 +646,16 @@ export default function Home() {
         <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <div className="grid md:grid-cols-[200px_1fr] gap-12 items-center">
-              {/* Circle image left */}
+              {/* Stat circle left */}
               <div className="flex justify-center">
                 <div
                   className="w-[180px] h-[180px] flex items-center justify-center flex-shrink-0"
                   style={{ borderRadius: '50%', backgroundColor: '#f2f2f2' }}
                 >
-                  <div className="text-center">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#ff385c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="mx-auto">
-                      <circle cx="12" cy="12" r="10" />
-                      <polyline points="12 6 12 12 16 14" />
-                    </svg>
-                    <p className="text-[#6a6a6a] text-[11px] mt-2 m-0">Coming Soon</p>
+                  <div className="text-center px-4">
+                    <p className="text-[#ff385c] font-bold m-0 leading-none" style={{ fontSize: '44px', letterSpacing: '-1px' }}>60</p>
+                    <p className="text-[#222222] text-[12px] font-semibold m-0 mt-1 uppercase tracking-wide">Minutes or Less</p>
+                    <p className="text-[#6a6a6a] text-[11px] m-0 mt-1">On-site, 24/7/365</p>
                   </div>
                 </div>
               </div>
@@ -815,11 +818,11 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
               {[
-                { n: '01', t: 'Emergency Call & Dispatch', d: 'Call (248) 531-8404 anytime, day or night. A live PROVAIL team member gathers your address, the source of the water, and any safety hazards, then dispatches the closest crew to your Michigan property.' },
+                { n: '01', t: 'Emergency Call & Dispatch', d: 'Call (248) 531-8404 anytime, day or night. A live team member from Provail Restoration of Bloomfield gathers your address, the source of the water, and any safety hazards, then dispatches the closest crew to your Michigan property.' },
                 { n: '02', t: 'On-Site Inspection', d: 'We arrive within 60 minutes, locate the source, take initial moisture readings with calibrated meters, classify the water (Cat 1, 2, or 3), and walk you through what we found before any work begins.' },
                 { n: '03', t: 'Water Extraction & Removal', d: 'Truck-mounted extractors pull standing water from carpet, hardwood, tile, and concrete. We remove unsalvageable porous materials and contain the affected area to prevent cross-contamination.' },
                 { n: '04', t: 'Structural Drying & Monitoring', d: 'LGR dehumidifiers and air movers go in. We return daily to log moisture content on every assembly until your structure hits dry standard, typically three to five days.' },
-                { n: '05', t: 'Reconstruction & Sign-Off', d: 'Drywall, flooring, paint, trim, and final clean — completed by the same licensed PROVAIL team. We hand you a written warranty and a complete loss file for your records.' },
+                { n: '05', t: 'Reconstruction & Sign-Off', d: 'Drywall, flooring, paint, trim, and final clean — completed by the same licensed team at Provail Restoration of Bloomfield. We hand you a written warranty and a complete loss file for your records.' },
               ].map((step) => (
                 <div key={step.n} className="bg-[#f7f7f7] p-6" style={{ borderRadius: '20px' }}>
                   <div className="text-[#ff385c] font-bold text-2xl mb-2">{step.n}</div>
@@ -844,14 +847,14 @@ export default function Home() {
             </div>
             <div className="space-y-4">
               {[
-                { q: 'How fast can PROVAIL get to my Bloomfield property?', a: 'Our documented goal is on-site within 60 minutes of your call, 24 hours a day, 7 days a week, anywhere in Oakland County. From our Bloomfield Township shop on West Maple Road, most addresses in Birmingham, Bloomfield Hills, West Bloomfield, Troy, and Royal Oak are well inside that window.' },
+                { q: 'How fast can Provail Restoration of Bloomfield get to my property?', a: 'Our documented goal is on-site within 60 minutes of your call, 24 hours a day, 7 days a week, anywhere in Oakland County. From our Bloomfield Township shop on West Maple Road, most addresses in Birmingham, Bloomfield Hills, West Bloomfield, Troy, and Royal Oak are well inside that window.' },
                 { q: 'Do you work directly with my insurance company?', a: 'Yes. We document the damage for your insurance company, work directly with your assigned adjuster, and direct-bill most major Michigan carriers. You sign a work authorization at the start and we coordinate the file from there. We are a restoration contractor, not a public adjuster, so we never negotiate your settlement on your behalf.' },
                 { q: 'How much does water damage restoration cost in Michigan?', a: 'Pricing varies by the water category, the affected square footage, and the materials involved. Typical Bloomfield-area dry-outs range from roughly $1,500 for a small single-room loss to $10,000-plus for a fully flooded basement. We use Xactimate line-item pricing — the same software your insurance carrier uses — so the numbers reconcile cleanly.' },
                 { q: 'Will my homeowners insurance cover the loss?', a: 'Most sudden and accidental water losses (burst pipes, appliance failures, ice dams, wind-driven rain through a damaged roof) are covered under standard Michigan homeowners policies. Long-term seepage, groundwater, and surface flooding are typically excluded unless you carry a sewer/sump rider or separate flood policy. Your adjuster makes the final call, and we provide the documentation they need to make it accurately.' },
                 { q: 'How long does drying out a flooded home take?', a: 'Most residential structural dry-outs take three to five days of active equipment, depending on the materials involved. Hardwood floors and plaster walls take longer than drywall and carpet. We monitor moisture content every visit and only pull equipment when readings hit dry standard.' },
                 { q: 'Do you handle mold remediation too?', a: 'Yes. We are IICRC S520-certified for microbial remediation, build full containments with negative-air HEPA scrubbers, and remove contaminated materials safely. We also coordinate third-party post-remediation verification testing when your insurance company or a real estate transaction requires it.' },
                 { q: 'What areas of Michigan do you serve?', a: 'Our primary service area is Oakland County: Bloomfield Township, Bloomfield Hills, Birmingham, Beverly Hills, Franklin, Bingham Farms, West Bloomfield, Orchard Lake, Keego Harbor, Sylvan Lake, Pontiac, Auburn Hills, Rochester, Rochester Hills, Troy, Clawson, Royal Oak, Berkley, Huntington Woods, Oak Park, Ferndale, Southfield, Lathrup Village, Farmington, Farmington Hills, Novi, Northville, Walled Lake, Wixom, Commerce, Waterford, White Lake, Independence Township, and Clarkston. We also respond into northern Wayne and western Macomb Counties on request.' },
-                { q: 'Are you licensed and insured in Michigan?', a: 'Yes. PROVAIL Water Damage Restoration Bloomfield carries Michigan residential builder licensing, general liability, pollution liability, and workers compensation. Certificates of insurance are available on request before we step on your property.' },
+                { q: 'Are you licensed and insured in Michigan?', a: 'Yes. Provail Restoration of Bloomfield carries Michigan residential builder licensing, general liability, pollution liability, and workers compensation. Certificates of insurance are available on request before we step on your property.' },
               ].map((f) => (
                 <details key={f.q} className="bg-white p-6" style={{ borderRadius: '16px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
                   <summary className="cursor-pointer text-[#222222] font-semibold text-base list-none flex justify-between items-center">
@@ -873,14 +876,14 @@ export default function Home() {
               '@context': 'https://schema.org',
               '@type': 'FAQPage',
               mainEntity: [
-                { '@type': 'Question', name: 'How fast can PROVAIL get to my Bloomfield property?', acceptedAnswer: { '@type': 'Answer', text: 'Our documented goal is on-site within 60 minutes of your call, 24/7, anywhere in Oakland County, Michigan.' } },
+                { '@type': 'Question', name: 'How fast can Provail Restoration of Bloomfield get to my property?', acceptedAnswer: { '@type': 'Answer', text: 'Our documented goal is on-site within 60 minutes of your call, 24/7, anywhere in Oakland County, Michigan.' } },
                 { '@type': 'Question', name: 'Do you work directly with my insurance company?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We document damage for your insurance company, work directly with your adjuster, and direct-bill most major Michigan carriers. We are a restoration contractor, not a public adjuster.' } },
                 { '@type': 'Question', name: 'How much does water damage restoration cost in Michigan?', acceptedAnswer: { '@type': 'Answer', text: 'Typical Bloomfield-area dry-outs range from $1,500 for a small loss to $10,000-plus for a fully flooded basement. We use Xactimate line-item pricing.' } },
                 { '@type': 'Question', name: 'Will my homeowners insurance cover the loss?', acceptedAnswer: { '@type': 'Answer', text: 'Most sudden and accidental water losses are covered under standard Michigan homeowners policies. Long-term seepage and surface flooding are typically excluded.' } },
                 { '@type': 'Question', name: 'How long does drying out a flooded home take?', acceptedAnswer: { '@type': 'Answer', text: 'Most residential structural dry-outs take three to five days of active equipment, with daily moisture monitoring.' } },
                 { '@type': 'Question', name: 'Do you handle mold remediation?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We are IICRC S520-certified, build negative-air containments, and coordinate post-remediation verification testing.' } },
                 { '@type': 'Question', name: 'What areas of Michigan do you serve?', acceptedAnswer: { '@type': 'Answer', text: 'Primarily Oakland County, including Bloomfield Township, Birmingham, Troy, Royal Oak, Farmington Hills, Southfield, and surrounding cities. We also respond into northern Wayne and western Macomb Counties.' } },
-                { '@type': 'Question', name: 'Are you licensed and insured in Michigan?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. PROVAIL carries Michigan residential builder licensing, general liability, pollution liability, and workers compensation.' } },
+                { '@type': 'Question', name: 'Are you licensed and insured in Michigan?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Provail Restoration of Bloomfield carries Michigan residential builder licensing, general liability, pollution liability, and workers compensation.' } },
               ],
             }),
           }}
@@ -895,7 +898,7 @@ export default function Home() {
               className="text-white font-bold text-center mb-12"
               style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}
             >
-              Contact PROVAIL
+              Contact Provail Restoration of Bloomfield
             </h2>
 
             <div className="grid md:grid-cols-2 gap-12">
@@ -935,19 +938,126 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Map placeholder right */}
+              {/* Google Map embed right */}
               <div
-                className="flex items-center justify-center min-h-[350px]"
+                className="overflow-hidden min-h-[350px]"
                 style={{ borderRadius: '20px', backgroundColor: '#f2f2f2' }}
               >
-                <div className="text-center p-8">
-                  <svg width="56" height="56" viewBox="0 0 24 24" fill="#ff385c" className="mx-auto mb-3">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                  </svg>
-                  <p className="text-[#6a6a6a] text-sm m-0 mb-1">Google Map Coming Soon</p>
-                  <p className="text-[#6a6a6a] text-xs m-0">{ADDRESS_LINE1}, {ADDRESS_LINE2}</p>
-                </div>
+                <iframe
+                  src="https://maps.google.com/maps?q=4060+W+Maple+Rd+Bloomfield+Township+MI+48301&output=embed"
+                  title={`${BIZ_NAME} location map`}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  style={{ border: 0, width: '100%', height: '100%', minHeight: '350px', display: 'block' }}
+                />
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================================================================
+            9b. RELATED SERVICES & LOCATIONS - internal link hub
+            ================================================================ */}
+        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="text-center mb-12">
+              <h2
+                className="text-[#222222] font-bold mb-3"
+                style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}
+              >
+                Explore Every Service We Offer
+              </h2>
+              <p className="text-[#6a6a6a] text-lg max-w-[640px] mx-auto">
+                Dedicated pages for each restoration discipline, plus the niche emergencies Michigan homeowners search for most.
+              </p>
+            </div>
+
+            {/* Core service categories */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+              {[
+                { href: '/water-damage-restoration', label: 'Water Damage Restoration' },
+                { href: '/fire-damage-restoration', label: 'Fire Damage Restoration' },
+                { href: '/storm-damage-restoration', label: 'Storm Damage Restoration' },
+                { href: '/mold-remediation', label: 'Mold Remediation' },
+                { href: '/sewage-cleanup', label: 'Sewage Cleanup' },
+                { href: '/reconstruction-services', label: 'Reconstruction Services' },
+                { href: '/commercial-restoration', label: 'Commercial Restoration' },
+                { href: '/insurance-claims-help', label: 'Insurance Claims Help' },
+              ].map((s) => (
+                <Link
+                  key={s.href}
+                  href={s.href}
+                  className="bg-white text-[#222222] font-semibold text-[15px] flex items-center gap-2 py-4 px-5 no-underline hover:text-[#ff385c] transition-colors duration-150"
+                  style={{
+                    borderRadius: '20px',
+                    boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px',
+                  }}
+                >
+                  <span className="text-[#ff385c]">&rarr;</span>
+                  {s.label}
+                </Link>
+              ))}
+            </div>
+
+            {/* Specialty / emergency sub-services */}
+            <div className="bg-white p-8 mb-10" style={{ borderRadius: '20px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px' }}>
+              <h3 className="text-[#222222] text-xl font-semibold mb-4" style={{ letterSpacing: '-0.18px' }}>
+                Specialty Emergency Cleanups
+              </h3>
+              <p className="text-[#6a6a6a] text-[15px] leading-relaxed mb-6 m-0">
+                Targeted help for the specific failures that put Michigan homeowners on the phone with us at 2 a.m.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {[
+                  { href: '/services/basement-flood-cleanup', label: 'Basement Flood Cleanup' },
+                  { href: '/services/frozen-pipe-repair', label: 'Frozen Pipe Repair' },
+                  { href: '/services/sump-pump-failure', label: 'Sump Pump Failure' },
+                  { href: '/services/ice-dam-removal', label: 'Ice Dam Removal' },
+                  { href: '/services/smoke-odor-removal', label: 'Smoke Odor Removal' },
+                  { href: '/services/soot-cleanup', label: 'Soot Cleanup' },
+                ].map((s) => (
+                  <Link
+                    key={s.href}
+                    href={s.href}
+                    className="text-[#222222] text-[14px] font-medium flex items-center gap-2 py-2 no-underline hover:text-[#ff385c] transition-colors duration-150"
+                  >
+                    <span className="text-[#ff385c]">&bull;</span>
+                    {s.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Locations */}
+            <div className="text-center mb-6">
+              <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
+                Local Service Pages
+              </h3>
+              <p className="text-[#6a6a6a] text-[15px] m-0">Browse the cities we cover by name.</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[720px] mx-auto">
+              <Link
+                href="/bloomfield"
+                className="bg-white text-[#222222] font-semibold text-[15px] flex items-center justify-center gap-2 py-4 px-5 no-underline hover:text-[#ff385c] transition-colors duration-150"
+                style={{
+                  borderRadius: '20px',
+                  boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px',
+                }}
+              >
+                <MapPinIcon />
+                Bloomfield, MI
+              </Link>
+              <Link
+                href="/macomb-township-mi-water-damage-restoration-near-you"
+                className="bg-white text-[#222222] font-semibold text-[15px] flex items-center justify-center gap-2 py-4 px-5 no-underline hover:text-[#ff385c] transition-colors duration-150"
+                style={{
+                  borderRadius: '20px',
+                  boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px',
+                }}
+              >
+                <MapPinIcon />
+                Macomb Township, MI
+              </Link>
             </div>
           </div>
         </section>
@@ -962,7 +1072,7 @@ export default function Home() {
           <div className="flex items-center justify-center mb-6">
             <img
               src="/logo.png"
-              alt="PROVAIL Water Damage Restoration Bloomfield"
+              alt="Provail Restoration of Bloomfield"
               style={{
                 height: 48,
                 width: 'auto',

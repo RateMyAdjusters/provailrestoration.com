@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-const BIZ_NAME = 'PROVAIL Water Damage Restoration Bloomfield'
+const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title:
     'Smoke & Odor Removal Bloomfield MI | Hydroxyl, Ozone, Thermal Fogging | (248) 531-8404',
   description:
-    'Professional smoke odor removal in Bloomfield Township, MI. Hydroxyl generators, ozone treatment, thermal fogging, HVAC decontamination, and sealed-in deodorization. PROVAIL handles fire, puffback, and protein smoke odor. Call (248) 531-8404.',
+    'Professional smoke odor removal in Bloomfield Township, MI. Hydroxyl generators, ozone treatment, thermal fogging, HVAC decontamination, and sealed-in deodorization. Provail Restoration of Bloomfield handles fire, puffback, and protein smoke odor. Call (248) 531-8404.',
   keywords: [
     'smoke odor removal Bloomfield',
     'smoke smell removal Michigan',

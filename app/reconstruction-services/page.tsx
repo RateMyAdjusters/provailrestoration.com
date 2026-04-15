@@ -3,13 +3,13 @@ import type { Metadata } from 'next'
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
-const BIZ = 'PROVAIL Water Damage Restoration Bloomfield'
+const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/reconstruction-services'
 
 export const metadata: Metadata = {
   title: 'Reconstruction Services Bloomfield, MI | Post-Mitigation Rebuild | (248) 531-8404',
   description:
-    'Post-mitigation reconstruction in Bloomfield Township and Bloomfield Hills, MI. Drywall, flooring, cabinetry, paint, and trim. PROVAIL handles the rebuild after water, mold, or sewage losses. Call (248) 531-8404.',
+    'Post-mitigation reconstruction in Bloomfield Township and Bloomfield Hills, MI. Drywall, flooring, cabinetry, paint, and trim. Provail Restoration of Bloomfield handles the rebuild after water, mold, or sewage losses. Call (248) 531-8404.',
   keywords: [
     'reconstruction services Bloomfield',
     'water damage rebuild Bloomfield Township',
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'Do I need a separate contractor for the rebuild?',
-    a: 'Not with PROVAIL. We are licensed to perform both mitigation and reconstruction, which means the same project manager who documented the loss is the one who closes it out. Single-source accountability simplifies scheduling, communication, and the insurance claim file.',
+    a: 'Not with Provail Restoration of Bloomfield. We are licensed to perform both mitigation and reconstruction, which means the same project manager who documented the loss is the one who closes it out. Single-source accountability simplifies scheduling, communication, and the insurance claim file.',
   },
   {
     q: 'How long does reconstruction take?',
@@ -49,11 +49,11 @@ const faqs = [
   },
   {
     q: 'Do you handle insurance for the rebuild?',
-    a: 'Yes. PROVAIL writes reconstruction estimates that align with the same industry standard pricing platforms used by carriers, and we communicate with your adjuster on supplemental items as scope is uncovered during the rebuild. You sign off on the scope before work begins and on any supplements before they are added.',
+    a: 'Yes. We write reconstruction estimates that align with the same industry standard pricing platforms used by carriers, and we communicate with your adjuster on supplemental items as scope is uncovered during the rebuild. You sign off on the scope before work begins and on any supplements before they are added.',
   },
   {
     q: 'Are you licensed and insured?',
-    a: 'Yes. PROVAIL is licensed and insured to perform restoration and reconstruction work in Michigan. Certificates of insurance are available on request, and we pull permits where required by local building departments.',
+    a: 'Yes. Provail Restoration of Bloomfield is licensed and insured to perform restoration and reconstruction work in Michigan. Certificates of insurance are available on request, and we pull permits where required by local building departments.',
   },
   {
     q: 'Can you coordinate with subcontractors I already have?',
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: 'Do you warranty your reconstruction work?',
-    a: 'Yes. PROVAIL provides a written workmanship warranty on reconstruction labor. Material warranties are passed through from the manufacturer. Specific warranty terms are included with the project documentation at closeout.',
+    a: 'Yes. We provide a written workmanship warranty on reconstruction labor. Material warranties are passed through from the manufacturer. Specific warranty terms are included with the project documentation at closeout.',
   },
   {
     q: 'Will the work area be cleaned up daily?',
@@ -184,7 +184,7 @@ export default function ReconstructionServicesPage() {
               Reconstruction Services in Bloomfield, Michigan
             </h1>
             <p className="text-[#6a6a6a] text-lg max-w-[640px] mx-auto mb-10 leading-relaxed">
-              Drywall, insulation, flooring, cabinetry, paint, and trim. PROVAIL handles the rebuild after every water,
+              Drywall, insulation, flooring, cabinetry, paint, and trim. Provail Restoration of Bloomfield handles the rebuild after every water,
               mold, or sewage loss so a single team takes the project from emergency response to final walkthrough.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -211,7 +211,7 @@ export default function ReconstructionServicesPage() {
             </h2>
             <p className="text-[#444] mb-5">
               Mitigation is the half of a restoration project that gets the urgent attention. Reconstruction is the half
-              that determines whether the property actually feels finished when the work is done. PROVAIL is licensed in
+              that determines whether the property actually feels finished when the work is done. Provail Restoration of Bloomfield is licensed in
               Michigan to handle both, and we strongly recommend keeping the same team on the project from start to
               finish. The mitigation crew already knows the moisture history, the affected materials, the documentation
               the carrier has on file, and the homeowner. Handing the job to a separate general contractor at the
@@ -235,7 +235,7 @@ export default function ReconstructionServicesPage() {
               Flooring
             </h2>
             <p className="text-[#444] mb-5">
-              Flooring is often the largest single line item in a residential rebuild. PROVAIL installs the full range
+              Flooring is often the largest single line item in a residential rebuild. We install the full range
               of finished flooring options used in Bloomfield homes: engineered hardwood, solid hardwood, luxury vinyl
               plank, ceramic and porcelain tile, natural stone, laminate, and carpet with new pad. We source the same
               product whenever it is still in production, and we are direct with homeowners when it is not. In those
@@ -250,7 +250,7 @@ export default function ReconstructionServicesPage() {
             <p className="text-[#444] mb-5">
               Kitchens and bathrooms take the largest share of cabinet damage in water losses. Particleboard cabinet
               boxes that have wicked water rarely recover, even after drying, because the swelling and delamination
-              are permanent. Solid wood doors and face frames are sometimes salvageable. PROVAIL evaluates each cabinet
+              are permanent. Solid wood doors and face frames are sometimes salvageable. We evaluate each cabinet
               individually and recommends repair, partial replacement, or full replacement based on the condition of
               the box, the door, the finish, and the hardware. For full replacements, we work with semi-custom and
               custom cabinet shops to source a match in style and finish, and we coordinate countertop replacement
@@ -285,7 +285,7 @@ export default function ReconstructionServicesPage() {
               Coordination With Trades
             </h2>
             <p className="text-[#444] mb-5">
-              Some reconstruction projects require licensed trades for plumbing, electrical, or HVAC work. PROVAIL
+              Some reconstruction projects require licensed trades for plumbing, electrical, or HVAC work. We
               maintains relationships with licensed Michigan trades who are familiar with our project workflow, and
               we coordinate their work into the schedule so the project moves forward without unnecessary downtime.
               If you have an existing relationship with a plumber or electrician you trust, we are happy to schedule
@@ -298,7 +298,7 @@ export default function ReconstructionServicesPage() {
             <p className="text-[#444] mb-5">
               Most cosmetic rebuild work — drywall replacement, paint, flooring, baseboard — does not require a
               building permit in Bloomfield Township or surrounding communities. Structural work, electrical work,
-              plumbing modifications, and certain HVAC changes do. PROVAIL pulls the appropriate permits for any
+              plumbing modifications, and certain HVAC changes do. We pull the appropriate permits for any
               scope that requires them and schedules inspections through the local building department. We do not
               perform permitted work without the permit, regardless of how minor the change may seem.
             </p>
@@ -336,14 +336,14 @@ export default function ReconstructionServicesPage() {
               <a href="/" className="text-[#ff385c] font-semibold no-underline hover:underline">water damage restoration</a>,{' '}
               <a href="/mold-remediation" className="text-[#ff385c] font-semibold no-underline hover:underline">mold remediation</a>, and{' '}
               <a href="/sewage-cleanup" className="text-[#ff385c] font-semibold no-underline hover:underline">sewage cleanup</a>{' '}
-              pages for the steps that come before the rebuild. PROVAIL is one call for both halves of the project.
+              pages for the steps that come before the rebuild. Provail Restoration of Bloomfield is one call for both halves of the project.
             </p>
 
             <h2 className="font-bold mt-10 mb-4" style={{ fontSize: '1.625rem', letterSpacing: '-0.44px' }}>
-              Why PROVAIL
+              Why Provail Restoration of Bloomfield
             </h2>
             <p className="text-[#444] mb-5">
-              PROVAIL is a local Bloomfield restoration and reconstruction company. We are licensed and insured in
+              Provail Restoration of Bloomfield is a local restoration and reconstruction company. We are licensed and insured in
               Michigan, we carry a single project manager through the life of every job, and we close out cleanly.
               If your home or business is ready for the rebuild phase, call {PHONE} and we will schedule a scope
               walkthrough at your convenience.
@@ -377,7 +377,7 @@ export default function ReconstructionServicesPage() {
               Ready for the rebuild phase?
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              PROVAIL provides reconstruction across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield,
+              Provail Restoration of Bloomfield provides reconstruction across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield,
               Troy, and Farmington Hills.
             </p>
             <a href={PHONE_HREF}
