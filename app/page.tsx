@@ -10,40 +10,40 @@ const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 /* ── Service card data ── */
 const services = [
   {
-    title: 'Water Damage Restoration',
-    desc: 'Dealing with water damage from a burst pipe, appliance leak, or unexpected flooding? Don\u2019t let standing water cause even more damage to your home or business. Call your local Bloomfield water damage experts and let us assess the full scope of the problem. We use advanced moisture detection and industrial-grade equipment to restore your property safely and thoroughly.',
+    title: 'Residential Water Damage Restoration',
+    desc: 'From frozen pipe ruptures during a January cold snap in Bloomfield Hills to dishwasher supply-line failures in Birmingham kitchens, our IICRC-certified Michigan crews respond around the clock. We map every wet pocket with thermal imaging and penetrating moisture meters, extract standing water with truck-mounted units, and rebuild what cannot be salvaged so your home looks like the loss never happened.',
   },
   {
-    title: 'Flood Cleanup',
-    desc: 'Floodwater can carry contaminants, weaken structures, and create long-term problems if not handled properly. Our flood cleanup team removes water, sanitizes affected areas, and ensures your property is safe to occupy again. Give us a call and we\u2019ll get a crew to your location quickly so the recovery process can begin right away.',
+    title: 'Flood & Storm Cleanup',
+    desc: 'Southeast Michigan storms regularly overwhelm sump pumps and saturate window wells across Oakland County. We dispatch flood crews directly from our Bloomfield Township shop to pump out floodwater, decontaminate Category 2 and Category 3 losses to IICRC S500 standards, and dry your structure before secondary damage takes hold.',
   },
   {
-    title: 'Mold Remediation',
-    desc: 'Noticed a musty smell, discoloration on your walls, or visible mold growth? Mold can spread fast and pose serious health risks if left untreated. Call our certified mold remediation specialists to contain the problem and remove it at the source. We test, treat, and clear affected areas so you can breathe easy in your home again.',
+    title: 'Mold Inspection & Remediation',
+    desc: 'Hidden mold often blooms behind baseboards weeks after a leak is "fixed." Our remediation technicians follow IICRC S520 containment protocols, build negative-air chambers, HEPA-filter the work zone, and remove contaminated materials safely. We test before, during, and after so Michigan families can move back in with confidence.',
   },
   {
-    title: 'Structural Drying',
-    desc: 'Water damage doesn\u2019t stop at the surface\u2014moisture trapped inside walls, floors, and ceilings can cause warping, rot, and mold if not addressed. Our structural drying specialists use commercial-grade dehumidifiers and air movers to eliminate hidden moisture completely. Call the PROVAIL team to make sure your property is dried right the first time.',
+    title: 'Structural Drying & Dehumidification',
+    desc: 'Surface water is the easy part. Real damage hides inside wall cavities, hardwood subfloors, and wood-framed crawl spaces. We deploy LGR dehumidifiers and high-velocity air movers, then monitor moisture content daily until every assembly returns to dry standard, preventing warping, delamination, and microbial growth across your Michigan home.',
   },
   {
     title: 'Basement Water Extraction',
-    desc: 'Is water pooling in your basement after a storm, sump pump failure, or foundation leak? Standing water in your basement can damage your belongings, compromise your foundation, and invite mold growth. Call the PROVAIL water damage team and let us extract the water and dry out your basement completely.',
+    desc: 'Finished basements are a Bloomfield staple, and they are also the first room hit when a sump fails or groundwater rises. We extract water from carpet, pad, and concrete, dispose of unsalvageable materials per Michigan regulations, and disinfect every surface so your lower level is safe, dry, and ready to refinish.',
   },
   {
-    title: 'Sewage Cleanup',
-    desc: 'Sewage backups are more than just unpleasant\u2014they\u2019re a serious health hazard that requires professional handling. Don\u2019t attempt to clean up sewage contamination on your own. Call our trained technicians to safely remove waste, disinfect affected areas, and restore your property to a sanitary condition.',
+    title: 'Sewage & Biohazard Cleanup',
+    desc: 'Sanitary backups from clogged county lines or failed ejector pumps create Category 3 "black water" losses that demand PPE, biocides, and proper disposal. Our trained technicians remove contaminated porous materials, sanitize structural surfaces with hospital-grade antimicrobials, and restore your property to a verifiably clean condition.',
   },
   {
-    title: 'Storm Damage Repair',
-    desc: 'Severe weather can leave your property vulnerable to water intrusion, roof leaks, and structural damage. Our storm damage repair team responds fast to secure your home and begin the restoration process. Give us a call after a storm and we\u2019ll assess the damage, work with your insurance, and get your property back to its pre-storm condition.',
+    title: 'Storm & Wind Damage Repair',
+    desc: 'When derecho winds rip shingles off Birmingham roofs or fallen oaks puncture Bloomfield Village ceilings, our crews tarp, board, and stabilize within the same call. We then dry the interior, document every loss item with photo logs your insurance company expects, and coordinate full reconstruction.',
   },
   {
-    title: 'Emergency Water Removal',
-    desc: 'We offer same-day and emergency water removal services to ensure your property is protected quickly and efficiently. Our 24-hour emergency team guarantees round-the-clock availability when disaster strikes. In urgent situations, you can expect us to arrive at your property within hours, not days. Give us a call and our water removal crew will be with you shortly.',
+    title: '24/7 Emergency Water Removal',
+    desc: 'Water damage does not wait for business hours, and neither do we. Our Bloomfield Township dispatch is staffed 24/7/365, with a documented goal of arriving at your Oakland County property within 60 minutes of your call. Faster response equals lower repair costs and fewer total-loss materials.',
   },
   {
-    title: 'More Services',
-    desc: 'From dehumidification and odor removal to content restoration and insurance claim assistance, we offer a full range of water damage services. Whatever your property has been through, we have the expertise and equipment to make it right. Contact us today and we\u2019ll put together a restoration plan tailored to your needs.',
+    title: 'Reconstruction & Repairs',
+    desc: 'Drywall, flooring, cabinetry, paint, and trim — we put your home back together after the dry-out is complete. One licensed Michigan contractor handles mitigation and rebuild, so you do not have to chase three subs and reconcile two estimates.',
   },
 ]
 
@@ -335,18 +335,18 @@ export default function Home() {
 
             {/* Main heading */}
             <h1
-              className="text-[#222222] font-bold leading-[1.12] mb-5 max-w-[720px] mx-auto"
+              className="text-[#222222] font-bold leading-[1.12] mb-5 max-w-[820px] mx-auto"
               style={{
                 fontSize: 'clamp(2.25rem, 5vw, 3.5rem)',
                 letterSpacing: '-0.44px',
               }}
             >
-              Water damage restoration you can trust.
+              Michigan&apos;s 60-minute water damage restoration team.
             </h1>
 
             {/* Subtext */}
-            <p className="text-[#6a6a6a] text-lg font-normal max-w-[560px] mx-auto mb-10 leading-relaxed">
-              Serving Bloomfield Hills, Bloomfield Township, and surrounding communities with fast, professional water damage restoration.
+            <p className="text-[#6a6a6a] text-lg font-normal max-w-[640px] mx-auto mb-10 leading-relaxed">
+              IICRC-certified water removal, mold remediation, sewage cleanup, and full reconstruction for homes and businesses across Bloomfield Township, Bloomfield Hills, Birmingham, and the greater Oakland County area. Licensed, insured, and direct-billing most major Michigan carriers.
             </p>
 
             {/* CTA buttons */}
@@ -398,6 +398,35 @@ export default function Home() {
         </section>
 
         {/* ================================================================
+            2b. INTRO LONG-FORM - SEO body content
+            ================================================================ */}
+        <section className="bg-white" style={{ padding: '0 0 72px' }}>
+          <div className="max-w-[820px] mx-auto px-6">
+            <h2 className="text-[#222222] font-bold mb-5" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
+              The Michigan property owner&apos;s first call after a water loss
+            </h2>
+            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+              PROVAIL Water Damage Restoration Bloomfield is a locally owned, IICRC-certified mitigation and reconstruction firm headquartered at 4060 W Maple Rd in Bloomfield Township, Michigan. We exist for one reason: to make a flooded home or a soaked office look, smell, and feel exactly the way it did before disaster struck — fast, documented, and without the runaround that gives this industry a bad name.
+            </p>
+            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+              Southeast Michigan is a tough environment for buildings. Lake-effect humidity rolls in off the Great Lakes, January temperatures crater into the single digits, spring thaw saturates Oakland County clay, and summer thunderstorms regularly drop two inches of rain in under an hour. Every one of those conditions can put water somewhere it does not belong: behind a refrigerator water line, inside a finished basement, under a hardwood floor, or down a chimney chase. When that happens at 2 a.m. on a Sunday, you need a crew that is awake, equipped, and within driving distance of your zip code. That is the entire job description we wrote for ourselves.
+            </p>
+            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+              Our service area covers Bloomfield Hills, Bloomfield Township, Bloomfield Village, Birmingham, Beverly Hills, Franklin, Keego Harbor, West Bloomfield, Orchard Lake, Sylvan Lake, Pontiac, Auburn Hills, Rochester, Rochester Hills, Troy, Clawson, Royal Oak, Berkley, Huntington Woods, Oak Park, Ferndale, Pleasant Ridge, Southfield, Lathrup Village, Farmington, Farmington Hills, Novi, Northville, Walled Lake, Wixom, Commerce Township, Waterford, White Lake, Independence Township, and Clarkston. If you are anywhere in Oakland County or northern Wayne and Macomb Counties, we can typically be at your front door inside 60 minutes from the time you hang up the phone.
+            </p>
+            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+              Every technician on our payroll holds current IICRC credentials in Water Damage Restoration (WRT), Applied Structural Drying (ASD), or Applied Microbial Remediation (AMRT). We follow the IICRC S500 standard for water damage and the IICRC S520 standard for mold remediation — not because a marketing brochure says so, but because those documents represent the actual consensus of the restoration industry on how to do this work without making things worse. Our trucks carry truck-mounted extractors, LGR (low-grain refrigerant) dehumidifiers, axial and centrifugal air movers, HEPA air scrubbers, thermal imaging cameras, and pin and pinless moisture meters. We document moisture readings every visit, on every affected assembly, and we leave that log with your insurance adjuster.
+            </p>
+            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+              Speaking of insurance: PROVAIL direct-bills most major carriers writing policies in Michigan, including State Farm, Allstate, Auto-Owners, Hanover, Citizens, Liberty Mutual, Progressive, Travelers, USAA, Farmers, Nationwide, Chubb, Cincinnati, Hartford, AAA, MetLife, and Frankenmuth. We document the loss for your insurance company, work directly with your assigned adjuster, photograph and inventory damaged contents, and submit our scope and Xactimate estimate using the line items and pricing your carrier publishes for the Bloomfield zip code. You sign a work authorization, we coordinate with the people writing the check, and you focus on your family.
+            </p>
+            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+              Beyond emergency mitigation, PROVAIL offers full reconstruction under one roof. Once the structure is dry, the same project manager who handled your dry-out walks the rebuild scope with you: drywall, insulation, hardwood and tile flooring, cabinetry, trim, paint, and finish carpentry. Single point of contact, single contract, single warranty. No subcontractor finger-pointing when the new baseboard meets the new floor.
+            </p>
+          </div>
+        </section>
+
+        {/* ================================================================
             3. SERVICES - 3x3 grid of service cards
             ================================================================ */}
         <section id="services" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
@@ -408,10 +437,10 @@ export default function Home() {
                 className="text-[#222222] font-bold mb-3"
                 style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}
               >
-                Our Services
+                Our Michigan Restoration Services
               </h2>
-              <p className="text-[#6a6a6a] text-lg max-w-[520px] mx-auto">
-                Comprehensive water damage solutions for homes and businesses in Bloomfield.
+              <p className="text-[#6a6a6a] text-lg max-w-[640px] mx-auto">
+                A complete water damage, mold, sewage, and reconstruction lineup for homes and commercial buildings across Oakland County and Southeast Michigan.
               </p>
             </div>
 
@@ -546,12 +575,10 @@ export default function Home() {
                   </div>
                 </div>
                 <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
-                  Certified Technicians
+                  IICRC-Certified Michigan Crews
                 </h3>
                 <p className="text-[#6a6a6a] text-[15px] leading-relaxed m-0">
-                  Our IICRC-certified professionals bring precision and accountability to every project.
-                  We take time to assess the full scope of damage, explain your restoration plan clearly,
-                  and complete every step with the urgency and care your home deserves.
+                  Every PROVAIL technician carries current IICRC credentials in Water Restoration, Applied Structural Drying, or Microbial Remediation. We follow the published S500 and S520 industry standards on every job, so your home is dried right the first time and the documentation holds up under any adjuster review.
                 </p>
               </div>
 
@@ -573,12 +600,10 @@ export default function Home() {
                   </div>
                 </div>
                 <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
-                  Local Bloomfield Experts
+                  Locally Owned in Bloomfield Township
                 </h3>
                 <p className="text-[#6a6a6a] text-[15px] leading-relaxed m-0">
-                  We&apos;re locally owned and deeply rooted in the Bloomfield community, backed by advanced
-                  training and restoration technology you can count on. You&apos;ll always get a rapid response
-                  from a team that truly understands your home and your neighborhood.
+                  We are headquartered on West Maple Road, not in a corporate call center two states away. Our owners answer the phone, our trucks live in Oakland County, and our crews know the difference between a Bloomfield Hills mid-century basement and a Birmingham bungalow crawl space.
                 </p>
               </div>
 
@@ -600,12 +625,10 @@ export default function Home() {
                   </div>
                 </div>
                 <h3 className="text-[#222222] text-xl font-semibold mb-3" style={{ letterSpacing: '-0.18px' }}>
-                  Insurance Assistance
+                  Direct-Bill Insurance Documentation
                 </h3>
                 <p className="text-[#6a6a6a] text-[15px] leading-relaxed m-0">
-                  We make it easier to navigate the claims process with direct insurance coordination
-                  on water damage repairs and restoration, so you can focus on getting your life back
-                  to normal, with paperwork that&apos;s handled from start to finish.
+                  We document every wet material, every moisture reading, and every line item so your insurance company has a complete file. We work directly with your assigned adjuster and direct-bill most major Michigan carriers, so you never write a check up front for the covered portion of your loss.
                 </p>
               </div>
             </div>
@@ -776,6 +799,92 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ================================================================
+            8b. PROCESS - 5 step
+            ================================================================ */}
+        <section className="bg-white" style={{ padding: '80px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="text-center mb-12">
+              <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
+                Our 5-Step Restoration Process
+              </h2>
+              <p className="text-[#6a6a6a] text-lg max-w-[640px] mx-auto">
+                The same documented workflow on every Michigan loss, residential or commercial.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+              {[
+                { n: '01', t: 'Emergency Call & Dispatch', d: 'Call (248) 531-8404 anytime, day or night. A live PROVAIL team member gathers your address, the source of the water, and any safety hazards, then dispatches the closest crew to your Michigan property.' },
+                { n: '02', t: 'On-Site Inspection', d: 'We arrive within 60 minutes, locate the source, take initial moisture readings with calibrated meters, classify the water (Cat 1, 2, or 3), and walk you through what we found before any work begins.' },
+                { n: '03', t: 'Water Extraction & Removal', d: 'Truck-mounted extractors pull standing water from carpet, hardwood, tile, and concrete. We remove unsalvageable porous materials and contain the affected area to prevent cross-contamination.' },
+                { n: '04', t: 'Structural Drying & Monitoring', d: 'LGR dehumidifiers and air movers go in. We return daily to log moisture content on every assembly until your structure hits dry standard, typically three to five days.' },
+                { n: '05', t: 'Reconstruction & Sign-Off', d: 'Drywall, flooring, paint, trim, and final clean — completed by the same licensed PROVAIL team. We hand you a written warranty and a complete loss file for your records.' },
+              ].map((step) => (
+                <div key={step.n} className="bg-[#f7f7f7] p-6" style={{ borderRadius: '20px' }}>
+                  <div className="text-[#ff385c] font-bold text-2xl mb-2">{step.n}</div>
+                  <h3 className="text-[#222222] font-semibold text-base mb-2">{step.t}</h3>
+                  <p className="text-[#6a6a6a] text-[14px] leading-relaxed m-0">{step.d}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ================================================================
+            8c. FAQ
+            ================================================================ */}
+        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+          <div className="max-w-[820px] mx-auto px-6">
+            <div className="text-center mb-10">
+              <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
+                Frequently Asked Questions
+              </h2>
+              <p className="text-[#6a6a6a] text-lg">Straight answers about water damage, mold, and insurance in Michigan.</p>
+            </div>
+            <div className="space-y-4">
+              {[
+                { q: 'How fast can PROVAIL get to my Bloomfield property?', a: 'Our documented goal is on-site within 60 minutes of your call, 24 hours a day, 7 days a week, anywhere in Oakland County. From our Bloomfield Township shop on West Maple Road, most addresses in Birmingham, Bloomfield Hills, West Bloomfield, Troy, and Royal Oak are well inside that window.' },
+                { q: 'Do you work directly with my insurance company?', a: 'Yes. We document the damage for your insurance company, work directly with your assigned adjuster, and direct-bill most major Michigan carriers. You sign a work authorization at the start and we coordinate the file from there. We are a restoration contractor, not a public adjuster, so we never negotiate your settlement on your behalf.' },
+                { q: 'How much does water damage restoration cost in Michigan?', a: 'Pricing varies by the water category, the affected square footage, and the materials involved. Typical Bloomfield-area dry-outs range from roughly $1,500 for a small single-room loss to $10,000-plus for a fully flooded basement. We use Xactimate line-item pricing — the same software your insurance carrier uses — so the numbers reconcile cleanly.' },
+                { q: 'Will my homeowners insurance cover the loss?', a: 'Most sudden and accidental water losses (burst pipes, appliance failures, ice dams, wind-driven rain through a damaged roof) are covered under standard Michigan homeowners policies. Long-term seepage, groundwater, and surface flooding are typically excluded unless you carry a sewer/sump rider or separate flood policy. Your adjuster makes the final call, and we provide the documentation they need to make it accurately.' },
+                { q: 'How long does drying out a flooded home take?', a: 'Most residential structural dry-outs take three to five days of active equipment, depending on the materials involved. Hardwood floors and plaster walls take longer than drywall and carpet. We monitor moisture content every visit and only pull equipment when readings hit dry standard.' },
+                { q: 'Do you handle mold remediation too?', a: 'Yes. We are IICRC S520-certified for microbial remediation, build full containments with negative-air HEPA scrubbers, and remove contaminated materials safely. We also coordinate third-party post-remediation verification testing when your insurance company or a real estate transaction requires it.' },
+                { q: 'What areas of Michigan do you serve?', a: 'Our primary service area is Oakland County: Bloomfield Township, Bloomfield Hills, Birmingham, Beverly Hills, Franklin, Bingham Farms, West Bloomfield, Orchard Lake, Keego Harbor, Sylvan Lake, Pontiac, Auburn Hills, Rochester, Rochester Hills, Troy, Clawson, Royal Oak, Berkley, Huntington Woods, Oak Park, Ferndale, Southfield, Lathrup Village, Farmington, Farmington Hills, Novi, Northville, Walled Lake, Wixom, Commerce, Waterford, White Lake, Independence Township, and Clarkston. We also respond into northern Wayne and western Macomb Counties on request.' },
+                { q: 'Are you licensed and insured in Michigan?', a: 'Yes. PROVAIL Water Damage Restoration Bloomfield carries Michigan residential builder licensing, general liability, pollution liability, and workers compensation. Certificates of insurance are available on request before we step on your property.' },
+              ].map((f) => (
+                <details key={f.q} className="bg-white p-6" style={{ borderRadius: '16px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
+                  <summary className="cursor-pointer text-[#222222] font-semibold text-base list-none flex justify-between items-center">
+                    {f.q}
+                    <span className="text-[#ff385c] text-xl">+</span>
+                  </summary>
+                  <p className="text-[#6a6a6a] text-[15px] leading-relaxed mt-4 mb-0">{f.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: [
+                { '@type': 'Question', name: 'How fast can PROVAIL get to my Bloomfield property?', acceptedAnswer: { '@type': 'Answer', text: 'Our documented goal is on-site within 60 minutes of your call, 24/7, anywhere in Oakland County, Michigan.' } },
+                { '@type': 'Question', name: 'Do you work directly with my insurance company?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We document damage for your insurance company, work directly with your adjuster, and direct-bill most major Michigan carriers. We are a restoration contractor, not a public adjuster.' } },
+                { '@type': 'Question', name: 'How much does water damage restoration cost in Michigan?', acceptedAnswer: { '@type': 'Answer', text: 'Typical Bloomfield-area dry-outs range from $1,500 for a small loss to $10,000-plus for a fully flooded basement. We use Xactimate line-item pricing.' } },
+                { '@type': 'Question', name: 'Will my homeowners insurance cover the loss?', acceptedAnswer: { '@type': 'Answer', text: 'Most sudden and accidental water losses are covered under standard Michigan homeowners policies. Long-term seepage and surface flooding are typically excluded.' } },
+                { '@type': 'Question', name: 'How long does drying out a flooded home take?', acceptedAnswer: { '@type': 'Answer', text: 'Most residential structural dry-outs take three to five days of active equipment, with daily moisture monitoring.' } },
+                { '@type': 'Question', name: 'Do you handle mold remediation?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We are IICRC S520-certified, build negative-air containments, and coordinate post-remediation verification testing.' } },
+                { '@type': 'Question', name: 'What areas of Michigan do you serve?', acceptedAnswer: { '@type': 'Answer', text: 'Primarily Oakland County, including Bloomfield Township, Birmingham, Troy, Royal Oak, Farmington Hills, Southfield, and surrounding cities. We also respond into northern Wayne and western Macomb Counties.' } },
+                { '@type': 'Question', name: 'Are you licensed and insured in Michigan?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. PROVAIL carries Michigan residential builder licensing, general liability, pollution liability, and workers compensation.' } },
+              ],
+            }),
+          }}
+        />
 
         {/* ================================================================
             9. CONTACT - Dark section (#222222 bg)
