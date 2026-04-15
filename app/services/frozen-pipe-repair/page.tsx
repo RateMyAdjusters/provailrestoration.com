@@ -13,16 +13,17 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Frozen Pipe Repair & Burst Pipe Cleanup in Bloomfield, MI | (248) 531-8404',
+    'Frozen Pipe Thaw Protocol & Plumbing Repair in Bloomfield, MI | (248) 531-8404',
   description:
-    'Frozen and burst pipe water damage cleanup in Bloomfield Township and Oakland County. Safe thaw guidance, water extraction, structural drying, and ceiling/wall damage repair after a Michigan winter pipe burst. Call (248) 531-8404.',
+    'Safe frozen pipe thaw methods, copper vs PEX vs PVC burst behavior, section replacement, shutoff valve location, freeze prevention, heat cable, and recirculation lines. Provail Restoration of Bloomfield: (248) 531-8404.',
   alternates: {
     canonical: 'https://provailrestoration.com/services/frozen-pipe-repair',
   },
   openGraph: {
-    title: 'Frozen Pipe Repair in Bloomfield, MI | Provail Restoration of Bloomfield',
+    title:
+      'Frozen Pipe Thaw Protocol & Plumbing Repair | Provail Restoration of Bloomfield',
     description:
-      'Burst pipe cleanup, structural drying, and ceiling/wall damage restoration in Bloomfield Township, MI. Call (248) 531-8404.',
+      'Safe thaw methods, pipe material behavior, burst patterns, PEX retrofit, and freeze prevention for Bloomfield, MI homes.',
     url: 'https://provailrestoration.com/services/frozen-pipe-repair',
     siteName: BIZ_NAME,
     locale: 'en_US',
@@ -33,46 +34,62 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: 'I think a pipe is frozen but it has not burst yet — what should I do?',
-    a: 'Open the affected faucet so water can flow as soon as the ice melts, and locate your main water shut-off in case the pipe gives way. Apply gentle warmth to the suspected frozen section using a hair dryer, a heat lamp, or warm towels. Never use an open flame, propane torch, or kerosene heater on a pipe — they are a fire hazard and can damage the pipe.',
+    q: 'What is the safest way to thaw a frozen pipe?',
+    a: 'The safest method is slow, even heat applied along the length of the frozen section with the nearest faucet opened so that melting water has somewhere to go. In practice that means a hair dryer on a low setting moving along the pipe, warm (not boiling) towels wrapped around the section and refreshed as they cool, or an electric heat-tape wrap designed for the purpose. Work from the faucet end of the pipe toward the ice, never from the middle outward — otherwise melted water gets trapped between two ice plugs and the expanding section fails. Most importantly: find the shutoff valve before you start, so you can kill the supply instantly if the thaw reveals a split.',
   },
   {
-    q: 'How much water comes out of a burst pipe?',
-    a: 'A typical residential supply line under normal pressure can release several gallons per minute. A burst that runs for an hour while no one is home can release hundreds of gallons, which is why shutting off the main water supply is the single most important thing you can do before help arrives.',
+    q: 'Why is an open flame absolutely off the table?',
+    a: 'A propane torch or any open-flame device is categorically forbidden for thawing a domestic water line. It is the single most common cause of house fires attributable to frozen pipe response. Wood framing, dust, pipe wrap, cellulose insulation, and the kraft paper facing on fiberglass batts all ignite at temperatures well below what a torch puts on a copper pipe. Propane torches also superheat the copper unevenly, which can cause a steam flash inside the pipe and a violent local rupture. There is no situation in which an open flame is acceptable. Use a hair dryer, heat tape, or warm towels — never fire.',
   },
   {
-    q: 'Why do pipes burst when they thaw?',
-    a: 'When water freezes inside a pipe, the expanding ice creates pressure between the ice plug and any closed valve or fixture downstream. The pipe wall fails at its weakest point under that pressure. The actual leak often does not appear until the ice begins to melt and water can flow through the rupture.',
+    q: 'Can I use a steamer or a space heater?',
+    a: 'A properly grounded electric space heater placed several feet away from the pipe to warm the surrounding cabinet or crawl space air is acceptable and often effective, especially on long runs that you cannot easily reach directly. A commercial pipe steamer is a legitimate tool in the hands of a plumber but is not something most homeowners should be operating on a residential water line — the temperature and pressure are both real hazards. The general rule: ambient warming is safe, direct high-temperature contact is risky, and anything with a flame is off-limits.',
   },
   {
-    q: 'My ceiling is sagging from a burst pipe upstairs — is it safe?',
-    a: 'A bulging or sagging ceiling means trapped water is pooling on top of the drywall. Stay out from underneath it. Place a bucket under the lowest point and, if you have one, use a screwdriver to puncture a small drain hole at the lowest sag so the water releases in a controlled way rather than collapsing the ceiling. Then call us.',
+    q: 'Do copper, PEX, PVC, and galvanized pipes burst differently?',
+    a: 'Yes — and understanding the differences helps predict where the leak will be. Rigid copper splits along a longitudinal seam, typically at or very near the coldest spot along a straight run, and the split usually opens as a clean slit an inch or two long. PEX is flexible and resilient, so it often survives a freeze that would rupture copper; when PEX does fail, the failure is most often at a fitting rather than in the middle of a run. Standard Schedule 40 PVC becomes brittle in deep cold and can crack at a joint or a tee when the ice plug forces expansion against a rigid fitting. Galvanized steel, which is still in plenty of older Bloomfield homes, tends to fail at the threaded connections where the wall is thinnest.',
   },
   {
-    q: 'What temperature do pipes start to freeze?',
-    a: 'Water itself freezes at 32 degrees Fahrenheit, but pipes inside a heated structure typically do not begin freezing until ambient temperatures around the pipe drop below about 20 degrees for an extended period. Pipes in exterior walls, unheated crawlspaces, or attics are the most vulnerable, especially during multi-day cold snaps.',
+    q: 'Where do bursts usually happen?',
+    a: 'The highest-probability burst point is not where the ice forms — it is between the ice plug and a closed faucet or fixture, because that is where the pressure has nowhere to go as water expands into ice. In practice, that means bursts cluster at elbows and tees immediately downstream of the frozen section, at the last fitting before a shutoff, and at the coldest exposed point in an unheated wall or crawl space. On copper, look for a split along the outside of the bend at an elbow. On PEX, look at fitting crimps. On galvanized, look at threaded joints.',
   },
   {
-    q: 'Will my insurance cover burst pipe damage?',
-    a: 'Most homeowners policies treat sudden and accidental discharge from a plumbing system — including a frozen pipe burst — as a covered loss, with limits and deductibles per your individual policy. Coverage may be reduced or denied if the home was unoccupied and the heat was off. We document the loss thoroughly so you can have an informed conversation with your carrier.',
+    q: 'Can a plumber just replace the burst section or does the whole run have to come out?',
+    a: 'Most of the time a section replacement is all that is needed. A plumber cuts the damaged pipe out a few inches to either side of the failure, preps the ends, and solders, crimps, or solvent-welds a new section of the same (or compatible) material into place. When the whole run has been subjected to repeated freeze-thaw cycles or the existing material is failing in multiple spots, a partial re-pipe with PEX is often the practical answer because PEX routes through existing wall cavities with fewer fittings than copper.',
   },
   {
-    q: 'How long will the drying take after a burst pipe?',
-    a: 'Most residential burst-pipe losses dry in three to five days once equipment is set. Cabinet interiors, wall cavities, and subfloor under hardwood often take the longest because they are slow to release moisture. Daily moisture readings determine when drying is complete.',
+    q: 'What is a PEX retrofit and when is it worth doing?',
+    a: 'A PEX retrofit is a partial or whole-house repipe that pulls out legacy copper or galvanized supply lines and replaces them with cross-linked polyethylene tubing and brass or poly fittings. PEX is far more freeze-tolerant than copper because it can expand slightly without rupturing, it has fewer joints, it is cheaper to install, and it does not corrode. It is worth doing when you have a history of freeze bursts on the same run, when existing galvanized is pitting or leaking, or when a remodel opens the walls anyway. It is not a DIY project — the crimp and expansion tooling is specific and the connections are life-safety critical.',
   },
   {
-    q: 'Do I need to remove drywall after a burst pipe?',
-    a: 'Sometimes. We make small inspection openings at the bottom of affected walls to check insulation and framing. If the cavity insulation is wet, the lower portion of drywall is usually removed (often called a flood cut) so the cavity can dry. If the cavity is dry and the drywall itself is salvageable, we leave it in place.',
+    q: 'Where is my main water shutoff valve and why does it matter right now?',
+    a: 'Your main shutoff is almost always on the wall where the water service enters the home from the street. In Bloomfield homes that usually means a basement wall facing the street, often inside a utility area or near the water meter. There is a second shutoff, frequently a ball valve with a lever handle, immediately after the meter. Learn both locations before you ever need them. In a frozen pipe event, the moment a thaw reveals a leak, you want to be able to close the main in under thirty seconds — every minute of continued flow is another room being soaked. If your main shutoff is seized or you cannot find it, call a plumber to service it today, not during the emergency.',
+  },
+  {
+    q: 'What is the drip technique and does it actually work?',
+    a: 'Leaving a faucet dripping during a hard freeze keeps a continuous trickle of water moving through the supply line, which does two useful things: it prevents a static column of water from building the ice plug that causes a burst, and it relieves pressure if ice does begin to form upstream. It is a well-established and effective frozen-prevention technique, especially for faucets on exterior walls or at the far end of a long unheated run. The drip does not need to be heavy — a steady drip every few seconds is enough. The downside is a marginal increase on your water bill during the cold snap, which is trivial compared to a pipe repair.',
+  },
+  {
+    q: 'Should I insulate my pipes or install heat cable?',
+    a: 'Both have a place. Closed-cell foam pipe insulation (the split tube sleeves that snap over the pipe) slows heat loss and is the right baseline treatment for any exposed pipe in an unheated basement, crawl space, or exterior wall cavity. Self-regulating heat cable — the UL-listed kind that varies its output with the ambient temperature — is added on top of insulation for sections that still freeze with insulation alone. The cable is wrapped along the pipe per manufacturer spacing, secured with listed tape, and plugged into a dedicated GFCI receptacle. Never use generic extension cords, never use cloth electrical tape, and always follow the manufacturer spacing — heat cable that overlaps itself can overheat.',
+  },
+  {
+    q: 'What about cabinet doors and outdoor hose bibs?',
+    a: 'On a hard-freeze night, open the kitchen and bathroom cabinet doors under sinks that sit against exterior walls. The cabinet interior is often several degrees colder than the room, and opening the doors lets the warmer household air circulate around the supply lines. For outdoor hose bibs, disconnect every hose before the first freeze (a hose left attached traps water in the bib), close the interior shutoff serving the bib if your home has one, and bleed the residual line by opening the exterior valve. Frost-free sillcocks handle this automatically if they are installed on a correct downslope, but a hose left attached will defeat a frost-free sillcock and cause an interior wall burst — this is one of the most common winter losses we see.',
+  },
+  {
+    q: 'What is a recirculation line and can it help prevent freezing?',
+    a: 'A hot-water recirculation system uses a small pump and a return line to keep warm water continuously moving through the hot-water supply loop, so that hot water is available at every fixture without waiting and, as a side effect, the constant motion reduces the risk of the hot side freezing during a cold snap. It is primarily a convenience and efficiency upgrade rather than a freeze-prevention strategy, but it does help on hot-side runs that are vulnerable to cold exposure. Cold-side pipes do not benefit from a recirculation loop, so insulation, heat cable, the drip technique, and cabinet doors remain the primary defenses.',
   },
 ]
 
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  serviceType: 'Frozen Pipe Repair and Burst Pipe Water Damage Cleanup',
+  serviceType: 'Frozen Pipe Thaw Protocol & Plumbing Repair Guidance',
   name: 'Frozen Pipe Repair',
   provider: {
-    '@type': 'LocalBusiness',
+    '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
     telephone: '+12485318404',
     address: {
@@ -92,7 +109,7 @@ const serviceJsonLd = {
     { '@type': 'City', name: 'Troy' },
   ],
   description:
-    'Frozen and burst pipe water damage cleanup, structural drying, and ceiling and wall damage restoration in Bloomfield Township, MI and surrounding Oakland County communities.',
+    'Safe frozen pipe thaw protocol, pipe material behavior across copper, PEX, PVC, and galvanized, burst pattern identification at elbows and fittings, PEX retrofit guidance, shutoff valve location, and winter freeze prevention through heat cable, insulation, drip technique, cabinet circulation, and outdoor hose bib bleed.',
   url: 'https://provailrestoration.com/services/frozen-pipe-repair',
 }
 
@@ -130,6 +147,31 @@ const localBusinessJsonLd = {
     },
   ],
   priceRange: '$$',
+}
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://provailrestoration.com/',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Services',
+      item: 'https://provailrestoration.com/services',
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: 'Frozen Pipe Repair',
+      item: 'https://provailrestoration.com/services/frozen-pipe-repair',
+    },
+  ],
 }
 
 const faqJsonLd = {
@@ -182,6 +224,10 @@ export default function FrozenPipeRepairPage() {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
@@ -203,7 +249,7 @@ export default function FrozenPipeRepairPage() {
               >
                 <span className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-green-500 inline-block" />
-                  Winter Emergency Service
+                  Thaw Protocol & Repair
                 </span>
                 <span className="text-[#c1c1c1]">|</span>
                 <span>Bloomfield, MI</span>
@@ -217,13 +263,14 @@ export default function FrozenPipeRepairPage() {
                 letterSpacing: '-0.44px',
               }}
             >
-              Frozen & Burst Pipe Repair in Bloomfield, MI
+              Frozen Pipe Thaw Protocol & Plumbing Repair — Bloomfield
             </h1>
 
             <p className="text-[#6a6a6a] text-lg font-normal max-w-[640px] mx-auto mb-10 leading-relaxed">
-              Michigan winters find every weak point in your plumbing. When a
-              pipe lets go, we extract the water, dry the structure, and
-              document the damage so you can move forward with confidence.
+              Safe thaw methods, pipe material behavior, burst patterns at
+              elbows, section replacement, PEX retrofit, shutoff valve
+              location, and the winter-prevention routine that keeps your
+              Bloomfield home ahead of the freeze.
             </p>
 
             <HeroCTA />
@@ -234,173 +281,290 @@ export default function FrozenPipeRepairPage() {
         <section className="bg-white" style={{ paddingBottom: '64px' }}>
           <div className="max-w-[780px] mx-auto px-6 text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
             <p>
-              Frozen pipes are a uniquely Michigan problem. Subzero overnight
-              lows in January and February push exterior wall cavities,
-              unheated garages, vacation homes left at minimum heat, and the
-              uninsulated rim joists of older Bloomfield-area homes well
-              below the threshold where standing water inside a copper or
-              PEX line will start to freeze. The freeze itself rarely causes
-              the leak. The leak comes from the pressure that ice creates
-              between itself and the next closed valve downstream — a
-              pressure that the pipe wall eventually cannot hold.
+              A frozen pipe is a physics problem dressed up as a plumbing
+              emergency. Water expands approximately nine percent as it
+              freezes, and when that expansion happens inside a closed
+              section of rigid pipe, something has to give — the pipe
+              wall, a solder joint, a fitting, or the weakest point along
+              the run. Provail Restoration of Bloomfield has responded to
+              freeze bursts in every corner of Bloomfield Township, and
+              the winter patterns are consistent enough that the right
+              decisions during the thaw usually separate a twenty-dollar
+              parts list from a finished-ceiling replacement.
             </p>
             <p>
-              When the pipe finally bursts (often hours or even a day after
-              the freeze, as the ice begins to thaw), the water can run for
-              a long time before anyone notices. We have responded to homes
-              where a single half-inch supply line in an upstairs bathroom
-              flooded three floors of living space before the homeowner came
-              home from work. That kind of loss is not unusual, and it is
-              the reason we treat burst-pipe calls with the same urgency as
-              any other major water emergency.
+              This page is about the plumbing side of the problem — how
+              to thaw safely, how different pipe materials fail, where
+              the bursts cluster, and how to prevent the next one. We are
+              a restoration contractor, not a licensed plumber, so the
+              actual solder joint or crimp connection is someone
+              else&rsquo;s scope. What we can do is walk you through the
+              thaw protocol that will not start a house fire and the
+              prevention routine that stops the problem from coming back
+              next January.
             </p>
           </div>
         </section>
 
-        {/* WHAT TO DO NOW */}
+        {/* THAW PROTOCOL */}
         <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="If It Just Happened"
-              title="What To Do In The First Five Minutes"
+              eyebrow="Thaw Protocol"
+              title="How To Thaw A Frozen Pipe Without Starting A Fire"
+              intro="Before the first warm anything touches the pipe, find the main water shutoff."
             />
-            <div className="grid md:grid-cols-3 gap-6">
-              <Card title="1. Shut Off The Water">
-                Find your main water shut-off valve and close it. In most
-                Bloomfield homes the main is near the front foundation wall,
-                near the water meter. Closing it stops the bleed at the
-                source even if the burst location is on a different floor.
-              </Card>
-              <Card title="2. Cut The Power">
-                If water is dripping near outlets, light fixtures, ceiling
-                cans, or any electrical equipment, shut off the affected
-                circuits at the breaker panel before going near the area.
-                If the entire affected level needs to be de-energized, do
-                that.
-              </Card>
-              <Card title="3. Call For Help">
-                Call us at{' '}
-                <a href={PHONE_HREF} className="text-[#ff385c] font-semibold no-underline">
-                  {PHONE}
-                </a>
-                . While you wait, move dry contents out of the area, lift
-                long curtains and bedding off the floor, and place foil or
-                plastic squares under furniture legs to prevent staining.
-              </Card>
+            <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
+              <p>
+                <strong>Step one: locate the shutoff.</strong> Your main
+                water shutoff is almost always on the wall where the water
+                service enters the home from the street — in Bloomfield,
+                that usually means a basement wall facing the road near
+                the meter. There is typically a second valve immediately
+                after the meter. Walk to both right now, before touching
+                anything. The moment the ice plug releases, a split in
+                the pipe will start flowing at full line pressure, and
+                the difference between a dry floor and a ruined ceiling
+                is measured in the seconds it takes you to close the
+                valve.
+              </p>
+              <p>
+                <strong>Step two: open the nearest faucet.</strong> Open
+                the fixture downstream of the frozen section so that
+                melting water has somewhere to go and so you get audible
+                confirmation when the thaw is progressing. If nothing is
+                trickling out, the ice is still blocking the line. When a
+                trickle begins and gradually builds, the ice is giving
+                way.
+              </p>
+              <p>
+                <strong>Step three: apply slow, even heat.</strong> Warm
+                the pipe from the faucet end toward the ice, never from
+                the middle outward. A hair dryer on low, warm (not
+                boiling) towels wrapped and refreshed, or a listed heat
+                tape are all acceptable. An electric space heater placed
+                several feet away to warm the ambient air in the cabinet
+                or crawl space is also effective, especially when you
+                cannot reach the pipe directly. Work patiently — a
+                gentle ten-minute thaw is safer than a five-minute rapid
+                thaw that shocks a fitting.
+              </p>
+              <p>
+                <strong>Never use an open flame.</strong> A propane
+                torch, a MAPP torch, a candle, or any other flame-based
+                device is absolutely forbidden on a domestic water line.
+                Open flames are the single most common cause of fires
+                attributable to frozen-pipe response. Wood framing,
+                cellulose insulation, and dust all ignite well below the
+                temperature a torch puts on copper. There is no scenario
+                in which this is a good idea. Use a hair dryer or warm
+                towels — never fire.
+              </p>
+              <p>
+                <strong>Commercial steamers</strong> exist and are
+                legitimate tools for professional plumbers, but they are
+                not something a homeowner should operate on a residential
+                line — the temperature and pressure are both real
+                hazards. When a run is deeply inaccessible, the right
+                move is to call a plumber and let them bring the right
+                equipment.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* THAW PROCESS */}
+        {/* PIPE MATERIAL BEHAVIOR */}
         <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="The Thaw"
-              title="Safely Thawing A Frozen Pipe"
+              eyebrow="Material Behavior"
+              title="How Copper, PEX, PVC, And Galvanized Fail Differently"
+            />
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card title="Rigid Copper">
+                Copper is strong in tension but has a limited ability to
+                yield before it tears. Freeze failures appear as a
+                longitudinal split along the outside wall, usually at or
+                very near the coldest point along a straight run. The
+                split is often an inch or two long and clean-edged. The
+                repair is a simple section replacement with sweated
+                joints or a press fitting.
+              </Card>
+              <Card title="PEX (Cross-Linked Polyethylene)">
+                PEX is flexible and can expand slightly with the ice
+                without rupturing, so it survives many freeze events
+                that would destroy copper. When PEX does fail, the
+                failure is usually at a crimp or expansion fitting
+                rather than in the middle of the tubing. Inspect every
+                fitting in the frozen section before assuming the line
+                is intact.
+              </Card>
+              <Card title="Schedule 40 PVC">
+                PVC becomes brittle in deep cold. Freeze failures
+                typically appear at joints and tees where rigid fittings
+                cannot flex at all — the ice plug pushes the expanding
+                water against the fitting and the plastic cracks at the
+                shoulder. Repair is a solvent-welded section replacement.
+              </Card>
+              <Card title="Galvanized Steel">
+                Still present in plenty of older Bloomfield homes.
+                Galvanized pipe is strong, but the threaded connections
+                are the thinnest part of the assembly and are where
+                corrosion accumulates. Freeze failures in galvanized
+                almost always show up at threaded joints rather than in
+                the middle of a run.
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* BURST PATTERNS & REPAIR */}
+        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <PillarSectionHeading
+              eyebrow="Burst Patterns"
+              title="Where The Failure Actually Happens — And How It Gets Repaired"
             />
             <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                If you have identified a frozen pipe before it has burst,
-                the goal is to warm it slowly and from the faucet end back
-                toward the frozen section, with the faucet open so meltwater
-                has somewhere to go. Use safe heat sources only:
+                Contrary to intuition, the pipe does not usually burst
+                at the ice plug itself. The plug blocks the line; the
+                failure happens downstream of the plug, between the ice
+                and the closed faucet or fixture, because that is where
+                the trapped water has nowhere to go as it continues to
+                expand against the rigid boundary. In practice, bursts
+                cluster at elbows and tees a short distance downstream
+                of the frozen section — the elbow is a concentration of
+                stress because the expanding water has to change
+                direction, and the outside of the bend sees the highest
+                hoop stress.
               </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>A hair dryer on a low or medium setting</li>
-                <li>An incandescent or heat-lamp bulb in a clamp light</li>
-                <li>Warm wet towels wrapped around the pipe</li>
-                <li>An electric space heater placed nearby (never directly against combustibles)</li>
-              </ul>
               <p>
-                Never use a propane torch, kerosene heater, charcoal stove,
-                or any open flame on a pipe — these are fire hazards and can
-                damage the pipe enough to create a leak you did not have
-                before. If you cannot reach the frozen section, or if you
-                are not sure where the freeze is, leave the main water valve
-                closed and call a plumber.
+                <strong>Section replacement</strong> is almost always the
+                right repair. A plumber isolates the line at the
+                nearest shutoff, cuts the damaged pipe out a few inches
+                to either side of the failure, preps the ends, and
+                installs a new section of the same or compatible
+                material. On copper the new section is soldered or
+                pressed in place. On PEX the connection is crimped or
+                expansion-fit. On PVC it is solvent welded. On
+                galvanized, the failed threaded connection is typically
+                replaced rather than re-sealed — trying to re-tape a
+                corroded male thread almost never holds.
+              </p>
+              <p>
+                <strong>PEX retrofit</strong> is the right answer when
+                you have repeatedly frozen the same run, when legacy
+                galvanized is failing in multiple spots, or when a
+                remodel has the walls open anyway. PEX routes through
+                existing cavities with fewer joints than copper, it is
+                far more freeze-tolerant, and it is cheaper to install.
+                A partial retrofit — pulling just the run that keeps
+                freezing and leaving the rest in place — is often the
+                most cost-effective upgrade. A full whole-house repipe
+                is a bigger project that makes sense when multiple runs
+                are failing on the same timeline.
               </p>
             </div>
           </div>
         </section>
 
-        {/* DAMAGE & DRYING */}
-        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+        {/* FREEZE PREVENTION */}
+        <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Wall & Ceiling Damage"
-              title="What A Burst Pipe Actually Does"
+              eyebrow="Prevention"
+              title="The Winter Routine That Actually Works"
             />
-            <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
-              <p>
-                Water from a burst supply line follows gravity through every
-                opening it can find. From a second-floor bathroom it travels
-                down through subfloor seams, along plumbing chases, into
-                ceiling cavities below, and out across the first-floor
-                ceiling drywall. Light fixtures and ceiling cans become
-                drain points. Drywall sags and eventually fails.
-              </p>
-              <p>
-                When we arrive, we map the path the water took with an
-                infrared camera and moisture meters. Wet insulation in
-                ceilings is removed because it holds water against the
-                drywall and joists. Sagging drywall is opened in controlled
-                cuts to release trapped water and allow the cavity above to
-                dry. Hardwood floors are extracted from the seams and
-                monitored daily — many can be saved if drying starts
-                quickly, though some will need replacement once full
-                moisture content data is collected.
-              </p>
-              <p>
-                The drying process itself follows the same standards-aligned
-                approach we use for every water loss: air movers and
-                dehumidifiers sized to the affected area, daily moisture
-                readings, and a documented dry standard pulled from an
-                unaffected reference area of the home. See our{' '}
-                <a
-                  href="/water-damage-restoration"
-                  className="text-[#ff385c] font-semibold no-underline"
-                >
-                  full water damage restoration page
-                </a>{' '}
-                for a deeper explanation of the structural drying process.
-              </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card title="Pipe Insulation">
+                Closed-cell foam split tubes snap over any exposed
+                supply line in a basement, crawl space, or exterior wall
+                cavity. Insulation slows heat loss but does not add
+                heat, so on the coldest nights insulation alone is
+                sometimes not enough. It is the right baseline
+                treatment.
+              </Card>
+              <Card title="Self-Regulating Heat Cable">
+                UL-listed heat cable wrapped along the pipe per
+                manufacturer spacing, secured with listed tape, and
+                plugged into a dedicated GFCI. The cable varies output
+                with temperature so it does not overheat in warm
+                conditions. Never use extension cords, never allow the
+                cable to overlap itself, and always follow the spacing
+                chart — cable piled on itself can run hot enough to
+                damage the pipe or the framing it touches.
+              </Card>
+              <Card title="The Drip Technique">
+                On a hard-freeze night, leave the faucet at the far end
+                of a vulnerable run dripping steadily. A drip every few
+                seconds prevents the static column that forms an ice
+                plug and relieves pressure if ice does begin upstream.
+                The extra water on your bill is trivial compared to a
+                burst repair.
+              </Card>
+              <Card title="Cabinet Doors Open">
+                Open the cabinets under kitchen and bathroom sinks on
+                exterior walls during a cold snap. The cabinet interior
+                is colder than the room; open doors let household air
+                circulate around the supply lines and raise the
+                cabinet temperature several degrees.
+              </Card>
+              <Card title="Outdoor Hose Bib Bleed">
+                Disconnect every hose before the first hard freeze. A
+                hose left attached traps water at the bib and defeats
+                even a frost-free sillcock, causing an interior wall
+                burst that is one of the most common winter losses we
+                see. If your home has an interior shutoff for the
+                exterior bib, close it and open the outside valve to
+                drain residual water.
+              </Card>
+              <Card title="Recirculation Lines">
+                A hot-water recirculation loop keeps warm water moving
+                through the hot-side supply and reduces freeze risk on
+                vulnerable hot-side runs as a side effect of its main
+                convenience function. It does not help the cold side —
+                for cold runs, the baseline prevention measures above
+                remain the defense.
+              </Card>
             </div>
           </div>
         </section>
 
         {/* INTERNAL LINKS */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
+        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading title="Related Pages" />
             <div className="grid md:grid-cols-3 gap-6">
-              <Card title="Water Damage Restoration">
-                Our complete{' '}
-                <a
-                  href="/water-damage-restoration"
-                  className="text-[#ff385c] font-semibold no-underline"
-                >
-                  water damage process
-                </a>{' '}
-                from response through final documentation.
-              </Card>
-              <Card title="Basement Flood Cleanup">
-                When the pipe burst happens above the basement, the water
-                often ends up there.{' '}
+              <Card title="Finished Basement Flood Cleanup">
+                When a frozen pipe bursts above a finished basement, see
+                our{' '}
                 <a
                   href="/services/basement-flood-cleanup"
                   className="text-[#ff385c] font-semibold no-underline"
                 >
-                  Basement flood cleanup
+                  finished basement flood cleanup page
+                </a>{' '}
+                for water classification and contents triage.
+              </Card>
+              <Card title="Sump Pump Hardware & Prevention">
+                Discharge line freeze-back is a winter failure mode on
+                its own — see{' '}
+                <a
+                  href="/services/sump-pump-failure"
+                  className="text-[#ff385c] font-semibold no-underline"
+                >
+                  sump pump backup and failure prevention
                 </a>
                 .
               </Card>
-              <Card title="Bloomfield Service Area">
-                Local information for the communities we serve on our{' '}
+              <Card title="Insurance Claims Help">
+                For coverage questions on a burst pipe loss, see our{' '}
                 <a
-                  href="/bloomfield"
+                  href="/insurance-claims-help"
                   className="text-[#ff385c] font-semibold no-underline"
                 >
-                  Bloomfield page
+                  insurance claims help page
                 </a>
                 .
               </Card>
@@ -409,11 +573,11 @@ export default function FrozenPipeRepairPage() {
         </section>
 
         {/* FAQ */}
-        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+        <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6">
             <PillarSectionHeading
               eyebrow="Answers"
-              title="Frozen & Burst Pipe FAQ"
+              title="Frozen Pipe Thaw & Repair FAQ"
             />
             <div className="space-y-4">
               {faqs.map((f) => (
@@ -445,7 +609,7 @@ export default function FrozenPipeRepairPage() {
         </section>
 
         {/* FINAL CTA */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
+        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6 text-center">
             <h2
               className="text-[#222222] font-bold mb-4"
@@ -454,12 +618,13 @@ export default function FrozenPipeRepairPage() {
                 letterSpacing: '-0.44px',
               }}
             >
-              Pipe burst? We are on the way.
+              Pipe already burst and water coming through the ceiling?
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              Shut the water off, then call{' '}
-              <a href={PHONE_HREF} className="text-[#ff385c] font-semibold no-underline">{PHONE}</a>. A live person answers, every hour of the
-              winter.
+              Shut the main, then call <a href={PHONE_HREF} className="text-[#ff385c] font-semibold no-underline">{PHONE}</a>. Provail
+              Restoration of Bloomfield answers in person around the clock
+              and will dispatch a cleanup crew while you call a plumber for
+              the repair.
             </p>
             <HeroCTA />
             <p className="text-[#6a6a6a] text-sm mt-8">

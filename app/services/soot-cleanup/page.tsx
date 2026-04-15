@@ -6,96 +6,103 @@ const PHONE_HREF = 'tel:+12485318404'
 const SMS_HREF = 'sms:+12485318404'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
+const PAGE_URL = 'https://provailrestoration.com/services/soot-cleanup'
 
 export const metadata: Metadata = {
   title:
-    'Soot Cleanup Bloomfield MI | Wet, Dry, Protein & Puffback Residue | (248) 531-8404',
+    'Surface-Specific Soot Cleanup — Electronics, Art, Stone, Textiles & HVAC | (248) 531-8404',
   description:
-    'Professional soot cleanup in Bloomfield Township, MI. Provail Restoration of Bloomfield handles wet smoke, dry smoke, protein residue, and furnace puffback soot on every interior surface. IICRC S700 trained crews. Call (248) 531-8404 for an assessment.',
+    'Specialized soot cleanup by surface type: circuit boards and electronics, fine art, marble and natural stone, brass and bronze, clothing and upholstery, HVAC ductwork, photographs and documents, jewelry. Provail Restoration of Bloomfield serves Oakland County.',
   keywords: [
-    'soot cleanup Bloomfield',
-    'soot removal Bloomfield Township',
-    'puffback cleanup Michigan',
-    'protein fire residue cleanup',
-    'wet smoke cleanup Bloomfield',
-    'dry smoke removal Oakland County',
-    'furnace soot cleanup',
-    'kitchen soot cleanup',
+    'electronics soot cleaning',
+    'art soot restoration',
+    'marble soot cleanup',
+    'textile soot cleaning Bloomfield',
+    'HVAC duct soot removal',
+    'document soot recovery',
+    'jewelry soot cleaning',
+    'brass bronze soot',
   ],
   openGraph: {
-    title: 'Soot Cleanup Bloomfield MI | (248) 531-8404',
+    title: 'Surface-Specific Soot Cleanup | (248) 531-8404',
     description:
-      'Wet vs dry soot, protein fires, puffback residue, surface-specific cleaning. Provail Restoration of Bloomfield serves Bloomfield, MI.',
-    url: 'https://provailrestoration.com/services/soot-cleanup',
+      'Electronics, fine art, stone, brass, textiles, HVAC ductwork, photos, and jewelry. Each substrate has its own chemistry.',
+    url: PAGE_URL,
     siteName: BIZ_NAME,
     locale: 'en_US',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://provailrestoration.com/services/soot-cleanup',
+    canonical: PAGE_URL,
   },
   robots: { index: true, follow: true },
 }
 
 const faqs = [
   {
-    q: 'What is the difference between wet smoke and dry smoke residue?',
-    a: 'Dry smoke is produced by fast, high-temperature, oxygen-rich fires that burn paper and natural wood. The residue is powdery, non-smeary, and easier to vacuum and dry-sponge. Wet smoke is produced by slow, low-temperature, oxygen-starved fires that burn plastics and synthetics. The residue is sticky, smeary, pungent, and demands solvent cleaning. Identifying the residue type is the first step in choosing the right cleaning chemistry.',
+    q: 'Can electronics really be saved after soot exposure?',
+    a: 'Often yes, as long as they are handled before power is re-applied and before the residue attracts moisture. Combustion byproducts on circuit boards are mildly conductive and chemically aggressive, which means two separate failure modes: short circuits the next time the device is energized, and slow corrosion of copper traces and solder joints. An ultrasonic or aqueous cleaning process removes the residue from both sides of the board, and the board is then fully dried before reassembly and bench testing.',
   },
   {
-    q: 'Can I just wipe soot off myself with a wet rag?',
-    a: 'No. Wiping soot with water on a rag drives the particles deeper into porous surfaces, smears wet residue across painted finishes, and can permanently set the staining. Soot cleanup begins dry: HEPA vacuuming and chemical sponges to lift loose particulate before any liquid is introduced. Skipping the dry phase is the most common DIY mistake.',
+    q: 'Is data recovery from a sooty hard drive still possible?',
+    a: 'Usually yes for spinning and solid-state drives that were not submerged or thermally destroyed. The drive itself is disassembled in a clean environment, the PCB is cleaned, and the platters or flash chips are imaged onto new media before any repair is attempted on the original hardware. A drive that looks ruined from the outside is often recoverable from the inside, as long as it is not powered on in its dirty state first.',
   },
   {
-    q: 'What is a puffback and why is the residue so hard to clean?',
-    a: 'A puffback occurs when a malfunctioning oil burner ignites accumulated fuel inside the combustion chamber and forces a dense cloud of oily soot through the ductwork and out every supply register. The residue is fine, oily, and adhesive, and it reaches every room served by the HVAC system. Puffback cleanup almost always requires HVAC decontamination plus surface cleaning of every room in the home.',
+    q: 'How is soot removed from oil paintings and fine art?',
+    a: 'Fine art is not cleaned with the same chemistry used on drywall. Loose particulate is lifted with a soft HEPA-assisted brush and specialized dry sponges, and then the artwork is evaluated by a conservator for any residue that remains bonded to the varnish or paint layer. For originals of significant value, our role is usually to stabilize the piece, document its condition, and coordinate hand-off to a conservator who can perform solvent or aqueous reduction under controlled conditions.',
   },
   {
-    q: 'What is protein residue from a kitchen fire?',
-    a: 'Protein residue comes from burned food and grease, often from a stovetop fire or oven event. It is nearly invisible on most surfaces but extremely odorous and capable of discoloring paint and finishes. It clings to ceilings, cabinets, and upper walls because it travels with hot air. Protein residue requires aggressive degreasing chemistry and almost always needs deodorization to finish the job.',
+    q: 'Will cleaning soot off marble or granite etch the stone?',
+    a: 'It can, if the wrong chemistry is used. Marble and other calcareous stones are sensitive to acids and harsh alkalines and will etch visibly if the cleaning product does not match the substrate. The correct approach starts with dry particle lift, followed by a pH-neutral poultice to draw residue out of the pores, and finishes with a stone-safe cleaner and, where appropriate, a polish or refinishing pass for the areas where the surface gloss was affected.',
   },
   {
-    q: 'Will soot damage stainless steel, brass, marble, or finished wood?',
-    a: 'Yes, and quickly. Soot residues are acidic and begin etching metal, glass, marble, grout, and finished wood within hours. The longer the residue sits, the more permanent the staining becomes. Fast professional cleaning is the difference between saving a finish and replacing it.',
+    q: 'Can brass, bronze, and other metals be restored after soot exposure?',
+    a: 'Yes, with different approaches for protected and unprotected finishes. A lacquered brass piece is first stripped of its damaged coating, cleaned, polished, and re-lacquered. An unlacquered antique bronze is usually cleaned more conservatively to preserve the patina that collectors value, with only the soot film removed. We identify which category the piece falls into before any cleaning agent touches it.',
   },
   {
-    q: 'Does soot need to be removed from inside walls and ceilings?',
-    a: 'If smoke entered the wall or ceiling cavity, yes. Cavity contamination is reached through HVAC decontamination, controlled removal of compromised drywall, sealing of porous substrates, and air-phase deodorization with thermal fog or hydroxyls. Surface cleaning alone leaves cavity residue behind, which is the most common reason odor returns after a cleanup.',
+    q: 'Do clothes and upholstery need to be cleaned off-site?',
+    a: 'Almost always. Soft goods affected by soot are inventoried, packed out, and processed at a textile cleaning facility where the right combination of dry cleaning, wet cleaning, ozone, and hydroxyl treatment can be applied for each fabric type. Attempting to wash lightly sooted garments in a home washer sets the residue into the fibers permanently and usually makes recovery impossible.',
   },
   {
-    q: 'How long does soot cleanup take?',
-    a: 'A small protein or puffback event can be completed in two to five days. A whole-home soot cleanup after a structural fire generally runs one to three weeks. Heavy losses with reconstruction take longer. Every project is scoped individually before a timeline is committed to.',
+    q: 'How is HVAC ductwork actually cleaned after soot exposure?',
+    a: 'Mechanical cleaning with agitation and negative air collection. The system is isolated at the plenum, a HEPA-filtered negative air machine pulls a vacuum on the duct interior, and rotary brushes or compressed-air whips agitate the duct walls so the loose soot releases into the vacuum stream. The blower housing, coil, and registers are hand-cleaned separately. Fogging or spraying a disinfectant without mechanical cleaning does not remove soot and is not what the work should look like.',
   },
   {
-    q: 'Do you document soot damage for the insurance file?',
-    a: 'Yes. We provide photographs, room-by-room scopes, residue identification, and itemized inventories that document the condition of the property and contents. Final decisions about coverage and claim handling are between the policyholder and the insurance carrier.',
+    q: 'Can photographs and paper documents be saved after soot exposure?',
+    a: 'Many can, with the right triage. Loose soot is gently lifted with a soft brush and HEPA vacuum, and then the items are stabilized against any moisture that would drive residue deeper. High-value photos, genealogy materials, and legal documents are imaged digitally as a first safety step, then evaluated for hands-on restoration or sent to a paper conservator. Storing sooty items in sealed plastic bins before cleanup makes the residue harder to remove, not easier.',
   },
   {
-    q: 'Can soot be removed from clothing, books, and electronics?',
-    a: 'Often, yes. Textiles are processed through a professional laundry or dry-cleaning protocol matched to the fabric. Books and documents can be cleaned, freeze-dried, or digitized depending on condition. Electronics are inventoried, opened in a controlled environment, and treated by specialists. Items that cannot be safely cleaned are documented and listed as non-salvageable.',
+    q: 'What about jewelry and watches?',
+    a: 'Gold and platinum are mostly inert and clean up well with ultrasonic and steam methods. Silver tarnishes rapidly in the presence of combustion sulfur compounds and usually needs a polish step after cleaning. Watches with organic or leather components are disassembled by a watchmaker so the case can be cleaned separately from the movement and strap. Gemstones are evaluated individually because porous stones like opal, turquoise, and pearl cannot tolerate the same chemistry as diamond or sapphire.',
+  },
+  {
+    q: 'Is rug cleaning handled on-site or in a plant?',
+    a: 'Area rugs and Oriental rugs almost always go back to a plant. On-site cleaning cannot reach the backing where most of the soot has settled, and dye stability on antique rugs requires controlled water temperatures and pH. The rug is rolled, inventoried with photographs, transported, plant-cleaned, and returned. On-site cleaning is reserved for wall-to-wall carpet that is being cleaned in place as part of a broader restoration scope.',
   },
 ]
+
+const providerNode = {
+  '@type': 'HomeAndConstructionBusiness',
+  name: BIZ_NAME,
+  telephone: '+12485318404',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: ADDRESS_LINE1,
+    addressLocality: 'Bloomfield Township',
+    addressRegion: 'MI',
+    postalCode: '48301',
+    addressCountry: 'US',
+  },
+  url: 'https://provailrestoration.com',
+}
 
 const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    serviceType: 'Soot Cleanup',
-    name: 'Soot Cleanup and Removal',
-    provider: {
-      '@type': 'LocalBusiness',
-      name: BIZ_NAME,
-      telephone: '+12485318404',
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: ADDRESS_LINE1,
-        addressLocality: 'Bloomfield Township',
-        addressRegion: 'MI',
-        postalCode: '48301',
-        addressCountry: 'US',
-      },
-      url: 'https://provailrestoration.com',
-    },
+    serviceType: 'Surface-Specific Soot Cleanup',
+    name: 'Specialty Soot Cleaning by Substrate',
+    provider: providerNode,
     areaServed: [
       { '@type': 'City', name: 'Bloomfield Township' },
       { '@type': 'City', name: 'Bloomfield Hills' },
@@ -103,14 +110,17 @@ const jsonLd = [
       { '@type': 'City', name: 'West Bloomfield' },
       { '@type': 'City', name: 'Troy' },
     ],
+    description:
+      'Substrate-specific soot cleanup: electronics and data recovery, fine art, marble and natural stone, brass and bronze, textiles, HVAC ductwork, photographs and documents, and jewelry. Matched chemistry and handling for each material class.',
+    url: PAGE_URL,
   },
   {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://provailrestoration.com/services/soot-cleanup',
+    '@id': PAGE_URL + '#business',
     name: BIZ_NAME,
     telephone: '+12485318404',
-    url: 'https://provailrestoration.com/services/soot-cleanup',
+    url: PAGE_URL,
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -139,27 +149,58 @@ const jsonLd = [
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://provailrestoration.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://provailrestoration.com/services' },
+      { '@type': 'ListItem', position: 3, name: 'Surface-Specific Soot Cleanup', item: PAGE_URL },
+    ],
+  },
 ]
 
-const sootTypes = [
-  { name: 'Dry Smoke Residue', body: 'Powdery, non-smeary residue from fast, high-temperature paper and wood fires. Cleans most easily with HEPA vacuuming and dry chemical sponges before any wet cleaning begins.' },
-  { name: 'Wet Smoke Residue', body: 'Sticky, smeary, pungent residue from low-temperature plastic and synthetic fires. Requires solvent-based cleaning chemistry and is one of the most difficult residues to remove.' },
-  { name: 'Protein Residue', body: 'Nearly invisible film from burned food and kitchen grease fires. Clings to ceilings and upper walls, discolors finishes, and produces a powerful odor that requires aggressive degreasing.' },
-  { name: 'Fuel-Oil Puffback Soot', body: 'Fine, oily, adhesive residue blown through the HVAC system by a malfunctioning oil burner. Reaches every room served by the duct system and demands HVAC decontamination as part of cleanup.' },
-  { name: 'Fingerprint Residue', body: 'Light deposit left when smoke barely contacts a surface. Small footprint but still requires controlled cleaning to avoid driving residue into the substrate.' },
-  { name: 'Char & Ash', body: 'Solid combustion debris from charred building materials. Removed mechanically before any cleaning chemistry is introduced and disposed of as fire debris.' },
-]
-
-const surfaceMethods = [
-  { surface: 'Painted Drywall', method: 'HEPA vacuum, dry chemical sponge in overlapping passes, then a mild alkaline degreaser worked top to bottom. Heavily contaminated drywall may need to be removed.' },
-  { surface: 'Wood Trim & Cabinetry', method: 'Dry sponge to lift loose particulate, then a wood-safe cleaner with a soft applicator, working with the grain. Severe staining may require refinishing.' },
-  { surface: 'Hardwood Flooring', method: 'HEPA vacuum the entire surface, dry sponge, then a wood-floor-safe cleaner. Heat-warped or charred boards are removed.' },
-  { surface: 'Carpet & Pad', method: 'HEPA vacuum, then determine if the carpet and pad can be saved. Soot-saturated pad is almost always replaced; carpet may be hot-water extracted and treated.' },
-  { surface: 'Upholstery & Drapery', method: 'Inspected for fiber type and dye stability, then dry sponged, vacuumed, and either cleaned in place or pack-out cleaned at our facility.' },
-  { surface: 'Stainless Steel & Brass', method: 'Cleaned quickly to stop acidic etching, using a metal-appropriate cleaner and non-abrasive applicators.' },
-  { surface: 'Marble, Granite & Grout', method: 'Cleaned with stone-safe pH-neutral chemistry. Acidic and aggressive degreasers are avoided to prevent etching.' },
-  { surface: 'Glass & Mirrors', method: 'Soot etches glass within hours. Removed early with a glass-safe cleaner and a soft applicator before permanent staining sets.' },
-  { surface: 'HVAC Ducts & Coils', method: 'System isolated, filters replaced, ducts vacuumed and brushed, blower compartment and coil cleaned, then sealed where appropriate.' },
+const surfaces = [
+  {
+    title: 'Electronics and Circuit Boards',
+    body: 'Computers, audio gear, home automation hubs, game consoles, and any device with a populated printed circuit board is handled before power is re-applied. Combustion residue is conductive enough to cause shorts and acidic enough to corrode traces. The board is removed, washed in an aqueous or ultrasonic bath designed for electronics, fully dried, reassembled, and bench-tested. Devices that pass testing are returned with a condition report.',
+  },
+  {
+    title: 'Data Recovery and Media',
+    body: 'Spinning hard drives, solid-state drives, optical discs, memory cards, and backup tapes are treated as recovery targets rather than cleaning targets. Drives are opened in a controlled environment, the PCB is cleaned, and the data is imaged to new media before any attempt is made to restore the original hardware. The priority is getting the contents off the device safely.',
+  },
+  {
+    title: 'Fine Art: Oils, Acrylics, Works on Paper',
+    body: 'Original paintings, drawings, prints, and framed works are stabilized first: loose particulate is lifted with soft HEPA-assisted brushes and conservator-grade dry sponges, glazing is cleaned externally, and condition is documented photographically. Pieces with bonded residue on the varnish or paint layer are routed to a fine art conservator for reduction, because solvent selection and working technique on originals is not a general-trades job.',
+  },
+  {
+    title: 'Marble, Granite, and Natural Stone',
+    body: 'Calcareous stones are acid sensitive and will etch under the wrong chemistry. We start with dry particle removal, apply a pH-neutral poultice to draw residue out of the porous surface, rinse with a stone-safe cleaner, and hand off to a stone restoration specialist for any honing or polishing where the gloss was affected. Countertops, vanity tops, fireplace surrounds, and floor tile all fall into this category.',
+  },
+  {
+    title: 'Brass, Bronze, Copper, and Silver',
+    body: 'Protected finishes (lacquered brass, plated silver) are cleaned differently from unprotected ones (antique bronze with patina, raw copper). Lacquered pieces with residue trapped under damaged coating are stripped, cleaned, polished, and re-lacquered. Collectible pieces with original patina are cleaned conservatively to preserve the age value that buyers and appraisers pay for.',
+  },
+  {
+    title: 'Clothing, Upholstery, and Area Rugs',
+    body: 'Textiles are inventoried on-site, packed into labeled bins, and transported to a plant where each piece is sorted by fiber and construction before any cleaning begins. Options include dry cleaning for delicate fabrics, wet cleaning for washables, ozone and hydroxyl treatment for residual odor, and specialty wool-safe chemistry for Oriental rugs. Items are returned hung, folded, or rolled according to their construction.',
+  },
+  {
+    title: 'HVAC Ductwork (Standalone Vertical)',
+    body: 'Ductwork is a self-contained specialty: mechanical cleaning with rotary brushes or compressed-air whips, a HEPA-filtered negative air machine pulling a vacuum on the duct interior, hand cleaning of the blower housing and coil, register and grille removal and cleaning, and post-cleaning verification. We treat duct cleanup as its own project rather than a checkbox on a larger scope, because doing it correctly takes time and equipment that does not overlap with surface work elsewhere.',
+  },
+  {
+    title: 'Photographs, Documents, and Books',
+    body: 'Photos and paper are the most time-sensitive soot category. Loose particulate is brushed off, items are stabilized against humidity, irreplaceable pieces are imaged digitally, and then cleaning or conservation work is performed by hand. Heavy leather-bound volumes, family bibles, and historical documents are often routed to a paper conservator after triage and stabilization.',
+  },
+  {
+    title: 'Jewelry, Watches, and Precious Metals',
+    body: 'Gold, platinum, and most diamonds tolerate ultrasonic and steam cleaning well. Silver needs a polish step because combustion sulfur compounds tarnish it rapidly. Porous and soft stones — opal, turquoise, pearl, emerald — are cleaned conservatively. Mechanical watches with leather straps or wood cases are disassembled so each component is processed separately.',
+  },
+  {
+    title: 'Musical Instruments',
+    body: 'Pianos, brass, woodwinds, strings, and acoustic guitars each have their own tolerances. Lacquered finishes on brass are cleaned like lacquered metals, felted piano actions are treated like delicate textiles, and lacquered or varnished wood bodies are cleaned with finish-safe products. High-value instruments are referred to a luthier or technician for any work beyond surface decontamination.',
+  },
 ]
 
 function PhoneIcon({ className }: { className?: string }) {
@@ -192,7 +233,7 @@ export default function SootCleanupPage() {
             <a href="/" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Home</a>
             <a href="/bloomfield" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Bloomfield</a>
             <a href="/fire-damage-restoration" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Fire Damage</a>
-            <a href="/services/smoke-odor-removal" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Smoke &amp; Odor</a>
+            <a href="/services/smoke-odor-removal" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Smoke Odor</a>
             <a href="#contact" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Contact</a>
           </nav>
           <a href={PHONE_HREF} className="hidden md:flex items-center gap-2 text-[#222222] hover:text-[#ff385c]">
@@ -221,21 +262,21 @@ export default function SootCleanupPage() {
               <div className="flex items-center gap-3 px-6 py-3 text-[#222222] text-[14px] font-medium" style={{ borderRadius: '32px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px', backgroundColor: '#ffffff' }}>
                 <span className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-green-500 inline-block" />
-                  Soot &amp; Residue Cleanup
+                  Surface-Specific
                 </span>
                 <span className="text-[#c1c1c1]">|</span>
-                <span>IICRC S700</span>
-                <span className="text-[#c1c1c1]">|</span>
-                <span>Bloomfield, MI</span>
+                <span>Electronics &middot; Art &middot; Stone &middot; HVAC</span>
               </div>
             </div>
-            <h1 className="text-[#222222] font-bold leading-[1.12] mb-5 max-w-[820px] mx-auto" style={{ fontSize: 'clamp(2.25rem, 5vw, 3.5rem)', letterSpacing: '-0.44px' }}>
-              Soot Cleanup in Bloomfield, Michigan
+            <h1 className="text-[#222222] font-bold leading-[1.12] mb-5 max-w-[860px] mx-auto" style={{ fontSize: 'clamp(2.25rem, 5vw, 3.5rem)', letterSpacing: '-0.44px' }}>
+              Surface-Specific Soot Cleanup
             </h1>
-            <p className="text-[#6a6a6a] text-lg max-w-[660px] mx-auto mb-10 leading-relaxed">
-              Wet smoke, dry smoke, protein residue, and puffback cleanup. Surface-specific chemistry on every interior material in your home.
+            <p className="text-[#6a6a6a] text-lg max-w-[680px] mx-auto mb-10 leading-relaxed">
+              Circuit boards, fine art, marble, brass, textiles, ductwork,
+              photographs, and jewelry. Each substrate gets its own chemistry
+              and its own handling.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-4">
               <a href={PHONE_HREF} className="inline-flex items-center justify-center gap-2 text-white font-semibold text-base no-underline hover:bg-black" style={{ backgroundColor: '#222222', borderRadius: '8px', padding: '0 28px', height: '52px' }}>
                 <PhoneIcon className="text-white" />
                 Call Now: {PHONE}
@@ -252,90 +293,139 @@ export default function SootCleanupPage() {
         <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6">
             <h2 className="text-[#222222] font-bold mb-6" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.25rem)', letterSpacing: '-0.44px' }}>
-              Why Soot Cleanup Is More Than Just Wiping Surfaces
+              Why the Substrate Matters More Than the Soot
             </h2>
             <p className="text-[#222222] text-[17px] leading-[1.75] mb-5">
-              Soot looks simple. It is dark, it is on the surface, and it seems like it should come off with a damp cloth and some elbow grease. The reality is that soot is one of the most chemically aggressive substances that can land in a home. It is acidic, it begins etching metal, glass, marble, grout, and finished wood within hours of deposition, and the wrong cleaning method will permanently set the staining instead of removing it. Wiping wet soot with a rag drives the residue deeper into porous substrates and smears it across painted finishes that could otherwise have been saved.
+              Soot is soot — mostly amorphous carbon, a fraction of
+              sulfur and nitrogen oxides, trace metals, and whatever plastics
+              and synthetics were in the burning fuel. What changes from one
+              item to the next is the surface the residue has landed on. A
+              chemistry that works on painted drywall will ruin a marble
+              vanity top. A cleaning technique appropriate for a lacquered
+              brass lamp will strip the patina from an antique bronze
+              sculpture. A water bath that saves a phone&apos;s logic board
+              will destroy a leather watch strap.
             </p>
             <p className="text-[#222222] text-[17px] leading-[1.75] mb-5">
-              Effective soot cleanup begins with identification. Wet smoke from a smoldering plastic fire is treated completely differently from dry smoke from a fast paper fire, and both are different from protein residue from a kitchen grease event or oily puffback soot from a furnace failure. Each residue type calls for different chemistry, different applicators, and a different sequence of dry and wet steps. Getting the residue type right on day one is the single biggest factor in whether the cleanup succeeds.
+              The page you are on exists because most of what shows up in a
+              home after a fire is not drywall. It is the accumulated
+              contents of a life — electronics, artwork, stone, metal,
+              fabric, paper, memory cards, heirlooms, instruments, and the
+              ductwork that tied all of it together. Each of those categories
+              has its own decision tree: what can be cleaned on-site, what
+              has to go to a plant or a specialist, what is recoverable at
+              all, and what order the work has to happen in.
             </p>
             <p className="text-[#222222] text-[17px] leading-[1.75]">
-              At {BIZ_NAME}, our soot cleanup work follows the IICRC S700 standard of care. We identify the residue, isolate the affected areas, decontaminate the HVAC system so it stops spreading the problem, and then clean every interior surface using a method matched to its material. The protocol is the same whether the loss is a small puffback in one room or a whole-house cleanup after a structural fire.
+              {BIZ_NAME} handles surface-specific soot work as its own line
+              of work. On large losses it runs in parallel with structural
+              cleanup handled by our fire restoration team. On smaller
+              incidents — a furnace puffback that only affected contents,
+              an electrical event in a single room, a kitchen fire that
+              touched cabinets and personal items but left the walls
+              largely alone — surface-specific work is often the whole
+              project.
             </p>
           </div>
         </section>
 
-        {/* SOOT TYPES */}
+        {/* SURFACES GRID */}
         <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <div className="text-center mb-12">
               <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
-                Soot &amp; Residue Types We Identify
+                Substrates We Specialize In
               </h2>
-              <p className="text-[#6a6a6a] text-lg max-w-[620px] mx-auto">Identification on day one is the difference between a successful cleanup and a failed one.</p>
+              <p className="text-[#6a6a6a] text-lg max-w-[620px] mx-auto">Ten categories, each with its own protocol.</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {sootTypes.map((s) => (
-                <div key={s.name} className="bg-[#f7f7f7] p-7" style={{ borderRadius: '20px' }}>
-                  <h3 className="text-[#222222] font-bold text-[18px] mb-2" style={{ letterSpacing: '-0.2px' }}>{s.name}</h3>
-                  <p className="text-[#6a6a6a] text-[15px] leading-[1.65] m-0">{s.body}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {surfaces.map((s) => (
+                <div key={s.title} className="bg-white p-8" style={{ borderRadius: '20px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px' }}>
+                  <h3 className="text-[#222222] font-bold text-[20px] mb-3" style={{ letterSpacing: '-0.2px' }}>{s.title}</h3>
+                  <p className="text-[#6a6a6a] text-[15px] leading-[1.7] m-0">{s.body}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* SURFACE METHODS */}
+        {/* TRIAGE NARRATIVE */}
         <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
-          <div className="max-w-[1120px] mx-auto px-6">
-            <div className="text-center mb-12">
-              <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
-                Surface-by-Surface Cleaning Methods
-              </h2>
-              <p className="text-[#6a6a6a] text-lg max-w-[620px] mx-auto">Every interior material gets matched to a chemistry and sequence designed for it.</p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {surfaceMethods.map((s) => (
-                <div key={s.surface} className="bg-white p-7" style={{ borderRadius: '20px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px' }}>
-                  <h3 className="text-[#222222] font-bold text-[17px] mb-2" style={{ letterSpacing: '-0.2px' }}>{s.surface}</h3>
-                  <p className="text-[#6a6a6a] text-[15px] leading-[1.65] m-0">{s.method}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* PUFFBACK DEEP DIVE */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6">
             <h2 className="text-[#222222] font-bold mb-6" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.25rem)', letterSpacing: '-0.44px' }}>
-              Puffback Cleanup: A Special Case
+              How Surface-Specific Triage Works
             </h2>
-            <p className="text-[#222222] text-[17px] leading-[1.75] mb-5">
-              A furnace puffback is one of the most underestimated losses we respond to. There is no fire, no firefighters, no broken windows. The homeowner walks into the basement and notices a fine, oily, dark film on every surface. By the time it is discovered, the same film is in every room of the house, because the soot was forced through the supply ducts and out the registers in every room the system serves.
-            </p>
-            <p className="text-[#222222] text-[17px] leading-[1.75] mb-5">
-              Puffback residue is uniquely difficult because it is fine, oily, and adhesive. It is not the powdery dry smoke that vacuums and dry sponges remove easily. It clings, it smears, it discolors paint, and it requires solvent-based cleaning chemistry on every affected surface. The HVAC system itself almost always needs to be opened and cleaned by hand, including the supply ducts, return ducts, blower compartment, coil, and filter cabinet, before the rest of the cleanup will hold.
-            </p>
-            <p className="text-[#222222] text-[17px] leading-[1.75]">
-              Our puffback protocol is: shut the system down, isolate the contamination, document the spread, decontaminate the HVAC system end to end, clean each room top to bottom with the appropriate chemistry, deodorize with thermal fog or hydroxyls to neutralize residual odor in wall cavities and porous materials, and finish with sealing where required.
-            </p>
+            <div className="text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
+              <p>
+                The first step on any surface-specific job is an inventory
+                walk. A lead moves through the affected area and sorts items
+                into categories that match the substrate groups on this
+                page: electronics here, textiles there, art and
+                irreplaceables pulled for priority handling, stone and hard
+                surfaces marked in place, metals tagged by whether they
+                carry a protective finish, and anything that is a complete
+                loss flagged for documentation and disposal.
+              </p>
+              <p>
+                Priority handling comes next. Electronics are unplugged
+                before anyone considers powering them on to &ldquo;see if
+                they still work,&rdquo; because that single action is what
+                turns a recoverable device into a dead one. Photographs and
+                paper are moved out of humid environments before the
+                residue has a chance to bond to the surface. High-value art
+                and instruments are stabilized against any further
+                particulate exposure, usually by relocating them to a
+                clean staging area of the home or a secure off-site
+                facility.
+              </p>
+              <p>
+                Pack-out follows priority handling. Items that will be
+                cleaned at a plant are inventoried with photographs,
+                labeled, packed into containers matched to the item type,
+                and transported. The homeowner receives a copy of the
+                inventory, and so does the insurance carrier with the
+                homeowner&apos;s permission. For electronics, textiles,
+                rugs, and fine art, the plant or specialist is matched to
+                the substrate — we do not send a lacquered bronze
+                sculpture to a textile cleaner any more than we send a
+                silk rug to an electronics lab.
+              </p>
+              <p>
+                On-site work covers everything that cannot or should not
+                move. Stone countertops and tile are cleaned in place.
+                HVAC ductwork is cleaned in place. Built-in cabinetry
+                finishes are cleaned in place. Large pieces of furniture
+                that would be damaged by transport are cleaned in place.
+                The on-site portion of the job often runs in parallel with
+                the plant-processing portion so that total timeline does
+                not stack sequentially.
+              </p>
+              <p>
+                Documentation runs through every step. Condition photos at
+                intake, cleaning-in-progress shots on technically
+                demanding items, before-and-after comparisons on pieces
+                being returned to the homeowner, and a final written
+                disposition for anything that could not be saved. The
+                record is what allows a homeowner and an adjuster to
+                agree on what happened to each item without having to
+                remember it from scratch weeks later.
+              </p>
+            </div>
           </div>
         </section>
 
         {/* FAQ */}
-        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+        <section className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6">
             <div className="text-center mb-12">
               <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
-                Soot Cleanup FAQ
+                Surface-Specific Soot FAQ
               </h2>
-              <p className="text-[#6a6a6a] text-lg">Direct answers to the questions Bloomfield homeowners ask about soot.</p>
+              <p className="text-[#6a6a6a] text-lg">Answers about electronics, art, stone, metal, textiles, HVAC, paper, and jewelry.</p>
             </div>
             <div className="space-y-4">
               {faqs.map((f) => (
-                <details key={f.q} className="bg-white p-6 group" style={{ borderRadius: '16px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
+                <details key={f.q} className="bg-[#f7f7f7] p-6 group" style={{ borderRadius: '16px' }}>
                   <summary className="text-[#222222] font-semibold text-[17px] cursor-pointer list-none flex justify-between items-center">
                     {f.q}
                     <span className="text-[#ff385c] text-2xl group-open:rotate-45 transition-transform">+</span>
@@ -348,7 +438,7 @@ export default function SootCleanupPage() {
         </section>
 
         {/* INTERNAL LINKS */}
-        <section className="bg-white" style={{ padding: '60px 0' }}>
+        <section className="bg-[#f7f7f7]" style={{ padding: '60px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <h2 className="text-[#222222] font-bold mb-8 text-center" style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', letterSpacing: '-0.44px' }}>
               Related Services &amp; Locations
@@ -357,10 +447,10 @@ export default function SootCleanupPage() {
               {[
                 { label: 'Bloomfield Service Area', href: '/bloomfield' },
                 { label: 'Fire Damage Restoration', href: '/fire-damage-restoration' },
-                { label: 'Smoke & Odor Removal', href: '/services/smoke-odor-removal' },
-                { label: 'Water Damage Home', href: '/' },
+                { label: 'Non-Fire Odor Removal', href: '/services/smoke-odor-removal' },
+                { label: 'S500 Drying Process', href: '/water-damage-restoration' },
               ].map((l) => (
-                <a key={l.href} href={l.href} className="bg-[#f7f7f7] text-center text-[#222222] font-semibold text-[15px] py-5 px-5 no-underline hover:text-[#ff385c]" style={{ borderRadius: '16px' }}>
+                <a key={l.href} href={l.href} className="bg-white text-center text-[#222222] font-semibold text-[15px] py-5 px-5 no-underline hover:text-[#ff385c]" style={{ borderRadius: '16px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
                   {l.label}
                 </a>
               ))}
@@ -372,7 +462,7 @@ export default function SootCleanupPage() {
         <section id="contact" style={{ backgroundColor: '#222222', padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <h2 className="text-white font-bold text-center mb-12" style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}>
-              Get a Soot Cleanup Assessment
+              Request a Contents Assessment
             </h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>

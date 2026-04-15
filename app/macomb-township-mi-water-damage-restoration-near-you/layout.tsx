@@ -44,8 +44,9 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://provailrestoration.com/macomb-township-mi-water-damage-restoration-near-you',
+  '@type': 'HomeAndConstructionBusiness',
+  '@id': 'https://provailrestoration.com/#macomb-branch',
+  parentOrganization: { '@id': 'https://provailrestoration.com/#organization' },
   name: BUSINESS_NAME,
   description: `${BUSINESS_NAME} provides 24/7 emergency water damage restoration, flood cleanup, structural drying, and mold remediation serving Macomb Township and surrounding communities.`,
   url: 'https://provailrestoration.com/macomb-township-mi-water-damage-restoration-near-you',

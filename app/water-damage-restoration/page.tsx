@@ -11,88 +11,93 @@ import {
 } from '../_components/site-chrome'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
+const PAGE_URL = 'https://provailrestoration.com/water-damage-restoration'
 
 export const metadata: Metadata = {
   title:
-    'Water Damage Restoration in Bloomfield, MI | 24/7 Response | (248) 531-8404',
+    'IICRC S500 Water Damage Drying Process — Equipment, Timelines & Psychrometry',
   description:
-    'Comprehensive water damage restoration in Bloomfield Township and surrounding Oakland County communities. IICRC S500-aligned extraction, structural drying, dehumidification, moisture mapping, and insurance documentation. Call (248) 531-8404 for 24/7 emergency response.',
+    'A working reference on the ANSI/IICRC S500 drying process: Category 1/2/3 classification, psychrometric theory, LGR vs refrigerant vs desiccant dehumidifiers, drying chambers, moisture meter calibration, daily drying logs, and the industry dry standard. Compiled by Provail Restoration of Bloomfield.',
   alternates: {
-    canonical: 'https://provailrestoration.com/water-damage-restoration',
+    canonical: PAGE_URL,
   },
   openGraph: {
-    title: 'Water Damage Restoration in Bloomfield, MI | Provail Restoration of Bloomfield',
+    title:
+      'IICRC S500 Water Damage Drying Process — Equipment, Timelines & Psychrometry',
     description:
-      '24/7 water damage extraction, structural drying, and restoration in Bloomfield Township, MI. Call (248) 531-8404.',
-    url: 'https://provailrestoration.com/water-damage-restoration',
+      'Technical reference on psychrometry, dehumidifier selection, drying chambers, moisture meters, and S500 dry standards.',
+    url: PAGE_URL,
     siteName: BIZ_NAME,
     locale: 'en_US',
-    type: 'website',
+    type: 'article',
   },
   robots: { index: true, follow: true },
 }
 
 const faqs = [
   {
-    q: 'How quickly should water damage be addressed?',
-    a: 'Drying should begin as soon as it is safe to enter the structure. Most secondary damage — swelling of wood, delamination of laminate flooring, and microbial growth — accelerates after the first 24 to 48 hours of continuous moisture exposure. Earlier intervention generally means fewer materials need to be removed and replaced.',
+    q: 'What is the S500 dry standard and how is it set on a job?',
+    a: 'The dry standard is a reference moisture reading taken from an unaffected area of the same building, on the same material type, under similar environmental conditions. The standard itself is not a fixed percentage — it is whatever the baseline happens to be for that specific structure on that specific day. A drying project is considered complete when the affected materials return to the same range as the reference readings, verified by instrument measurements rather than a visual or tactile check.',
   },
   {
-    q: 'What does IICRC S500 mean and why does it matter?',
-    a: 'ANSI/IICRC S500 is the industry standard of care for professional water damage restoration. It defines how losses are inspected, classified by water category and damage class, dried, and documented. Working to S500 means decisions are based on measured moisture readings rather than guesswork, which protects both the property and the homeowner.',
+    q: 'Why choose an LGR dehumidifier over a conventional refrigerant unit?',
+    a: 'A low grain refrigerant unit uses a pre-cooling circuit that drops the inlet air temperature before it reaches the primary coil, which lets the machine continue to condense water vapor in conditions where a standard refrigerant dehumidifier would stall. In practical terms, LGRs keep pulling moisture when the chamber is already dry (below roughly 55 grains per pound), when surface temperatures are cool, or when the job has reached the tail end of drying and the remaining bound moisture is stubborn.',
   },
   {
-    q: 'What is the difference between Category 1, 2, and 3 water?',
-    a: 'Category 1 is clean water from a sanitary source such as a supply line. Category 2 (often called gray water) contains some contamination and may cause discomfort if contacted. Category 3 (black water) is grossly contaminated — for example sewage backups, rising surface water, or long-standing water that has degraded. Each category requires a different cleaning, decontamination, and material-removal approach.',
+    q: 'When is a desiccant dehumidifier the right call?',
+    a: 'Desiccant units move the drying process into a completely different regime: they rely on a silica or lithium chloride wheel that attracts moisture at low vapor pressures, rather than condensing it on a cold coil. That makes them valuable for cold environments, unheated crawl spaces, large-volume commercial losses, drying dense hardwood assemblies, and any situation where grain depression below what an LGR can achieve is required.',
   },
   {
-    q: 'Will my drywall and flooring need to be removed?',
-    a: 'Not always. Many materials can be dried in place with high-capacity air movers and dehumidifiers when caught early and when the water is Category 1. Materials that absorbed contaminated water, materials with structural damage, and porous items that cannot be effectively decontaminated are typically removed.',
+    q: 'How is psychrometry used day to day on a drying job?',
+    a: 'A thermo-hygrometer reading gives temperature and relative humidity for a location. Those two numbers are converted to grains of moisture per pound of dry air, which is the actual measurement technicians act on. The difference between grains inside the drying chamber and grains outside it (the grain depression) tells the technician whether the equipment balance is correct. If the chamber is not drier than the surrounding air, the dehumidifier is either undersized, damaged, or being overwhelmed by outside air infiltration.',
   },
   {
-    q: 'How long does professional structural drying take?',
-    a: 'Most residential drying projects take three to five days, though the actual time depends on how much water was absorbed, the materials involved, ambient conditions, and how quickly drying began. Daily moisture readings determine when equipment can be removed.',
+    q: 'What goes into a drying log and why does it matter?',
+    a: 'A drying log records daily temperature, relative humidity, grains per pound, and moisture content readings for each affected material at each mapped location, along with equipment status and any adjustments the technician made that day. The log is what demonstrates the job was measured rather than guessed, and it is the reference that shows, in writing, when the structure met the dry standard. Without a log the job has no verifiable endpoint.',
   },
   {
-    q: 'Do you work with insurance companies?',
-    a: 'Yes. We document the loss with photos, moisture maps, daily readings, and a detailed scope so your insurance carrier has the information needed to evaluate the claim. We do not adjust claims, negotiate settlements, or provide public-adjusting services — that work belongs to you and your carrier.',
+    q: 'How are pin and pinless moisture meters calibrated and verified?',
+    a: 'Pin meters are referenced to a calibration block of known electrical resistance and are routinely checked against that block. Pinless meters use capacitance and are verified against a calibration standard supplied by the manufacturer. Both instrument types are also sanity-checked at the start of each job by reading a known dry reference area in the same structure — if the meter reads the dry reference as abnormally high, the operator stops and investigates before relying on any other reading.',
   },
   {
-    q: 'What equipment is used to dry a structure?',
-    a: 'A typical drying setup combines submersible pumps and truck-mounted extractors for bulk water removal, low-profile and axial air movers for evaporation, refrigerant or LGR (low grain refrigerant) dehumidifiers to remove moisture from the air, and infrared cameras and pin/pinless meters to verify progress.',
+    q: 'What defines an unsalvageable porous material under S500?',
+    a: 'Porous materials that absorbed grossly contaminated water, that have lost structural integrity, that cannot be cleaned back to a sanitary condition, or that cannot be dried to within acceptable limits in a reasonable timeframe are typically classified as unsalvageable. Common examples include carpet pad that contacted Category 3 water, saturated fiberglass batt insulation, and drywall that wicked contaminated water above the flood cut line.',
   },
   {
-    q: 'Can water damage cause mold?',
-    a: 'Wet cellulose materials such as drywall, wood, and insulation can support microbial growth when they remain damp. Prompt and complete drying is the primary way to reduce that risk. If visible growth is already present when we arrive, we follow containment and remediation procedures appropriate to the situation.',
+    q: 'What is a drying chamber and when should one be built?',
+    a: 'A drying chamber is a contained volume created with polyethylene sheeting, zipper doors, and sometimes negative or positive pressure, so dehumidification can concentrate on the wet area rather than conditioning the entire building. Chambers are built when the affected footprint is a fraction of the total conditioned space, when outside air infiltration would otherwise overwhelm the equipment, or when the unaffected portion of the building needs to be isolated from the drying environment.',
   },
   {
-    q: 'Are you available after hours?',
-    a: 'Yes. Our phones are answered around the clock and a response crew can be dispatched at any hour, every day of the year.',
+    q: 'How are day-by-day milestones tracked through a typical loss?',
+    a: 'Day zero is documentation and equipment placement. Day one verifies the chamber is pulling down and confirms directional trends on the wettest materials. Days two through four are where most of the moisture comes out, with readings dropping steadily toward the dry standard. The final day is a verification pass — two consecutive readings at the dry standard before equipment is removed. Any stalled trend triggers an investigation rather than more equipment.',
   },
   {
-    q: 'What areas do you serve?',
-    a: 'We are based in Bloomfield Township and routinely respond throughout Bloomfield Hills, Birmingham, West Bloomfield, Beverly Hills, Franklin, Troy, Royal Oak, Southfield, Farmington Hills, and the broader Oakland County area.',
+    q: 'Why is documentation photography part of the drying protocol?',
+    a: 'Photographs record the condition of materials, equipment placement, meter readings, and labels at specific times. That visual record supports the written drying log, shows the chamber was configured correctly, and provides an objective reference if any decision is questioned later. Photos are taken at initial inspection, each daily monitoring visit, and at the final verification before demobilization.',
   },
 ]
+
+const providerNode = {
+  '@type': 'HomeAndConstructionBusiness',
+  name: BIZ_NAME,
+  telephone: '+12485318404',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: ADDRESS_LINE1,
+    addressLocality: 'Bloomfield Township',
+    addressRegion: 'MI',
+    postalCode: '48301',
+    addressCountry: 'US',
+  },
+  url: 'https://provailrestoration.com',
+}
 
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  serviceType: 'Water Damage Restoration',
-  name: 'Water Damage Restoration',
-  provider: {
-    '@type': 'LocalBusiness',
-    name: BIZ_NAME,
-    telephone: '+12485318404',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: ADDRESS_LINE1,
-      addressLocality: 'Bloomfield Township',
-      addressRegion: 'MI',
-      postalCode: '48301',
-      addressCountry: 'US',
-    },
-  },
+  serviceType: 'Structural Drying and Water Damage Restoration',
+  name: 'IICRC S500 Structural Drying Program',
+  provider: providerNode,
   areaServed: [
     { '@type': 'City', name: 'Bloomfield Township' },
     { '@type': 'City', name: 'Bloomfield Hills' },
@@ -103,8 +108,8 @@ const serviceJsonLd = {
     { '@type': 'City', name: 'Franklin' },
   ],
   description:
-    '24/7 emergency water damage restoration including water extraction, structural drying, dehumidification, moisture mapping, content pack-out, and insurance documentation in Bloomfield Township, MI and surrounding communities.',
-  url: 'https://provailrestoration.com/water-damage-restoration',
+    'Reference explanation of the ANSI/IICRC S500 drying process: water classification, psychrometric control, dehumidifier selection, moisture metering, drying logs, dry standard verification, and documentation.',
+  url: PAGE_URL,
 }
 
 const localBusinessJsonLd = {
@@ -113,7 +118,7 @@ const localBusinessJsonLd = {
   '@id': 'https://provailrestoration.com/water-damage-restoration#business',
   name: BIZ_NAME,
   telephone: '+12485318404',
-  url: 'https://provailrestoration.com/water-damage-restoration',
+  url: PAGE_URL,
   address: {
     '@type': 'PostalAddress',
     streetAddress: ADDRESS_LINE1,
@@ -150,6 +155,25 @@ const faqJsonLd = {
     name: f.q,
     acceptedAnswer: { '@type': 'Answer', text: f.a },
   })),
+}
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://provailrestoration.com/',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'IICRC S500 Drying Process',
+      item: PAGE_URL,
+    },
+  ],
 }
 
 function Card({
@@ -194,6 +218,10 @@ export default function WaterDamageRestorationPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
 
       <SiteHeader />
 
@@ -213,406 +241,556 @@ export default function WaterDamageRestorationPage() {
               >
                 <span className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-green-500 inline-block" />
-                  Emergency Service
+                  Technical Reference
                 </span>
                 <span className="text-[#c1c1c1]">|</span>
-                <span>24/7</span>
+                <span>ANSI/IICRC S500</span>
                 <span className="text-[#c1c1c1]">|</span>
-                <span>IICRC-Aligned</span>
+                <span>Psychrometry</span>
               </div>
             </div>
 
             <h1
-              className="text-[#222222] font-bold leading-[1.12] mb-5 max-w-[820px] mx-auto"
+              className="text-[#222222] font-bold leading-[1.12] mb-5 max-w-[860px] mx-auto"
               style={{
                 fontSize: 'clamp(2.25rem, 5vw, 3.5rem)',
                 letterSpacing: '-0.44px',
               }}
             >
-              Water Damage Restoration in Bloomfield, MI
+              The IICRC S500 Drying Process, Explained From the Field
             </h1>
 
-            <p className="text-[#6a6a6a] text-lg font-normal max-w-[640px] mx-auto mb-10 leading-relaxed">
-              From the first phone call to the final moisture reading, our team
-              follows a documented, standards-aligned process so your home gets
-              dried right the first time.
+            <p className="text-[#6a6a6a] text-lg font-normal max-w-[680px] mx-auto mb-10 leading-relaxed">
+              A plain-English walkthrough of how professional structural drying
+              actually works — water classification, psychrometric control,
+              dehumidifier selection, moisture metering, and the dry standard.
             </p>
 
             <HeroCTA />
           </div>
         </section>
 
-        {/* INTRO COPY */}
+        {/* INTRO */}
         <section className="bg-white" style={{ paddingBottom: '64px' }}>
           <div className="max-w-[780px] mx-auto px-6 text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
             <p>
-              Water damage rarely waits for a convenient moment. A failed supply
-              line at 2 a.m., an overflowing washing machine on a Saturday
-              afternoon, or a backed-up storm sewer during a Michigan
-              thunderstorm can all create the same problem: water moving where
-              it does not belong, soaking into materials that were never meant
-              to get wet. The longer that water remains, the more it spreads,
-              and the more aggressive the eventual restoration becomes.
+              Most homeowners learn about structural drying only after
+              something has gone wrong. A pinhole leak behind a refrigerator,
+              a cracked washing machine hose, a toilet supply line that let go
+              while no one was home — the discovery moment is always the same,
+              and so is the next question: what happens now, and how do we
+              know when the building is actually dry again? This page is a
+              reference guide to that question. It explains how the modern
+              water damage restoration industry answers it, using the same
+              framework the technicians on our trucks follow every day.
             </p>
             <p>
-              <strong>{BIZ_NAME}</strong> exists to compress that timeline. We
-              are a Bloomfield Township-based restoration company that responds
-              to residential and light-commercial water losses around the clock.
-              Our crews extract standing water, set structural drying systems
-              that pull moisture out of building materials, and document
-              everything so your insurance carrier has a complete picture of the
-              loss. The pages that follow walk through how the work is actually
-              done — not as a sales pitch, but as a plain-language explanation
-              of what to expect when you call us.
+              The reference document for that framework is ANSI/IICRC S500,
+              the Standard for Professional Water Damage Restoration. S500 is
+              a consensus document written and reviewed by the Institute of
+              Inspection, Cleaning and Restoration Certification, together
+              with adjusters, laboratory scientists, and contractor
+              organizations. It is not a law, but it is the closest thing the
+              industry has to a shared standard of care. When a contractor
+              and an adjuster disagree about whether enough drying was done,
+              S500 is the document they both reach for.
             </p>
             <p>
-              The information below is grounded in the ANSI/IICRC S500 Standard
-              for Professional Water Damage Restoration, which is the document
-              the broader restoration industry uses to define a reasonable
-              standard of care. It is not a substitute for an on-site
-              inspection, and every loss is unique, but it should give you a
-              framework for evaluating any restoration contractor — including
-              us.
+              What follows is how the people at <strong>{BIZ_NAME}</strong>{' '}
+              put S500 into practice. None of this is proprietary — any
+              well-trained restorer should be able to describe roughly the
+              same process. If a contractor cannot explain these concepts in
+              plain language, that is its own red flag, regardless of the
+              logo on the van.
             </p>
-          </div>
-        </section>
-
-        {/* 24/7 RESPONSE */}
-        <section id="response" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
-          <div className="max-w-[1120px] mx-auto px-6">
-            <PillarSectionHeading
-              eyebrow="Step 1"
-              title="24/7 Emergency Response"
-              intro="The first hour of a water loss is the most valuable hour you have. Here is what happens when you call."
-            />
-            <div className="grid md:grid-cols-3 gap-6">
-              <Card title="Phone Triage">
-                When you call <a href={PHONE_HREF} className="text-[#ff385c] font-semibold no-underline">{PHONE}</a>, a live person walks
-                through a short triage script: where is the water coming from,
-                is the source still active, is the power on, and is anyone in
-                the home at risk. We ask these questions because your safety
-                comes before the structure, and because the answers determine
-                what the responding crew brings to the job.
-              </Card>
-              <Card title="Source Stop & Stabilization">
-                If the water source is still flowing, we coach you through
-                shutting off the main valve, the appliance valve, or the
-                affected fixture while the crew is en route. Once we arrive, our
-                first priority on-site is making sure the source has actually
-                stopped — you cannot dry a structure that is still getting wet.
-              </Card>
-              <Card title="On-Site Assessment">
-                Within the first thirty minutes on the property, a lead
-                technician walks the affected areas with moisture meters and an
-                infrared camera. The goal is to map the actual extent of the
-                water migration, which is almost always larger than what is
-                visible on the surface.
-              </Card>
-            </div>
-
-            <div className="max-w-[780px] mx-auto mt-12 text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
-              <p>
-                Response speed matters because of what restorers call secondary
-                damage. Primary damage is whatever the water did the moment it
-                escaped — soaked drywall, a flooded basement floor, ruined
-                cardboard boxes. Secondary damage is what happens after that:
-                wood swells and cups, finish flooring delaminates, paint
-                bubbles, drywall paper softens, and microbial growth becomes a
-                real risk on damp cellulose. Most secondary damage develops
-                between 24 and 72 hours of continuous wetting. Showing up
-                quickly is the cheapest mitigation tool we have.
-              </p>
-            </div>
           </div>
         </section>
 
         {/* WATER CATEGORIES */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
+        <section id="categories" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Step 2"
-              title="Categorizing the Water"
-              intro="Not all water is equal. Cleaning, drying, and removal decisions hinge on which category we are dealing with."
+              eyebrow="Part 1"
+              title="Classifying the Water: Categories 1, 2 and 3"
+              intro="Before any drying equipment touches the building, the water itself has to be classified. Every downstream decision rests on this."
             />
             <div className="grid md:grid-cols-3 gap-6">
-              <Card title="Category 1 — Clean Water">
-                Water that originated from a sanitary source and that, at the
-                moment of release, did not pose a substantial risk to human
-                occupants. Examples include a broken copper supply line, an
-                overflowing sink with the tap left running, or a melting
-                icemaker line. Category 1 water can deteriorate to Category 2
-                or 3 quickly if it sits, contacts contaminated materials, or
-                soaks through soiled building assemblies.
+              <Card title="Category 1 — Sanitary">
+                Originates from a source that, at the moment of release, did
+                not carry substantial harm to humans. Copper or PEX supply
+                line failures, melted ice maker lines, and overflowing sinks
+                fed by clean potable water are the textbook examples. Category
+                1 water can deteriorate into Category 2 or 3 once it picks up
+                contamination from the materials it contacts or sits long
+                enough to support microbial growth.
               </Card>
-              <Card title="Category 2 — Gray Water">
-                Water that contains significant contamination — chemical,
-                biological, or physical — and could cause discomfort or illness
-                if contacted. Common sources include discharge from
-                dishwashers, washing machines, toilet overflows that contain
-                only urine, and aquariums. Porous materials like carpet pad
-                that have absorbed Category 2 water are normally removed.
+              <Card title="Category 2 — Significantly Contaminated">
+                Contains enough chemical, biological or physical contamination
+                that human contact could cause discomfort or sickness.
+                Appliance discharges, toilet overflows without solids, and
+                aquarium leaks usually land here. Porous materials that
+                absorbed Category 2 water are normally removed rather than
+                dried in place, because in-situ disinfection cannot reliably
+                reach every cellulose fiber.
               </Card>
-              <Card title="Category 3 — Black Water">
-                Grossly contaminated water that may contain pathogenic, toxic,
-                or other harmful agents. This includes sewage backups, rising
-                groundwater entering a structure, and any water originating
-                beyond the toilet trap. Category 3 jobs require containment,
-                personal protective equipment, antimicrobial treatment, and
-                more aggressive removal of porous materials.
+              <Card title="Category 3 — Grossly Contaminated">
+                Water containing pathogenic, toxic or other harmful agents —
+                sewage backups, rising groundwater, any water that has passed
+                through a toilet trap, or Category 1 or 2 water that has been
+                left stagnant long enough to degrade. Category 3 losses
+                require containment barriers, respiratory and skin
+                protection, antimicrobial treatment, and aggressive removal
+                of porous building assemblies.
               </Card>
             </div>
-            <div className="max-w-[780px] mx-auto mt-10 text-[#3c3c3c] text-[17px] leading-[1.75]">
+            <div className="max-w-[780px] mx-auto mt-10 text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                We make the category determination on-site, document it in our
-                file, and revisit it if conditions change. The category
-                directly affects what materials can be salvaged, what cleaning
-                agents are appropriate, and what protective measures the crew
-                needs to wear.
+                The category is documented at the initial inspection and
+                revisited if conditions change. Time is one of the variables
+                that changes category: water that was sanitary when it
+                escaped a sink will not remain sanitary forever if it sits
+                under a cabinet for three days. S500 is explicit that a
+                clean-water loss can mature into a contaminated one, and the
+                field technician is expected to revise the classification
+                rather than stick with the initial label for convenience.
+              </p>
+              <p>
+                The category also drives the damage class — a separate
+                concept that describes how much of the materials in a space
+                absorbed water and how fast those materials will give that
+                water back. A Class 1 loss affects a small portion of the
+                space with low-porosity materials; a Class 4 loss involves
+                deeply bound moisture in plaster, hardwood, concrete, or
+                masonry. Category and class together determine how much
+                equipment the job needs and how long it is likely to run.
               </p>
             </div>
           </div>
         </section>
 
-        {/* EXTRACTION */}
-        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+        {/* PSYCHROMETRY */}
+        <section id="psychrometry" className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Step 3"
-              title="Water Extraction"
-              intro="Removing as much liquid water as possible before drying equipment is set."
+              eyebrow="Part 2"
+              title="Psychrometry: The Physics That Drives the Job"
+              intro="The relationship between air, temperature, and water vapor is what determines whether a drying setup will work. Nothing else on the job is as important to understand."
             />
             <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                Extraction is the single most efficient step in the entire
-                restoration process. Pulling a gallon of water out as a liquid
-                takes a fraction of the energy and time it would take to
-                evaporate that same gallon with air movers and dehumidifiers.
-                For that reason our crews are aggressive about extraction
-                before any drying equipment is staged.
+                Psychrometry is the study of moist air. For a restorer it
+                comes down to three interrelated numbers: dry-bulb
+                temperature, relative humidity, and specific humidity. Dry
+                bulb is the plain thermometer reading. Relative humidity is
+                the percentage of water vapor the air is currently holding
+                compared to the maximum it could hold at that temperature.
+                Specific humidity, expressed in grains of moisture per pound
+                of dry air (GPP), is the absolute number the industry works
+                from, because unlike relative humidity it does not change
+                when the temperature moves.
               </p>
               <p>
-                On a typical residential loss we use a combination of
-                truck-mounted or portable extraction units, weighted extraction
-                tools that compress carpet pad to release entrained water, and
-                submersible pumps for situations involving more than an inch
-                or two of standing water. We extract from carpet, hardwood
-                seams, hard surface floors, and — wherever access permits —
-                from wall cavities through small drilled or removed sections
-                of base trim.
+                Grains per pound is the currency of drying. The goal during
+                structural drying is to keep the air inside the drying
+                chamber lower in grains than the wet materials, which creates
+                a vapor pressure gradient that draws moisture out of those
+                materials and into the air. The dehumidifier then captures
+                that water vapor on its coil or desiccant wheel, condenses
+                or adsorbs it, and dumps it to drain. If the chamber air is
+                not drier than the materials, evaporation stalls no matter
+                how many air movers are blowing.
               </p>
               <p>
-                When a structure has carpet over pad and the water category
-                allows it, we evaluate whether the pad can be salvaged.
-                Modern hot-melt and rebond pads often hold so much water that
-                replacement is more economical than attempting in-place
-                drying. That decision is made openly with the homeowner, with
-                the reasoning documented in writing.
+                Air movers play a supporting role. They do not remove water
+                by themselves. What they do is replace the thin, saturated
+                boundary layer of air that forms against any wet surface
+                with drier air drawn from the dehumidifier discharge. That
+                keeps the local grain count near the surface low, which
+                keeps the vapor pressure gradient steep, which keeps
+                evaporation moving. Picture a laundry line on a still day
+                versus a breezy one — the breeze is not drying the clothes,
+                it is constantly giving the water somewhere to go.
+              </p>
+              <p>
+                Three temperature readings matter on every job:
+                outside-the-chamber, inside-the-chamber, and at the
+                dehumidifier discharge. The dehumidifier discharge will
+                almost always be the warmest point in the room, because the
+                machine rejects the latent heat of condensation back into
+                the air it processes. That warmer, drier discharge air is
+                an asset when directed across wet materials and a liability
+                when allowed to dead-end into an isolated corner.
+              </p>
+              <p>
+                A drying chamber that is holding the right grain depression
+                is one of the most satisfying things to see on a monitor.
+                Outside-chamber readings might be 70 degrees and 55 percent
+                relative humidity, or about 66 GPP. Inside, the same air is
+                78 degrees and 30 percent, or about 41 GPP. That 25 GPP
+                depression tells the technician the equipment is balanced,
+                the envelope is holding, and evaporation has somewhere to
+                go. Lose that depression and drying stops.
               </p>
             </div>
           </div>
         </section>
 
-        {/* STRUCTURAL DRYING & PSYCHROMETRY */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
+        {/* DEHUMIDIFIER SELECTION */}
+        <section id="dehumidifiers" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Step 4"
-              title="Structural Drying & Dehumidification"
-              intro="The science of moving moisture out of building materials and out of your home."
+              eyebrow="Part 3"
+              title="Dehumidifier Selection: LGR, Refrigerant, and Desiccant"
+              intro="Three families of machines, each with a window of conditions where it is the right tool."
+            />
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card title="Conventional Refrigerant">
+                A standard refrigerant dehumidifier pulls air across a cold
+                coil, condenses water vapor, and returns warmer drier air to
+                the room. It works well when the incoming air is warm and
+                humid — an early-stage loss in a summer basement is a
+                textbook use case. Efficiency falls off sharply once the
+                chamber pulls below about 55 grains per pound or once
+                ambient temperatures drop into the sixties and below.
+              </Card>
+              <Card title="Low Grain Refrigerant (LGR)">
+                An LGR adds a pre-cooling circuit that drops inlet air
+                temperature before the primary coil, which lets the machine
+                keep pulling water out of air that a standard refrigerant
+                unit would treat as already dry. LGRs are the workhorses of
+                modern structural drying because they remain productive
+                deep into the tail of the drying curve, where the remaining
+                moisture is bound inside dense materials and the chamber
+                grain count is already low.
+              </Card>
+              <Card title="Desiccant">
+                A desiccant dehumidifier uses a silica gel or lithium
+                chloride rotor that attracts moisture at very low vapor
+                pressures, bypassing the refrigerant cycle entirely. That
+                lets it perform in cold environments and drive grain counts
+                lower than any refrigerant machine. The trade-off is high
+                electrical draw and significant waste heat exhausted during
+                regeneration, which is why desiccants are most common on
+                large commercial losses, cold-weather jobs, and dense
+                materials like hardwood and masonry.
+              </Card>
+            </div>
+            <div className="max-w-[780px] mx-auto mt-10 text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
+              <p>
+                Sizing the dehumidification for a job is based on the
+                affected cubic footage, the class of loss, and the target
+                grain depression. A lightly affected Class 1 living room
+                might be adequately served by a single portable LGR. A
+                Class 3 basement with saturated wall cavities and
+                carpet-over-pad typically needs multiple LGRs or a
+                combination of LGR and desiccant. Undersizing the
+                dehumidification is the single most common reason a drying
+                job runs long.
+              </p>
+              <p>
+                A useful heuristic: if the chamber grain count is not
+                trending downward on the second day, the problem is almost
+                always either undersized dehumidification or outside air
+                infiltration, not air mover placement. Adding more air
+                movers to an unbalanced chamber just stirs the air around.
+                Fixing the envelope or adding another dehumidifier is the
+                move.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* DRYING CHAMBERS */}
+        <section id="chambers" className="bg-white" style={{ padding: '80px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <PillarSectionHeading
+              eyebrow="Part 4"
+              title="Building a Drying Chamber"
+              intro="Why containment almost always produces a faster, cheaper, more measurable drying job."
             />
             <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                After extraction, the remaining moisture is bound up inside
-                building materials — drywall, wood framing, subfloor, trim,
-                cabinets, and insulation. Getting that water out is the part
-                of the job that takes the longest and where most homeowners
-                have the least visibility into what is actually happening. The
-                short version: we use air movement to evaporate moisture from
-                surfaces, and we use dehumidification to remove the resulting
-                water vapor from the air before it can re-condense on cool
-                surfaces.
+                A drying chamber is a volume of the building that has been
+                isolated from the rest of the conditioned space, usually
+                with six-mil polyethylene sheeting, zipper doors, and some
+                form of pressure control. The reason to build one is
+                straightforward: dehumidification is finite, and conditioning
+                an entire house so that one closet dries out is a waste of
+                that finite capacity. Contain the wet area, concentrate the
+                equipment, and the grain count in that pocket of air falls
+                much faster.
               </p>
               <p>
-                This relationship between air, moisture, and temperature is
-                called psychrometry. A drying chamber works because the
-                dehumidifier keeps the surrounding air drier than the wet
-                materials, which creates a vapor pressure gradient that pulls
-                moisture out of the materials and into the air, where the
-                dehumidifier can capture it and dump it down a drain or into a
-                condensate container. Air movers do not dry materials by
-                themselves — they accelerate evaporation by replacing the
-                saturated boundary layer of air immediately above a wet
-                surface with drier air from the dehumidifier&apos;s discharge.
+                Containment also answers the air infiltration problem.
+                Outside air is usually wetter than the air a dehumidifier
+                has just processed. Every leak in the building envelope, and
+                every open interior door, is a pathway for high-grain
+                outside air to wander into the chamber and partially undo
+                the work. A sealed chamber with a controlled pressure
+                relationship to the surrounding structure stays dry in a
+                way an open room never will.
               </p>
               <p>
-                We typically deploy refrigerant dehumidifiers for general
-                drying and switch to LGR (low grain refrigerant) units when
-                the cavity moisture is stubborn or the ambient temperature is
-                cool. Air movers are positioned at shallow angles along walls
-                so the airflow runs in long sweeping arcs rather than dead-end
-                jets. We map out where each piece of equipment goes and why,
-                and we keep that map updated as the job progresses.
+                Pressure relationships are themselves a tool. Pulling the
+                chamber slightly negative to the rest of the home prevents
+                odors, dust, and any potential contaminants from drifting
+                into clean areas — useful on Category 2 and 3 losses.
+                Pushing the chamber slightly positive can help drive dry,
+                dehumidified air into wall cavities when used with a mat
+                system, which is how hardwood floors are usually dried in
+                place without tearing them out.
+              </p>
+              <p>
+                The last component of a good chamber is a thermo-hygrometer
+                logging inside the chamber and a second one logging just
+                outside it. The difference between those two readings, in
+                grains, is the chamber&apos;s report card. If the inside
+                reading is not meaningfully lower than the outside reading,
+                the chamber is not doing its job and something has to
+                change before any more hours are billed.
               </p>
             </div>
           </div>
         </section>
 
-        {/* MOISTURE MAPPING */}
-        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+        {/* MOISTURE METERING */}
+        <section id="meters" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Step 5"
-              title="Moisture Mapping & Daily Monitoring"
-              intro="What gets measured gets dried. Every drying job we run is monitored daily until proven complete."
+              eyebrow="Part 5"
+              title="Moisture Meters, Calibration, and the Dry Standard"
+              intro="The numbers that decide when the job is done."
             />
             <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                On the first visit, the lead technician records moisture
-                content readings throughout the affected area and an
-                established dry standard from an unaffected area of the same
-                building. The dry standard is the target: drying is considered
-                complete when affected materials reach the same range as the
-                undamaged reference, not when they simply &quot;feel&quot; dry to the
-                touch.
+                A moisture meter is the only thing on the truck that can
+                answer the question &ldquo;is it dry?&rdquo; Two families of
+                meters are in routine use. Pin meters push two electrodes a
+                short distance into a material and measure the electrical
+                resistance between them; wet wood conducts, dry wood does
+                not, and the meter converts that resistance curve into a
+                moisture content percentage. Pinless meters use a
+                capacitance plate pressed against the surface and infer
+                moisture from how the electromagnetic field is disturbed.
+                They leave no holes, which makes them the preferred tool on
+                finished surfaces, but they read to a shallower depth than a
+                pin meter.
               </p>
               <p>
-                We use pin-type meters for invasive readings on framing and
-                subfloor, pinless meters that scan through finish surfaces
-                without leaving holes, infrared imaging to locate cool spots
-                that suggest hidden moisture, and thermo-hygrometers to track
-                grains of moisture per pound of air inside the drying chamber
-                versus outside. Every reading is logged with date, time,
-                location, and instrument used.
+                Meters are calibrated and verified in two places. First, at
+                the factory and on a manufacturer-supplied calibration
+                block or reference standard, at intervals set by the
+                manufacturer&apos;s instructions. Second, and more important
+                day to day, against a known dry reference area on the job
+                itself. The technician takes a reading from an unaffected
+                closet wall, an interior partition, or a piece of trim in
+                an undamaged room, and that reading becomes the dry standard
+                for the rest of the loss. If the meter reads the reference
+                area as surprisingly wet, the instrument is retested before
+                any data from the affected areas is trusted.
               </p>
               <p>
-                A technician returns daily to repeat the readings, adjust
-                equipment, and confirm that the structure is trending in the
-                right direction. If readings stall or move backwards, we
-                investigate why — usually it is a cavity that needs to be
-                opened, an air mover that needs to be repositioned, or a
-                dehumidifier that needs additional support. The job is not
-                done until the numbers say it is.
+                The dry standard itself is usually expressed as a moisture
+                content percentage for each material class on the job —
+                subfloor, framing, drywall, trim — along with the grain per
+                pound count that the surrounding air needs to reach. S500
+                defines drying as complete when affected materials have
+                returned to the dry standard and the chamber air is in
+                equilibrium with it. In practice that means two consecutive
+                daily readings at the dry standard, with equipment still
+                running, before demobilization is authorized.
+              </p>
+              <p>
+                Moisture readings are recorded at mapped points, not at
+                random. On the first day the technician sketches a floor
+                plan and numbers the reading points so that every
+                subsequent reading is taken from the same place. Reading
+                point 4 on day one and reading point 4 on day three are
+                reading the same piece of subfloor, three inches from the
+                same landmark. That is how trends become meaningful.
               </p>
             </div>
           </div>
         </section>
 
-        {/* CONTENT PACK-OUT */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
+        {/* DRYING LOG & DAILY MILESTONES */}
+        <section id="log" className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Step 6"
-              title="Contents & Pack-Out"
-              intro="Furniture, electronics, clothing, and the irreplaceable items that fill your home."
+              eyebrow="Part 6"
+              title="The Drying Log and Day-by-Day Milestones"
+              intro="A running journal of the job, captured at every monitoring visit."
             />
             <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                Drying a structure is only half of the work on most losses.
-                The other half is dealing with everything inside the
-                structure. Our contents process starts with on-site
-                triage: items that are wet but salvageable, items that need
-                immediate attention to prevent further damage, items that are
-                already a total loss, and items that are dry but in the way of
-                the drying equipment.
+                Every monitoring visit adds a row to the drying log. The
+                entries are mostly numeric: dry-bulb temperature inside and
+                outside the chamber, relative humidity inside and outside,
+                grains per pound inside and outside, and the moisture
+                content reading at each mapped reference point. Alongside
+                the numbers, a short narrative records what was added,
+                removed, or repositioned, and any owner communications that
+                affected the scope.
               </p>
               <p>
-                For larger losses we offer a pack-out, where contents are
-                inventoried with photos, packed into labeled boxes or
-                container vaults, and either moved to a clean staging area in
-                the home or transported off-site for cleaning and storage.
-                The inventory list becomes part of the documentation provided
-                to the homeowner and, with the homeowner&apos;s permission, the
-                insurance carrier.
+                A typical Class 2 residential loss runs through predictable
+                milestones. Day zero is the initial inspection and setup:
+                category determination, moisture map, dry standard
+                baseline, containment, and equipment placement. Day one is
+                the first monitoring visit, usually twenty-four hours after
+                setup, and the main goal is to confirm that the chamber is
+                pulling down — grain counts inside the chamber should be
+                noticeably lower than outside, and surface readings on the
+                wettest materials should be trending in the right direction.
               </p>
               <p>
-                Sentimental items — photographs, documents, heirlooms — are
-                handled separately. We will tell you honestly when an item is
-                outside the scope of what general restoration cleaning can
-                save, and we can refer you to specialists for things like
-                document drying or fine art conservation when appropriate.
+                Days two and three are where most of the moisture comes
+                out. Materials are giving up water into the chamber air,
+                the dehumidifier is condensing or adsorbing it, and the
+                drying curve is at its steepest. Day four often shows a
+                smaller daily improvement — the fast-drying portions of the
+                loss have arrived at dry, and the remaining readings belong
+                to denser or more deeply saturated assemblies. This is the
+                point where LGR performance matters most, because the
+                remaining bound moisture is harder to pull.
+              </p>
+              <p>
+                Day five is often the verification pass. Readings at the
+                mapped points meet the dry standard, and the chamber is
+                held for another twenty-four hours with equipment still
+                running. If the following day&apos;s readings are still at
+                the dry standard, the job is demobilized. If readings drift
+                up, the chamber is opened back up and the investigation
+                starts — usually a previously unnoticed cavity, a hidden
+                insulation pocket, or a framing member that was never in
+                the original moisture map.
+              </p>
+              <p>
+                Every log entry is accompanied by photographs. At minimum
+                the technician captures a wide shot of each affected room,
+                the equipment in place, the meter display for each mapped
+                reading point, and any new observations from that visit.
+                The photo record, combined with the log and the moisture
+                map, forms the documentation package that accompanies the
+                final invoice.
               </p>
             </div>
           </div>
         </section>
 
-        {/* INSURANCE DOCUMENTATION */}
-        <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
+        {/* UNSALVAGEABLE MATERIALS & DISPOSAL */}
+        <section id="materials" className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Step 7"
-              title="Insurance Documentation"
-              intro="A complete, evidence-based file your carrier can actually work with."
+              eyebrow="Part 7"
+              title="Unsalvageable Porous Materials and Disposal"
+              intro="What gets removed, why, and how it gets handled after it leaves the building."
             />
             <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                Most homeowners we meet are filing their first water damage
-                claim. The carrier asks for things like photos of the loss,
-                the cause of loss, a scope of mitigation work, daily moisture
-                logs, and an itemized invoice. We prepare those items as a
-                normal part of every job and provide them to you in a single
-                organized package.
+                A portion of the wet materials on most losses cannot be
+                dried in place. S500 recognizes four practical reasons a
+                porous material is classified as unsalvageable: it absorbed
+                grossly contaminated water, it lost structural integrity,
+                it cannot be cleaned back to a sanitary condition, or it
+                cannot be returned to the dry standard within a reasonable
+                timeframe even with proper equipment. The contractor is
+                expected to document which of those criteria applies rather
+                than remove materials because removal is convenient.
               </p>
               <p>
-                To be very clear about what we do and do not do: we document
-                the damage, we document our work, and we provide that
-                documentation to you. We do not adjust your claim, we do not
-                negotiate the settlement on your behalf, and we are not public
-                adjusters. The conversation about coverage and payment is
-                yours to have with your carrier. Our role is to make sure you
-                walk into that conversation with accurate, professional
-                information about what happened to your home and what it took
-                to put it back.
+                Carpet pad is the most frequent example. Modern hot-melt,
+                rebond, and prime urethane pads behave like a sponge: they
+                hold a great deal of water and release it slowly. On
+                Category 2 and 3 losses the pad is always replaced because
+                in-place decontamination of the cellulose and polyurethane
+                matrix is not reliable. On Category 1 losses with fast
+                response the pad is sometimes saved, but the decision is
+                based on measurement, not hope.
               </p>
               <p>
-                If your carrier has questions about a moisture reading, a
-                drying decision, or a line item on our invoice, we are happy
-                to talk to them directly with your authorization. That kind
-                of contractor-to-adjuster conversation usually moves a claim
-                forward faster than any other single thing we can do.
+                Fiberglass and cellulose batt insulation is usually removed
+                wherever it contacted water. Fiberglass loses R-value when
+                compressed by the weight of absorbed water and retains
+                enough moisture in its matrix to extend the drying
+                timeline significantly. Cellulose holds even more water and
+                supports microbial growth readily. Removal is almost always
+                the right call, and the insulation is bagged at the
+                opening to avoid spreading particulate through the rest of
+                the house.
+              </p>
+              <p>
+                Drywall is evaluated based on how high the water wicked up
+                the sheet, whether the paper face is intact, whether the
+                core has sagged or delaminated, and what category of water
+                was involved. The conventional flood cut removes drywall a
+                fixed distance above the visible water line, giving the
+                wall cavity an open path for drying equipment. On Category
+                3 losses the cut is taller and every trace of contaminated
+                gypsum leaves the building.
+              </p>
+              <p>
+                Removed materials are handled as construction debris unless
+                the job involves contaminated water, sewage, or a
+                biohazard situation. In those cases materials are double
+                bagged, labeled, and disposed of through the regional
+                waste stream the contractor is authorized to use. The
+                disposal pathway and any manifests are kept in the job file
+                as part of the final documentation.
               </p>
             </div>
           </div>
         </section>
 
-        {/* SERVICE AREA & INTERNAL LINKS */}
-        <section className="bg-white" style={{ padding: '80px 0' }}>
+        {/* DOCUMENTATION PHOTOGRAPHY */}
+        <section id="photography" className="bg-white" style={{ padding: '80px 0' }}>
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
-              title="Local & Specialty Pages"
-              intro="More information about specific water damage situations we handle."
+              eyebrow="Part 8"
+              title="Documentation Photography"
+              intro="A written drying log is only half of a defensible record. The other half is pictures."
             />
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <Card title="Bloomfield Township">
-                Our home base and primary service area. Visit our{' '}
-                <a href="/bloomfield" className="text-[#ff385c] font-semibold no-underline">
-                  Bloomfield page
-                </a>{' '}
-                for community-specific information and service areas.
-              </Card>
-              <Card title="Basement Flood Cleanup">
-                Sump pump failures, foundation seepage, and heavy-rain
-                flooding.{' '}
-                <a href="/services/basement-flood-cleanup" className="text-[#ff385c] font-semibold no-underline">
-                  Read more
-                </a>
-                .
-              </Card>
-              <Card title="Frozen Pipe Repair">
-                Winter pipe bursts, thaw procedures, and the wall and ceiling
-                damage that often follows.{' '}
-                <a href="/services/frozen-pipe-repair" className="text-[#ff385c] font-semibold no-underline">
-                  Read more
-                </a>
-                .
-              </Card>
-              <Card title="Sump Pump Failure">
-                Power outages, dead batteries, stuck float switches, and
-                check-valve issues.{' '}
-                <a href="/services/sump-pump-failure" className="text-[#ff385c] font-semibold no-underline">
-                  Read more
-                </a>
-                .
-              </Card>
+            <div className="max-w-[820px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
+              <p>
+                Photographs on a drying job serve three audiences. They
+                give the homeowner a visual record of what their property
+                looked like at every step. They give the insurance carrier
+                an evidentiary basis for the scope of work and the
+                materials removed. And they give the contractor a
+                contemporaneous record that supports the drying log if any
+                decision is questioned later. All three are served by the
+                same photo set.
+              </p>
+              <p>
+                A complete initial-visit photo set begins with wide
+                establishing shots of each affected room from at least two
+                corners. Close-ups follow: the source of water intrusion,
+                any pre-existing damage that predates the loss, visible
+                water lines on drywall or trim, and tight shots of any
+                materials that will be removed. The moisture meter display
+                is photographed at each mapped reading point, with the
+                probe still on the material, so that the numbers in the
+                drying log line up with images someone else could
+                independently verify.
+              </p>
+              <p>
+                Daily monitoring photos are leaner but consistent. Wide
+                shots of the equipment still in place, any changes to the
+                setup, and a fresh meter-on-material shot at each reference
+                point. If the crew added a dehumidifier, repositioned air
+                movers, or opened a cavity, those decisions are
+                photographed from an angle that makes the change obvious to
+                anyone reviewing the file later.
+              </p>
+              <p>
+                The final verification visit closes the loop. A clean set
+                of meter-on-material photos at the dry standard, wide
+                shots of each room before equipment is pulled, and a final
+                chamber breakdown photo set. Combined with the drying log,
+                the moisture map, and any material disposal records, these
+                images are what turn a drying job into a defensible,
+                evidence-based file.
+              </p>
             </div>
           </div>
         </section>
@@ -621,9 +799,9 @@ export default function WaterDamageRestorationPage() {
         <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6">
             <PillarSectionHeading
-              eyebrow="Answers"
-              title="Water Damage Restoration FAQ"
-              intro="Direct answers to the questions Bloomfield homeowners ask us most often."
+              eyebrow="Reference"
+              title="Process & Standards FAQ"
+              intro="Common questions about the S500 drying framework, answered from the field."
             />
             <div className="space-y-4">
               {faqs.map((f) => (
@@ -664,11 +842,12 @@ export default function WaterDamageRestorationPage() {
                 letterSpacing: '-0.44px',
               }}
             >
-              Standing water in your home right now?
+              Need a standards-aligned drying job started today?
             </h2>
             <p className="text-[#6a6a6a] text-lg mb-8">
-              Call us. The crew is on duty 24 hours a day, every day of the
-              year, and the meter does not start until we are on site.
+              The crew follows this process on every loss. Call{' '}
+              <a href={PHONE_HREF} className="text-[#ff385c] font-semibold no-underline">{PHONE}</a>{' '}
+              and a lead technician will walk you through the first steps.
             </p>
             <HeroCTA />
             <p className="text-[#6a6a6a] text-sm mt-8">

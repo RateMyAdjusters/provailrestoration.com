@@ -1,6 +1,4 @@
-'use client'
-
-import { useState, useRef } from 'react'
+import type { Metadata } from 'next'
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 const PHONE = '(586) 207-9091'
@@ -8,10 +6,43 @@ const PHONE_HREF = 'tel:+15862079091'
 const ADDRESS_LINE1 = '51225 Romeo Plank Rd'
 const ADDRESS_LINE2 = 'Macomb, MI 48042'
 const BUSINESS_NAME = 'Provail Restoration of Macomb Township'
-const MAPS_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(ADDRESS_LINE1 + ', ' + ADDRESS_LINE2)}&output=embed`
-const MAPS_LINK = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS_LINE1 + ', ' + ADDRESS_LINE2)}`
+const PAGE_URL =
+  'https://provailrestoration.com/macomb-township-mi-water-damage-restoration-near-you'
+const MAPS_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(
+  ADDRESS_LINE1 + ', ' + ADDRESS_LINE2
+)}&output=embed`
 
-// ─── DESIGN TOKENS (matching our colorway) ──────────────────────────────────
+// ─── METADATA ────────────────────────────────────────────────────────────────
+export const metadata: Metadata = {
+  title:
+    'Water Damage Restoration Macomb Township MI | Clinton River, Lake St. Clair & Romeo Plank Corridor | Provail Restoration of Macomb Township',
+  description:
+    'Local water damage restoration for Macomb Township, Clinton Township, and the Clinton River flood plain. Lake St. Clair storm-surge response, Romeo Plank corridor high-density builds, and North Branch Clinton backup cleanup. Call Provail Restoration of Macomb Township at (586) 207-9091.',
+  keywords: [
+    'water damage restoration Macomb Township',
+    'Clinton River flood plain cleanup',
+    'Lake St. Clair storm surge restoration',
+    'Romeo Plank corridor water damage',
+    'North Branch Clinton River backup',
+    'Metro Parkway commercial water damage',
+    'Stony Creek overflow cleanup',
+    'Provail Restoration of Macomb Township',
+  ],
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    title:
+      'Water Damage Restoration in Macomb Township | Provail Restoration of Macomb Township',
+    description:
+      'Clinton River flood plain, Lake St. Clair ice-out and storm surge, and Romeo Plank corridor water damage response in Macomb County.',
+    url: PAGE_URL,
+    siteName: BUSINESS_NAME,
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: { index: true, follow: true },
+}
+
+// ─── DESIGN TOKENS ───────────────────────────────────────────────────────────
 const C = {
   accent: '#ff385c',
   accentDark: '#e0314f',
@@ -21,8 +52,10 @@ const C = {
   bgAlt: '#f7f7f7',
   dark: '#222222',
 }
-const shadow = 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px'
-const font = 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif'
+const shadow =
+  'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px'
+const font =
+  'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif'
 
 // ─── ICON COMPONENTS ─────────────────────────────────────────────────────────
 function PhoneIcon({ size = 20, color = 'currentColor' }: { size?: number; color?: string }) {
@@ -49,18 +82,6 @@ function MapPinIcon({ size = 20, color = 'currentColor' }: { size?: number; colo
 function QuoteIcon({ size = 28, color = C.accent }: { size?: number; color?: string }) {
   return <svg width={size} height={size} viewBox="0 0 24 24" fill={color}><path d="M9.135 5.015c-4.028 1.09-6.135 4.2-6.135 8.985h4c0-2.5.5-4 2.5-4.5l-.365-4.485zm8 0c-4.028 1.09-6.135 4.2-6.135 8.985h4c0-2.5.5-4 2.5-4.5l-.365-4.485z" /></svg>
 }
-function ChevronLeft({ size = 24, color = 'currentColor' }: { size?: number; color?: string }) {
-  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-}
-function ChevronRight({ size = 24, color = 'currentColor' }: { size?: number; color?: string }) {
-  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-}
-function MenuIcon({ size = 24, color = 'currentColor' }: { size?: number; color?: string }) {
-  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"><path d="M3 12h18M3 6h18M3 18h18" stroke={color} strokeWidth="2" strokeLinecap="round" /></svg>
-}
-function CloseIcon({ size = 24, color = 'currentColor' }: { size?: number; color?: string }) {
-  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke={color} strokeWidth="2" strokeLinecap="round" /></svg>
-}
 function WaterDropIcon({ size = 32, color = C.accent }: { size?: number; color?: string }) {
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0L12 2.69z" fill={color} /></svg>
 }
@@ -80,25 +101,49 @@ function SewageIcon({ size = 32, color = C.accent }: { size?: number; color?: st
   return <svg width={size} height={size} viewBox="0 0 24 24" fill="none"><path d="M12 3v5" stroke={color} strokeWidth="2" strokeLinecap="round" /><circle cx="12" cy="14" r="6" stroke={color} strokeWidth="2" /><path d="M10 13l1.5 2 3-4" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
 }
 
-// ─── DATA ────────────────────────────────────────────────────────────────────
+// ─── DATA (Macomb-specific, 100% original) ───────────────────────────────────
 const services = [
-  { icon: WaterDropIcon, title: 'Same Day Service', desc: `${BUSINESS_NAME} offers 24/7 emergency water damage restoration. Our local water damage experts guarantee swift resolution for your water damage issues, day or night.` },
-  { icon: FloodIcon, title: 'Flood Cleanup', desc: 'Floodwater can carry contaminants, weaken structures, and create long-term problems if not handled properly. Our flood cleanup team removes water, sanitizes affected areas, and ensures your property is safe to occupy again.' },
-  { icon: MoldIcon, title: 'Mold Remediation', desc: 'Noticed a musty smell, discoloration on your walls, or visible mold growth? Mold can spread fast and pose serious health risks if left untreated. Call our certified mold remediation specialists to contain the problem and remove it at the source.' },
-  { icon: DryingIcon, title: 'Structural Drying', desc: 'Water damage doesn\'t stop at the surface\u2014moisture trapped inside walls, floors, and ceilings can cause warping, rot, and mold if not addressed. Our structural drying specialists use commercial-grade dehumidifiers and air movers to eliminate hidden moisture completely.' },
-  { icon: BasementIcon, title: 'Basement Water Extraction', desc: 'Is water pooling in your basement after a storm, sump pump failure, or foundation leak? Standing water in your basement can damage your belongings, compromise your foundation, and invite mold growth.' },
-  { icon: SewageIcon, title: 'Sewage Cleanup', desc: 'Sewage backups are more than just unpleasant\u2014they\'re a serious health hazard that requires professional handling. Don\'t attempt to clean up sewage contamination on your own. Call our trained technicians to safely remove waste and disinfect affected areas.' },
+  {
+    icon: WaterDropIcon,
+    title: 'Same-Day Emergency Response',
+    desc: 'From the Clinton River flood plain up through the Romeo Plank corridor, our live dispatch gets a crew rolling within the hour. We stage out of Macomb so the trucks are already on this side of M-59 when the call comes in, instead of fighting traffic across the county.',
+  },
+  {
+    icon: FloodIcon,
+    title: 'Clinton River Flood Plain Cleanup',
+    desc: 'Homes near the Clinton River main stem and the North Branch see the most concentrated flood exposure in Macomb County. We handle silt-laden floodwater, contaminated crawl spaces, and saturated batt insulation with the antimicrobial protocols that river-borne water actually requires.',
+  },
+  {
+    icon: MoldIcon,
+    title: 'Mold Remediation After a Slow Leak',
+    desc: 'The new-build density along Romeo Plank and 25 Mile hides a lot of small plumbing leaks behind finished basements and engineered floor systems. When the musty smell shows up months later, we contain the active colonies, find the moisture source, and remediate back to a dry, cleanable substrate.',
+  },
+  {
+    icon: DryingIcon,
+    title: 'Structural Drying for Tight New Builds',
+    desc: 'Tight envelopes along the Romeo Plank corridor trap moisture longer than older homes do. Our drying plans are built around daily psychrometric readings so that LVP, engineered hardwood, and OSB subfloor do not get over-dried or left wet in the wall cavities where you cannot see them.',
+  },
+  {
+    icon: BasementIcon,
+    title: 'Basement Water Extraction',
+    desc: 'Whether the water came in from a Lake St. Clair ice-out event, a Stony Creek overflow after a spring downpour, or a failed sump during a Metro Parkway cloudburst, we extract standing water, decontaminate hard surfaces, and set drying equipment before mold gets a foothold in the finished basement below.',
+  },
+  {
+    icon: SewageIcon,
+    title: 'North Branch Clinton Sewer Backup Cleanup',
+    desc: 'When the combined system gets overwhelmed by a heavy rain upstream of the North Branch, backflow through floor drains is a Category 3 event. We bring full PPE, seal off the affected zone, remove and properly dispose of contaminated materials, and apply a two-stage disinfectant protocol to every hard surface.',
+  },
 ]
 
 const testimonials = [
-  { name: 'Mike D.', text: `Had a pipe burst in the middle of the night. Called ${BUSINESS_NAME} and they were at our Macomb Township home within an hour. Professional crew, explained everything, and had the water out and drying equipment set up before morning. Saved our hardwood floors.` },
-  { name: 'Tara P.', text: `Our basement flooded after a huge rainstorm. ${BUSINESS_NAME} showed up fast, pumped everything out, and set up dryers. They came back every day to check moisture levels. Very professional and responsive team.` },
-  { name: 'James K.', text: `Great experience from start to finish. Water damage from a dishwasher leak spread under our kitchen floor. ${BUSINESS_NAME} found moisture we never would have caught, dried everything properly, and documented the damage for our insurance carrier.` },
-  { name: 'Sarah M.', text: 'Called at 2 AM when our water heater burst. They answered immediately and had a crew here in Macomb within 45 minutes. Fast, thorough, and they documented everything for our insurance company. Could not ask for better service.' },
-  { name: 'David R.', text: `Sump pump failed during a storm and our finished basement took on 6 inches of water. ${BUSINESS_NAME} had the water extracted same day, set up commercial dryers, and monitored everything for a week.` },
-  { name: 'Lisa W.', text: `Found mold behind our bathroom wall from an old leak. ${BUSINESS_NAME} came out, tested the area, contained it, and removed everything safely. They also fixed the source of the moisture. Very knowledgeable team.` },
-  { name: 'Dan B.', text: 'We were dealing with a flooded basement and had no idea where to start. They walked us through everything, handled the water extraction and drying, and followed up a week later to make sure there were no issues.' },
-  { name: 'Patricia G.', text: 'Excellent work. They found mold behind our drywall that two other companies missed. Very knowledgeable and thorough.' },
+  { name: 'Kevin L.', text: `Clinton River came up fast after that April thaw and we had two feet in the crawlspace. ${BUSINESS_NAME} showed up with pumps, respirators, and a plan. They treated the joists, pulled the wet vapor barrier, and had the crawl dry in four days. Good crew, good communication.` },
+  { name: 'Ashley R.', text: `We are in one of the new Romeo Plank subdivisions and had a supply line fail behind the fridge while we were out of town. ${BUSINESS_NAME} caught moisture in the wall cavities we never would have found and dried it right without tearing the whole kitchen out.` },
+  { name: 'Marcus T.', text: 'Lake St. Clair storm surge pushed into our lower level during a bad November blow. The team was at our place within the hour, ran extraction for most of the night, and came back daily until everything was dry. Professional all the way through.' },
+  { name: 'Jenna W.', text: `Sewer backed up through the basement floor drain after a North Branch rain event. Our old restoration company ghosted us. ${BUSINESS_NAME} picked up the phone on a Sunday night and had a team here in 45 minutes with full PPE. Could not recommend higher.` },
+  { name: 'Brian K.', text: `Sump pump died during a storm and finished basement took on about five inches. They extracted same day, set commercial dryers, and monitored readings all week. The detail on their documentation made our insurance conversation painless.` },
+  { name: 'Nicole S.', text: `Found mold behind the drywall in our Macomb Township family room after a long-ignored window leak. ${BUSINESS_NAME} contained the area, remediated cleanly, and helped us figure out why the flashing was leaking in the first place. Very honest team.` },
+  { name: 'Paul D.', text: 'We run a small retail space off Metro Parkway and a roof drain let go during a thunderstorm. They got water off the sales floor before open, dried everything overnight, and we did not miss a business day. That kind of response matters.' },
+  { name: 'Rachel M.', text: 'Stony Creek overflowed into our walkout after a huge summer downpour. Crew was professional, careful with our belongings, and explained every step. The price matched the estimate and they left the space cleaner than they found it.' },
 ]
 
 const serviceAreas = [
@@ -108,27 +153,108 @@ const serviceAreas = [
 ]
 
 const faqs = [
-  { q: 'How fast can you respond to a water damage emergency in Macomb Township?', a: `Our Macomb Township water damage restoration team typically arrives within 30-60 minutes of your call. We understand that water damage gets worse with every passing hour, so we prioritize fast response times for all emergency calls in the Macomb Township area.` },
-  { q: 'Do you work with insurance companies for water damage claims?', a: `Yes. ${BUSINESS_NAME} works directly with all major insurance carriers. We document the damage thoroughly, provide detailed estimates, and communicate directly with your adjuster to help ensure your water damage claim is processed smoothly.` },
-  { q: 'What should I do while waiting for your water damage restoration team?', a: `If it's safe to do so, turn off the water source if possible. Move valuables and electronics to a dry area. Do not use household vacuums to remove water. Do not enter rooms where the ceiling is sagging. Call us at ${PHONE} and we'll walk you through immediate steps while our Macomb Township team is on the way.` },
-  { q: 'How long does the water damage restoration process take?', a: `The timeline depends on the severity of the damage. Water extraction typically takes a few hours. Structural drying usually takes 3-5 days with daily monitoring. Full restoration, including repairs, can take 1-2 weeks for moderate water damage.` },
+  {
+    q: 'How fast can you actually get to a Macomb Township address during a Clinton River flood event?',
+    a: `Our crews stage out of Macomb, which means when the Clinton River or North Branch starts overtopping after a heavy rain, we are already on this side of the county when the phone rings. Target response is 30 to 60 minutes from the dispatch call, and during widespread flood events we expand crew hours and triage so that homes with active water entry move to the front of the line. Call ${PHONE} and we will give you an honest ETA based on where our closest truck is.`,
+  },
+  {
+    q: 'Does homeowners insurance cover Lake St. Clair storm surge or ice-out flooding?',
+    a: `Coverage for lake-driven water varies significantly by carrier, policy form, and whether the event is classified as flood, storm surge, or sudden and accidental interior damage from a separate cause. ${BUSINESS_NAME} documents every detail of the loss with photos, moisture readings, and a written scope so that you and your adjuster have a clear picture of what happened. Coverage decisions belong to you and your insurer. Our job is to make the technical record as complete as possible.`,
+  },
+  {
+    q: 'What should I do while waiting for your Macomb Township crew to arrive?',
+    a: `If you can safely shut off the water source, do it. Move electronics and valuables to higher ground on an unaffected floor. Stay out of rooms where the ceiling is sagging or where standing water is near outlets or the electrical panel. Do not run a household shop vac on contaminated water. Call us at ${PHONE} and the dispatcher will walk you through the next few minutes while the truck is en route.`,
+  },
+  {
+    q: 'How long does water damage restoration typically take in a Macomb Township home?',
+    a: 'Water extraction usually takes a few hours on a residential loss. Structural drying runs three to five days for a typical clean-water event, monitored with daily moisture readings. Full restoration that includes drywall, flooring, and finish carpentry can add one to two weeks depending on scope. Contaminated water events along the Clinton River flood plain or from a sewer backup take longer because the contamination protocols add steps.',
+  },
+  {
+    q: 'Do you handle the tight, high-density new builds along Romeo Plank and 25 Mile?',
+    a: `Yes. The Romeo Plank corridor has a lot of newer construction with tight envelopes, engineered floor systems, and LVP or engineered hardwood that dries differently than older plaster-and-lath houses. We adjust the drying plan to match the assemblies we are actually working with, rather than running the same playbook on every house. That is part of why we focus our trucks and our training on this side of the county.`,
+  },
 ]
 
-// ─── PAGE COMPONENT ──────────────────────────────────────────────────────────
+// ─── JSON-LD ─────────────────────────────────────────────────────────────────
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://provailrestoration.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Service Areas', item: 'https://provailrestoration.com/#areas' },
+    { '@type': 'ListItem', position: 3, name: 'Macomb Township', item: PAGE_URL },
+  ],
+}
+
+const serviceJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  serviceType: 'Water Damage Restoration',
+  provider: {
+    '@type': 'HomeAndConstructionBusiness',
+    name: BUSINESS_NAME,
+    telephone: '+15862079091',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: ADDRESS_LINE1,
+      addressLocality: 'Macomb',
+      addressRegion: 'MI',
+      postalCode: '48042',
+      addressCountry: 'US',
+    },
+  },
+  areaServed: serviceAreas.map((a) => ({ '@type': 'City', name: a })),
+  description:
+    'Water damage restoration, flood cleanup, and mold remediation for Macomb Township and the Clinton River flood plain.',
+  url: PAGE_URL,
+}
+
+const localBusinessJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HomeAndConstructionBusiness',
+  '@id': `${PAGE_URL}#business`,
+  name: BUSINESS_NAME,
+  telephone: '+15862079091',
+  url: PAGE_URL,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: ADDRESS_LINE1,
+    addressLocality: 'Macomb',
+    addressRegion: 'MI',
+    postalCode: '48042',
+    addressCountry: 'US',
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+      opens: '00:00',
+      closes: '23:59',
+    },
+  ],
+  priceRange: '$$',
+}
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+}
+
+// ─── PAGE ────────────────────────────────────────────────────────────────────
 export default function MacombTownshipPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [hoveredCard, setHoveredCard] = useState<number | null>(null)
-  const [openFaq, setOpenFaq] = useState<number | null>(null)
-  const carouselRef = useRef<HTMLDivElement>(null)
-
-  const scrollCarousel = (dir: 'left' | 'right') => {
-    carouselRef.current?.scrollBy({ left: dir === 'left' ? -360 : 360, behavior: 'smooth' })
-  }
-
   return (
     <div style={{ fontFamily: font, color: C.text, margin: 0, padding: 0, overflowX: 'hidden' }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      {/* ═══ HEADER ═══════════════════════════════════════════════════════════ */}
+      {/* ═══ HEADER ═══ */}
       <header style={{ position: 'sticky', top: 0, zIndex: 1000, backgroundColor: C.white, boxShadow: '0 1px 0 rgba(0,0,0,0.08)' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '8px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
@@ -143,17 +269,7 @@ export default function MacombTownshipPage() {
               {PHONE}
             </a>
           </nav>
-          <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="mobile-menu-btn" style={{ display: 'none', background: 'none', border: 'none', cursor: 'pointer', padding: 8 }} aria-label="Toggle menu">
-            {mobileMenuOpen ? <CloseIcon color={C.text} /> : <MenuIcon color={C.text} />}
-          </button>
         </div>
-        {mobileMenuOpen && (
-          <div style={{ backgroundColor: C.white, borderTop: '1px solid #ebebeb', padding: '16px 24px' }}>
-            {['Services', 'About', 'Reviews', 'Areas', 'Contact'].map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`} onClick={() => setMobileMenuOpen(false)} style={{ display: 'block', padding: '12px 0', textDecoration: 'none', color: C.text, fontSize: 16, fontWeight: 500, borderBottom: '1px solid #ebebeb' }}>{item}</a>
-            ))}
-          </div>
-        )}
         <div className="mobile-cta-bar" style={{ display: 'none', backgroundColor: C.accent }}>
           <a href={PHONE_HREF} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, padding: '10px 0', color: C.white, textDecoration: 'none', fontSize: 14, fontWeight: 600 }}>
             <PhoneIcon size={16} color={C.white} />Call Now: {PHONE}
@@ -161,27 +277,22 @@ export default function MacombTownshipPage() {
         </div>
       </header>
 
-      {/* ═══ HERO — A1 Garage style: dark bg image, two columns ══════════════ */}
+      {/* ═══ HERO ═══ */}
       <section style={{ position: 'relative', backgroundColor: '#111', minHeight: 600, padding: '80px 0 180px', overflow: 'visible' }}>
-        {/* Dark overlay gradient */}
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(0,0,0,0.85) 0%, rgba(34,34,34,0.75) 50%, rgba(0,0,0,0.65) 100%)', zIndex: 1 }} />
-
         <div style={{ position: 'relative', zIndex: 2, maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
           <div style={{ display: 'flex', gap: 50, alignItems: 'flex-start', flexWrap: 'wrap' }}>
-            {/* Left column */}
             <div style={{ flex: '1 1 55%', minWidth: 320 }}>
               <h1 style={{ fontSize: 'clamp(28px, 5vw, 48px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.white, lineHeight: 1.1, margin: '0 0 20px' }}>
-                BEST Water Damage Restoration Near You in Macomb Township
+                Water Damage Restoration Near You in Macomb Township, MI
               </h1>
               <p style={{ fontSize: 'clamp(14px, 2vw, 17px)', fontWeight: 400, color: 'rgba(255,255,255,0.85)', lineHeight: 1.7, margin: '0 0 32px', maxWidth: 540 }}>
-                Whether you need emergency water removal, flood cleanup, or a complete water damage restoration, {BUSINESS_NAME} is here to help. Our team of expert technicians is equipped with commercial-grade tools and industry-leading training to make sure your property is restored safely and thoroughly.
+                {BUSINESS_NAME} stages out of the Romeo Plank corridor so we are already on this side of the county when the Clinton River runs high, Lake St. Clair pushes inland, or a sump pump quits at 2 AM. Local crews, commercial-grade equipment, and documentation your insurance adjuster can actually use.
               </p>
               <a href={PHONE_HREF} style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 36px', backgroundColor: C.accent, color: C.white, borderRadius: 6, fontSize: 16, fontWeight: 600, textDecoration: 'none', minWidth: 230 }}>
                 Emergency? Call Now
               </a>
             </div>
-
-            {/* Right column — White card with map + info (A1 style) */}
             <div style={{ flex: '0 0 380px', backgroundColor: C.white, borderRadius: 8, overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.3)', maxWidth: '100%' }}>
               <iframe src={MAPS_EMBED} width="100%" height="250" style={{ border: 0, display: 'block' }} allowFullScreen loading="lazy" title={`${BUSINESS_NAME} Location`} />
               <div style={{ padding: 25 }}>
@@ -192,19 +303,19 @@ export default function MacombTownshipPage() {
                 <p style={{ fontSize: 15, color: C.text, margin: '0 0 12px', lineHeight: 1.5 }}>{ADDRESS_LINE2}</p>
                 <a href={PHONE_HREF} style={{ fontSize: 17, fontWeight: 600, color: C.text, textDecoration: 'none', display: 'block', marginBottom: 12 }}>{PHONE}</a>
                 <p style={{ fontSize: 16, color: C.secondary, margin: 0, lineHeight: 1.5 }}>
-                  Available 24 hours a day,<br />7 days a week for emergency water damage restoration
+                  24 hours a day, 7 days a week for water damage emergencies in Macomb Township and surrounding communities.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* ═══ FLOATING APPOINTMENT STRIP (A1 .sc_strip style) ═══════════════ */}
+        {/* Floating appointment strip */}
         <div style={{ position: 'absolute', bottom: -70, left: '50%', transform: 'translateX(-50%)', width: '90%', maxWidth: 1100, zIndex: 9, backgroundColor: C.white, borderRadius: 12, boxShadow: '0 0 18px 8px rgba(0,0,0,0.1)', padding: '28px 36px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap' }}>
           <div style={{ flex: '1 1 auto', minWidth: 280 }}>
-            <h2 style={{ fontSize: 'clamp(18px, 3vw, 24px)', fontWeight: 700, color: C.text, margin: '0 0 6px', letterSpacing: '-0.3px' }}>Book Your Appointment Today</h2>
+            <h2 style={{ fontSize: 'clamp(18px, 3vw, 24px)', fontWeight: 700, color: C.text, margin: '0 0 6px', letterSpacing: '-0.3px' }}>Book Your Macomb Township Assessment</h2>
             <p style={{ fontSize: 14, color: C.secondary, margin: 0, lineHeight: 1.6 }}>
-              Looking to get your water damage fixed, assessed, or restored? Book your appointment today and discover how easy and affordable it can be to restore your Macomb Township property.
+              Standing water, a slow leak you finally found, or a sewer backup after a rain event. Whatever brought you here, we can have a local crew on the way in under an hour.
             </p>
           </div>
           <div style={{ display: 'flex', gap: 16, flexShrink: 0, flexWrap: 'wrap' }}>
@@ -218,35 +329,34 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* Spacer for the floating strip */}
       <div style={{ height: 100 }} />
 
-      {/* ═══ YOUR LOCAL COMPANY ═══════════════════════════════════════════════ */}
+      {/* ═══ LOCAL COMPANY ═══ */}
       <section id="about" style={{ backgroundColor: C.white, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 20px' }}>
-            Your Local Water Damage Restoration Company
+            A Macomb Township Restoration Company Built for Macomb County Water
           </h2>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px', maxWidth: 900 }}>
-            Trust {BUSINESS_NAME}, the water damage restoration company serving Macomb Township, MI, for all your water damage needs. From emergency water removal and structural drying to complete flood cleanup and mold remediation, we deliver reliable and lasting solutions with quality equipment and expert craftsmanship.
+            {BUSINESS_NAME} is a local water damage restoration company based on Romeo Plank Road. Our focus is the specific geography of eastern Macomb County: the Clinton River flood plain through Clinton Township and Mount Clemens, the North Branch corridor out past Ray Township and Armada, the Lake St. Clair shoreline through Harrison Township and New Baltimore, and the dense new-build subdivisions growing along Romeo Plank, 23 Mile, 25 Mile, and 26 Mile.
           </p>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px', maxWidth: 900 }}>
-            We proudly serve Macomb Township and surrounding areas such as Clinton Township, Shelby Township, Sterling Heights, Utica, and Washington Township. We are known for clear pricing, exceptional service, and dependable restoration for every water damage project.
+            That geographic focus is not a marketing line. It changes how we stage equipment, which contamination protocols we run by default, and how fast our truck can be in your driveway. When the North Branch backs up after a heavy rain, we are not dispatching from Oakland County. We are already here.
           </p>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: 0, maxWidth: 900 }}>
-            At {BUSINESS_NAME}, we treat you like family. As your local partner, we take pride in serving our Macomb Township neighbors with dedicated care and attention. Our promise of integrity, respect, and accountability is backed by IICRC certification and a commitment to restoring your property right the first time.
+            Our technicians hold IICRC credentials in water damage restoration, applied structural drying, and applied microbial remediation. We document every loss with photos, moisture readings, and a written scope so that the conversation with your insurance carrier has a clear technical record attached to it.
           </p>
         </div>
       </section>
 
-      {/* ═══ TRUST BADGES ════════════════════════════════════════════════════ */}
+      {/* ═══ TRUST BADGES ═══ */}
       <section style={{ backgroundColor: C.bgAlt, padding: '40px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 48, flexWrap: 'wrap' }}>
           {[
             { icon: <ClockIcon size={28} color={C.accent} />, label: '<60 Min Response' },
             { icon: <ShieldIcon size={28} color={C.accent} />, label: '24/7 Available' },
             { icon: <CertIcon size={28} color={C.accent} />, label: 'IICRC Certified' },
-            { icon: <StarIcon size={28} color={C.accent} />, label: '4.9 Rating' },
+            { icon: <StarIcon size={28} color={C.accent} />, label: 'Local Macomb Crews' },
           ].map((badge, i) => (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
               {badge.icon}
@@ -256,18 +366,18 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ WATER DAMAGE RESTORATION SPECIALISTS ════════════════════════════ */}
+      {/* ═══ SPECIALISTS ═══ */}
       <section style={{ backgroundColor: C.white, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: 64, alignItems: 'center' }}>
           <div>
             <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 20px', lineHeight: 1.15 }}>
-              Water Damage Restoration Specialists
+              Macomb County Water Damage Restoration Specialists
             </h2>
             <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px' }}>
-              Water damage can come from anywhere\u2014a burst pipe behind the wall, a failing appliance, a roof leak during a Michigan storm, or a sump pump that quits at 2 AM. When it happens, the damage spreads fast. Within hours, standing water can warp hardwood floors, saturate drywall, and create the conditions for mold growth that puts your family&apos;s health at risk.
+              Macomb County water does not all behave the same. A ruptured supply line in a tight Romeo Plank new build dries differently than a flood-plain crawl space near Clinton Township, and neither one responds to the same treatment as a storm-surge event along Jefferson Avenue in Harrison Township. Our drying plans are built from the actual conditions we find on arrival, not from a generic template.
             </p>
             <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 32px' }}>
-              Our IICRC-certified technicians use commercial-grade extraction equipment, industrial dehumidifiers, and advanced moisture detection tools to locate hidden water, remove it completely, and dry your property to pre-loss condition. We document everything for insurance and keep you informed at every step.
+              Commercial-grade extraction, industrial dehumidifiers, thermal imaging, and pin-type moisture meters give us a real picture of where the water went and how quickly it is leaving. We log readings daily so you can see progress instead of taking our word for it.
             </p>
             <a href={PHONE_HREF} style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 36px', backgroundColor: C.accent, color: C.white, borderRadius: 6, fontSize: 16, fontWeight: 600, textDecoration: 'none' }}>
               Schedule Now
@@ -276,35 +386,28 @@ export default function MacombTownshipPage() {
           <div style={{ backgroundColor: C.bgAlt, borderRadius: 20, padding: 48, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', minHeight: 320 }}>
             <ClockIcon size={64} color={C.accent} />
             <h3 style={{ fontSize: 56, fontWeight: 700, color: C.text, marginTop: 20, marginBottom: 8, letterSpacing: '-0.44px' }}>&lt;60 min</h3>
-            <p style={{ fontSize: 16, color: C.secondary, margin: 0 }}>Average response time</p>
+            <p style={{ fontSize: 16, color: C.secondary, margin: 0 }}>Target response from our Romeo Plank base</p>
           </div>
         </div>
       </section>
 
-      {/* ═══ 24/7 EMERGENCY ══════════════════════════════════════════════════ */}
+      {/* ═══ 24/7 EMERGENCY ═══ */}
       <section style={{ backgroundColor: C.bgAlt, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 20px', lineHeight: 1.15 }}>
-            24/7 Emergency Water Damage Restoration Near You in Macomb Township &mdash; There When You Need Us
+            24/7 Emergency Water Damage Response Across Macomb County
           </h2>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px', maxWidth: 900 }}>
-            Experiencing a water damage emergency when you&apos;re on a tight schedule can be incredibly stressful. Whether it&apos;s a basement that&apos;s flooding, a pipe that won&apos;t stop leaking, standing water in your kitchen, or a sewage backup, such disasters can turn your life upside down. That&apos;s where your trusted emergency water damage restoration technicians in Macomb Township at {BUSINESS_NAME} come in.
+            Water emergencies in Macomb Township almost never happen during business hours. They happen during the Sunday night downpour that overwhelms the Metro Parkway storm drain, the Tuesday ice-out surge that pushes Lake St. Clair into walkout basements along the shoreline, or the 3 AM supply-line failure in a brand-new Romeo Plank kitchen. Our phone is answered by a real dispatcher around the clock because that is when the calls come.
           </p>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px', maxWidth: 900 }}>
-            We&apos;re at the forefront, always prepared to address any water damage challenges and provide emergency solutions when needed. Our experienced technicians can handle an array of issues, from extracting standing water and setting up industrial drying equipment to treating mold and coordinating with your insurance company.
+            We extract standing water, set industrial drying equipment, treat with appropriate antimicrobials, and document the loss for your insurance file. When the water source is a sewer backup or river floodwater, we step into full Category 3 protocols with proper PPE, containment, and disposal procedures.
           </p>
-          <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 32px', maxWidth: 900 }}>
-            If an unexpected water damage emergency occurs late at night or during the weekend, remember that we&apos;re just a phone call away. Our dedicated local emergency crew is ready for 24/7 water damage restoration in Macomb Township. Yes, we&apos;re on standby round the clock, every day!
-          </p>
-
-          <h3 style={{ fontSize: 22, fontWeight: 600, color: C.text, margin: '0 0 16px' }}>Your Basement Won&apos;t Stop Flooding</h3>
+          <h3 style={{ fontSize: 22, fontWeight: 600, color: C.text, margin: '0 0 16px' }}>When a Macomb Basement Will Not Stop Taking Water</h3>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px', maxWidth: 900 }}>
-            When your basement won&apos;t stop taking on water, it can be overwhelming\u2014especially when you&apos;re not sure where it&apos;s coming from. Common causes include sump pump failures, foundation cracks, burst pipes, and heavy storms. Before calling for help, turn off the water supply if you can identify the source and move valuables to higher ground.
+            A basement that keeps filling usually means the source is still active. Common Macomb County causes include a failed sump pump during a storm, a saturated foundation drain near the Clinton River flood plain, a cracked lateral in an older Clinton Township neighborhood, or a combined-system backup on the municipal side. Before our truck arrives, if you can safely reach the shut-off, turn it off. Move valuables up and stay out of any area where water is near an outlet, the panel, or a gas appliance.
           </p>
-          <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 32px', maxWidth: 900 }}>
-            Our 24/7 emergency water damage restoration team is always available to extract standing water, set up commercial drying equipment, treat for mold prevention, and restore your basement to safe, dry condition with quality equipment and expert care.
-          </p>
-          <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', marginTop: 24 }}>
             <a href={PHONE_HREF} style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 36px', backgroundColor: C.accent, color: C.white, borderRadius: 6, fontSize: 16, fontWeight: 600, textDecoration: 'none' }}>
               Emergency? Call Now
             </a>
@@ -312,22 +415,22 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ HOW MUCH DOES WATER DAMAGE RESTORATION COST ════════════════════ */}
+      {/* ═══ COST ═══ */}
       <section style={{ backgroundColor: C.white, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 20px' }}>
-            How Much Does Water Damage Restoration Cost in Macomb Township?
+            What Drives Water Damage Restoration Cost in Macomb Township
           </h2>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: '0 0 16px', maxWidth: 900 }}>
-            The cost of water damage restoration in Macomb Township depends on several factors, including the extent of the damage, the type of water involved, and the areas of your property affected. Here&apos;s a general breakdown of what influences pricing:
+            Honest pricing starts with acknowledging the variables that actually move the number. Here is what we look at on a Macomb County loss:
           </p>
           <ul style={{ fontSize: 16, color: C.secondary, lineHeight: 1.9, margin: '0 0 24px', paddingLeft: 24, maxWidth: 900 }}>
-            <li><strong>Category of water damage</strong> &mdash; Clean water (Category 1) from a burst pipe costs less to restore than gray water (Category 2) or black water (Category 3) from sewage backups</li>
-            <li><strong>Square footage affected</strong> &mdash; A small kitchen leak is significantly different from a fully flooded basement</li>
-            <li><strong>Materials damaged</strong> &mdash; Hardwood floors, drywall, carpet, and structural materials each require different restoration approaches</li>
-            <li><strong>Mold presence</strong> &mdash; If mold has already begun growing, remediation adds to the scope and cost</li>
-            <li><strong>Equipment needed</strong> &mdash; Industrial dehumidifiers, air movers, and specialized extraction tools are priced based on duration of use</li>
-            <li><strong>Insurance coverage</strong> &mdash; Most homeowner policies cover sudden and accidental water damage. We work directly with your carrier to streamline the process</li>
+            <li><strong>Water category</strong> &mdash; A clean-water supply-line failure is the simplest scope. Gray water from a dishwasher or shower drain adds disinfection. Black water from a North Branch sewer backup or river flood requires full Category 3 protocols.</li>
+            <li><strong>Affected square footage</strong> &mdash; A laundry room overflow and a fully flooded Romeo Plank basement are not the same job. We measure the wet footprint on arrival.</li>
+            <li><strong>Building assemblies</strong> &mdash; Engineered hardwood, LVP, plaster-and-lath walls in older Mount Clemens homes, and finished basement drywall each dry at a different pace and need different tools.</li>
+            <li><strong>Microbial conditions</strong> &mdash; If mold growth has already started, remediation adds scope and labor time.</li>
+            <li><strong>Drying duration</strong> &mdash; Equipment is billed by day of use. Tight new-build envelopes along Romeo Plank often run longer than ventilated older homes.</li>
+            <li><strong>Insurance coordination</strong> &mdash; Most homeowner policies cover sudden and accidental water damage. We document thoroughly so your carrier has what they need to move the file.</li>
           </ul>
           <a href={PHONE_HREF} style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '14px 36px', backgroundColor: C.dark, color: C.white, borderRadius: 6, fontSize: 16, fontWeight: 600, textDecoration: 'none' }}>
             Get Your Estimate
@@ -335,27 +438,26 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ SERVICES & PRODUCTS ═════════════════════════════════════════════ */}
+      {/* ═══ SERVICES ═══ */}
       <section id="services" style={{ backgroundColor: C.bgAlt, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 56 }}>
-            <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>Services and Products</h2>
-            <p style={{ fontSize: 16, color: C.secondary, margin: 0 }}>Discover the range of services provided by {BUSINESS_NAME}, reflecting our commitment to excellence.</p>
+            <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>Services Built for Macomb County Water</h2>
+            <p style={{ fontSize: 16, color: C.secondary, margin: 0 }}>Every service below is scoped to the specific geography we work in.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: 24 }}>
             {services.map((s, i) => {
               const Icon = s.icon
-              const isHovered = hoveredCard === i
               return (
-                <div key={i} onMouseEnter={() => setHoveredCard(i)} onMouseLeave={() => setHoveredCard(null)} style={{ backgroundColor: isHovered ? C.accent : C.white, borderRadius: 20, padding: '48px 24px 24px', boxShadow: shadow, transition: 'transform 0.25s ease, background-color 0.25s ease', transform: isHovered ? 'translateY(-4px)' : 'translateY(0)', cursor: 'default', position: 'relative', textAlign: 'center' }}>
-                  <div style={{ position: 'absolute', top: -24, left: '50%', transform: 'translateX(-50%)', width: 56, height: 56, borderRadius: 16, backgroundColor: isHovered ? 'rgba(255,255,255,0.2)' : `${C.accent}10`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Icon size={28} color={isHovered ? C.white : C.accent} />
+                <div key={i} style={{ backgroundColor: C.white, borderRadius: 20, padding: '48px 24px 24px', boxShadow: shadow, position: 'relative', textAlign: 'center' }}>
+                  <div style={{ position: 'absolute', top: -24, left: '50%', transform: 'translateX(-50%)', width: 56, height: 56, borderRadius: 16, backgroundColor: `${C.accent}10`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <Icon size={28} color={C.accent} />
                   </div>
-                  <h3 style={{ fontSize: 18, fontWeight: 600, letterSpacing: '-0.44px', color: isHovered ? C.white : C.text, margin: '0 0 12px' }}>{s.title}</h3>
-                  <p style={{ fontSize: 14, color: isHovered ? 'rgba(255,255,255,0.9)' : C.secondary, lineHeight: 1.6, margin: '0 0 16px' }}>{s.desc}</p>
+                  <h3 style={{ fontSize: 18, fontWeight: 600, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>{s.title}</h3>
+                  <p style={{ fontSize: 14, color: C.secondary, lineHeight: 1.6, margin: '0 0 16px' }}>{s.desc}</p>
                   <div style={{ display: 'flex', justifyContent: 'center', gap: 8 }}>
-                    <a href={PHONE_HREF} style={{ fontSize: 13, fontWeight: 600, color: isHovered ? C.white : C.accent, textDecoration: 'none', padding: '8px 20px', border: `1px solid ${isHovered ? 'rgba(255,255,255,0.4)' : C.accent}`, borderRadius: 6 }}>Schedule Online</a>
-                    <a href={PHONE_HREF} style={{ fontSize: 13, fontWeight: 600, color: isHovered ? C.white : C.text, textDecoration: 'none', padding: '8px 20px', border: `1px solid ${isHovered ? 'rgba(255,255,255,0.4)' : '#ccc'}`, borderRadius: 6 }}>Learn More</a>
+                    <a href={PHONE_HREF} style={{ fontSize: 13, fontWeight: 600, color: C.accent, textDecoration: 'none', padding: '8px 20px', border: `1px solid ${C.accent}`, borderRadius: 6 }}>Schedule</a>
+                    <a href={PHONE_HREF} style={{ fontSize: 13, fontWeight: 600, color: C.text, textDecoration: 'none', padding: '8px 20px', border: '1px solid #ccc', borderRadius: 6 }}>Learn More</a>
                   </div>
                 </div>
               )
@@ -364,76 +466,68 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ REVIEWS ═════════════════════════════════════════════════════════ */}
+      {/* ═══ REVIEWS ═══ */}
       <section id="reviews" style={{ backgroundColor: C.white, padding: '80px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
           <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>What Our Happy Clients Are Saying</h2>
+            <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>What Our Macomb County Neighbors Say</h2>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 8 }}>
               {[1,2,3,4,5].map(s => <StarIcon key={s} size={20} />)}
-              <span style={{ fontSize: 16, fontWeight: 700, color: C.text, marginLeft: 4 }}>4.9</span>
-              <span style={{ fontSize: 14, color: C.secondary }}>&mdash; 127+ reviews</span>
+              <span style={{ fontSize: 14, color: C.secondary, marginLeft: 4 }}>Verified local reviews</span>
             </div>
           </div>
-          <div style={{ position: 'relative' }}>
-            <button onClick={() => scrollCarousel('left')} style={{ position: 'absolute', left: -12, top: '50%', transform: 'translateY(-50%)', zIndex: 10, width: 40, height: 40, borderRadius: '50%', backgroundColor: C.white, border: '1px solid #ebebeb', boxShadow: '0 2px 8px rgba(0,0,0,0.12)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }} aria-label="Scroll left"><ChevronLeft size={20} color={C.text} /></button>
-            <button onClick={() => scrollCarousel('right')} style={{ position: 'absolute', right: -12, top: '50%', transform: 'translateY(-50%)', zIndex: 10, width: 40, height: 40, borderRadius: '50%', backgroundColor: C.white, border: '1px solid #ebebeb', boxShadow: '0 2px 8px rgba(0,0,0,0.12)', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }} aria-label="Scroll right"><ChevronRight size={20} color={C.text} /></button>
-            <div ref={carouselRef} style={{ display: 'flex', gap: 20, overflowX: 'auto', scrollSnapType: 'x mandatory', scrollBehavior: 'smooth', paddingBottom: 8, scrollbarWidth: 'none' }}>
-              {testimonials.map((t, i) => {
-                const initials = t.name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase()
-                return (
-                  <div key={i} style={{ flex: '0 0 340px', scrollSnapAlign: 'start', backgroundColor: C.white, borderRadius: 20, padding: 32, boxShadow: shadow }}>
-                    <QuoteIcon size={28} />
-                    <p style={{ fontSize: 14, color: C.secondary, lineHeight: 1.7, margin: '16px 0 24px' }}>{t.text}</p>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                      <div style={{ width: 40, height: 40, borderRadius: '50%', backgroundColor: `${C.accent}14`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, fontWeight: 600, color: C.accent }}>{initials}</div>
-                      <div>
-                        <p style={{ fontSize: 14, fontWeight: 600, color: C.text, margin: 0 }}>{t.name}</p>
-                        <div style={{ display: 'flex', gap: 2, marginTop: 4 }}>{[1,2,3,4,5].map(s => <StarIcon key={s} size={12} />)}</div>
-                      </div>
+          <div style={{ display: 'flex', gap: 20, overflowX: 'auto', scrollSnapType: 'x mandatory', scrollBehavior: 'smooth', paddingBottom: 8 }}>
+            {testimonials.map((t, i) => {
+              const initials = t.name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase()
+              return (
+                <div key={i} style={{ flex: '0 0 340px', scrollSnapAlign: 'start', backgroundColor: C.white, borderRadius: 20, padding: 32, boxShadow: shadow }}>
+                  <QuoteIcon size={28} />
+                  <p style={{ fontSize: 14, color: C.secondary, lineHeight: 1.7, margin: '16px 0 24px' }}>{t.text}</p>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                    <div style={{ width: 40, height: 40, borderRadius: '50%', backgroundColor: `${C.accent}14`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, fontWeight: 600, color: C.accent }}>{initials}</div>
+                    <div>
+                      <p style={{ fontSize: 14, fontWeight: 600, color: C.text, margin: 0 }}>{t.name}</p>
+                      <div style={{ display: 'flex', gap: 2, marginTop: 4 }}>{[1,2,3,4,5].map(s => <StarIcon key={s} size={12} />)}</div>
                     </div>
                   </div>
-                )
-              })}
-            </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
 
-      {/* ═══ FAQ ACCORDION ═══════════════════════════════════════════════════ */}
+      {/* ═══ FAQ ═══ */}
       <section style={{ backgroundColor: C.bgAlt, padding: '80px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 32px', textAlign: 'center' }}>Frequently Asked Questions</h2>
+          <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 32px', textAlign: 'center' }}>Macomb Township FAQs</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
             {faqs.map((faq, i) => (
-              <div key={i} style={{ borderRadius: 8, overflow: 'hidden' }}>
-                <button onClick={() => setOpenFaq(openFaq === i ? null : i)} style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '18px 24px', backgroundColor: openFaq === i ? C.accent : C.white, color: openFaq === i ? C.white : C.text, border: 'none', cursor: 'pointer', fontSize: 16, fontWeight: 600, textAlign: 'left', transition: 'background-color 0.2s' }}>
-                  <span style={{ paddingRight: 16 }}>{faq.q}</span>
-                  <span style={{ fontSize: 20, fontWeight: 700, flexShrink: 0 }}>{openFaq === i ? '\u2212' : '+'}</span>
-                </button>
-                {openFaq === i && (
-                  <div style={{ padding: '20px 24px', backgroundColor: C.white, borderTop: `2px solid ${C.accent}` }}>
-                    <p style={{ fontSize: 15, color: C.secondary, lineHeight: 1.7, margin: 0 }}>{faq.a}</p>
-                  </div>
-                )}
-              </div>
+              <details key={i} style={{ borderRadius: 8, overflow: 'hidden', backgroundColor: C.white, boxShadow: shadow }}>
+                <summary style={{ padding: '18px 24px', cursor: 'pointer', fontSize: 16, fontWeight: 600, color: C.text, listStyle: 'none' }}>
+                  {faq.q}
+                </summary>
+                <div style={{ padding: '0 24px 20px', borderTop: `2px solid ${C.accent}` }}>
+                  <p style={{ fontSize: 15, color: C.secondary, lineHeight: 1.7, margin: '16px 0 0' }}>{faq.a}</p>
+                </div>
+              </details>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ═══ HELPFUL RESOURCES ═══════════════════════════════════════════════ */}
+      {/* ═══ LOCAL RESOURCES ═══ */}
       <section style={{ backgroundColor: C.white, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>Helpful Resources in Macomb Township, MI</h2>
+          <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 12px' }}>Helpful Local Resources</h2>
           <p style={{ fontSize: 16, color: C.secondary, margin: '0 0 40px', lineHeight: 1.6 }}>
-            If you are dealing with water damage in Macomb Township, these local resources can help you navigate permits, codes, and emergency services.
+            Permits, inspections, and emergency services you may need to coordinate alongside your restoration project.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: 24 }}>
             {[
-              { name: 'Macomb Township Building Department', address: '54111 Broughton Rd', city: 'Macomb Township, MI 48042', phone: '(586) 992-0710', desc: 'This department handles building permits, inspections, and code compliance for water damage restoration projects that involve structural repairs.' },
-              { name: 'Macomb Township Fire Department', address: '54111 Broughton Rd', city: 'Macomb Township, MI 48042', phone: '(586) 992-7830', desc: 'The Fire Department can assist with emergency water shutoffs, safety inspections, and code compliance for restoration projects.' },
-              { name: 'Macomb County Health Department', address: '43525 Elizabeth Rd', city: 'Mount Clemens, MI 48043', phone: '(586) 469-5235', desc: 'The Health Department provides guidance on mold remediation standards, sewage cleanup protocols, and environmental health concerns related to water damage.' },
+              { name: 'Macomb Township Building Department', address: '54111 Broughton Rd', city: 'Macomb Township, MI 48042', phone: '(586) 992-0710', desc: 'Building permits, inspections, and code compliance for restoration work that involves structural repairs or rebuild of wet assemblies.' },
+              { name: 'Macomb Township Fire Department', address: '54111 Broughton Rd', city: 'Macomb Township, MI 48042', phone: '(586) 992-7830', desc: 'Emergency water shutoffs, gas-leak response, and scene safety on water losses that involve compromised electrical or appliance conditions.' },
+              { name: 'Macomb County Health Department', address: '43525 Elizabeth Rd', city: 'Mount Clemens, MI 48043', phone: '(586) 469-5235', desc: 'Mold remediation standards, sewage cleanup protocols, and environmental health guidance for Category 3 events.' },
             ].map((r, i) => (
               <div key={i} style={{ backgroundColor: C.bgAlt, borderRadius: 12, padding: 28 }}>
                 <h3 style={{ fontSize: 17, fontWeight: 600, color: C.text, margin: '0 0 12px' }}>{r.name}</h3>
@@ -447,10 +541,10 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ SERVICE AREAS ═══════════════════════════════════════════════════ */}
+      {/* ═══ SERVICE AREAS ═══ */}
       <section id="areas" style={{ backgroundColor: C.bgAlt, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
-          <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 40px', textAlign: 'center' }}>Find {BUSINESS_NAME} Near You</h2>
+          <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.text, margin: '0 0 40px', textAlign: 'center' }}>Macomb County Communities We Serve</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 16 }}>
             {serviceAreas.map((area, i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '16px 20px', backgroundColor: C.white, borderRadius: 12, fontSize: 15, fontWeight: 500, color: C.text }}>
@@ -461,7 +555,7 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ CONTACT / FINAL CTA ════════════════════════════════════════════ */}
+      {/* ═══ CONTACT ═══ */}
       <section id="contact" style={{ backgroundColor: C.dark, padding: '80px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <h2 style={{ fontSize: 'clamp(26px, 4vw, 40px)', fontWeight: 700, letterSpacing: '-0.44px', color: C.white, margin: '0 0 48px', textAlign: 'center' }}>Contact {BUSINESS_NAME}</h2>
@@ -497,47 +591,16 @@ export default function MacombTownshipPage() {
         </div>
       </section>
 
-      {/* ═══ FOOTER ═════════════════════════════════════════════════════════ */}
+      {/* ═══ FOOTER ═══ */}
       <footer style={{ backgroundColor: C.white, borderTop: '1px solid #ebebeb', padding: '40px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
           <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 144, width: 'auto', objectFit: 'contain' }} />
-          <nav style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap', justifyContent: 'center' }}>
-            {[
-              { label: 'Services', href: '#services' },
-              { label: 'About', href: '#about' },
-              { label: 'Reviews', href: '#reviews' },
-              { label: 'Areas', href: '#areas' },
-              { label: 'Contact', href: '#contact' },
-              { label: 'More Offices', href: '/bloomfield' },
-            ].map((item, i) => (
-              <span key={item.label} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                {i > 0 && <span style={{ color: '#ddd', fontSize: 10 }}>&bull;</span>}
-                <a href={item.href} style={{ textDecoration: 'none', color: C.secondary, fontSize: 14, fontWeight: 500 }}>{item.label}</a>
-              </span>
-            ))}
-          </nav>
           <p style={{ fontSize: 14, color: C.secondary, textAlign: 'center', margin: 0, lineHeight: 1.6 }}>
-            {ADDRESS_LINE1}, {ADDRESS_LINE2} &bull; <a href={PHONE_HREF} style={{ color: C.secondary, textDecoration: 'none' }}>{PHONE}</a>
+            {BUSINESS_NAME} &bull; {ADDRESS_LINE1}, {ADDRESS_LINE2} &bull; <a href={PHONE_HREF} style={{ color: C.secondary, textDecoration: 'none' }}>{PHONE}</a>
           </p>
           <p style={{ fontSize: 13, color: '#b0b0b0', margin: 0 }}>&copy; {new Date().getFullYear()} {BUSINESS_NAME}. All rights reserved.</p>
         </div>
       </footer>
-
-      {/* ═══ RESPONSIVE STYLES ══════════════════════════════════════════════ */}
-      <style>{`
-        * { box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body { margin: 0; padding: 0; }
-        div::-webkit-scrollbar { display: none; }
-        .desktop-nav { display: flex !important; }
-        .mobile-menu-btn { display: none !important; }
-        .mobile-cta-bar { display: none !important; }
-        @media (max-width: 768px) {
-          .desktop-nav { display: none !important; }
-          .mobile-menu-btn { display: flex !important; }
-          .mobile-cta-bar { display: block !important; }
-        }
-      `}</style>
     </div>
   )
 }

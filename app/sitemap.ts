@@ -108,5 +108,53 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/services/contents-pack-out-storage`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/services/ceiling-water-damage-repair`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/services/hardwood-floor-water-damage`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/services/appliance-leak-water-damage`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/why-us`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/technology-equipment`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/faq`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/resources/water-damage-insurance-claim-guide`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
   ];
 }
