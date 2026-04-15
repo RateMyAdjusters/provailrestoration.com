@@ -118,6 +118,9 @@ const FOOTER_SERVICES: { label: string; href: string }[] = [
 const FOOTER_LOCATIONS: { label: string; href: string }[] = [
   { label: 'Bloomfield', href: '/bloomfield' },
   { label: 'Macomb Township', href: '/macomb-township-mi-water-damage-restoration-near-you' },
+  { label: 'Birmingham', href: '/birmingham-mi-water-damage-restoration' },
+  { label: 'Royal Oak', href: '/royal-oak-mi-water-damage-restoration' },
+  { label: 'Troy', href: '/troy-mi-water-damage-restoration' },
 ]
 
 const FOOTER_RESOURCES: { label: string; href: string }[] = [
