@@ -430,7 +430,7 @@ export function SiteHeader() {
           <img
             src="/logo.png"
             alt="Provail Restoration of Bloomfield"
-            style={{ height: 60, width: 'auto', objectFit: 'contain' }}
+            style={{ height: 180, width: 'auto', objectFit: 'contain' }}
           />
         </Link>
 
