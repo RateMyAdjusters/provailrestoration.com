@@ -828,10 +828,6 @@ export default function AuburnHillsPage() {
                 label: 'Rochester Hills, MI',
                 href: '/rochester-hills-mi-water-damage-restoration',
               },
-              {
-                label: 'Pontiac, MI',
-                href: '/pontiac-mi-water-damage-restoration',
-              },
               { label: 'Bloomfield Township', href: '/bloomfield' },
               {
                 label: 'Commercial Restoration',

@@ -97,12 +97,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
-      url: `${BASE_URL}/pontiac-mi-water-damage-restoration`,
-      lastModified,
-      changeFrequency: 'weekly',
-      priority: 0.85,
-    },
-    {
       url: `${BASE_URL}/water-damage-restoration`,
       lastModified,
       changeFrequency: 'monthly',

@@ -61,7 +61,6 @@ const auburnHillsServiceAreaJsonLd = {
     { '@type': 'Place', name: 'Great Lakes Crossing Outlets' },
     { '@type': 'Place', name: 'Stellantis Headquarters Corridor' },
     { '@type': 'City', name: 'Rochester Hills' },
-    { '@type': 'City', name: 'Pontiac' },
     { '@type': 'City', name: 'Rochester' },
     { '@type': 'City', name: 'Lake Orion' },
     { '@type': 'City', name: 'Bloomfield Township' },
