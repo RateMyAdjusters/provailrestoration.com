@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SiteHeader } from '../_components/site-chrome'
 
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
@@ -109,19 +110,7 @@ export default function CommercialRestorationPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      <header className="sticky top-0 z-50 bg-white" style={{ boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
-        <div className="max-w-[1120px] mx-auto flex items-center justify-between px-6 py-4">
-          <a href="/" className="flex items-center no-underline">
-            <img src="/logo.png" alt="Provail Restoration of Bloomfield" style={{ height: 60, width: 'auto', objectFit: 'contain' }} />
-          </a>
-          <a href={PHONE_HREF} className="hidden md:flex items-center gap-2 text-[#222222] hover:text-[#ff385c]">
-            <span className="font-semibold text-[15px]">{PHONE}</span>
-          </a>
-        </div>
-        <div className="lg:hidden flex items-center justify-center gap-3 py-2.5" style={{ backgroundColor: '#ff385c' }}>
-          <a href={PHONE_HREF} className="text-white font-semibold text-sm no-underline">Call {PHONE}</a>
-        </div>
-      </header>
+      <SiteHeader />
 
       <main>
         <section className="bg-white" style={{ paddingTop: '80px', paddingBottom: '40px' }}>

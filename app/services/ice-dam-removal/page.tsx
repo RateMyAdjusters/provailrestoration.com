@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SiteHeader } from '../../_components/site-chrome'
 
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
@@ -165,45 +166,7 @@ export default function IceDamRemovalPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      {/* Header */}
-      <header
-        className="sticky top-0 z-50 bg-white"
-        style={{
-          boxShadow:
-            'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px',
-        }}
-      >
-        <div className="max-w-[1120px] mx-auto flex items-center justify-between px-6 py-4">
-          <a href="/" className="flex items-center no-underline">
-            <img
-              src="/logo.png"
-              alt={BUSINESS_NAME}
-              style={{ height: 60, width: 'auto', objectFit: 'contain' }}
-            />
-          </a>
-          <nav className="hidden lg:flex items-center gap-8">
-            <a href="/" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Home</a>
-            <a href="/#services" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Services</a>
-            <a href="/storm-damage-restoration" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Storm Damage</a>
-            <a href="/bloomfield" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Bloomfield</a>
-            <a href="#contact" className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c]">Contact</a>
-          </nav>
-          <a
-            href={PHONE_HREF}
-            className="hidden md:flex items-center gap-2 text-[#222222] hover:text-[#ff385c]"
-          >
-            <span className="font-semibold text-[15px]">{PHONE}</span>
-          </a>
-        </div>
-        <div
-          className="lg:hidden flex items-center justify-center gap-3 py-2.5"
-          style={{ backgroundColor: '#ff385c' }}
-        >
-          <a href={PHONE_HREF} className="text-white font-semibold text-sm no-underline">
-            Call {PHONE}
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       <main>
         {/* Hero */}

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { SiteHeader } from '../_components/site-chrome'
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 const PHONE = '(586) 207-9091'
@@ -254,28 +255,7 @@ export default function MacombTownshipPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      {/* ═══ HEADER ═══ */}
-      <header style={{ position: 'sticky', top: 0, zIndex: 1000, backgroundColor: C.white, boxShadow: '0 1px 0 rgba(0,0,0,0.08)' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '8px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-            <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 75, width: 'auto', objectFit: 'contain' }} />
-          </a>
-          <nav className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
-            {['Services', 'About', 'Reviews', 'Areas', 'Contact'].map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`} style={{ textDecoration: 'none', color: C.text, fontSize: 14, fontWeight: 500 }}>{item}</a>
-            ))}
-            <a href={PHONE_HREF} style={{ display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none', color: C.text, fontSize: 14, fontWeight: 600 }}>
-              <PhoneIcon size={16} color={C.accent} />
-              {PHONE}
-            </a>
-          </nav>
-        </div>
-        <div className="mobile-cta-bar" style={{ display: 'none', backgroundColor: C.accent }}>
-          <a href={PHONE_HREF} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, padding: '10px 0', color: C.white, textDecoration: 'none', fontSize: 14, fontWeight: 600 }}>
-            <PhoneIcon size={16} color={C.white} />Call Now: {PHONE}
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* ═══ HERO ═══ */}
       <section style={{ position: 'relative', backgroundColor: '#111', minHeight: 600, padding: '80px 0 180px', overflow: 'visible' }}>

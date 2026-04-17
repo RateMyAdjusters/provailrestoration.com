@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { SiteHeader } from './_components/site-chrome'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(248) 531-8404'
@@ -237,61 +238,7 @@ const serviceIcons = [
 export default function Home() {
   return (
     <>
-      {/* ================================================================
-          1. HEADER - White sticky, Airbnb style
-          ================================================================ */}
-      <header className="sticky top-0 z-50 bg-white" style={{ boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
-        <div className="max-w-[1120px] mx-auto flex items-center justify-between px-6 py-4">
-          {/* Logo */}
-          <a href="/" className="flex items-center no-underline">
-            <img
-              src="/logo.png"
-              alt="Provail Restoration of Bloomfield"
-              style={{
-                height: 60,
-                width: 'auto',
-                objectFit: 'contain',
-              }}
-            />
-          </a>
-
-          {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-8">
-            {[
-              { label: 'Services', href: '#services' },
-              { label: 'About', href: '#why-choose' },
-              { label: 'Protection Plan', href: '#protection-plan' },
-              { label: 'Areas', href: '#areas' },
-              { label: 'Contact', href: '#contact' },
-            ].map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-[#222222] text-[15px] font-medium hover:text-[#ff385c] transition-colors duration-150"
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
-
-          {/* Phone - right side */}
-          <a
-            href={PHONE_HREF}
-            className="hidden md:flex items-center gap-2 text-[#222222] hover:text-[#ff385c] transition-colors duration-150"
-          >
-            <PhoneIcon />
-            <span className="font-semibold text-[15px]">{PHONE}</span>
-          </a>
-        </div>
-
-        {/* Mobile CTA bar */}
-        <div className="lg:hidden flex items-center justify-center gap-3 py-2.5" style={{ backgroundColor: '#ff385c' }}>
-          <a href={PHONE_HREF} className="text-white font-semibold text-sm flex items-center gap-1.5 no-underline hover:text-white">
-            <PhoneIcon className="text-white" />
-            Call {PHONE}
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       <main>
         {/* ================================================================
