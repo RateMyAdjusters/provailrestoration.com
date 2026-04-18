@@ -426,11 +426,18 @@ export function SiteHeader() {
 
       {/* Main bar */}
       <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-4 gap-6">
-        <Link href="/" className="flex items-center no-underline shrink-0" aria-label="Provail Restoration of Bloomfield — Home">
+        <Link href="/" className="flex items-center no-underline shrink-0 self-start" aria-label="Provail Restoration of Bloomfield — Home">
           <img
             src="/logo.png"
             alt="Provail Restoration of Bloomfield"
-            style={{ height: 180, width: 'auto', objectFit: 'contain' }}
+            style={{
+              height: 180,
+              width: 'auto',
+              objectFit: 'contain',
+              marginTop: 0,
+              marginBottom: -120,
+              maxWidth: 'none',
+            }}
           />
         </Link>
 
