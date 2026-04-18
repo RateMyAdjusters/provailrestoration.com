@@ -850,9 +850,7 @@ export default function RoofLeakAfterStormEmergencyGuidePage() {
               >
                 {PHONE}
               </a>{' '}
-              for 24/7 emergency dispatch. Provail Restoration of
-              Bloomfield will walk you through containment over the
-              phone and put a crew on the way.
+              for 24/7 emergency dispatch. Provail Restoration of Bloomfield will walk you through containment over the phone and put a crew on the way.
             </p>
             <HeroCTA />
             <p className="text-[#6a6a6a] text-sm mt-8">

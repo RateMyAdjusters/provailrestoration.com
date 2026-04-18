@@ -2,6 +2,7 @@
 
 import React, { useEffect, useId, useRef, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const PHONE = '(248) 531-8404'
 const PHONE_HREF = 'tel:+12485318404'
@@ -427,9 +428,13 @@ export function SiteHeader() {
       {/* Main bar */}
       <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-4 gap-6">
         <Link href="/" className="flex items-center no-underline shrink-0 self-start" aria-label="Provail Restoration of Bloomfield — Home">
-          <img
+          <Image
             src="/logo.png"
             alt="Provail Restoration of Bloomfield"
+            width={270}
+            height={180}
+            priority
+            sizes="270px"
             style={{
               height: 180,
               width: 'auto',
@@ -509,9 +514,12 @@ export function SiteHeader() {
             style={{ boxShadow: 'rgba(0,0,0,0.18) -12px 0 40px -12px' }}
           >
             <div className="flex items-center justify-between px-5 py-4 border-b border-[#ebebeb]">
-              <img
+              <Image
                 src="/logo.png"
                 alt="Provail Restoration of Bloomfield"
+                width={66}
+                height={44}
+                sizes="66px"
                 style={{ height: 44, width: 'auto', objectFit: 'contain' }}
               />
               <button

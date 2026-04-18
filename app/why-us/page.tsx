@@ -16,7 +16,7 @@ const BIZ_NAME = 'Provail Restoration of Bloomfield'
 export const metadata: Metadata = {
   title: 'Why Choose Provail Restoration of Bloomfield | IICRC Certified | (248) 531-8404',
   description:
-    'Why Bloomfield homeowners call Provail Restoration first: IICRC-certified technicians, 60-minute response target, single project manager, documentation-first process, direct insurance billing, and a written workmanship warranty.',
+    'Why Bloomfield homeowners call Provail Restoration of Bloomfield first: IICRC-certified technicians, 60-minute response target, single project manager, documentation-first process, direct insurance billing, and a written workmanship warranty.',
   alternates: { canonical: 'https://provailrestoration.com/why-us' },
   openGraph: {
     title: 'Why Choose Provail Restoration of Bloomfield',

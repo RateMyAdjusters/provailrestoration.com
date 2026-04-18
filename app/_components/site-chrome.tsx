@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export { SiteHeader } from './site-nav'
 
@@ -69,6 +70,9 @@ const FOOTER_RESOURCES: { label: string; href: string }[] = [
   { label: 'FAQ', href: '/faq' },
   { label: 'Why Us', href: '/why-us' },
   { label: 'Technology & Equipment', href: '/technology-equipment' },
+  { label: 'Contact', href: '/contact' },
+  { label: 'Privacy Policy', href: '/privacy' },
+  { label: 'Terms of Use', href: '/terms' },
 ]
 
 export function SiteFooter() {
@@ -76,9 +80,12 @@ export function SiteFooter() {
     <footer className="bg-white" style={{ padding: '48px 0 40px' }}>
       <div className="max-w-[1120px] mx-auto px-6">
         <div className="flex items-center justify-center mb-8">
-          <img
+          <Image
             src="/logo.png"
             alt={FOOTER_BRAND}
+            width={72}
+            height={48}
+            sizes="72px"
             style={{ height: 48, width: 'auto', objectFit: 'contain' }}
           />
         </div>

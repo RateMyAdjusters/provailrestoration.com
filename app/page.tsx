@@ -49,20 +49,6 @@ const services = [
   },
 ]
 
-/* ── Testimonials ── */
-const testimonials = [
-  { name: 'Mike Kowalski', text: 'Our basement flooded after a pipe burst in the middle of the night. Provail Restoration of Bloomfield was out within the hour and had everything under control. Can\u2019t say enough good things about this crew.' },
-  { name: 'Linda Derkacz', text: 'Very professional and thorough. They handled our water damage quickly and kept us informed the whole time.' },
-  { name: 'Tom Hensley', text: 'Fast response, fair pricing, quality work!' },
-  { name: 'Karen Oblinger', text: 'We had water coming in from a cracked foundation after the spring thaw. They dried everything out, treated for mold, and even helped us deal with the insurance paperwork. Highly recommend.' },
-  { name: 'Dave Stapleton', text: 'Called them on a Saturday when our sump pump failed and the basement was filling up. They came out right away, no extra charge for the weekend. Very honest and hardworking people.' },
-  { name: 'Jennifer Makowski', text: 'Great experience from start to finish. Friendly, on time, and they did exactly what they said they would do.' },
-  { name: 'Scott & Amy Novak', text: 'They saved us after a dishwasher leak ruined our kitchen floor. Professional, fast, and reasonably priced compared to other estimates we got.' },
-  { name: 'Patricia Griggs', text: 'Excellent work. They found mold behind our drywall that two other companies missed. Very knowledgeable and thorough.' },
-  { name: 'Rob Jankowski', text: 'Quick, clean, professional. Will absolutely use them again.' },
-  { name: 'Dan & Michelle Brecht', text: 'We were dealing with a flooded basement and had no idea where to start. They walked us through everything, handled the water extraction and drying, and followed up a week later to make sure there were no issues.' },
-]
-
 /* ── Service areas ── */
 const serviceAreas = [
   'Bloomfield Hills', 'Bloomfield Township', 'Bloomfield Village', 'Birmingham',
@@ -306,7 +292,7 @@ export default function Home() {
                 { icon: <ClockIcon />, label: '<60 Min Response' },
                 { icon: <ShieldIcon />, label: '24/7 Available' },
                 { icon: <CertIcon />, label: 'IICRC Certified' },
-                { icon: <StarIcon />, label: '5.0 Rating' },
+                { icon: <ShieldIcon />, label: 'Licensed & Insured' },
               ].map((stat) => (
                 <div key={stat.label} className="flex flex-col items-center gap-2">
                   <div className="text-[#ff385c]">{stat.icon}</div>
@@ -588,11 +574,11 @@ export default function Home() {
                     lineHeight: '1.2',
                   }}
                 >
-                  Rest Easy With the Power of Our 60-Minute Rapid Response Guarantee!
+                  Our 60-Minute Rapid Response Target
                 </h2>
                 <p className="text-[#6a6a6a] text-base leading-relaxed mb-6">
-                  When water damage strikes, every minute counts. Our <strong className="text-[#222222]">Rapid Response Guarantee</strong> means
-                  a certified restoration crew is at your door within 60 minutes &mdash; equipped with commercial-grade
+                  When water damage strikes, every minute counts. Our <strong className="text-[#222222]">rapid response target</strong> is to have
+                  a certified restoration crew at your door within 60 minutes &mdash; equipped with commercial-grade
                   extraction, drying, and monitoring technology to stop the damage in its tracks and protect what matters most.
                 </p>
                 <a
@@ -610,79 +596,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* ================================================================
-            7. TESTIMONIALS - Horizontal scroll carousel
-            ================================================================ */}
-        <section className="bg-white" style={{ padding: '80px 0 64px' }}>
-          <div className="max-w-[1120px] mx-auto px-6">
-            <div className="text-center mb-10">
-              <h2
-                className="text-[#222222] font-bold mb-3"
-                style={{ fontSize: 'clamp(1.625rem, 4vw, 2.5rem)', letterSpacing: '-0.44px' }}
-              >
-                What Our Clients Are Saying
-              </h2>
-              <p className="text-[#6a6a6a] text-lg">Real reviews from real homeowners in Bloomfield.</p>
-            </div>
-          </div>
-
-          {/* Carousel - full bleed with padding */}
-          <div
-            className="flex gap-6 overflow-x-auto pb-8 px-6"
-            style={{
-              scrollSnapType: 'x mandatory',
-              scrollBehavior: 'smooth',
-              WebkitOverflowScrolling: 'touch',
-              scrollbarWidth: 'none',
-              msOverflowStyle: 'none',
-            }}
-          >
-            {testimonials.map((t) => (
-              <div
-                key={t.name}
-                className="flex-shrink-0 bg-white p-8"
-                style={{
-                  width: 'min(85vw, 380px)',
-                  scrollSnapAlign: 'start',
-                  borderRadius: '20px',
-                  boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px',
-                  transition: 'box-shadow 250ms cubic-bezier(0.25,0.1,0.25,1), transform 250ms cubic-bezier(0.25,0.1,0.25,1)',
-                }}
-                onMouseEnter={(e) => {
-                  const el = e.currentTarget
-                  el.style.transform = 'translateY(-2px)'
-                  el.style.boxShadow = 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.06) 0px 4px 12px, rgba(0,0,0,0.14) 0px 8px 20px'
-                }}
-                onMouseLeave={(e) => {
-                  const el = e.currentTarget
-                  el.style.transform = 'translateY(0)'
-                  el.style.boxShadow = 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px'
-                }}
-              >
-                <div className="mb-4">
-                  <QuoteIcon />
-                </div>
-                <p className="text-[#222222] text-[15px] leading-[1.65] font-normal mb-6">
-                  &ldquo;{t.text}&rdquo;
-                </p>
-                <div className="flex items-center gap-3">
-                  {/* Avatar placeholder */}
-                  <div
-                    className="w-10 h-10 flex items-center justify-center text-[#ff385c] font-semibold text-sm"
-                    style={{ borderRadius: '50%', backgroundColor: 'rgba(255,56,92,0.08)' }}
-                  >
-                    {t.name.charAt(0)}
-                  </div>
-                  <div>
-                    <p className="text-[#222222] text-[15px] font-semibold m-0 leading-tight">{t.name}</p>
-                    <p className="text-[#6a6a6a] text-[13px] m-0 leading-tight mt-0.5">Bloomfield Homeowner</p>
-                  </div>
-                </div>
-              </div>
-            ))}
           </div>
         </section>
 

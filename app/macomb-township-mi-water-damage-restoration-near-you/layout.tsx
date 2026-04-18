@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'sewage cleanup Macomb Township MI',
     'mold remediation Macomb Township',
     '24/7 water damage Macomb',
-    'Provail Restoration Macomb Township',
+    'Provail Restoration of Macomb Township',
     'water removal Macomb MI',
     'basement flooding Macomb Township',
   ],

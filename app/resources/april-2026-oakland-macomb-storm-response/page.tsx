@@ -763,10 +763,7 @@ export default function AprilStormResponsePage() {
               >
                 {PHONE}
               </a>{' '}
-              for 24/7 dispatch across Oakland County during
-              the April 15, 2026 storm event. Provail Restoration of
-              Bloomfield has crews staged for roof tarping, water
-              extraction, and emergency drying tonight.
+              for 24/7 dispatch across Oakland County during the April 15, 2026 storm event. Provail Restoration of Bloomfield has crews staged for roof tarping, water extraction, and emergency drying tonight.
             </p>
             <HeroCTA />
             <p className="text-[#6a6a6a] text-sm mt-8">
