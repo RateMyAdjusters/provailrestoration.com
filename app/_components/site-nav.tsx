@@ -4,8 +4,8 @@ import React, { useEffect, useId, useRef, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 
 type NavLink = { label: string; href: string; desc?: string }
 type NavColumn = { heading: string; links: NavLink[] }

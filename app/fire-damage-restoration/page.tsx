@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 
 export const metadata: Metadata = {
   title:
-    'Fire Damage Restoration Bloomfield MI | Soot, Smoke & Structural Repair | (248) 531-8404',
+    'Fire Damage Restoration Bloomfield MI | Soot, Smoke & Structural Repair | (586) 327-5015',
   description:
-    'Provail Restoration of Bloomfield provides 24/7 fire damage restoration in Bloomfield Township and Oakland County, MI. Emergency board-up, soot removal, thermal fogging, ozone treatment, content cleaning, structural repair, and complete odor elimination. Call (248) 531-8404.',
+    'Provail Restoration of Bloomfield provides 24/7 fire damage restoration in Bloomfield Township and Oakland County, MI. Emergency board-up, soot removal, thermal fogging, ozone treatment, content cleaning, structural repair, and complete odor elimination. Call (586) 327-5015.',
   keywords: [
     'fire damage restoration Bloomfield',
     'fire damage repair Bloomfield Township MI',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      'Fire Damage Restoration Bloomfield MI | 24/7 Emergency | (248) 531-8404',
+      'Fire Damage Restoration Bloomfield MI | 24/7 Emergency | (586) 327-5015',
     description:
       'IICRC S700 fire and smoke restoration in Bloomfield Township, MI. Board-up, soot and smoke removal, thermal fogging, ozone, content cleaning, and odor elimination.',
     url: 'https://provailrestoration.com/fire-damage-restoration',
@@ -88,7 +88,7 @@ const jsonLd = [
     provider: {
       '@type': 'LocalBusiness',
       name: BIZ_NAME,
-      telephone: '+12485318404',
+      telephone: '+15863275015',
       address: {
         '@type': 'PostalAddress',
         streetAddress: ADDRESS_LINE1,
@@ -128,7 +128,7 @@ const jsonLd = [
     '@type': 'LocalBusiness',
     '@id': 'https://provailrestoration.com/fire-damage-restoration',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     url: 'https://provailrestoration.com/fire-damage-restoration',
     address: {
       '@type': 'PostalAddress',

@@ -58,7 +58,7 @@ const localBusinessJsonLd = {
   '@type': 'HomeAndConstructionBusiness',
   '@id': 'https://provailrestoration.com/technology-equipment#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/technology-equipment',
   address: {
     '@type': 'PostalAddress',
@@ -77,7 +77,7 @@ const serviceJsonLd = {
   '@type': 'Service',
   serviceType: 'Restoration Equipment and Technology',
   name: 'Professional Restoration Equipment',
-  provider: { '@type': 'LocalBusiness', name: BIZ_NAME, telephone: '+12485318404' },
+  provider: { '@type': 'LocalBusiness', name: BIZ_NAME, telephone: '+15863275015' },
   areaServed: [
     { '@type': 'City', name: 'Bloomfield Township' },
     { '@type': 'City', name: 'Birmingham' },

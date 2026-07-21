@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Storm Damage Restoration Rochester Hills MI | Provail',
   description:
-    'Rochester Hills storm damage restoration after the April 15, 2026 squall line. 24/7 emergency tarp, board-up, wind & tree impact repair. Call (248) 531-8404.',
+    'Rochester Hills storm damage restoration after the April 15, 2026 squall line. 24/7 emergency tarp, board-up, wind & tree impact repair. Call (586) 327-5015.',
   keywords: [
     'storm damage restoration Rochester Hills MI',
     'wind damage repair Rochester Hills',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Storm Damage Restoration Rochester Hills MI | Provail',
     description:
-      'Rochester Hills storm response after the April 15, 2026 squall line. Tarp, board-up, tree impact, wind-driven rain. Dispatching now — (248) 531-8404.',
+      'Rochester Hills storm response after the April 15, 2026 squall line. Tarp, board-up, tree impact, wind-driven rain. Dispatching now — (586) 327-5015.',
     url: 'https://provailrestoration.com/rochester-hills-mi-storm-damage-restoration',
     type: 'website',
   },
@@ -39,7 +39,7 @@ const jsonLd = {
   description:
     'Emergency storm damage restoration in Rochester Hills, MI. Emergency tarping, board-up, wind damage, tree impact structural repair, hail damage assessment, and wind-driven rain mitigation after the April 15, 2026 Oakland County storm event and every storm that follows.',
   url: 'https://provailrestoration.com/rochester-hills-mi-storm-damage-restoration',
-  telephone: '+1-248-531-8404',
+  telephone: '+1-586-327-5015',
   priceRange: '$$',
   paymentAccepted: 'Cash, Check, Credit Card, Insurance Direct Billing',
   address: {

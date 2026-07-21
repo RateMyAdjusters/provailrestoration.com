@@ -70,7 +70,7 @@ Trust is the foundation. Without it, the other three don't matter.
 - HTTPS sitewide, valid cert, no mixed content
 - Privacy Policy, Terms of Service, and Accessibility Statement (ADA — separate legal exposure)
 - Physical street address visible in footer on every page (4060 W Maple Rd, Bloomfield Township, MI 48301)
-- Local phone number, click-to-call, *consistent everywhere* — (248) 531-8404
+- Local phone number, click-to-call, *consistent everywhere* — (586) 327-5015
 - Hours of operation, including 24/7 emergency line clarification
 - Direct link to verified Google Business Profile
 - Michigan contractor license number visible in footer
@@ -141,7 +141,7 @@ Categories with low local AEO competition (most Michigan restoration markets in 
 ## 9. Actionable PROVAIL Checklist
 
 ### Site-wide foundations
-- [ ] Footer on every page: "PROVAIL Water Damage Restoration Bloomfield, 4060 W Maple Rd, Bloomfield Township, MI 48301 · (248) 531-8404"
+- [ ] Footer on every page: "PROVAIL Water Damage Restoration Bloomfield, 4060 W Maple Rd, Bloomfield Township, MI 48301 · (586) 327-5015"
 - [ ] Michigan contractor license # added to footer
 - [ ] HTTPS verified, no mixed content warnings
 - [ ] Privacy Policy, Terms, Accessibility Statement pages live

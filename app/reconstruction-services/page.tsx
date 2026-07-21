@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/reconstruction-services'
 
 export const metadata: Metadata = {
-  title: 'Reconstruction Services Bloomfield, MI | Post-Mitigation Rebuild | (248) 531-8404',
+  title: 'Reconstruction Services Bloomfield, MI | Post-Mitigation Rebuild | (586) 327-5015',
   description:
-    'Post-mitigation reconstruction in Bloomfield Township and Bloomfield Hills, MI. Drywall, flooring, cabinetry, paint, and trim. Provail Restoration of Bloomfield handles the rebuild after water, mold, or sewage losses. Call (248) 531-8404.',
+    'Post-mitigation reconstruction in Bloomfield Township and Bloomfield Hills, MI. Drywall, flooring, cabinetry, paint, and trim. Provail Restoration of Bloomfield handles the rebuild after water, mold, or sewage losses. Call (586) 327-5015.',
   keywords: [
     'reconstruction services Bloomfield',
     'water damage rebuild Bloomfield Township',
@@ -79,7 +79,7 @@ const jsonLd = [
     provider: {
       '@type': 'LocalBusiness',
       name: BIZ,
-      telephone: '+12485318404',
+      telephone: '+15863275015',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '4060 W Maple Rd',
@@ -106,7 +106,7 @@ const jsonLd = [
     '@type': 'LocalBusiness',
     '@id': URL + '#business',
     name: BIZ,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     url: 'https://provailrestoration.com',
     address: {
       '@type': 'PostalAddress',

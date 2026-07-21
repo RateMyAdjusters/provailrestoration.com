@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Rochester MI | Provail',
   description:
-    'Water damage restoration in Rochester, MI — historic downtown, Paint Creek corridor, 1900s Victorians and craftsman bungalows. 24/7 response from our Bloomfield crew, ~22 minutes away. Call (248) 531-8404.',
+    'Water damage restoration in Rochester, MI — historic downtown, Paint Creek corridor, 1900s Victorians and craftsman bungalows. 24/7 response from our Bloomfield crew, ~22 minutes away. Call (586) 327-5015.',
   keywords: [
     'water damage restoration Rochester MI',
     'Rochester MI water damage',
@@ -49,7 +49,7 @@ export default function RochesterMiWaterDamageLayout({
     name: 'Provail Restoration of Bloomfield — Rochester, MI Water Damage Service',
     image: 'https://provailrestoration.com/logo.png',
     url: 'https://provailrestoration.com/rochester-mi-water-damage-restoration',
-    telephone: '+1-248-531-8404',
+    telephone: '+1-586-327-5015',
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',

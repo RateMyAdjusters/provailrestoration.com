@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { SiteHeader, SiteFooter, PHONE, PHONE_HREF, ADDRESS_LINE1, ADDRESS_LINE2, BIZ_NAME } from '../_components/site-chrome'
 
 export const metadata: Metadata = {
-  title: 'Contact Provail Restoration of Bloomfield | 24/7 Dispatch | (248) 531-8404',
+  title: 'Contact Provail Restoration of Bloomfield | 24/7 Dispatch | (586) 327-5015',
   description:
     'Reach Provail Restoration of Bloomfield 24 hours a day for emergency water, fire, mold, and storm damage response across Oakland and Macomb counties. Call, email, or visit our Bloomfield Township office.',
   alternates: { canonical: 'https://provailrestoration.com/contact' },

@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import { SiteHeader } from '../../_components/site-chrome'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 const PAGE_URL = 'https://provailrestoration.com/services/soot-cleanup'
 
 export const metadata: Metadata = {
   title:
-    'Surface-Specific Soot Cleanup — Electronics, Art, Stone, Textiles & HVAC | (248) 531-8404',
+    'Surface-Specific Soot Cleanup — Electronics, Art, Stone, Textiles & HVAC | (586) 327-5015',
   description:
     'Specialized soot cleanup by surface type: circuit boards and electronics, fine art, marble and natural stone, brass and bronze, clothing and upholstery, HVAC ductwork, photographs and documents, jewelry. Provail Restoration of Bloomfield serves Oakland County.',
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'brass bronze soot',
   ],
   openGraph: {
-    title: 'Surface-Specific Soot Cleanup | (248) 531-8404',
+    title: 'Surface-Specific Soot Cleanup | (586) 327-5015',
     description:
       'Electronics, fine art, stone, brass, textiles, HVAC ductwork, photos, and jewelry. Each substrate has its own chemistry.',
     url: PAGE_URL,
@@ -84,7 +84,7 @@ const faqs = [
 const providerNode = {
   '@type': 'HomeAndConstructionBusiness',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   address: {
     '@type': 'PostalAddress',
     streetAddress: ADDRESS_LINE1,
@@ -119,7 +119,7 @@ const jsonLd = [
     '@type': 'LocalBusiness',
     '@id': PAGE_URL + '#business',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     url: PAGE_URL,
     address: {
       '@type': 'PostalAddress',

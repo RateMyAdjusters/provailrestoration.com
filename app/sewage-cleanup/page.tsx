@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/sewage-cleanup'
 
 export const metadata: Metadata = {
-  title: 'Sewage Cleanup Bloomfield, MI | Cat 3 Black Water | (248) 531-8404',
+  title: 'Sewage Cleanup Bloomfield, MI | Cat 3 Black Water | (586) 327-5015',
   description:
-    'Category 3 black water sewage cleanup in Bloomfield Township and Bloomfield Hills, MI. Biohazard removal, EPA-registered disinfection, full PPE, and structural drying. Call Provail Restoration of Bloomfield 24/7 at (248) 531-8404.',
+    'Category 3 black water sewage cleanup in Bloomfield Township and Bloomfield Hills, MI. Biohazard removal, EPA-registered disinfection, full PPE, and structural drying. Call Provail Restoration of Bloomfield 24/7 at (586) 327-5015.',
   keywords: [
     'sewage cleanup Bloomfield',
     'Cat 3 black water cleanup',
@@ -79,7 +79,7 @@ const jsonLd = [
     provider: {
       '@type': 'LocalBusiness',
       name: BIZ,
-      telephone: '+12485318404',
+      telephone: '+15863275015',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '4060 W Maple Rd',
@@ -106,7 +106,7 @@ const jsonLd = [
     '@type': 'LocalBusiness',
     '@id': URL + '#business',
     name: BIZ,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     url: 'https://provailrestoration.com',
     address: {
       '@type': 'PostalAddress',

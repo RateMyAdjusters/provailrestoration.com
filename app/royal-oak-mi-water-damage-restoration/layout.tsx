@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Royal Oak MI | Provail Restoration of Bloomfield',
   description:
-    'Royal Oak water damage restoration from Provail Restoration of Bloomfield. 24/7 response for sewer backups, Red Run flooding, frozen pipes. Call (248) 531-8404.',
+    'Royal Oak water damage restoration from Provail Restoration of Bloomfield. 24/7 response for sewer backups, Red Run flooding, frozen pipes. Call (586) 327-5015.',
   keywords: [
     'water damage restoration Royal Oak MI',
     'Royal Oak basement flooding',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Royal Oak MI | Provail Restoration of Bloomfield',
     description:
-      'Royal Oak water damage, sewer backup, and flood cleanup. 24/7 dispatch from our Bloomfield Township office. Call (248) 531-8404.',
+      'Royal Oak water damage, sewer backup, and flood cleanup. 24/7 dispatch from our Bloomfield Township office. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/royal-oak-mi-water-damage-restoration',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -37,7 +37,7 @@ const jsonLd = {
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/royal-oak-mi-water-damage-restoration',
   address: {
     '@type': 'PostalAddress',

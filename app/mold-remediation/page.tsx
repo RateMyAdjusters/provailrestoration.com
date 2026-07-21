@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const BIZ = 'Provail Restoration of Bloomfield'
 const URL = 'https://provailrestoration.com/mold-remediation'
 
 export const metadata: Metadata = {
-  title: 'Mold Remediation Bloomfield, MI | IICRC S520 Certified | (248) 531-8404',
+  title: 'Mold Remediation Bloomfield, MI | IICRC S520 Certified | (586) 327-5015',
   description:
-    'IICRC S520 mold remediation in Bloomfield Township, Bloomfield Hills & Birmingham, MI. Certified containment, HEPA air filtration, source removal, and post-remediation verification. Call Provail Restoration of Bloomfield at (248) 531-8404.',
+    'IICRC S520 mold remediation in Bloomfield Township, Bloomfield Hills & Birmingham, MI. Certified containment, HEPA air filtration, source removal, and post-remediation verification. Call Provail Restoration of Bloomfield at (586) 327-5015.',
   keywords: [
     'mold remediation Bloomfield',
     'IICRC S520 mold remediation',
@@ -84,7 +84,7 @@ const jsonLd = [
     provider: {
       '@type': 'LocalBusiness',
       name: BIZ,
-      telephone: '+12485318404',
+      telephone: '+15863275015',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '4060 W Maple Rd',
@@ -111,7 +111,7 @@ const jsonLd = [
     '@type': 'LocalBusiness',
     '@id': URL + '#business',
     name: BIZ,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     url: 'https://provailrestoration.com',
     address: {
       '@type': 'PostalAddress',

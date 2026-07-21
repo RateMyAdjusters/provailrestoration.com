@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 
 export const metadata: Metadata = {
   title:
-    'Water Damage Insurance Documentation in Michigan | Provail Restoration of Bloomfield | (248) 531-8404',
+    'Water Damage Insurance Documentation in Michigan | Provail Restoration of Bloomfield | (586) 327-5015',
   description:
     'Provail Restoration of Bloomfield documents water damage for your insurance company, works directly with your adjuster, and direct-bills most major Michigan carriers. IICRC-certified, Bloomfield Township based, serving Oakland County 24/7.',
   keywords: [
@@ -41,7 +41,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'LocalBusiness',
     name: 'Provail Restoration of Bloomfield',
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '4060 W Maple Rd',

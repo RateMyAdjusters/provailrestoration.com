@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: 'How soon can Provail Restoration of Bloomfield get on site?',
-    a: 'For water losses in Bloomfield Township and the surrounding Oakland County communities, we aim for rapid dispatch any hour of the day. Call our main line at (248) 531-8404 and a dispatcher will collect a few details about the loss, confirm an arrival window, and walk you through what to do until the crew arrives.',
+    a: 'For water losses in Bloomfield Township and the surrounding Oakland County communities, we aim for rapid dispatch any hour of the day. Call our main line at (586) 327-5015 and a dispatcher will collect a few details about the loss, confirm an arrival window, and walk you through what to do until the crew arrives.',
   },
 ]
 

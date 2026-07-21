@@ -13,9 +13,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Finished Basement Flood Cleanup & Cat 2/3 Water Triage in Bloomfield, MI | (248) 531-8404',
+    'Finished Basement Flood Cleanup & Cat 2/3 Water Triage in Bloomfield, MI | (586) 327-5015',
   description:
-    'Finished basement flooded? Provail Restoration of Bloomfield classifies Category 1, 2, and 3 water under IICRC S500, triages drywall, carpet pad, MDF cabinetry, upholstery, and electronics, and contains moisture migration into the sill plate and rim joist. 24/7: (248) 531-8404.',
+    'Finished basement flooded? Provail Restoration of Bloomfield classifies Category 1, 2, and 3 water under IICRC S500, triages drywall, carpet pad, MDF cabinetry, upholstery, and electronics, and contains moisture migration into the sill plate and rim joist. 24/7: (586) 327-5015.',
   alternates: {
     canonical: 'https://provailrestoration.com/services/basement-flood-cleanup',
   },
@@ -91,7 +91,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -119,7 +119,7 @@ const localBusinessJsonLd = {
   '@id':
     'https://provailrestoration.com/services/basement-flood-cleanup#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/basement-flood-cleanup',
   address: {
     '@type': 'PostalAddress',

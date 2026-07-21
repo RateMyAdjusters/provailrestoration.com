@@ -13,9 +13,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Appliance Leak Water Damage in Bloomfield, MI | Dishwasher, Washer, Fridge, Water Heater | (248) 531-8404',
+    'Appliance Leak Water Damage in Bloomfield, MI | Dishwasher, Washer, Fridge, Water Heater | (586) 327-5015',
   description:
-    'Dishwasher, washing machine, refrigerator, and water heater leak cleanup in Bloomfield Township. We dry cabinets and subfloors and document the loss for your carrier. 24/7: (248) 531-8404.',
+    'Dishwasher, washing machine, refrigerator, and water heater leak cleanup in Bloomfield Township. We dry cabinets and subfloors and document the loss for your carrier. 24/7: (586) 327-5015.',
   alternates: {
     canonical:
       'https://provailrestoration.com/services/appliance-leak-water-damage',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title:
       'Appliance Leak Water Damage in Bloomfield, MI | Provail Restoration of Bloomfield',
     description:
-      'Dishwasher, washer, fridge, or water heater failure? We dry the kitchen or laundry, save what we can, and document everything. Call (248) 531-8404.',
+      'Dishwasher, washer, fridge, or water heater failure? We dry the kitchen or laundry, save what we can, and document everything. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/services/appliance-leak-water-damage',
     siteName: BIZ_NAME,
     locale: 'en_US',
@@ -84,7 +84,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -112,7 +112,7 @@ const localBusinessJsonLd = {
   '@id':
     'https://provailrestoration.com/services/appliance-leak-water-damage#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/appliance-leak-water-damage',
   address: {
     '@type': 'PostalAddress',

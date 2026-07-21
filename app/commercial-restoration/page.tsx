@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 
 export const metadata: Metadata = {
   title:
-    'Commercial Water Damage Restoration in Michigan | Provail Restoration of Bloomfield | (248) 531-8404',
+    'Commercial Water Damage Restoration in Michigan | Provail Restoration of Bloomfield | (586) 327-5015',
   description:
     'Provail Restoration of Bloomfield provides 24/7 commercial water damage restoration for offices, retail, multifamily, and industrial properties across Bloomfield Township, Oakland County, and Southeast Michigan. Large-loss response, IICRC-certified crews, direct insurance billing.',
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Commercial Water Damage Restoration in Michigan | Provail Restoration of Bloomfield',
     description:
-      '24/7 commercial water damage and large-loss response for offices, retail, multifamily, and industrial buildings across Michigan. Call (248) 531-8404.',
+      '24/7 commercial water damage and large-loss response for offices, retail, multifamily, and industrial buildings across Michigan. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/commercial-restoration',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -43,7 +43,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'LocalBusiness',
     name: 'Provail Restoration of Bloomfield',
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '4060 W Maple Rd',

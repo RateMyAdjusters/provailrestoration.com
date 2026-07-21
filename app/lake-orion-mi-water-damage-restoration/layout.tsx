@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Lake Orion MI | Provail',
   description:
-    'Lake Orion water damage restoration — lakefront cottages, converted lake homes, village of Lake Orion, Orion Township. 24/7 response via M-24. Call (248) 531-8404.',
+    'Lake Orion water damage restoration — lakefront cottages, converted lake homes, village of Lake Orion, Orion Township. 24/7 response via M-24. Call (586) 327-5015.',
   keywords: [
     'water damage restoration Lake Orion MI',
     'lakefront water damage Lake Orion',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Lake Orion MI | Provail',
     description:
-      'Lakefront and inland water damage response for Lake Orion and Orion Township. Cottages, seawall leaks, frozen pipes, sump failures. Call (248) 531-8404.',
+      'Lakefront and inland water damage response for Lake Orion and Orion Township. Cottages, seawall leaks, frozen pipes, sump failures. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/lake-orion-mi-water-damage-restoration',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -39,7 +39,7 @@ const jsonLd = {
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/lake-orion-mi-water-damage-restoration',
   address: {
     '@type': 'PostalAddress',

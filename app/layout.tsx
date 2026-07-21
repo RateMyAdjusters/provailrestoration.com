@@ -3,9 +3,9 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://provailrestoration.com'),
-  title: 'Provail Restoration of Bloomfield | 24/7 Emergency Service | (248) 531-8404',
+  title: 'Provail Restoration of Bloomfield | 24/7 Emergency Service | (586) 327-5015',
   description:
-    'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills, Bloomfield Township, and surrounding areas. Call (248) 531-8404.',
+    'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills, Bloomfield Township, and surrounding areas. Call (586) 327-5015.',
   keywords: [
     'water damage restoration Bloomfield',
     'Provail Restoration of Bloomfield',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Provail Restoration of Bloomfield | 24/7 Emergency Service',
     description:
-      '24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills & Bloomfield Township, MI. Call (248) 531-8404.',
+      '24/7 emergency water damage restoration, flood cleanup, and mold remediation in Bloomfield Hills & Bloomfield Township, MI. Call (586) 327-5015.',
     url: 'https://provailrestoration.com',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -61,7 +61,7 @@ const jsonLd = {
       contactPoint: [
         {
           '@type': 'ContactPoint',
-          telephone: '+12485318404',
+          telephone: '+15863275015',
           contactType: 'customer service',
           areaServed: 'US-MI',
           availableLanguage: ['English'],
@@ -102,7 +102,7 @@ const jsonLd = {
       description:
         '24/7 emergency water damage restoration, flood cleanup, and mold remediation serving Bloomfield Hills, Bloomfield Township, and surrounding areas.',
       url: 'https://provailrestoration.com',
-      telephone: '+12485318404',
+      telephone: '+15863275015',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '4060 W Maple Rd',

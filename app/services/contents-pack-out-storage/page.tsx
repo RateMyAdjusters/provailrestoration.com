@@ -67,7 +67,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'LocalBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -94,7 +94,7 @@ const localBusinessJsonLd = {
   '@type': 'HomeAndConstructionBusiness',
   '@id': 'https://provailrestoration.com/services/contents-pack-out-storage#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/contents-pack-out-storage',
   address: {
     '@type': 'PostalAddress',

@@ -1,7 +1,7 @@
 import { SiteHeader, SiteFooter, PillarSectionHeading } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const BUSINESS_NAME = 'Provail Restoration of Bloomfield'
 const PAGE_URL =
   'https://provailrestoration.com/shelby-township-mi-water-damage-restoration'

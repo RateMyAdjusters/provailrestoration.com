@@ -13,9 +13,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Sump Pump Backup & Failure Prevention — Bloomfield, MI | (248) 531-8404',
+    'Sump Pump Backup & Failure Prevention — Bloomfield, MI | (586) 327-5015',
   description:
-    'Sump pump hardware, backup battery sizing, check valve failure modes, horsepower selection, discharge freeze-back, float switch service, and annual maintenance for Bloomfield Township, MI homes. Provail Restoration of Bloomfield: (248) 531-8404.',
+    'Sump pump hardware, backup battery sizing, check valve failure modes, horsepower selection, discharge freeze-back, float switch service, and annual maintenance for Bloomfield Township, MI homes. Provail Restoration of Bloomfield: (586) 327-5015.',
   alternates: {
     canonical: 'https://provailrestoration.com/services/sump-pump-failure',
   },
@@ -91,7 +91,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -118,7 +118,7 @@ const localBusinessJsonLd = {
   '@type': 'LocalBusiness',
   '@id': 'https://provailrestoration.com/services/sump-pump-failure#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/sump-pump-failure',
   address: {
     '@type': 'PostalAddress',

@@ -14,7 +14,7 @@ import {
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
 
 export const metadata: Metadata = {
-  title: 'Restoration FAQ | Water, Fire, Mold & Insurance Questions | (248) 531-8404',
+  title: 'Restoration FAQ | Water, Fire, Mold & Insurance Questions | (586) 327-5015',
   description:
     'Direct answers to the questions Bloomfield homeowners ask most: emergency response times, water categories, mold remediation steps, fire cleanup, insurance claims, pricing, process, and IICRC certifications. Updated by Provail Restoration of Bloomfield.',
   alternates: { canonical: 'https://provailrestoration.com/faq' },
@@ -249,7 +249,7 @@ const localBusinessJsonLd = {
   '@type': 'HomeAndConstructionBusiness',
   '@id': 'https://provailrestoration.com/faq#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/faq',
   address: {
     '@type': 'PostalAddress',

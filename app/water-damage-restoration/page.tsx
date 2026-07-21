@@ -80,7 +80,7 @@ const faqs = [
 const providerNode = {
   '@type': 'HomeAndConstructionBusiness',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   address: {
     '@type': 'PostalAddress',
     streetAddress: ADDRESS_LINE1,
@@ -117,7 +117,7 @@ const localBusinessJsonLd = {
   '@type': 'LocalBusiness',
   '@id': 'https://provailrestoration.com/water-damage-restoration#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: PAGE_URL,
   address: {
     '@type': 'PostalAddress',

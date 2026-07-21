@@ -4,7 +4,7 @@ import React from 'react'
 export const metadata: Metadata = {
   title: 'Fire Damage Restoration Rochester Hills MI | Provail',
   description:
-    'Fire & smoke damage restoration in Rochester Hills, MI near Oakland University. 24/7 board-up, soot cleanup, odor removal. Call (248) 531-8404.',
+    'Fire & smoke damage restoration in Rochester Hills, MI near Oakland University. 24/7 board-up, soot cleanup, odor removal. Call (586) 327-5015.',
   keywords: [
     'fire damage restoration Rochester Hills MI',
     'smoke damage cleanup Rochester Hills',
@@ -41,7 +41,7 @@ const jsonLd = {
   name: 'Provail Restoration of Bloomfield — Rochester Hills Fire Damage',
   parentOrganization: { '@id': 'https://provailrestoration.com/#organization' },
   url: 'https://provailrestoration.com/rochester-hills-mi-fire-damage-restoration',
-  telephone: '+1-248-531-8404',
+  telephone: '+1-586-327-5015',
   image: 'https://provailrestoration.com/logo.png',
   priceRange: '$$',
   paymentAccepted: 'Cash, Credit Card, Insurance',

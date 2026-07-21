@@ -4,8 +4,8 @@ import Link from 'next/link'
 import { SiteHeader } from './_components/site-chrome'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 
@@ -628,7 +628,7 @@ export default function Home() {
                 <p className="text-[#6a6a6a] text-[15px] leading-relaxed mb-2 m-0">
                   4060 W Maple Rd<br />Bloomfield Township, MI 48301
                 </p>
-                <p className="text-[#222222] font-semibold text-[15px] mb-3 m-0">(248) 531-8404 &middot; 24/7</p>
+                <p className="text-[#222222] font-semibold text-[15px] mb-3 m-0">(586) 327-5015 &middot; 24/7</p>
                 <span className="text-[#ff385c] font-semibold text-[14px]">View Bloomfield location &rarr;</span>
               </Link>
               <Link
@@ -697,7 +697,7 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
               {[
-                { n: '01', t: 'Emergency Call & Dispatch', d: 'Call (248) 531-8404 anytime, day or night. A live team member from Provail Restoration of Bloomfield gathers your address, the source of the water, and any safety hazards, then dispatches the closest crew to your Michigan property.' },
+                { n: '01', t: 'Emergency Call & Dispatch', d: 'Call (586) 327-5015 anytime, day or night. A live team member from Provail Restoration of Bloomfield gathers your address, the source of the water, and any safety hazards, then dispatches the closest crew to your Michigan property.' },
                 { n: '02', t: 'On-Site Inspection', d: 'We arrive within 60 minutes, locate the source, take initial moisture readings with calibrated meters, classify the water (Cat 1, 2, or 3), and walk you through what we found before any work begins.' },
                 { n: '03', t: 'Water Extraction & Removal', d: 'Truck-mounted extractors pull standing water from carpet, hardwood, tile, and concrete. We remove unsalvageable porous materials and contain the affected area to prevent cross-contamination.' },
                 { n: '04', t: 'Structural Drying & Monitoring', d: 'LGR dehumidifiers and air movers go in. We return daily to log moisture content on every assembly until your structure hits dry standard, typically three to five days.' },

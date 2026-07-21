@@ -4,8 +4,8 @@ import { useState, useRef } from 'react'
 import { SiteHeader } from '../_components/site-chrome'
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 const BUSINESS_NAME = 'Provail Restoration of Bloomfield'

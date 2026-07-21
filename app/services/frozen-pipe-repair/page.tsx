@@ -13,9 +13,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Frozen Pipe Thaw Protocol & Plumbing Repair in Bloomfield, MI | (248) 531-8404',
+    'Frozen Pipe Thaw Protocol & Plumbing Repair in Bloomfield, MI | (586) 327-5015',
   description:
-    'Safe frozen pipe thaw methods, copper vs PEX vs PVC burst behavior, section replacement, shutoff valve location, freeze prevention, heat cable, and recirculation lines. Provail Restoration of Bloomfield: (248) 531-8404.',
+    'Safe frozen pipe thaw methods, copper vs PEX vs PVC burst behavior, section replacement, shutoff valve location, freeze prevention, heat cable, and recirculation lines. Provail Restoration of Bloomfield: (586) 327-5015.',
   alternates: {
     canonical: 'https://provailrestoration.com/services/frozen-pipe-repair',
   },
@@ -91,7 +91,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -119,7 +119,7 @@ const localBusinessJsonLd = {
   '@id':
     'https://provailrestoration.com/services/frozen-pipe-repair#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/frozen-pipe-repair',
   address: {
     '@type': 'PostalAddress',

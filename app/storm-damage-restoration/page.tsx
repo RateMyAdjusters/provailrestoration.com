@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { SiteHeader } from '../_components/site-chrome'
 
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 const BUSINESS_NAME = 'Provail Restoration of Bloomfield'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title:
     'Storm Damage Restoration Michigan | Wind, Tree Impact & Roof Breach Emergency Response | Provail Restoration of Bloomfield',
   description:
-    'Emergency tarping, structural board-up, tree impact triage, partial roof collapse stabilization, and wind claim documentation across Bloomfield Township and Southeast Michigan. Call Provail Restoration of Bloomfield 24/7 at (248) 531-8404.',
+    'Emergency tarping, structural board-up, tree impact triage, partial roof collapse stabilization, and wind claim documentation across Bloomfield Township and Southeast Michigan. Call Provail Restoration of Bloomfield 24/7 at (586) 327-5015.',
   keywords: [
     'wind damage restoration Michigan',
     'emergency roof tarping Bloomfield',
@@ -94,7 +94,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BUSINESS_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -124,7 +124,7 @@ const localBusinessJsonLd = {
   '@type': 'HomeAndConstructionBusiness',
   '@id': `${PAGE_URL}#business`,
   name: BUSINESS_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: PAGE_URL,
   address: {
     '@type': 'PostalAddress',

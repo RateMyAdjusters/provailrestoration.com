@@ -2,15 +2,15 @@ import type { Metadata } from 'next'
 import { SiteHeader } from '../../_components/site-chrome'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
-const PHONE = '(248) 531-8404'
-const PHONE_HREF = 'tel:+12485318404'
+const PHONE = '(586) 327-5015'
+const PHONE_HREF = 'tel:+15863275015'
 const ADDRESS_LINE1 = '4060 W Maple Rd'
 const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 const PAGE_URL = 'https://provailrestoration.com/services/smoke-odor-removal'
 
 export const metadata: Metadata = {
   title:
-    'Odor Removal Without a Fire — Tobacco, Cooking, Skunk, Wildfire, Pet & Cannabis | (248) 531-8404',
+    'Odor Removal Without a Fire — Tobacco, Cooking, Skunk, Wildfire, Pet & Cannabis | (586) 327-5015',
   description:
     'Non-fire odor removal in Bloomfield Township, MI. Cigarette and cigar residue, cooking grease smell, skunk intrusion, wildfire smoke pulled through HVAC, deep pet decontamination, and cannabis odor. Hydroxyl and ozone equipment, source-based protocols. Provail Restoration of Bloomfield.',
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'ozone treatment Bloomfield Township',
   ],
   openGraph: {
-    title: 'Odor Removal Without a Fire | (248) 531-8404',
+    title: 'Odor Removal Without a Fire | (586) 327-5015',
     description:
       'Tobacco, cooking, skunk, wildfire intrusion, HVAC-carried, pet, and cannabis odor — source-based removal, not masking.',
     url: PAGE_URL,
@@ -84,7 +84,7 @@ const faqs = [
 const providerNode = {
   '@type': 'HomeAndConstructionBusiness',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   address: {
     '@type': 'PostalAddress',
     streetAddress: ADDRESS_LINE1,
@@ -119,7 +119,7 @@ const jsonLd = [
     '@type': 'LocalBusiness',
     '@id': PAGE_URL + '#business',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     url: PAGE_URL,
     address: {
       '@type': 'PostalAddress',

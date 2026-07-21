@@ -2,7 +2,7 @@
 
 **Site:** provailrestoration.com
 **Scope:** Fresh domain, ~17 pages rolling out in 2026 (homepage, service pages, location pages incl. `/bloomfield`, `/macomb`)
-**Author note:** Bloomfield NAP — (248) 531-8404, 4060 W Maple Rd, Bloomfield Township MI 48301. Macomb NAP — (586) 207-9091, 51225 Romeo Plank Rd, Macomb MI 48042.
+**Author note:** Bloomfield NAP — (586) 327-5015, 4060 W Maple Rd, Bloomfield Township MI 48301. Macomb NAP — (586) 207-9091, 51225 Romeo Plank Rd, Macomb MI 48042.
 
 This document is the operating manual for GSC from the day the domain is verified through the first 90 days, plus the "what to do when things go wrong" runbook.
 

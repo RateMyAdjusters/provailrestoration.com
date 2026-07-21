@@ -6,8 +6,8 @@ export { SiteHeader } from './site-nav'
 
 export const BIZ_NAME = 'Provail Restoration of Bloomfield'
 export const FOOTER_BRAND = 'Provail Restoration of Bloomfield'
-export const PHONE = '(248) 531-8404'
-export const PHONE_HREF = 'tel:+12485318404'
+export const PHONE = '(586) 327-5015'
+export const PHONE_HREF = 'tel:+15863275015'
 export const ADDRESS_LINE1 = '4060 W Maple Rd'
 export const ADDRESS_LINE2 = 'Bloomfield Township, MI 48301'
 

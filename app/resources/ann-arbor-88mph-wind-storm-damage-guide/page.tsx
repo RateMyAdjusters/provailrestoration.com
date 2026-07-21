@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: 'Does Provail Restoration of Bloomfield work in Washtenaw County?',
-    a: 'Yes, on a dispatched basis. We are headquartered in Oakland County and our main crews run out of Bloomfield Township, so for a Washtenaw event we are honest about the drive time and we coordinate with vetted local subcontractors when immediate stabilization cannot wait. Call (248) 531-8404 and the dispatcher will tell you straight whether our own crew, a partner, or a closer option is the right call for your address.',
+    a: 'Yes, on a dispatched basis. We are headquartered in Oakland County and our main crews run out of Bloomfield Township, so for a Washtenaw event we are honest about the drive time and we coordinate with vetted local subcontractors when immediate stabilization cannot wait. Call (586) 327-5015 and the dispatcher will tell you straight whether our own crew, a partner, or a closer option is the right call for your address.',
   },
   {
     q: 'Can I file an insurance claim for a tree that fell from my neighbor\u2019s yard onto my roof?',

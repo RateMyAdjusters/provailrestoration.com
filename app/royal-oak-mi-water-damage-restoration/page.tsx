@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: 'What should I do right now while I wait for your crew?',
-    a: 'If it is safe: shut off the water at the main, turn off electrical breakers to any wet rooms, move valuables off wet floors, and photograph everything for your claim. Do not run fans on contaminated sewage water — that spreads bacteria. Call us at (248) 531-8404 and we will walk you through the rest.',
+    a: 'If it is safe: shut off the water at the main, turn off electrical breakers to any wet rooms, move valuables off wet floors, and photograph everything for your claim. Do not run fans on contaminated sewage water — that spreads bacteria. Call us at (586) 327-5015 and we will walk you through the rest.',
   },
 ]
 

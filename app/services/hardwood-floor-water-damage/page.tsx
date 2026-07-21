@@ -13,9 +13,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Hardwood Floor Water Damage in Bloomfield, MI | Cupping & Drying | (248) 531-8404',
+    'Hardwood Floor Water Damage in Bloomfield, MI | Cupping & Drying | (586) 327-5015',
   description:
-    'Hardwood floor water damage specialists in Bloomfield Township. In-place drying with mats and hoods, cupping and crowning recovery, refinish-vs-replace evaluation. 24/7: (248) 531-8404.',
+    'Hardwood floor water damage specialists in Bloomfield Township. In-place drying with mats and hoods, cupping and crowning recovery, refinish-vs-replace evaluation. 24/7: (586) 327-5015.',
   alternates: {
     canonical:
       'https://provailrestoration.com/services/hardwood-floor-water-damage',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title:
       'Hardwood Floor Water Damage in Bloomfield, MI | Provail Restoration of Bloomfield',
     description:
-      'Cupped or buckling hardwood? We dry in-place with specialty mats and hoods, then evaluate refinish vs replace. Call (248) 531-8404.',
+      'Cupped or buckling hardwood? We dry in-place with specialty mats and hoods, then evaluate refinish vs replace. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/services/hardwood-floor-water-damage',
     siteName: BIZ_NAME,
     locale: 'en_US',
@@ -84,7 +84,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -112,7 +112,7 @@ const localBusinessJsonLd = {
   '@id':
     'https://provailrestoration.com/services/hardwood-floor-water-damage#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/hardwood-floor-water-damage',
   address: {
     '@type': 'PostalAddress',

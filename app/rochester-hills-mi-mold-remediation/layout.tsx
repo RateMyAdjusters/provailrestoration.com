@@ -5,7 +5,7 @@ const PAGE_URL = 'https://provailrestoration.com/rochester-hills-mi-mold-remedia
 export const metadata: Metadata = {
   title: 'Mold Remediation Rochester Hills MI | IICRC S520 | Provail',
   description:
-    'Rochester Hills, MI mold remediation to the IICRC S520 standard — basement wall-cavity mold, crawlspace joist mold, attic mold, and post-water mold. (248) 531-8404.',
+    'Rochester Hills, MI mold remediation to the IICRC S520 standard — basement wall-cavity mold, crawlspace joist mold, attic mold, and post-water mold. (586) 327-5015.',
   keywords: [
     'mold remediation Rochester Hills MI',
     'mold removal Rochester Hills Michigan',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mold Remediation Rochester Hills MI | IICRC S520 | Provail',
     description:
-      'IICRC S520 mold remediation in Rochester Hills, MI — basements, crawlspaces, attics, and post-water mold. Containment, HEPA air scrubbing, source control. (248) 531-8404.',
+      'IICRC S520 mold remediation in Rochester Hills, MI — basements, crawlspaces, attics, and post-water mold. Containment, HEPA air scrubbing, source control. (586) 327-5015.',
     url: PAGE_URL,
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -37,7 +37,7 @@ const rochesterHillsMoldJsonLd = {
   '@id': `${PAGE_URL}#rochester-hills-mold-service`,
   name: 'Provail Restoration of Bloomfield — Rochester Hills Mold Remediation',
   url: PAGE_URL,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },

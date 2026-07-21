@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title:
-    'Provail Restoration of Bloomfield | 24/7 Emergency | (248) 531-8404',
+    'Provail Restoration of Bloomfield | 24/7 Emergency | (586) 327-5015',
   description:
-    'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, basement water extraction, sewage cleanup, storm damage repair, and structural drying in Bloomfield Township, MI. Call (248) 531-8404 for immediate service.',
+    'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, basement water extraction, sewage cleanup, storm damage repair, and structural drying in Bloomfield Township, MI. Call (586) 327-5015 for immediate service.',
   keywords: [
     'Provail Restoration of Bloomfield',
     'water damage restoration Bloomfield Township',
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      'Provail Restoration of Bloomfield | 24/7 Emergency | (248) 531-8404',
+      'Provail Restoration of Bloomfield | 24/7 Emergency | (586) 327-5015',
     description:
-      'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, and more in Bloomfield Township, MI. Call (248) 531-8404.',
+      'Provail Restoration of Bloomfield provides 24/7 emergency water damage restoration, flood cleanup, mold remediation, and more in Bloomfield Township, MI. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/bloomfield',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -45,7 +45,7 @@ const jsonLd = {
   name: 'Provail Restoration of Bloomfield',
   legalName: 'Provail Restoration of Bloomfield',
   alternateName: 'Provail Restoration of Bloomfield',
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/bloomfield',
   address: {
     '@type': 'PostalAddress',

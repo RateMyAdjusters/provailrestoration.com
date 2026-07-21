@@ -6,7 +6,7 @@ const PAGE_URL =
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Shelby Township MI | Provail',
   description:
-    'Water damage restoration in Shelby Township, MI — Clinton River floodplain, Stony Creek area, Macomb County sump failures. 24/7 at (248) 531-8404.',
+    'Water damage restoration in Shelby Township, MI — Clinton River floodplain, Stony Creek area, Macomb County sump failures. 24/7 at (586) 327-5015.',
   keywords: [
     'water damage restoration Shelby Township MI',
     'Shelby Township flood cleanup',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Shelby Township MI | Provail',
     description:
-      'Macomb County water damage response for Shelby Township — Clinton River floodplain, Cherry Creek sump failures, Stony Creek area luxury builds. Call (248) 531-8404.',
+      'Macomb County water damage response for Shelby Township — Clinton River floodplain, Cherry Creek sump failures, Stony Creek area luxury builds. Call (586) 327-5015.',
     url: PAGE_URL,
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -38,7 +38,7 @@ const shelbyServiceAreaJsonLd = {
   '@id': `${PAGE_URL}#shelby-twp-service`,
   name: 'Provail Restoration of Bloomfield — Shelby Township Service Area',
   url: PAGE_URL,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },

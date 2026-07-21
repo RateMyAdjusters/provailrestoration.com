@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Birmingham MI | Provail Restoration of Bloomfield',
   description:
-    'Water damage restoration in Birmingham, MI. Provail Restoration of Bloomfield dispatches 24/7 to Quarton Lake, Poppleton Park & Downtown Birmingham. Call (248) 531-8404.',
+    'Water damage restoration in Birmingham, MI. Provail Restoration of Bloomfield dispatches 24/7 to Quarton Lake, Poppleton Park & Downtown Birmingham. Call (586) 327-5015.',
   keywords: [
     'water damage restoration Birmingham MI',
     'flood cleanup Birmingham Michigan',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Birmingham MI | Provail Restoration of Bloomfield',
     description:
-      '24/7 emergency water, fire, storm, mold and sewage restoration servicing Birmingham, Michigan from our Bloomfield Township office. Call (248) 531-8404.',
+      '24/7 emergency water, fire, storm, mold and sewage restoration servicing Birmingham, Michigan from our Bloomfield Township office. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/birmingham-mi-water-damage-restoration',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -37,7 +37,7 @@ const jsonLd = {
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/birmingham-mi-water-damage-restoration',
   address: {
     '@type': 'PostalAddress',

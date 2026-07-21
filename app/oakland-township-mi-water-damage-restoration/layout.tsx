@@ -5,7 +5,7 @@ const PAGE_URL = 'https://provailrestoration.com/oakland-township-mi-water-damag
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Oakland Township MI | Provail',
   description:
-    'Estate and horse-farm water damage response in Oakland Township, MI. Well pump floods, septic backups, Paint Creek corridor losses. 24/7. (248) 531-8404.',
+    'Estate and horse-farm water damage response in Oakland Township, MI. Well pump floods, septic backups, Paint Creek corridor losses. 24/7. (586) 327-5015.',
   keywords: [
     'water damage restoration Oakland Township MI',
     'estate water damage Oakland Township',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Oakland Township MI | Provail',
     description:
-      'Estate-home and horse-farm water damage response for Oakland Township, Michigan — well pump floods, septic backups, Paint Creek corridor losses. Call (248) 531-8404.',
+      'Estate-home and horse-farm water damage response for Oakland Township, Michigan — well pump floods, septic backups, Paint Creek corridor losses. Call (586) 327-5015.',
     url: PAGE_URL,
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -38,7 +38,7 @@ const oaklandTwpServiceAreaJsonLd = {
   '@id': `${PAGE_URL}#oakland-twp-service`,
   name: 'Provail Restoration of Bloomfield — Oakland Township Service Area',
   url: PAGE_URL,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },

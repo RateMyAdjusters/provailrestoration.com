@@ -5,7 +5,7 @@ const PAGE_URL = 'https://provailrestoration.com/troy-mi-water-damage-restoratio
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Troy MI | Provail Restoration of Bloomfield',
   description:
-    'Water damage restoration in Troy, MI. Same-day response to Somerset-area basement floods, Big Beaver office-park losses, and 1970s colonial sump pump failures. (248) 531-8404.',
+    'Water damage restoration in Troy, MI. Same-day response to Somerset-area basement floods, Big Beaver office-park losses, and 1970s colonial sump pump failures. (586) 327-5015.',
   keywords: [
     'water damage restoration Troy MI',
     'Troy Michigan flood cleanup',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Troy MI | Provail Restoration of Bloomfield',
     description:
-      'Local water damage, flood, and mold response for Troy, Michigan — from Somerset luxury basements to Big Beaver office corridors. Call (248) 531-8404.',
+      'Local water damage, flood, and mold response for Troy, Michigan — from Somerset luxury basements to Big Beaver office corridors. Call (586) 327-5015.',
     url: PAGE_URL,
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -38,7 +38,7 @@ const troyServiceAreaJsonLd = {
   '@id': `${PAGE_URL}#troy-service-area`,
   name: 'Provail Restoration of Bloomfield — Troy Service Area',
   url: PAGE_URL,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },

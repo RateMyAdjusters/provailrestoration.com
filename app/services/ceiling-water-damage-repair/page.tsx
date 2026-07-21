@@ -13,9 +13,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Ceiling Water Damage Repair in Bloomfield, MI | Upstairs Leaks & Stains | (248) 531-8404',
+    'Ceiling Water Damage Repair in Bloomfield, MI | Upstairs Leaks & Stains | (586) 327-5015',
   description:
-    'Ceiling water damage repair in Bloomfield Township and Oakland County. We diagnose the upstairs source, dry the cavity, and restore drywall or plaster safely. 24/7 response: (248) 531-8404.',
+    'Ceiling water damage repair in Bloomfield Township and Oakland County. We diagnose the upstairs source, dry the cavity, and restore drywall or plaster safely. 24/7 response: (586) 327-5015.',
   alternates: {
     canonical:
       'https://provailrestoration.com/services/ceiling-water-damage-repair',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title:
       'Ceiling Water Damage Repair in Bloomfield, MI | Provail Restoration of Bloomfield',
     description:
-      'Upstairs leak, stained drywall, sagging ceiling? We find the source, dry the cavity, and restore the finish. Call (248) 531-8404.',
+      'Upstairs leak, stained drywall, sagging ceiling? We find the source, dry the cavity, and restore the finish. Call (586) 327-5015.',
     url: 'https://provailrestoration.com/services/ceiling-water-damage-repair',
     siteName: BIZ_NAME,
     locale: 'en_US',
@@ -84,7 +84,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -112,7 +112,7 @@ const localBusinessJsonLd = {
   '@id':
     'https://provailrestoration.com/services/ceiling-water-damage-repair#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/services/ceiling-water-damage-repair',
   address: {
     '@type': 'PostalAddress',

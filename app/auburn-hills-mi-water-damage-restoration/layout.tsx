@@ -6,7 +6,7 @@ const PAGE_URL =
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Auburn Hills MI | Provail',
   description:
-    'Water damage restoration in Auburn Hills, MI 48326. 24/7 response for Stellantis-area office sprinklers, Oakland University student housing, and commercial losses. (248) 531-8404.',
+    'Water damage restoration in Auburn Hills, MI 48326. 24/7 response for Stellantis-area office sprinklers, Oakland University student housing, and commercial losses. (586) 327-5015.',
   keywords: [
     'water damage restoration Auburn Hills MI',
     'Auburn Hills commercial water damage',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Auburn Hills MI | Provail',
     description:
-      'Commercial and residential water damage response for Auburn Hills — Stellantis HQ corridor, Oakland University, Great Lakes Crossing. (248) 531-8404.',
+      'Commercial and residential water damage response for Auburn Hills — Stellantis HQ corridor, Oakland University, Great Lakes Crossing. (586) 327-5015.',
     url: PAGE_URL,
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -38,7 +38,7 @@ const auburnHillsServiceAreaJsonLd = {
   '@id': `${PAGE_URL}#auburn-hills-service`,
   name: 'Provail Restoration of Bloomfield — Auburn Hills Service Area',
   url: PAGE_URL,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },

@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Water Damage Restoration Rochester Hills MI | Provail',
   description:
-    'Rochester Hills water damage restoration, 24/7. From Oakland University to the Clinton River corridor, crews dispatch from Bloomfield Township. Call (248) 531-8404.',
+    'Rochester Hills water damage restoration, 24/7. From Oakland University to the Clinton River corridor, crews dispatch from Bloomfield Township. Call (586) 327-5015.',
   keywords: [
     'water damage restoration Rochester Hills MI',
     'emergency water removal Rochester Hills',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water Damage Restoration Rochester Hills MI | Provail',
     description:
-      '24/7 water, fire, storm, mold and sewage restoration for Rochester Hills — Oakland University, Clinton River, Meadowbrook, Adams corridor. (248) 531-8404.',
+      '24/7 water, fire, storm, mold and sewage restoration for Rochester Hills — Oakland University, Clinton River, Meadowbrook, Adams corridor. (586) 327-5015.',
     url: 'https://provailrestoration.com/rochester-hills-mi-water-damage-restoration',
     siteName: 'Provail Restoration of Bloomfield',
     locale: 'en_US',
@@ -39,7 +39,7 @@ const jsonLd = {
   parentOrganization: {
     '@id': 'https://provailrestoration.com/#organization',
   },
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/rochester-hills-mi-water-damage-restoration',
   address: {
     '@type': 'PostalAddress',

@@ -111,7 +111,7 @@ const serviceJsonLd = {
   provider: {
     '@type': 'HomeAndConstructionBusiness',
     name: BIZ_NAME,
-    telephone: '+12485318404',
+    telephone: '+15863275015',
     address: {
       '@type': 'PostalAddress',
       streetAddress: ADDRESS_LINE1,
@@ -139,7 +139,7 @@ const localBusinessJsonLd = {
   '@id':
     'https://provailrestoration.com/resources/water-damage-insurance-claim-guide#business',
   name: BIZ_NAME,
-  telephone: '+12485318404',
+  telephone: '+15863275015',
   url: 'https://provailrestoration.com/resources/water-damage-insurance-claim-guide',
   address: {
     '@type': 'PostalAddress',
