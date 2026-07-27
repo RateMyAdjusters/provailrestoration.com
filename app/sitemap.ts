@@ -19,6 +19,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${BASE_URL}/best-water-damage-restoration-companies-sterling-heights-mi`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/best-water-damage-restoration-companies-rochester-hills-auburn-hills-mi`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/best-water-damage-restoration-companies-shelby-clinton-township-mi`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${BASE_URL}/macomb-township-mi-water-damage-restoration-near-you`,
       lastModified,
       changeFrequency: 'weekly',
