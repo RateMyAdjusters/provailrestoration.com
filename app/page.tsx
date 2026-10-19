@@ -41,7 +41,7 @@ const services = [
   },
   {
     title: '24/7 Emergency Water Removal',
-    desc: 'Water damage does not wait for business hours, and neither do we. Our Bloomfield Township dispatch is staffed 24/7/365, with a documented goal of arriving at your Oakland County property within 60 minutes of your call. Faster response equals lower repair costs and fewer total-loss materials.',
+    desc: 'Water damage does not wait for business hours, and neither do we. Our Bloomfield Township dispatch is staffed 24/7/365, with a documented goal of arriving at your Oakland County property within 30 minutes of your call. Faster response equals lower repair costs and fewer total-loss materials.',
   },
   {
     title: 'Reconstruction & Repairs',
@@ -261,12 +261,12 @@ export default function Home() {
                 letterSpacing: '-0.44px',
               }}
             >
-              Michigan&apos;s 60-minute water damage restoration team.
+              Michigan&apos;s 30-minute water damage restoration team.
             </h1>
 
             {/* Subtext */}
             <p className="text-[#6a6a6a] text-lg font-normal max-w-[640px] mx-auto mb-10 leading-relaxed">
-              IICRC-certified water removal, mold remediation, sewage cleanup, and full reconstruction for homes and businesses across Bloomfield Township, Bloomfield Hills, Birmingham, and the greater Oakland County area. Licensed, insured, and direct-billing most major Michigan carriers.
+              IICRC Certified Firm for water removal, mold remediation, sewage cleanup, and full reconstruction for homes and businesses across Bloomfield Township, Bloomfield Hills, Birmingham, and the greater Oakland County area. Licensed, insured, and direct-billing most major Michigan carriers.
             </p>
 
             {/* CTA buttons */}
@@ -289,7 +289,7 @@ export default function Home() {
             {/* Stats row */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-[800px] mx-auto">
               {[
-                { icon: <ClockIcon />, label: '<60 Min Response' },
+                { icon: <ClockIcon />, label: '<30 Min Response' },
                 { icon: <ShieldIcon />, label: '24/7 Available' },
                 { icon: <CertIcon />, label: 'IICRC Certified' },
                 { icon: <ShieldIcon />, label: 'Licensed & Insured' },
@@ -360,7 +360,7 @@ export default function Home() {
                 Our Full Oakland County Service Area
               </h2>
               <p className="text-[#6a6a6a] text-base max-w-[700px] mx-auto">
-                If you are anywhere in Oakland County, or northern Wayne and Macomb Counties, we can typically be at your front door inside 60 minutes from the time you hang up the phone.
+                If you are anywhere in Oakland County, or northern Wayne and Macomb Counties, we can typically be at your front door inside 30 minutes from the time you hang up the phone.
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-2.5 max-w-[920px] mx-auto">
@@ -398,7 +398,7 @@ export default function Home() {
                   Certified Technicians, Documented Work
                 </h2>
                 <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-                  Every technician on our payroll holds current IICRC credentials in Water Damage Restoration (WRT), Applied Structural Drying (ASD), or Applied Microbial Remediation (AMRT). We follow the IICRC S500 standard for water damage and the IICRC S520 standard for mold remediation, because those documents represent the actual consensus of the restoration industry on how to do this work without making things worse.
+                  Provail Restoration is an IICRC Certified Firm, trained in Water Damage Restoration (WRT), Applied Structural Drying (ASD) and Applied Microbial Remediation (AMRT). We follow the IICRC S500 standard for water damage and the IICRC S520 standard for mold remediation, because those documents represent the actual consensus of the restoration industry on how to do this work without making things worse.
                 </p>
                 <p className="text-[#6a6a6a] text-base leading-relaxed m-0">
                   We document moisture readings on every visit, on every affected assembly, and we leave that log with your insurance adjuster.
@@ -737,11 +737,11 @@ export default function Home() {
                     lineHeight: '1.2',
                   }}
                 >
-                  Our 60-Minute Rapid Response Target
+                  Our 30-Minute Rapid Response Target
                 </h2>
                 <p className="text-[#6a6a6a] text-base leading-relaxed mb-6">
                   When water damage strikes, every minute counts. Our <strong className="text-[#222222]">rapid response target</strong> is to have
-                  a certified restoration crew at your door within 60 minutes &mdash; equipped with commercial-grade
+                  a certified restoration crew at your door within 30 minutes &mdash; equipped with commercial-grade
                   extraction, drying, and monitoring technology to stop the damage in its tracks and protect what matters most.
                 </p>
                 <a
@@ -861,7 +861,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
               {[
                 { n: '01', t: 'Emergency Call & Dispatch', d: 'Call (586) 327-5015 anytime, day or night. A live team member from Provail Restoration of Bloomfield gathers your address, the source of the water, and any safety hazards, then dispatches the closest crew to your Michigan property.' },
-                { n: '02', t: 'On-Site Inspection', d: 'We arrive within 60 minutes, locate the source, take initial moisture readings with calibrated meters, classify the water (Cat 1, 2, or 3), and walk you through what we found before any work begins.' },
+                { n: '02', t: 'On-Site Inspection', d: 'We arrive within 30 minutes, locate the source, take initial moisture readings with calibrated meters, classify the water (Cat 1, 2, or 3), and walk you through what we found before any work begins.' },
                 { n: '03', t: 'Water Extraction & Removal', d: 'Truck-mounted extractors pull standing water from carpet, hardwood, tile, and concrete. We remove unsalvageable porous materials and contain the affected area to prevent cross-contamination.' },
                 { n: '04', t: 'Structural Drying & Monitoring', d: 'LGR dehumidifiers and air movers go in. We return daily to log moisture content on every assembly until your structure hits dry standard, typically three to five days.' },
                 { n: '05', t: 'Reconstruction & Sign-Off', d: 'Drywall, flooring, paint, trim, and final clean — completed by the same licensed team at Provail Restoration of Bloomfield. We hand you a written warranty and a complete loss file for your records.' },
@@ -889,7 +889,7 @@ export default function Home() {
             </div>
             <div className="space-y-4">
               {[
-                { q: 'How fast can you respond to a water damage emergency?', a: 'Our documented goal is on-site within 60 minutes of your call, 24 hours a day, 7 days a week, anywhere in Oakland County. From our Bloomfield Township shop on West Maple Road, most addresses in Birmingham, Bloomfield Hills, West Bloomfield, Troy, and Royal Oak are well inside that window.' },
+                { q: 'How fast can you respond to a water damage emergency?', a: 'Our documented goal is on-site within 30 minutes of your call, 24 hours a day, 7 days a week, anywhere in Oakland County. From our Bloomfield Township shop on West Maple Road, most addresses in Birmingham, Bloomfield Hills, West Bloomfield, Troy, and Royal Oak are well inside that window.' },
                 { q: 'What counts as a water damage emergency?', a: 'Any active leak, burst pipe, sewage backup, appliance failure, or standing water of any depth is an emergency. The first 24 to 48 hours determine whether materials can be dried in place or have to come out, so we dispatch the same way for a soaked basement as for a small under-sink leak.' },
                 { q: 'Do I need to leave the house while you dry it out?', a: 'In most Category 1 (clean water) losses you can stay home. We isolate the work area, run the equipment around your routine, and brief you at every daily visit. For Category 3 (sewage, flood) losses or heavy mold jobs we recommend temporary relocation and help you document it for your carrier.' },
                 { q: 'How long does drying out a flooded home take?', a: 'Most residential structural dry-outs take three to five days of active equipment, depending on the materials involved. Hardwood floors and plaster walls take longer than drywall and carpet. We monitor moisture content every visit and only pull equipment when readings hit dry standard.' },
@@ -918,7 +918,7 @@ export default function Home() {
               '@context': 'https://schema.org',
               '@type': 'FAQPage',
               mainEntity: [
-                { '@type': 'Question', name: 'How fast can you respond to a water damage emergency?', acceptedAnswer: { '@type': 'Answer', text: 'Our documented goal is on-site within 60 minutes of your call, 24/7, anywhere in Oakland County, Michigan.' } },
+                { '@type': 'Question', name: 'How fast can you respond to a water damage emergency?', acceptedAnswer: { '@type': 'Answer', text: 'Our documented goal is on-site within 30 minutes of your call, 24/7, anywhere in Oakland County, Michigan.' } },
                 { '@type': 'Question', name: 'What counts as a water damage emergency?', acceptedAnswer: { '@type': 'Answer', text: 'Any active leak, burst pipe, sewage backup, appliance failure, or standing water is an emergency. The first 24 to 48 hours determine whether materials can be dried in place or have to come out.' } },
                 { '@type': 'Question', name: 'Do I need to leave the house while you dry it out?', acceptedAnswer: { '@type': 'Answer', text: 'In most Category 1 clean-water losses you can stay home. For Category 3 sewage or flood losses and heavy mold jobs we recommend temporary relocation.' } },
                 { '@type': 'Question', name: 'How long does drying out a flooded home take?', acceptedAnswer: { '@type': 'Answer', text: 'Most residential structural dry-outs take three to five days of active equipment, with daily moisture monitoring.' } },

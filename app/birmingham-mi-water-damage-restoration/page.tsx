@@ -39,7 +39,7 @@ const SERVICES = [
 const FAQS = [
   {
     q: 'How fast can you reach my house in Birmingham?',
-    a: 'Our crews dispatch from 4060 W Maple Rd in Bloomfield Township \u2014 roughly a ten-minute drive to Downtown Birmingham or Quarton Lake on a normal traffic day, longer during Woodward Dream Cruise week. We aim to be on site within 60 minutes for any emergency water call inside the 48009 zip.',
+    a: 'Our crews dispatch from 4060 W Maple Rd in Bloomfield Township \u2014 roughly a ten-minute drive to Downtown Birmingham or Quarton Lake on a normal traffic day, longer during Woodward Dream Cruise week. We aim to be on site within 30 minutes for any emergency water call inside the 48009 zip.',
   },
   {
     q: 'Our 1920s Tudor near Holy Name has a wet basement every heavy rain. Is that covered by insurance?',

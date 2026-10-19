@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     'Commercial Water Damage Restoration in Michigan | Provail Restoration of Bloomfield | (586) 327-5015',
   description:
-    'Provail Restoration of Bloomfield provides 24/7 commercial water damage restoration for offices, retail, multifamily, and industrial properties across Bloomfield Township, Oakland County, and Southeast Michigan. Large-loss response, IICRC-certified crews, direct insurance billing.',
+    'Provail Restoration of Bloomfield provides 24/7 commercial water damage restoration for offices, retail, multifamily, and industrial properties across Bloomfield Township, Oakland County, and Southeast Michigan. Large-loss response, IICRC Certified Firm, direct insurance billing.',
   keywords: [
     'commercial water damage restoration Michigan',
     'commercial restoration Bloomfield',
@@ -68,7 +68,7 @@ const faqJsonLd = {
       name: 'How fast can you respond to a commercial water loss in Michigan?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our goal is on-site within 60 minutes of your call, 24/7, anywhere in Oakland County. For large-loss events we can scale crews and equipment from partner branches across Southeast Michigan within hours.',
+        text: 'Our goal is on-site within 30 minutes of your call, 24/7, anywhere in Oakland County. For large-loss events we can scale crews and equipment from partner branches across Southeast Michigan within hours.',
       },
     },
     {
@@ -120,7 +120,7 @@ export default function CommercialRestorationPage() {
               Commercial Water Damage Restoration Across Michigan
             </h1>
             <p className="text-[#6a6a6a] text-lg leading-relaxed mb-8">
-              When a sprinkler line bursts in a Birmingham office tower, an aging supply line floods a Troy retail center overnight, or an Oakland County apartment building loses its roof in a summer storm, Provail Restoration of Bloomfield deploys IICRC-certified large-loss crews from our Bloomfield Township base to stabilize the building, dry the structure, and document every dollar of damage for your carrier — usually within 60 minutes of your call.
+              When a sprinkler line bursts in a Birmingham office tower, an aging supply line floods a Troy retail center overnight, or an Oakland County apartment building loses its roof in a summer storm, Provail Restoration of Bloomfield deploys IICRC-certified large-loss crews from our Bloomfield Township base to stabilize the building, dry the structure, and document every dollar of damage for your carrier — usually within 30 minutes of your call.
             </p>
             <a href={PHONE_HREF} className="inline-flex items-center justify-center text-white font-semibold no-underline" style={{ backgroundColor: '#222222', borderRadius: '8px', padding: '0 28px', height: '52px' }}>
               Emergency Commercial Line: {PHONE}
@@ -216,7 +216,7 @@ export default function CommercialRestorationPage() {
 
             <div className="bg-[#222222] text-white p-8 mt-10" style={{ borderRadius: '20px' }}>
               <h2 className="font-bold mb-3 text-white" style={{ fontSize: '1.5rem' }}>Commercial loss right now? Call us.</h2>
-              <p className="text-white/80 mb-5">Live dispatch 24/7. On-site within 60 minutes across Oakland County.</p>
+              <p className="text-white/80 mb-5">Live dispatch 24/7. On-site within 30 minutes across Oakland County.</p>
               <a href={PHONE_HREF} className="inline-flex items-center justify-center text-[#222222] bg-white font-semibold no-underline" style={{ borderRadius: '8px', padding: '0 28px', height: '52px' }}>
                 {PHONE}
               </a>

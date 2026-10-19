@@ -41,7 +41,7 @@ const categories: Category[] = [
     qas: [
       {
         q: 'How fast can a crew be at my home after I call?',
-        a: 'Our dispatch target for emergency calls inside our primary Oakland County service area is 60 minutes from the time we hang up with you. Traffic, weather, and the number of simultaneous calls can affect that number, so the person who answers the phone will give you an honest estimated arrival time for your specific address rather than a generic promise.',
+        a: 'Our dispatch target for emergency calls inside our primary Oakland County service area is 30 minutes from the time we hang up with you. Traffic, weather, and the number of simultaneous calls can affect that number, so the person who answers the phone will give you an honest estimated arrival time for your specific address rather than a generic promise.',
       },
       {
         q: 'Is your phone actually answered overnight and on holidays?',
@@ -218,7 +218,7 @@ const categories: Category[] = [
       },
       {
         q: 'Is certification held by the company or the technician?',
-        a: 'Individual technicians hold IICRC certifications. A company can be a certified firm, but the training that actually matters on your property lives with the people standing in your living room. Ask who on the crew holds current credentials.',
+        a: 'Both exist. IICRC certifies individual technicians, and it also certifies companies as an IICRC Certified Firm. Provail Restoration is an IICRC Certified Firm. Ask any contractor which one they hold, then check it on the IICRC registry.',
       },
       {
         q: 'Does Michigan require a license to do restoration work?',

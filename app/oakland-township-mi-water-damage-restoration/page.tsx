@@ -338,7 +338,7 @@ export default function OaklandTownshipPage() {
               margin: 0,
             }}
           >
-            Our technicians hold IICRC credentials in water damage
+            We are an IICRC Certified Firm, trained in water damage
             restoration, applied structural drying, and applied microbial
             remediation. We are a restoration contractor — not a public
             adjuster — and our role is to produce the technical record of

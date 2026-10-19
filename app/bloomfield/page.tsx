@@ -441,7 +441,7 @@ export default function BloomfieldPage() {
             }}
           >
             {[
-              { icon: <ClockIcon size={24} color={colors.accent} />, label: '<60 Min', sub: 'Response' },
+              { icon: <ClockIcon size={24} color={colors.accent} />, label: '<30 Min', sub: 'Response' },
               { icon: <ShieldIcon size={24} color={colors.accent} />, label: '24/7', sub: 'Available' },
               { icon: <CertIcon size={24} color={colors.accent} />, label: 'IICRC', sub: 'Certified' },
               { icon: <StarIcon size={24} color={colors.accent} />, label: '5.0', sub: 'Rating' },
@@ -846,7 +846,7 @@ export default function BloomfieldPage() {
                 letterSpacing: '-0.44px',
               }}
             >
-              &lt;60 min
+              &lt;30 min
             </h3>
             <p style={{ fontSize: 16, color: colors.secondary, margin: 0 }}>
               Average response time
@@ -863,7 +863,7 @@ export default function BloomfieldPage() {
                 lineHeight: 1.15,
               }}
             >
-              Rest Easy With the Power of Our 60-Minute Rapid Response Guarantee!
+              Rest Easy With the Power of Our 30-Minute Rapid Response Guarantee!
             </h2>
             <p
               style={{
@@ -887,7 +887,7 @@ export default function BloomfieldPage() {
                 margin: '0 0 16px',
               }}
             >
-              Our 60-Minute Rapid Response Guarantee means that when you call, we move. Fast. Our
+              Our 30-Minute Rapid Response Guarantee means that when you call, we move. Fast. Our
               local Bloomfield crews are strategically positioned so we can reach your property quickly,
               assess the situation, and start extracting water and preventing further damage right away.
             </p>

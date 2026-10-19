@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'How fast can you respond to a sewage backup in Bloomfield?',
-    a: 'Our team provides 24/7 emergency dispatch across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield, and surrounding communities. In most cases, a technician is on site within an hour of your call so we can stop further migration, begin extraction, and protect unaffected areas of your home.',
+    a: 'Our team provides 24/7 emergency dispatch across Bloomfield Township, Bloomfield Hills, Birmingham, West Bloomfield, and surrounding communities. In most cases, a technician is on site within 30 minutes of your call so we can stop further migration, begin extraction, and protect unaffected areas of your home.',
   },
   {
     q: 'What PPE do your technicians wear?',

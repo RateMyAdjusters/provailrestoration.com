@@ -16,7 +16,7 @@ const BIZ_NAME = 'Provail Restoration of Bloomfield'
 export const metadata: Metadata = {
   title: 'Why Choose Provail Restoration of Bloomfield | IICRC Certified | (586) 327-5015',
   description:
-    'Why Bloomfield homeowners call Provail Restoration of Bloomfield first: IICRC-certified technicians, 60-minute response target, single project manager, documentation-first process, direct insurance billing, and a written workmanship warranty.',
+    'Why Bloomfield homeowners call Provail Restoration of Bloomfield first: IICRC Certified Firm, 30-minute response target, single project manager, documentation-first process, direct insurance billing, and a written workmanship warranty.',
   alternates: { canonical: 'https://provailrestoration.com/why-us' },
   openGraph: {
     title: 'Why Choose Provail Restoration of Bloomfield',
@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'How quickly can a crew actually be on-site?',
-    a: 'Our dispatch target is a 60-minute arrival for emergency losses inside our primary service radius. Traffic, weather, and the number of simultaneous calls affect real-world times, so we quote an honest ETA when you call rather than a marketing number.',
+    a: 'Our dispatch target is a 30-minute arrival for emergency losses inside our primary service radius. Traffic, weather, and the number of simultaneous calls affect real-world times, so we quote an honest ETA when you call rather than a marketing number.',
   },
   {
     q: 'Do you really handle the insurance paperwork?',
@@ -236,19 +236,19 @@ export default function WhyUsPage() {
           <div className="max-w-[1120px] mx-auto px-6">
             <PillarSectionHeading
               eyebrow="Response"
-              title="Our 60-Minute Arrival Commitment"
+              title="Our 30-Minute Arrival Commitment"
               intro="An honest look at how we staff and dispatch for emergency calls."
             />
             <div className="max-w-[780px] mx-auto text-[#3c3c3c] text-[17px] leading-[1.75] space-y-5">
               <p>
-                A 60-minute arrival target is only meaningful if the company behind it has the
+                A 30-minute arrival target is only meaningful if the company behind it has the
                 staffing to support it. We dispatch from within Oakland County and keep loaded
                 response vehicles stocked with extraction gear, air movers, dehumidifiers, moisture
                 meters, containment supplies, and PPE so the first truck on your property is the
                 truck that can actually start mitigation.
               </p>
               <p>
-                In real life, a 60-minute target is affected by weather, road closures, simultaneous
+                In real life, a 30-minute target is affected by weather, road closures, simultaneous
                 calls during regional events, and the physical distance from our dispatch point to
                 your address. When you call, the person answering the phone will give you an honest
                 estimated arrival time for your specific loss rather than repeating a tagline.

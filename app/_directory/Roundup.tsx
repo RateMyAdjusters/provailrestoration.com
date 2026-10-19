@@ -43,7 +43,7 @@ export function RoundupPage({ cfg }: { cfg: Roundup }) {
     { q: `Are the water damage restoration companies in ${cfg.cityName} IICRC certified?`,
       a: `Yes. Every company in this guide holds IICRC certification in water damage restoration and related disciplines, verified against the IICRC Certified Firm registry or the company's own IICRC technician credentials.` },
     { q: `How quickly can a water damage company respond in ${cfg.cityName}?`,
-      a: `Most water damage restoration companies serving ${cfg.cityName} offer 24/7 emergency service, with on-site response typically within about 60 minutes for active flooding or water intrusion.` },
+      a: `Most water damage restoration companies serving ${cfg.cityName} offer 24/7 emergency service, with on-site response typically within about 30 minutes for active flooding or water intrusion.` },
     { q: `What should I do first after water damage in ${cfg.cityName}?`,
       a: `Stop the water source if it is safe to do so, shut off electricity to affected areas, and call an IICRC-certified restoration company for emergency extraction and structural drying. Fast drying within 24 to 48 hours limits mold growth.` },
   ]

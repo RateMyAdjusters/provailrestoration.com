@@ -16,7 +16,7 @@ const SERVICES_GROUP: NavGroup = {
   featured: {
     label: '24/7 Emergency Response',
     href: PHONE_HREF,
-    desc: 'Certified IICRC technicians on-site in 60 minutes across Oakland & Macomb County.',
+    desc: 'IICRC Certified Firm, on-site in 30 minutes across Oakland & Macomb County.',
   },
   columns: [
     {
@@ -413,7 +413,7 @@ export function SiteHeader() {
               style={{ backgroundColor: '#4ade80', boxShadow: '0 0 0 3px rgba(74,222,128,0.25)' }}
               aria-hidden="true"
             />
-            <span className="font-medium tracking-wide">24/7 Emergency Response · On-Site in 60 Minutes</span>
+            <span className="font-medium tracking-wide">24/7 Emergency Response · On-Site in 30 Minutes</span>
           </div>
           <div className="flex items-center gap-6">
             <span className="text-[#c9c9c9]">IICRC Certified · Licensed &amp; Insured</span>

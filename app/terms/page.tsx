@@ -46,7 +46,7 @@ export default function TermsPage() {
 
             <h2 className="text-[#222222] font-semibold text-[20px] mt-8 mb-3">Response-time targets</h2>
             <p>
-              Our 60-minute on-site response is a target, not a guarantee. Severe weather, large regional loss events,
+              Our 30-minute on-site response is a target, not a guarantee. Severe weather, large regional loss events,
               road closures, and other conditions outside our control can extend arrival times. We will always give you
               an honest ETA over the phone.
             </p>

@@ -156,7 +156,7 @@ const serviceAreas = [
 const faqs = [
   {
     q: 'How fast can you actually get to a Macomb Township address during a Clinton River flood event?',
-    a: `Our crews stage out of Macomb, which means when the Clinton River or North Branch starts overtopping after a heavy rain, we are already on this side of the county when the phone rings. Target response is 30 to 60 minutes from the dispatch call, and during widespread flood events we expand crew hours and triage so that homes with active water entry move to the front of the line. Call ${PHONE} and we will give you an honest ETA based on where our closest truck is.`,
+    a: `Our crews stage out of Macomb, which means when the Clinton River or North Branch starts overtopping after a heavy rain, we are already on this side of the county when the phone rings. Target response is 30 minutes from the dispatch call, and during widespread flood events we expand crew hours and triage so that homes with active water entry move to the front of the line. Call ${PHONE} and we will give you an honest ETA based on where our closest truck is.`,
   },
   {
     q: 'Does homeowners insurance cover Lake St. Clair storm surge or ice-out flooding?',
@@ -295,7 +295,7 @@ export default function MacombTownshipPage() {
           <div style={{ flex: '1 1 auto', minWidth: 280 }}>
             <h2 style={{ fontSize: 'clamp(18px, 3vw, 24px)', fontWeight: 700, color: C.text, margin: '0 0 6px', letterSpacing: '-0.3px' }}>Book Your Macomb Township Assessment</h2>
             <p style={{ fontSize: 14, color: C.secondary, margin: 0, lineHeight: 1.6 }}>
-              Standing water, a slow leak you finally found, or a sewer backup after a rain event. Whatever brought you here, we can have a local crew on the way in under an hour.
+              Standing water, a slow leak you finally found, or a sewer backup after a rain event. Whatever brought you here, we can have a local crew on the way in under 30 minutes.
             </p>
           </div>
           <div style={{ display: 'flex', gap: 16, flexShrink: 0, flexWrap: 'wrap' }}>
@@ -324,7 +324,7 @@ export default function MacombTownshipPage() {
             That geographic focus is not a marketing line. It changes how we stage equipment, which contamination protocols we run by default, and how fast our truck can be in your driveway. When the North Branch backs up after a heavy rain, we are not dispatching from Oakland County. We are already here.
           </p>
           <p style={{ fontSize: 16, color: C.secondary, lineHeight: 1.7, margin: 0, maxWidth: 900 }}>
-            Our technicians hold IICRC credentials in water damage restoration, applied structural drying, and applied microbial remediation. We document every loss with photos, moisture readings, and a written scope so that the conversation with your insurance carrier has a clear technical record attached to it.
+            We are an IICRC Certified Firm, trained in water damage restoration, applied structural drying, and applied microbial remediation. We document every loss with photos, moisture readings, and a written scope so that the conversation with your insurance carrier has a clear technical record attached to it.
           </p>
         </div>
       </section>
@@ -333,7 +333,7 @@ export default function MacombTownshipPage() {
       <section style={{ backgroundColor: C.bgAlt, padding: '40px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 48, flexWrap: 'wrap' }}>
           {[
-            { icon: <ClockIcon size={28} color={C.accent} />, label: '<60 Min Response' },
+            { icon: <ClockIcon size={28} color={C.accent} />, label: '<30 Min Response' },
             { icon: <ShieldIcon size={28} color={C.accent} />, label: '24/7 Available' },
             { icon: <CertIcon size={28} color={C.accent} />, label: 'IICRC Certified' },
             { icon: <StarIcon size={28} color={C.accent} />, label: 'Local Macomb Crews' },
@@ -365,7 +365,7 @@ export default function MacombTownshipPage() {
           </div>
           <div style={{ backgroundColor: C.bgAlt, borderRadius: 20, padding: 48, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', minHeight: 320 }}>
             <ClockIcon size={64} color={C.accent} />
-            <h3 style={{ fontSize: 56, fontWeight: 700, color: C.text, marginTop: 20, marginBottom: 8, letterSpacing: '-0.44px' }}>&lt;60 min</h3>
+            <h3 style={{ fontSize: 56, fontWeight: 700, color: C.text, marginTop: 20, marginBottom: 8, letterSpacing: '-0.44px' }}>&lt;30 min</h3>
             <p style={{ fontSize: 16, color: C.secondary, margin: 0 }}>Target response from our Romeo Plank base</p>
           </div>
         </div>

@@ -45,7 +45,7 @@ const services = [
 const faqs = [
   {
     q: 'How fast can you get to a Troy address from your Bloomfield Township office?',
-    a: `Our office at 4060 W Maple Rd is about 15 to 20 minutes from most Troy addresses depending on where you are and what traffic on I-75 or Big Beaver looks like. Target response is 30 to 60 minutes door-to-door for Troy emergency calls. During widespread weather events we triage so that homes with active water intrusion move to the front of the line. Call ${PHONE} and the dispatcher will give you an honest ETA based on where the closest crew is.`,
+    a: `Our office at 4060 W Maple Rd is about 15 to 20 minutes from most Troy addresses depending on where you are and what traffic on I-75 or Big Beaver looks like. Target response is 30 minutes door-to-door for Troy emergency calls. During widespread weather events we triage so that homes with active water intrusion move to the front of the line. Call ${PHONE} and the dispatcher will give you an honest ETA based on where the closest crew is.`,
   },
   {
     q: 'Do you handle commercial water damage in the Big Beaver office corridor?',
@@ -277,7 +277,7 @@ export default function TroyPage() {
               margin: 0,
             }}
           >
-            Our technicians hold IICRC credentials in water damage restoration,
+            We are an IICRC Certified Firm, trained in water damage restoration,
             applied structural drying, and applied microbial remediation. We
             document every loss with photos, moisture readings, and a written
             scope so that the conversation with your insurance carrier has a

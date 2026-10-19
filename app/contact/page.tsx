@@ -105,7 +105,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-[#222222] font-semibold text-[18px] mb-3">Credentials</h2>
               <p className="text-[#6a6a6a] text-[15px] leading-relaxed m-0">
-                IICRC-certified technicians. Licensed and insured in the State of Michigan. We bill most major homeowner
+                IICRC Certified Firm. Licensed and insured in the State of Michigan. We bill most major homeowner
                 and commercial insurance carriers directly.
               </p>
             </div>
