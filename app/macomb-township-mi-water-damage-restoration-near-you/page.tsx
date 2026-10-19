@@ -574,7 +574,7 @@ export default function MacombTownshipPage() {
       {/* ═══ FOOTER ═══ */}
       <footer style={{ backgroundColor: C.white, borderTop: '1px solid #ebebeb', padding: '40px 24px' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 20 }}>
-          <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 144, width: 'auto', objectFit: 'contain' }} />
+          <img src="/logo.png" alt={BUSINESS_NAME} style={{ height: 48, width: 'auto', objectFit: 'contain' }} />
           <p style={{ fontSize: 14, color: C.secondary, textAlign: 'center', margin: 0, lineHeight: 1.6 }}>
             {BUSINESS_NAME} &bull; {ADDRESS_LINE1}, {ADDRESS_LINE2} &bull; <a href={PHONE_HREF} style={{ color: C.secondary, textDecoration: 'none' }}>{PHONE}</a>
           </p>

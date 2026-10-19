@@ -429,14 +429,14 @@ export function SiteHeader() {
       <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-3 gap-6">
         <Link href="/" className="flex items-center no-underline shrink-0" aria-label="Provail Restoration of Bloomfield — Home">
           <Image
-            src="/logo.png"
+            src="/logo-header.png"
             alt="Provail Restoration of Bloomfield"
-            width={270}
-            height={180}
+            width={528}
+            height={140}
             priority
-            sizes="180px"
+            sizes="200px"
             style={{
-              height: 56,
+              height: 48,
               width: 'auto',
               objectFit: 'contain',
             }}
@@ -512,12 +512,12 @@ export function SiteHeader() {
           >
             <div className="flex items-center justify-between px-5 py-4 border-b border-[#ebebeb]">
               <Image
-                src="/logo.png"
+                src="/logo-header.png"
                 alt="Provail Restoration of Bloomfield"
-                width={66}
-                height={44}
-                sizes="66px"
-                style={{ height: 44, width: 'auto', objectFit: 'contain' }}
+                width={528}
+                height={140}
+                sizes="150px"
+                style={{ height: 38, width: 'auto', objectFit: 'contain' }}
               />
               <button
                 type="button"

@@ -83,9 +83,9 @@ export function SiteFooter() {
           <Image
             src="/logo.png"
             alt={FOOTER_BRAND}
-            width={72}
-            height={48}
-            sizes="72px"
+            width={528}
+            height={140}
+            sizes="200px"
             style={{ height: 48, width: 'auto', objectFit: 'contain' }}
           />
         </div>
