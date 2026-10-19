@@ -795,6 +795,54 @@ export default function WaterDamageRestorationPage() {
           </div>
         </section>
 
+        {/* HIGH-VALUE FINISH CAUSE PAGES */}
+        <section className="bg-white" style={{ padding: '80px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <PillarSectionHeading
+              eyebrow="By cause"
+              title="Water damage by cause, for homes with hardwood, stone, and custom finishes"
+              intro="Oakland County homes in Bloomfield Hills, Birmingham, West Bloomfield, Franklin, Orchard Lake, and Troy carry finishes a standard dry-out plan does not fit. Each page below covers one cause and how we plan the dry-out to save hardwood, stone, cabinetry, and plaster rather than replace it by default."
+            />
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card title="Sink Leak Under Custom Cabinetry">
+                <a href="/sink-leak-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Saving the cabinet box and the floor
+                </a>
+              </Card>
+              <Card title="Bathtub Overflow & Shower Pan Leak">
+                <a href="/bathtub-overflow-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Plaster ceilings and millwork below
+                </a>
+              </Card>
+              <Card title="Sump Pump Failure">
+                <a href="/sump-pump-failure-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Finished basements, wine cellars, home theaters
+                </a>
+              </Card>
+              <Card title="Upstairs Condo or Unit Leak">
+                <a href="/condo-upstairs-leak-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Birmingham & Troy condos, who pays
+                </a>
+              </Card>
+              <Card title="Refrigerator & Ice Maker Line Leak">
+                <a href="/refrigerator-ice-maker-leak-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Built-in refrigerators and custom cabinetry
+                </a>
+              </Card>
+              <Card title="Toilet Overflow">
+                <a href="/toilet-overflow-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Tile, mud-bed floors, and plaster below
+                </a>
+              </Card>
+              <Card title="AC & Furnace Condensate Leak">
+                <a href="/ac-furnace-condensate-leak-water-damage-oakland-county" className="text-[#ff385c] font-semibold no-underline">
+                  Attic units above finished bedrooms and theaters
+                </a>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
         <section className="bg-[#f7f7f7]" style={{ padding: '80px 0' }}>
           <div className="max-w-[820px] mx-auto px-6">
