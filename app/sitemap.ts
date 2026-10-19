@@ -4,6 +4,7 @@ const BASE_URL = 'https://provailrestoration.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
+  const causeLastModified = new Date('2026-10-18');
 
   return [
     {
@@ -311,6 +312,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'yearly',
       priority: 0.2,
+    },
+    {
+      url: `${BASE_URL}/sink-leak-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/bathtub-overflow-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/sump-pump-failure-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/condo-upstairs-leak-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/refrigerator-ice-maker-leak-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/toilet-overflow-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/ac-furnace-condensate-leak-water-damage-oakland-county`,
+      lastModified: causeLastModified,
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
   ];
 }
