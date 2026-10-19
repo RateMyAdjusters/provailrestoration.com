@@ -426,22 +426,19 @@ export function SiteHeader() {
       </div>
 
       {/* Main bar */}
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-4 gap-6">
-        <Link href="/" className="flex items-center no-underline shrink-0 self-start" aria-label="Provail Restoration of Bloomfield — Home">
+      <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-3 gap-6">
+        <Link href="/" className="flex items-center no-underline shrink-0" aria-label="Provail Restoration of Bloomfield — Home">
           <Image
             src="/logo.png"
             alt="Provail Restoration of Bloomfield"
             width={270}
             height={180}
             priority
-            sizes="270px"
+            sizes="180px"
             style={{
-              height: 180,
+              height: 56,
               width: 'auto',
               objectFit: 'contain',
-              marginTop: 0,
-              marginBottom: -120,
-              maxWidth: 'none',
             }}
           />
         </Link>
@@ -488,12 +485,12 @@ export function SiteHeader() {
 
       {/* Mobile emergency strip */}
       <div
-        className="lg:hidden flex items-center justify-center gap-3 py-2.5"
+        className="lg:hidden flex items-center justify-center gap-2 py-2.5 px-4 text-center"
         style={{ backgroundColor: '#ff385c' }}
       >
         <a
           href={PHONE_HREF}
-          className="text-white font-semibold text-sm flex items-center gap-1.5 no-underline hover:text-white"
+          className="text-white font-semibold text-[13.5px] sm:text-sm flex items-center gap-1.5 no-underline hover:text-white flex-wrap justify-center"
         >
           <PhoneIcon className="text-white" />
           24/7 Emergency · Call {PHONE}

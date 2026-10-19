@@ -235,7 +235,7 @@ export default function Home() {
             {/* Pill-shaped status bar */}
             <div className="inline-flex items-center justify-center mb-8">
               <div
-                className="flex items-center gap-3 px-6 py-3 text-[#222222] text-[14px] font-medium"
+                className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 px-4 sm:px-6 py-3 text-[#222222] text-[13px] sm:text-[14px] font-medium"
                 style={{
                   borderRadius: '32px',
                   boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px, rgba(0,0,0,0.1) 0px 4px 8px',
@@ -304,30 +304,193 @@ export default function Home() {
         </section>
 
         {/* ================================================================
-            2b. INTRO LONG-FORM - SEO body content
+            2b. INTRO - lead paragraph
             ================================================================ */}
-        <section className="bg-white" style={{ padding: '0 0 72px' }}>
+        <section className="bg-white" style={{ padding: '0 0 64px' }}>
           <div className="max-w-[820px] mx-auto px-6">
             <h2 className="text-[#222222] font-bold mb-5" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
               The Michigan property owner&apos;s first call after a water loss
             </h2>
-            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Provail Restoration of Bloomfield is a locally owned, IICRC-certified mitigation and reconstruction firm headquartered at 4060 W Maple Rd in Bloomfield Township, Michigan. We exist for one reason: to make a flooded home or a soaked office look, smell, and feel exactly the way it did before disaster struck — fast, documented, and without the runaround that gives this industry a bad name.
+            <p className="text-[#6a6a6a] text-base leading-relaxed m-0">
+              Provail Restoration of Bloomfield is a locally owned, IICRC-certified mitigation and reconstruction firm headquartered at 4060 W Maple Rd in Bloomfield Township, Michigan. We exist for one reason: to make a flooded home or a soaked office look, smell, and feel exactly the way it did before disaster struck. We work fast, we document everything, and we skip the runaround that gives this industry a bad name.
             </p>
-            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Southeast Michigan is a tough environment for buildings. Lake-effect humidity rolls in off the Great Lakes, January temperatures crater into the single digits, spring thaw saturates Oakland County clay, and summer thunderstorms regularly drop two inches of rain in under an hour. Every one of those conditions can put water somewhere it does not belong: behind a refrigerator water line, inside a finished basement, under a hardwood floor, or down a chimney chase. When that happens at 2 a.m. on a Sunday, you need a crew that is awake, equipped, and within driving distance of your zip code. That is the entire job description we wrote for ourselves.
+          </div>
+        </section>
+
+        {/* ================================================================
+            2c. WEATHER RISK - 2-col intro + 4 condition cards
+            ================================================================ */}
+        <section className="bg-[#f7f7f7]" style={{ padding: '64px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="max-w-[760px] mx-auto text-center mb-10">
+              <h2 className="text-[#222222] font-bold mb-4" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
+                Southeast Michigan is a tough environment for buildings
+              </h2>
+              <p className="text-[#6a6a6a] text-base leading-relaxed m-0">
+                Lake-effect humidity rolls in off the Great Lakes. January temperatures crater into the single digits. Spring thaw saturates Oakland County clay, and summer thunderstorms regularly drop two inches of rain in under an hour. Every one of those conditions can put water somewhere it does not belong.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+              {[
+                { icon: <FloodIcon />, title: 'Behind a fridge line', desc: 'A slow supply-line leak that goes unnoticed for weeks.' },
+                { icon: <BasementIcon />, title: 'Inside a finished basement', desc: 'Groundwater or a failed sump during spring thaw.' },
+                { icon: <DryingIcon />, title: 'Under a hardwood floor', desc: 'Moisture trapped beneath finished flooring.' },
+                { icon: <StormIcon />, title: 'Down a chimney chase', desc: 'Wind-driven rain during a summer storm.' },
+              ].map((c) => (
+                <div key={c.title} className="bg-white p-6 text-center" style={{ borderRadius: '16px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
+                  <div className="flex justify-center mb-3">{c.icon}</div>
+                  <h3 className="text-[#222222] font-semibold text-[15px] mb-1">{c.title}</h3>
+                  <p className="text-[#6a6a6a] text-[13px] leading-relaxed m-0">{c.desc}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-[#6a6a6a] text-base leading-relaxed text-center max-w-[720px] mx-auto m-0">
+              When that happens at 2 a.m. on a Sunday, you need a crew that is awake, equipped, and within driving distance of your zip code. That is the entire job description we wrote for ourselves.
             </p>
-            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Our service area covers Bloomfield Hills, Bloomfield Township, Bloomfield Village, Birmingham, Beverly Hills, Franklin, Keego Harbor, West Bloomfield, Orchard Lake, Sylvan Lake, Pontiac, Auburn Hills, Rochester, Rochester Hills, Troy, Clawson, Royal Oak, Berkley, Huntington Woods, Oak Park, Ferndale, Pleasant Ridge, Southfield, Lathrup Village, Farmington, Farmington Hills, Novi, Northville, Walled Lake, Wixom, Commerce Township, Waterford, White Lake, Independence Township, and Clarkston. If you are anywhere in Oakland County or northern Wayne and Macomb Counties, we can typically be at your front door inside 60 minutes from the time you hang up the phone.
+          </div>
+        </section>
+
+        {/* ================================================================
+            2d. SERVICE AREA CHIPS
+            ================================================================ */}
+        <section className="bg-white" style={{ padding: '64px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="text-center mb-8">
+              <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
+                Our Full Oakland County Service Area
+              </h2>
+              <p className="text-[#6a6a6a] text-base max-w-[700px] mx-auto">
+                If you are anywhere in Oakland County, or northern Wayne and Macomb Counties, we can typically be at your front door inside 60 minutes from the time you hang up the phone.
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2.5 max-w-[920px] mx-auto">
+              {[
+                'Bloomfield Hills', 'Bloomfield Township', 'Bloomfield Village', 'Birmingham',
+                'Beverly Hills', 'Franklin', 'Keego Harbor', 'West Bloomfield',
+                'Orchard Lake', 'Sylvan Lake', 'Pontiac', 'Auburn Hills',
+                'Rochester', 'Rochester Hills', 'Troy', 'Clawson',
+                'Royal Oak', 'Berkley', 'Huntington Woods', 'Oak Park',
+                'Ferndale', 'Pleasant Ridge', 'Southfield', 'Lathrup Village',
+                'Farmington', 'Farmington Hills', 'Novi', 'Northville',
+                'Walled Lake', 'Wixom', 'Commerce Township', 'Waterford',
+                'White Lake', 'Independence Township', 'Clarkston',
+              ].map((town) => (
+                <span
+                  key={town}
+                  className="text-[#222222] text-[13.5px] font-medium px-4 py-2"
+                  style={{ borderRadius: '999px', backgroundColor: '#f7f7f7', border: '1px solid #ebebeb' }}
+                >
+                  {town}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ================================================================
+            2e. CERTIFICATIONS & EQUIPMENT
+            ================================================================ */}
+        <section className="bg-[#f7f7f7]" style={{ padding: '64px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="grid md:grid-cols-2 gap-12 items-start">
+              <div>
+                <h2 className="text-[#222222] font-bold mb-4" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
+                  Certified Technicians, Documented Work
+                </h2>
+                <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
+                  Every technician on our payroll holds current IICRC credentials in Water Damage Restoration (WRT), Applied Structural Drying (ASD), or Applied Microbial Remediation (AMRT). We follow the IICRC S500 standard for water damage and the IICRC S520 standard for mold remediation, because those documents represent the actual consensus of the restoration industry on how to do this work without making things worse.
+                </p>
+                <p className="text-[#6a6a6a] text-base leading-relaxed m-0">
+                  We document moisture readings on every visit, on every affected assembly, and we leave that log with your insurance adjuster.
+                </p>
+              </div>
+              <div className="bg-white p-7" style={{ borderRadius: '20px', boxShadow: 'rgba(0,0,0,0.02) 0px 0px 0px 1px, rgba(0,0,0,0.04) 0px 2px 6px' }}>
+                <h3 className="text-[#222222] font-semibold text-[15px] uppercase tracking-wide mb-4">On Every Truck</h3>
+                <ul className="list-none p-0 m-0 space-y-3">
+                  {[
+                    'Truck-mounted water extractors',
+                    'LGR (low-grain refrigerant) dehumidifiers',
+                    'Axial and centrifugal air movers',
+                    'HEPA air scrubbers',
+                    'Thermal imaging cameras',
+                    'Pin and pinless moisture meters',
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <span className="mt-1 flex-shrink-0" style={{ color: '#ff385c' }}>
+                        <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M16.7 5.3a1 1 0 010 1.4l-7.5 7.5a1 1 0 01-1.4 0l-3.5-3.5a1 1 0 111.4-1.4l2.8 2.8 6.8-6.8a1 1 0 011.4 0z" clipRule="evenodd" /></svg>
+                      </span>
+                      <span className="text-[#222222] text-[14.5px]">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ================================================================
+            2f. INSURANCE CARRIERS
+            ================================================================ */}
+        <section className="bg-white" style={{ padding: '64px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="text-center mb-8">
+              <h2 className="text-[#222222] font-bold mb-3" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
+                We Work With Your Insurance Carrier
+              </h2>
+              <p className="text-[#6a6a6a] text-base max-w-[760px] mx-auto">
+                Provail Restoration of Bloomfield direct-bills most major carriers writing policies in Michigan, including:
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2.5 max-w-[820px] mx-auto mb-10">
+              {[
+                'State Farm', 'Allstate', 'Auto-Owners', 'Hanover', 'Citizens',
+                'Liberty Mutual', 'Progressive', 'Travelers', 'USAA', 'Farmers',
+                'Nationwide', 'Chubb', 'Cincinnati', 'Hartford', 'AAA', 'MetLife', 'Frankenmuth',
+              ].map((carrier) => (
+                <span
+                  key={carrier}
+                  className="text-[#222222] text-[13.5px] font-semibold px-4 py-2"
+                  style={{ borderRadius: '999px', backgroundColor: 'rgba(255,56,92,0.07)', border: '1px solid rgba(255,56,92,0.15)' }}
+                >
+                  {carrier}
+                </span>
+              ))}
+            </div>
+            <p className="text-[#6a6a6a] text-base leading-relaxed text-center max-w-[760px] mx-auto m-0">
+              We document the loss for your insurance company, work directly with your assigned adjuster, photograph and inventory damaged contents, and submit our scope and Xactimate estimate using the line items and pricing your carrier publishes for the Bloomfield zip code. You sign a work authorization, we coordinate with the people writing the check, and you focus on your family.
             </p>
-            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Every technician on our payroll holds current IICRC credentials in Water Damage Restoration (WRT), Applied Structural Drying (ASD), or Applied Microbial Remediation (AMRT). We follow the IICRC S500 standard for water damage and the IICRC S520 standard for mold remediation — not because a marketing brochure says so, but because those documents represent the actual consensus of the restoration industry on how to do this work without making things worse. Our trucks carry truck-mounted extractors, LGR (low-grain refrigerant) dehumidifiers, axial and centrifugal air movers, HEPA air scrubbers, thermal imaging cameras, and pin and pinless moisture meters. We document moisture readings every visit, on every affected assembly, and we leave that log with your insurance adjuster.
-            </p>
-            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Speaking of insurance: Provail Restoration of Bloomfield direct-bills most major carriers writing policies in Michigan, including State Farm, Allstate, Auto-Owners, Hanover, Citizens, Liberty Mutual, Progressive, Travelers, USAA, Farmers, Nationwide, Chubb, Cincinnati, Hartford, AAA, MetLife, and Frankenmuth. We document the loss for your insurance company, work directly with your assigned adjuster, photograph and inventory damaged contents, and submit our scope and Xactimate estimate using the line items and pricing your carrier publishes for the Bloomfield zip code. You sign a work authorization, we coordinate with the people writing the check, and you focus on your family.
-            </p>
-            <p className="text-[#6a6a6a] text-base leading-relaxed mb-4">
-              Beyond emergency mitigation, Provail Restoration of Bloomfield offers full reconstruction under one roof. Once the structure is dry, the same project manager who handled your dry-out walks the rebuild scope with you: drywall, insulation, hardwood and tile flooring, cabinetry, trim, paint, and finish carpentry. Single point of contact, single contract, single warranty. No subcontractor finger-pointing when the new baseboard meets the new floor.
+          </div>
+        </section>
+
+        {/* ================================================================
+            2g. RECONSTRUCTION TIMELINE
+            ================================================================ */}
+        <section className="bg-[#f7f7f7]" style={{ padding: '64px 0' }}>
+          <div className="max-w-[1120px] mx-auto px-6">
+            <div className="max-w-[760px] mx-auto text-center mb-10">
+              <h2 className="text-[#222222] font-bold mb-4" style={{ fontSize: 'clamp(1.5rem, 3.5vw, 2.125rem)', letterSpacing: '-0.44px' }}>
+                Reconstruction, Under One Roof
+              </h2>
+              <p className="text-[#6a6a6a] text-base leading-relaxed m-0">
+                Beyond emergency mitigation, Provail Restoration of Bloomfield offers full reconstruction under one roof. Once the structure is dry, the same project manager who handled your dry-out walks the rebuild scope with you.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+              {[
+                { n: '01', t: 'Walk the Rebuild Scope', d: 'Your dry-out project manager reviews what needs to be rebuilt.' },
+                { n: '02', t: 'Drywall & Insulation', d: 'Framing, insulation, and drywall go back in to spec.' },
+                { n: '03', t: 'Flooring & Cabinetry', d: 'Hardwood, tile, cabinetry, and trim are installed.' },
+                { n: '04', t: 'Paint & Finish Carpentry', d: 'Final paint and finish work complete the rebuild.' },
+              ].map((step) => (
+                <div key={step.n} className="bg-white p-5" style={{ borderRadius: '16px' }}>
+                  <div className="text-[#ff385c] font-bold text-xl mb-1">{step.n}</div>
+                  <h3 className="text-[#222222] font-semibold text-[14px] mb-1">{step.t}</h3>
+                  <p className="text-[#6a6a6a] text-[13px] leading-relaxed m-0">{step.d}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-[#222222] text-base font-semibold text-center m-0">
+              Single point of contact. Single contract. Single warranty. No subcontractor finger-pointing when the new baseboard meets the new floor.
             </p>
           </div>
         </section>
