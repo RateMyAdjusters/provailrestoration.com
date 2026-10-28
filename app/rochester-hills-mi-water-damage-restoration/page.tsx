@@ -116,6 +116,10 @@ const NEARBY_AREAS: { label: string; href: string }[] = [
   { label: 'Oakland Township', href: '/oakland-township-mi-water-damage-restoration' },
   { label: 'Troy', href: '/troy-mi-water-damage-restoration' },
   { label: 'Bloomfield', href: '/bloomfield' },
+  {
+    label: 'Best Water Damage Companies: Rochester Hills & Auburn Hills',
+    href: '/best-water-damage-restoration-companies-rochester-hills-auburn-hills-mi',
+  },
 ]
 
 export default function RochesterHillsWaterDamagePage() {

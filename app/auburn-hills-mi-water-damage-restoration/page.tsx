@@ -830,6 +830,10 @@ export default function AuburnHillsPage() {
               },
               { label: 'Bloomfield Township', href: '/bloomfield' },
               {
+                label: 'Best Water Damage Companies: Rochester Hills & Auburn Hills',
+                href: '/best-water-damage-restoration-companies-rochester-hills-auburn-hills-mi',
+              },
+              {
                 label: 'Commercial Restoration',
                 href: '/commercial-restoration',
               },

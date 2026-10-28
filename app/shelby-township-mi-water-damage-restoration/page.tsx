@@ -771,6 +771,14 @@ export default function ShelbyTownshipPage() {
                 href: '/services/sump-pump-failure',
                 label: 'Sump Pump Failure',
               },
+              {
+                href: '/best-water-damage-restoration-companies-shelby-clinton-township-mi',
+                label: 'Best Water Damage Companies: Shelby & Clinton Township',
+              },
+              {
+                href: '/best-water-damage-restoration-companies-sterling-heights-mi',
+                label: 'Best Water Damage Companies: Sterling Heights',
+              },
             ].map((l) => (
               <a
                 key={l.href}
