@@ -2,6 +2,7 @@
 
 import { useState, useRef } from 'react'
 import { SiteHeader } from '../_components/site-chrome'
+import { OtherCompany } from '../_components/other-company'
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 const PHONE = '(586) 327-5015'
@@ -1242,6 +1243,8 @@ export default function BloomfieldPage() {
           </div>
         </div>
       </section>
+
+      <OtherCompany />
 
       {/* ─── FOOTER ─────────────────────────────────────────────────────────── */}
       <footer style={{ backgroundColor: colors.white, borderTop: '1px solid #ebebeb', padding: '40px 24px' }}>

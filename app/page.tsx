@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { SiteHeader } from './_components/site-chrome'
+import { OtherCompany } from './_components/other-company'
 
 const BIZ_NAME = 'Provail Restoration of Bloomfield'
 const PHONE = '(586) 327-5015'
@@ -1095,6 +1096,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <OtherCompany />
       </main>
 
       {/* ================================================================
